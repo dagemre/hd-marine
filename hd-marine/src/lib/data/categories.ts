@@ -82,6 +82,29 @@ export const getCategoryTree = cache(async (): Promise<CategoryTree> => {
   }
 });
 
+/**
+ * Kategori başına DOĞRUDAN ürün sayısı (alt kategoriler hariç).
+ * Tek sorgu + istek başına React cache; hata durumunda boş Map.
+ */
+export const getCategoryProductCounts = cache(
+  async (): Promise<Map<string, number>> => {
+    const counts = new Map<string, number>();
+    try {
+      const supabase = await createClient();
+      const { data, error } = await supabase
+        .from("product_categories")
+        .select("category_id");
+      if (error || !data) return counts;
+      for (const row of data) {
+        counts.set(row.category_id, (counts.get(row.category_id) ?? 0) + 1);
+      }
+      return counts;
+    } catch {
+      return counts;
+    }
+  }
+);
+
 /** Çeviri — istenen locale yoksa TR'ye düşer */
 export function catT(
   node: CategoryNode,
