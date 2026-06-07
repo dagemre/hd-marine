@@ -119,12 +119,9 @@ export function HeroSlider({ images }: { images: string[] }) {
         className="absolute inset-0 -z-10 hidden bg-[linear-gradient(90deg,rgba(4,27,70,0.85)_0%,rgba(6,43,107,0.45)_45%,rgba(13,94,255,0.05)_100%)] sm:block"
       />
 
-      <Container className="w-full pt-24 pb-16 sm:pt-28 sm:pb-24 lg:pt-32 lg:pb-28">
+      <Container className="w-full pt-20 pb-24 sm:pt-22 sm:pb-32 lg:pt-24 lg:pb-40">
         <div className="max-w-2xl">
-          <p className="text-xs font-bold uppercase tracking-[0.18em] text-brand-300 sm:text-sm">
-            {t("heroEyebrow")}
-          </p>
-          <h1 className="mt-4 text-display-sm font-extrabold sm:text-display lg:text-[4.25rem] lg:leading-[1.06] lg:tracking-[-0.02em]">
+          <h1 className="text-display-sm font-extrabold sm:text-display lg:text-[4.25rem] lg:leading-[1.06] lg:tracking-[-0.02em]">
             {t("heroTitle")}
           </h1>
           <p className="mt-5 max-w-xl text-base font-medium leading-relaxed text-brand-100 sm:text-lg lg:mt-6 lg:text-xl">
@@ -176,14 +173,14 @@ export function HeroSlider({ images }: { images: string[] }) {
 
         </div>
 
-        {/* Mini özellikler — görsel üstünde, üçü TEK satırda (mobilde küçülür) */}
-        <div className="mt-10 flex flex-nowrap items-center justify-between gap-2 sm:justify-start sm:gap-x-8 lg:mt-14">
-          {minis.map((label, i) => (
-            <div key={label} className="flex items-center gap-1.5 sm:gap-2.5">
-              <span className="shrink-0 text-brand-300 [&>svg]:h-3.5 [&>svg]:w-3.5 sm:[&>svg]:h-6 sm:[&>svg]:w-6">
+        {/* Mini özellikler — görsel üstünde, ikisi TEK satırda */}
+        <div className="mt-10 flex flex-nowrap items-center gap-x-6 sm:gap-x-8 lg:mt-14">
+          {minis.slice(0, 2).map((label, i) => (
+            <div key={label} className="flex items-center gap-2 sm:gap-2.5">
+              <span className="shrink-0 text-brand-300 [&>svg]:h-4 [&>svg]:w-4 sm:[&>svg]:h-6 sm:[&>svg]:w-6">
                 {miniIcons[i]}
               </span>
-              <p className="whitespace-nowrap text-[10px] font-semibold text-brand-100 sm:text-sm">
+              <p className="whitespace-nowrap text-xs font-semibold text-brand-100 sm:text-sm">
                 {label}
               </p>
             </div>
