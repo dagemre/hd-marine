@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { Section } from "@/components/ui/section";
+import { PageHero } from "@/components/layout/page-hero";
 import { CategoryCard } from "@/components/product/category-card";
 import { getCategoryTree, catT } from "@/lib/data/categories";
 import { alternatesFor } from "@/lib/seo/meta";
@@ -36,13 +37,11 @@ export default async function ProductsPage({
 
   return (
     <>
-      {/* pt: h-18 header payı (içerik şeffaf header'ın arkasına uzanıyor) */}
-      <Section tone="gradient" className="pt-38 pb-20 lg:pt-46 lg:pb-28">
-        <h1 className="text-display-sm font-bold lg:text-display-lg">
-          {t("title")}
-        </h1>
-        <p className="mt-4 max-w-2xl text-lg text-brand-100">{t("subtitle")}</p>
-      </Section>
+      <PageHero
+        badge={t("heroBadge")}
+        title={t("title")}
+        subtitle={t("subtitle")}
+      />
 
       <Section tone="surface">
         {tree.roots.length === 0 ? (
