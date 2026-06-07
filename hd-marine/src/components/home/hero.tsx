@@ -23,8 +23,9 @@ export async function Hero() {
   const hasImage = heroImageExists();
 
   return (
-    /* -mt-18: hero, şeffaf header'ın arkasına uzanır (menü görselin üstünde) */
-    <section className="relative isolate -mt-18 overflow-hidden bg-hero-gradient text-white">
+    /* flex-1: page.tsx'teki min-h-svh sarmalayıcıda kalan tüm yüksekliği doldurur
+       (hero + beyaz şerit birlikte ilk ekranı kaplar) */
+    <section className="relative isolate flex flex-1 items-center overflow-hidden bg-hero-gradient text-white">
       {/* Endüstriyel fotoğraf — kurumsal 135deg gradient'in üzerine harman */}
       {hasImage && (
         <Image
@@ -37,7 +38,7 @@ export async function Hero() {
         />
       )}
 
-      <Container className="pt-36 pb-36 lg:pt-44 lg:pb-44">
+      <Container className="w-full pt-28 pb-32 lg:pt-32 lg:pb-36">
         <div className="max-w-3xl">
           <h1 className="text-display font-bold lg:text-display-lg">
             {t("heroTitle")}
