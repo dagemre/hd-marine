@@ -4,7 +4,6 @@ import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/cn";
-import { LocaleSwitcher } from "./locale-switcher";
 import type { NavItem, NavCategory } from "./nav-types";
 
 export function MobileMenu({
@@ -76,16 +75,13 @@ export function MobileMenu({
             </Link>
           ))}
 
-          <div className="mt-4 flex items-center justify-between gap-4">
-            <LocaleSwitcher />
-            <Link
-              href="/teklif-alin"
-              onClick={() => setOpen(false)}
-              className="inline-flex h-10 items-center rounded-lg bg-primary px-5 text-sm font-semibold text-white"
-            >
-              {t("getQuote")}
-            </Link>
-          </div>
+          <Link
+            href="/teklif-alin"
+            onClick={() => setOpen(false)}
+            className="mt-4 inline-flex h-11 w-full items-center justify-center rounded-full bg-primary px-5 text-sm font-bold uppercase tracking-wide text-white"
+          >
+            {t("getQuote")}
+          </Link>
         </nav>
       </div>
     </div>

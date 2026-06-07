@@ -11,7 +11,13 @@ import { cn } from "@/lib/cn";
  * diller arasında farklıdır; mevcut slug'larla geçiş yapılır ve
  * catch-all çözümleyici canonical yola 308 ile yönlendirir.
  */
-export function LocaleSwitcher({ onDark = true }: { onDark?: boolean }) {
+export function LocaleSwitcher({
+  onDark = true,
+  className,
+}: {
+  onDark?: boolean;
+  className?: string;
+}) {
   const locale = useLocale();
   const pathname = usePathname();
   const params = useParams();
@@ -30,7 +36,8 @@ export function LocaleSwitcher({ onDark = true }: { onDark?: boolean }) {
     <div
       className={cn(
         "flex items-center gap-0.5 rounded-lg p-0.5",
-        onDark ? "bg-white/10" : "bg-brand-50"
+        onDark ? "bg-white/10" : "bg-brand-50",
+        className
       )}
     >
       {routing.locales.map((l) => (
@@ -39,7 +46,7 @@ export function LocaleSwitcher({ onDark = true }: { onDark?: boolean }) {
           onClick={() => switchTo(l)}
           aria-current={l === locale ? "true" : undefined}
           className={cn(
-            "rounded-md px-2.5 py-1 text-xs font-bold uppercase transition-colors",
+            "inline-flex items-center justify-center self-stretch rounded-md px-2.5 py-1 text-xs font-bold uppercase transition-colors",
             l === locale
               ? "bg-primary text-white"
               : onDark

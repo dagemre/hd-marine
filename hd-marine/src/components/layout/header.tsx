@@ -107,7 +107,11 @@ export async function Header() {
           </Link>
         </div>
 
-        <MobileMenu items={items} categories={categories} />
+        {/* Mobil: TR/EN değiştirici hamburger'in yanında */}
+        <div className="flex items-center gap-2 lg:hidden">
+          <LocaleSwitcher className="h-10" />
+          <MobileMenu items={items} categories={categories} />
+        </div>
       </div>
     </HeaderShell>
   );
