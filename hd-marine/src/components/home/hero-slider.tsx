@@ -103,18 +103,23 @@ export function HeroSlider({ images }: { images: string[] }) {
         </div>
       ))}
 
-      {/* Overlay Katman 1 — ana lacivert, sağa doğru şeffaflaşır */}
+      {/* Mobil: içerik tüm genişliği kapladığı için tek düz koyu overlay */}
       <div
         aria-hidden
-        className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(4,27,70,0.80)_0%,rgba(4,27,70,0.42)_50%,rgba(4,27,70,0.06)_100%)]"
+        className="absolute inset-0 -z-10 bg-[rgba(4,27,70,0.78)] sm:hidden"
       />
-      {/* Overlay Katman 2 — soldan sağa mavi geçiş, sağ uç neredeyse şeffaf */}
+      {/* sm+ Overlay Katman 1 — ana lacivert, sağa doğru şeffaflaşır */}
       <div
         aria-hidden
-        className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(4,27,70,0.85)_0%,rgba(6,43,107,0.45)_45%,rgba(13,94,255,0.05)_100%)]"
+        className="absolute inset-0 -z-10 hidden bg-[linear-gradient(90deg,rgba(4,27,70,0.80)_0%,rgba(4,27,70,0.42)_50%,rgba(4,27,70,0.06)_100%)] sm:block"
+      />
+      {/* sm+ Overlay Katman 2 — soldan sağa mavi geçiş, sağ uç neredeyse şeffaf */}
+      <div
+        aria-hidden
+        className="absolute inset-0 -z-10 hidden bg-[linear-gradient(90deg,rgba(4,27,70,0.85)_0%,rgba(6,43,107,0.45)_45%,rgba(13,94,255,0.05)_100%)] sm:block"
       />
 
-      <Container className="w-full pt-28 pb-24 lg:pt-32 lg:pb-28">
+      <Container className="w-full pt-24 pb-16 sm:pt-28 sm:pb-24 lg:pt-32 lg:pb-28">
         <div className="max-w-2xl">
           <p className="text-xs font-bold uppercase tracking-[0.18em] text-brand-300 sm:text-sm">
             {t("heroEyebrow")}
@@ -126,10 +131,10 @@ export function HeroSlider({ images }: { images: string[] }) {
             {t("heroSubtitle")}
           </p>
 
-          <div className="mt-8 flex flex-wrap gap-4 lg:mt-10">
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4 lg:mt-10">
             <Link
               href="/urunler"
-              className="inline-flex h-12 items-center gap-2.5 rounded-full bg-primary px-7 text-sm font-bold uppercase tracking-wide text-white shadow-lg shadow-primary/30 transition-colors hover:bg-primary-hover"
+              className="inline-flex h-12 items-center justify-center gap-2.5 rounded-full bg-primary px-7 text-sm font-bold uppercase tracking-wide text-white shadow-lg shadow-primary/30 transition-colors hover:bg-primary-hover sm:justify-start"
             >
               {t("heroCtaProducts")}
               <svg className="h-4 w-4" viewBox="0 0 16 16" fill="none" aria-hidden>
@@ -144,7 +149,7 @@ export function HeroSlider({ images }: { images: string[] }) {
             </Link>
             <Link
               href="/teklif-alin"
-              className="inline-flex h-12 items-center gap-2.5 rounded-full border border-white/40 px-7 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-white hover:text-navy"
+              className="inline-flex h-12 items-center justify-center gap-2.5 rounded-full border border-white/40 px-7 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-white hover:text-navy sm:justify-start"
             >
               {t("heroCta")}
               <svg className="h-4 w-4" viewBox="0 0 16 16" fill="none" aria-hidden>
@@ -159,8 +164,8 @@ export function HeroSlider({ images }: { images: string[] }) {
             </Link>
           </div>
 
-          {/* Mini özellikler */}
-          <div className="mt-10 flex flex-wrap gap-x-10 gap-y-4 lg:mt-14">
+          {/* Mini özellikler — mobilde gizli (beyaz şerit zaten aynı mesajı veriyor) */}
+          <div className="mt-10 hidden flex-wrap gap-x-10 gap-y-4 sm:flex lg:mt-14">
             {minis.map((label, i) => (
               <div key={label} className="flex items-center gap-3">
                 <span className="text-brand-300">{miniIcons[i]}</span>
@@ -175,6 +180,21 @@ export function HeroSlider({ images }: { images: string[] }) {
 
       {count > 1 && (
         <>
+          {/* Mobil: alt ortada slayt noktaları */}
+          <div className="absolute bottom-4 left-1/2 flex -translate-x-1/2 gap-2 lg:hidden">
+            {images.map((src, i) => (
+              <button
+                key={src}
+                onClick={() => goTo(i)}
+                aria-label={`Slayt ${i + 1}`}
+                className={cn(
+                  "h-1.5 rounded-full transition-all",
+                  i === active ? "w-6 bg-primary" : "w-1.5 bg-white/40"
+                )}
+              />
+            ))}
+          </div>
+
           {/* Sağ dikey slayt göstergesi */}
           <div className="absolute right-6 top-1/2 hidden -translate-y-1/2 flex-col items-end gap-4 lg:flex lg:right-10">
             {images.map((src, i) => (
