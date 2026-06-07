@@ -23,26 +23,21 @@ export async function Hero() {
   const hasImage = heroImageExists();
 
   return (
-    <section className="relative isolate overflow-hidden bg-hero-gradient text-white">
-      {/* Endüstriyel fotoğraf — sağa hizalı, gradient'le harman */}
+    /* -mt-18: hero, şeffaf header'ın arkasına uzanır (menü görselin üstünde) */
+    <section className="relative isolate -mt-18 overflow-hidden bg-hero-gradient text-white">
+      {/* Endüstriyel fotoğraf — kurumsal 135deg gradient'in üzerine harman */}
       {hasImage && (
-        <>
-          <Image
-            src="/hero.jpg"
-            alt=""
-            fill
-            priority
-            sizes="100vw"
-            className="absolute inset-0 -z-20 object-cover object-right opacity-50"
-          />
-          <div
-            aria-hidden
-            className="absolute inset-0 -z-10 bg-gradient-to-r from-deep-navy via-deep-navy/80 to-transparent"
-          />
-        </>
+        <Image
+          src="/hero.jpg"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="absolute inset-0 -z-10 object-cover object-right opacity-40 mix-blend-luminosity [mask-image:linear-gradient(105deg,transparent_5%,black_55%)]"
+        />
       )}
 
-      <Container className="pt-20 pb-36 lg:pt-28 lg:pb-44">
+      <Container className="pt-36 pb-36 lg:pt-44 lg:pb-44">
         <div className="max-w-3xl">
           <h1 className="text-display font-bold lg:text-display-lg">
             {t("heroTitle")}

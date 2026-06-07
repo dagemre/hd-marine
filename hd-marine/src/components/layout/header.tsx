@@ -3,6 +3,7 @@ import { getLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import { getCategoryTree, catT } from "@/lib/data/categories";
+import { HeaderShell } from "./header-shell";
 import { LocaleSwitcher } from "./locale-switcher";
 import { MobileMenu } from "./mobile-menu";
 import type { NavItem, NavCategory } from "./nav-types";
@@ -27,7 +28,7 @@ export async function Header() {
   ];
 
   return (
-    <header className="relative sticky top-0 z-40 bg-deep-navy/95 backdrop-blur supports-[backdrop-filter]:bg-deep-navy/90">
+    <HeaderShell>
       <div className="mx-auto flex h-18 max-w-7xl items-center justify-between gap-6 px-4 sm:px-6 lg:px-8">
         <Link href="/" className="shrink-0" aria-label="HD Marine — Anasayfa">
           <Image
@@ -108,6 +109,6 @@ export async function Header() {
 
         <MobileMenu items={items} categories={categories} />
       </div>
-    </header>
+    </HeaderShell>
   );
 }
