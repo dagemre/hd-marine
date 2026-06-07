@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Card } from "@/components/ui/card";
-import { categoryImageUrl } from "@/lib/storage";
+import { productImageUrl } from "@/lib/storage";
 
 export function CategoryCard({
   name,
@@ -23,7 +23,7 @@ export function CategoryCard({
         <div className="flex aspect-[4/3] items-center justify-center bg-surface p-6">
           {imagePath ? (
             <Image
-              src={categoryImageUrl(imagePath)}
+              src={productImageUrl(imagePath)}
               alt={name}
               width={320}
               height={240}
