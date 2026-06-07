@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { Hero } from "@/components/home/hero";
-import { FeatureStrip } from "@/components/home/feature-strip";
 import { CategoryCarousel } from "@/components/home/category-carousel";
 import { SolutionsBand } from "@/components/home/solutions-band";
 import { alternatesFor } from "@/lib/seo/meta";
@@ -34,12 +33,9 @@ export default async function HomePage({
   return (
     <>
       {/* İlk ekran: (site) layout'taki -mt-18 ile şeffaf header'ın arkasına uzanır;
-          hero (flex-1) + beyaz şerit birlikte tam viewport yüksekliği kaplar */}
+          hero tek başına tam viewport yüksekliği kaplar */}
       <div className="flex min-h-svh flex-col">
         <Hero />
-        <div className="bg-surface pb-3 sm:pb-5">
-          <FeatureStrip />
-        </div>
       </div>
       <CategoryCarousel />
       <SolutionsBand />

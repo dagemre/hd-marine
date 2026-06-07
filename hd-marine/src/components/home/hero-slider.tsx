@@ -131,10 +131,10 @@ export function HeroSlider({ images }: { images: string[] }) {
             {t("heroSubtitle")}
           </p>
 
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4 lg:mt-10">
+          <div className="mt-8 flex flex-row flex-wrap gap-3 sm:gap-4 lg:mt-10">
             <Link
               href="/urunler"
-              className="inline-flex h-12 items-center justify-center gap-2.5 rounded-full bg-primary px-7 text-sm font-bold uppercase tracking-wide text-white shadow-lg shadow-primary/30 transition-colors hover:bg-primary-hover sm:justify-start"
+              className="inline-flex h-12 items-center justify-center gap-2.5 rounded-full bg-primary px-5 text-sm font-bold uppercase tracking-wide text-white shadow-lg shadow-primary/30 transition-colors hover:bg-primary-hover sm:px-7"
             >
               {t("heroCtaProducts")}
               <svg className="h-4 w-4" viewBox="0 0 16 16" fill="none" aria-hidden>
@@ -149,7 +149,7 @@ export function HeroSlider({ images }: { images: string[] }) {
             </Link>
             <Link
               href="/teklif-alin"
-              className="inline-flex h-12 items-center justify-center gap-2.5 rounded-full border border-white/40 px-7 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-white hover:text-navy sm:justify-start"
+              className="inline-flex h-12 items-center justify-center gap-2.5 rounded-full border border-white/40 px-5 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-white hover:text-navy sm:px-7"
             >
               {t("heroCta")}
               <svg className="h-4 w-4" viewBox="0 0 16 16" fill="none" aria-hidden>
@@ -164,17 +164,18 @@ export function HeroSlider({ images }: { images: string[] }) {
             </Link>
           </div>
 
-          {/* Mini özellikler — mobilde gizli (beyaz şerit zaten aynı mesajı veriyor) */}
-          <div className="mt-10 hidden flex-wrap gap-x-10 gap-y-4 sm:flex lg:mt-14">
-            {minis.map((label, i) => (
-              <div key={label} className="flex items-center gap-3">
-                <span className="text-brand-300">{miniIcons[i]}</span>
-                <p className="max-w-[9.5rem] text-sm font-semibold leading-snug text-brand-100">
-                  {label}
-                </p>
-              </div>
-            ))}
-          </div>
+        </div>
+
+        {/* Mini özellikler — görsel üstünde, her etiket tek satır */}
+        <div className="mt-10 flex flex-wrap gap-x-8 gap-y-3 lg:mt-14">
+          {minis.map((label, i) => (
+            <div key={label} className="flex items-center gap-2.5">
+              <span className="shrink-0 text-brand-300">{miniIcons[i]}</span>
+              <p className="whitespace-nowrap text-sm font-semibold text-brand-100">
+                {label}
+              </p>
+            </div>
+          ))}
         </div>
       </Container>
 
