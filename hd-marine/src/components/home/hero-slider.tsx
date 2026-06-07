@@ -78,7 +78,7 @@ export function HeroSlider({ images }: { images: string[] }) {
   const minis = [t("heroMini1"), t("heroMini2"), t("heroMini3")];
 
   return (
-    <section className="relative isolate flex flex-1 items-center overflow-hidden bg-deep-navy text-white">
+    <section className="relative isolate flex flex-1 items-start overflow-hidden bg-deep-navy text-white sm:items-center">
       {/* Slaytlar */}
       {images.map((src, i) => (
         <div
@@ -103,10 +103,11 @@ export function HeroSlider({ images }: { images: string[] }) {
         </div>
       ))}
 
-      {/* Mobil: içerik tüm genişliği kapladığı için tek düz koyu overlay */}
+      {/* Mobil: masaüstü efektinin dikey hali — üst koyu (yazılar), alta doğru
+          şeffaflaşır ve ürün fotoğrafı ekranın alt bölümünde net görünür */}
       <div
         aria-hidden
-        className="absolute inset-0 -z-10 bg-[rgba(4,27,70,0.78)] sm:hidden"
+        className="absolute inset-0 -z-10 bg-[linear-gradient(180deg,rgba(4,27,70,0.94)_0%,rgba(4,27,70,0.82)_42%,rgba(6,43,107,0.38)_68%,rgba(13,94,255,0.05)_100%)] sm:hidden"
       />
       {/* sm+ Overlay Katman 1 — ana lacivert, sağa doğru şeffaflaşır */}
       <div
