@@ -132,8 +132,8 @@ export async function CatalogSidebar({
         : "text-ink-600 hover:bg-brand-50 hover:text-primary"
     );
 
+  // Mobilde gizli — kategoriler mobilde araç çubuğundaki filtreden seçilir
   return (
-    {/* Mobilde gizli — kategoriler mobilde araç çubuğundaki filtreden seçilir */}
     <aside className="hidden space-y-6 lg:block">
       <div className="rounded-2xl border border-black/5 bg-white p-4 shadow-card">
         <h2 className="px-4 pb-3 pt-2 text-sm font-bold uppercase tracking-widest text-ink-900">
