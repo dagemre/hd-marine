@@ -131,13 +131,18 @@ export function HeroSlider({ images }: { images: string[] }) {
             {t("heroSubtitle")}
           </p>
 
-          <div className="mt-8 flex flex-row flex-wrap gap-3 sm:gap-4 lg:mt-10">
+          <div className="mt-8 flex flex-nowrap gap-2.5 sm:gap-4 lg:mt-10">
             <Link
               href="/urunler"
-              className="inline-flex h-12 items-center justify-center gap-2.5 rounded-full bg-primary px-5 text-sm font-bold uppercase tracking-wide text-white shadow-lg shadow-primary/30 transition-colors hover:bg-primary-hover sm:px-7"
+              className="inline-flex h-11 flex-1 items-center justify-center gap-2 rounded-full bg-primary px-3 text-xs font-bold uppercase tracking-wide whitespace-nowrap text-white shadow-lg shadow-primary/30 transition-colors hover:bg-primary-hover sm:h-12 sm:flex-none sm:px-7 sm:text-sm"
             >
               {t("heroCtaProducts")}
-              <svg className="h-4 w-4" viewBox="0 0 16 16" fill="none" aria-hidden>
+              <svg
+                className="hidden h-4 w-4 sm:block"
+                viewBox="0 0 16 16"
+                fill="none"
+                aria-hidden
+              >
                 <path
                   d="M2 8h11M9 4l4 4-4 4"
                   stroke="currentColor"
@@ -149,10 +154,15 @@ export function HeroSlider({ images }: { images: string[] }) {
             </Link>
             <Link
               href="/teklif-alin"
-              className="inline-flex h-12 items-center justify-center gap-2.5 rounded-full border border-white/40 px-5 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-white hover:text-navy sm:px-7"
+              className="inline-flex h-11 flex-1 items-center justify-center gap-2 rounded-full border border-white/40 px-3 text-xs font-bold uppercase tracking-wide whitespace-nowrap text-white transition-colors hover:bg-white hover:text-navy sm:h-12 sm:flex-none sm:px-7 sm:text-sm"
             >
               {t("heroCta")}
-              <svg className="h-4 w-4" viewBox="0 0 16 16" fill="none" aria-hidden>
+              <svg
+                className="hidden h-4 w-4 sm:block"
+                viewBox="0 0 16 16"
+                fill="none"
+                aria-hidden
+              >
                 <path
                   d="M2 8h11M9 4l4 4-4 4"
                   stroke="currentColor"
@@ -166,12 +176,14 @@ export function HeroSlider({ images }: { images: string[] }) {
 
         </div>
 
-        {/* Mini özellikler — görsel üstünde, her etiket tek satır */}
-        <div className="mt-10 flex flex-wrap gap-x-8 gap-y-3 lg:mt-14">
+        {/* Mini özellikler — görsel üstünde, üçü TEK satırda (mobilde küçülür) */}
+        <div className="mt-10 flex flex-nowrap items-center justify-between gap-2 sm:justify-start sm:gap-x-8 lg:mt-14">
           {minis.map((label, i) => (
-            <div key={label} className="flex items-center gap-2.5">
-              <span className="shrink-0 text-brand-300">{miniIcons[i]}</span>
-              <p className="whitespace-nowrap text-sm font-semibold text-brand-100">
+            <div key={label} className="flex items-center gap-1.5 sm:gap-2.5">
+              <span className="shrink-0 text-brand-300 [&>svg]:h-3.5 [&>svg]:w-3.5 sm:[&>svg]:h-6 sm:[&>svg]:w-6">
+                {miniIcons[i]}
+              </span>
+              <p className="whitespace-nowrap text-[10px] font-semibold text-brand-100 sm:text-sm">
                 {label}
               </p>
             </div>
