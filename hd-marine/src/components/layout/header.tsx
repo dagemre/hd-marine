@@ -34,10 +34,10 @@ export async function Header() {
           <Image
             src="/logo-hd.png"
             alt="HD Marine"
-            width={172}
-            height={40}
+            width={207}
+            height={48}
             priority
-            className="h-10 w-auto"
+            className="h-12 w-auto"
           />
         </Link>
 

@@ -40,10 +40,10 @@ export async function Hero() {
 
       <Container className="w-full pt-28 pb-32 lg:pt-32 lg:pb-36">
         <div className="mx-auto max-w-3xl text-center">
-          <h1 className="text-display font-bold lg:text-display-lg">
+          <h1 className="text-display-lg font-extrabold lg:text-[4.25rem] lg:leading-[1.06] lg:tracking-[-0.02em]">
             {t("heroTitle")}
           </h1>
-          <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-brand-100">
+          <p className="mx-auto mt-6 max-w-2xl text-xl font-medium leading-relaxed text-brand-100">
             {t("heroSubtitle")}
           </p>
           <div className="mt-10">
