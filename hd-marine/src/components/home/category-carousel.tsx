@@ -16,7 +16,7 @@ export async function CategoryCarousel() {
   const tree = await getCategoryTree();
 
   return (
-    <section className="bg-surface py-20 lg:py-28">
+    <section className="bg-surface pt-8 pb-20 lg:pt-10 lg:pb-28">
       <Container>
         <div className="mb-10 flex flex-wrap items-end justify-between gap-6 lg:mb-12">
           <div className="max-w-2xl">
