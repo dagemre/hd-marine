@@ -433,6 +433,8 @@ export type Database = {
       product_translations: {
         Row: {
           description: string | null
+          feature_cards: Json | null
+          highlights: Json | null
           id: string
           locale: string
           meta_description: string | null
@@ -446,6 +448,8 @@ export type Database = {
         }
         Insert: {
           description?: string | null
+          feature_cards?: Json | null
+          highlights?: Json | null
           id?: string
           locale: string
           meta_description?: string | null
@@ -459,6 +463,8 @@ export type Database = {
         }
         Update: {
           description?: string | null
+          feature_cards?: Json | null
+          highlights?: Json | null
           id?: string
           locale?: string
           meta_description?: string | null

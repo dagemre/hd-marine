@@ -6,6 +6,27 @@ import { updateTranslation } from "./actions";
 
 type ProductTr = Database["public"]["Tables"]["product_translations"]["Row"];
 
+/** jsonb highlights → textarea satırları */
+function highlightLines(value: ProductTr["highlights"]): string {
+  if (!Array.isArray(value)) return "";
+  return value.filter((v): v is string => typeof v === "string").join("\n");
+}
+
+/** jsonb feature_cards → "Başlık | Açıklama" satırları */
+function featureCardLines(value: ProductTr["feature_cards"]): string {
+  if (!Array.isArray(value)) return "";
+  return value
+    .map((v) => {
+      if (!v || typeof v !== "object") return null;
+      const card = v as { title?: unknown; description?: unknown };
+      if (typeof card.title !== "string" || !card.title) return null;
+      const desc = typeof card.description === "string" ? card.description : "";
+      return desc ? `${card.title} | ${desc}` : card.title;
+    })
+    .filter(Boolean)
+    .join("\n");
+}
+
 /** TR/EN içerik formu — aynı bileşen iki sekmede kullanılır */
 export function ContentForm({
   productId,
@@ -95,6 +116,39 @@ export function ContentForm({
           defaultValue={data.usage_areas ?? ""}
           className="font-mono text-xs"
         />
+      </div>
+
+      <div className="grid gap-4 md:grid-cols-2">
+        <div>
+          <Label htmlFor={`hl-${locale}`}>Öne çıkan özellikler</Label>
+          <Textarea
+            id={`hl-${locale}`}
+            name="highlights"
+            rows={4}
+            defaultValue={highlightLines(data.highlights)}
+            placeholder={"Yüksek Performans\nDüşük Titreşim\nUzun Ömürlü\nEnerji Verimli"}
+          />
+          <p className="mt-1 text-xs text-ink-400">
+            Her satıra bir özellik (en çok 6). Ürün başlığının altında ikonlu
+            rozet olarak görünür; boşsa bölüm gizlenir.
+          </p>
+        </div>
+        <div>
+          <Label htmlFor={`fc-${locale}`}>Özellik şeridi kartları</Label>
+          <Textarea
+            id={`fc-${locale}`}
+            name="feature_cards"
+            rows={4}
+            defaultValue={featureCardLines(data.feature_cards)}
+            placeholder={
+              "Yüksek Verimlilik | Enerji tasarrufu sağlayan yüksek performans.\nKolay Bakım | Pratik bakım imkanı ve yedek parça desteği."
+            }
+          />
+          <p className="mt-1 text-xs text-ink-400">
+            Her satıra bir kart: <code>Başlık | Açıklama</code> (en çok 5).
+            Galeri altındaki beyaz şeritte görünür; boşsa şerit gizlenir.
+          </p>
+        </div>
       </div>
 
       <div className="grid gap-4 md:grid-cols-2">

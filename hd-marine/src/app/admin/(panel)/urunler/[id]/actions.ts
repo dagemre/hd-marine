@@ -17,6 +17,36 @@ function fail(productId: string, message: string): never {
 const str = (fd: FormData, key: string) => String(fd.get(key) ?? "").trim();
 const strOrNull = (fd: FormData, key: string) => str(fd, key) || null;
 
+/** Textarea satırları → highlights jsonb (string dizisi, en çok 6) */
+function parseHighlights(fd: FormData): string[] | null {
+  const lines = str(fd, "highlights")
+    .split("\n")
+    .map((l) => l.trim())
+    .filter(Boolean)
+    .slice(0, 6);
+  return lines.length > 0 ? lines : null;
+}
+
+/** "Başlık | Açıklama" satırları → feature_cards jsonb (en çok 5) */
+function parseFeatureCards(
+  fd: FormData
+): { title: string; description: string }[] | null {
+  const cards = str(fd, "feature_cards")
+    .split("\n")
+    .map((l) => l.trim())
+    .filter(Boolean)
+    .slice(0, 5)
+    .map((line) => {
+      const [title, ...rest] = line.split("|");
+      return {
+        title: title.trim(),
+        description: rest.join("|").trim(),
+      };
+    })
+    .filter((c) => c.title);
+  return cards.length > 0 ? cards : null;
+}
+
 /* ---------------- İçerik (TR/EN çeviri) ---------------- */
 
 export async function updateTranslation(
@@ -36,6 +66,8 @@ export async function updateTranslation(
     summary: strOrNull(formData, "summary"),
     description: strOrNull(formData, "description"),
     usage_areas: strOrNull(formData, "usage_areas"),
+    highlights: parseHighlights(formData),
+    feature_cards: parseFeatureCards(formData),
     meta_title: strOrNull(formData, "meta_title"),
     meta_description: strOrNull(formData, "meta_description"),
     translation_status:

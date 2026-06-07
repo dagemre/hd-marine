@@ -3,6 +3,7 @@ import { createClient } from "@/lib/supabase/server";
 import type { Locale } from "@/i18n/routing";
 import type {
   ProductCard,
+  ProductFeatureCard,
   ProductFull,
   ProductImage,
   ProductSpec,
@@ -123,7 +124,7 @@ export const getFeaturedProducts = cache(
 /* ---------- detay sorgusu ---------- */
 
 const FULL_SELECT = `id, sku, brand, is_featured, primary_category_id,
-  product_translations(locale, name, slug, summary, description, usage_areas, meta_title, meta_description),
+  product_translations(locale, name, slug, summary, description, usage_areas, meta_title, meta_description, highlights, feature_cards),
   product_images(id, storage_path, alt_tr, alt_en, sort_order, is_primary),
   product_specs(id, sort_order, product_spec_translations(locale, label, value)),
   product_faqs(id, sort_order, product_faq_translations(locale, question, answer)),
@@ -144,6 +145,8 @@ type FullRow = {
     usage_areas: string | null;
     meta_title: string | null;
     meta_description: string | null;
+    highlights: unknown;
+    feature_cards: unknown;
   }[];
   product_images: ImageRow[];
   product_specs: {
@@ -159,6 +162,32 @@ type FullRow = {
   product_categories: { category_id: string }[];
 };
 
+/** jsonb highlights → temiz string dizisi (savunmacı parse) */
+function parseHighlights(value: unknown): string[] {
+  if (!Array.isArray(value)) return [];
+  return value
+    .filter((v): v is string => typeof v === "string" && v.trim() !== "")
+    .map((v) => v.trim())
+    .slice(0, 6);
+}
+
+/** jsonb feature_cards → temiz {title, description} dizisi */
+function parseFeatureCards(value: unknown): ProductFeatureCard[] {
+  if (!Array.isArray(value)) return [];
+  const cards: ProductFeatureCard[] = [];
+  for (const v of value) {
+    if (v && typeof v === "object" && typeof (v as ProductFeatureCard).title === "string") {
+      const title = (v as ProductFeatureCard).title.trim();
+      const description =
+        typeof (v as ProductFeatureCard).description === "string"
+          ? (v as ProductFeatureCard).description.trim()
+          : "";
+      if (title) cards.push({ title, description });
+    }
+  }
+  return cards.slice(0, 5);
+}
+
 function mapFull(row: FullRow): ProductFull {
   const i18n: ProductFull["i18n"] = {};
   for (const tr of row.product_translations) {
@@ -170,6 +199,8 @@ function mapFull(row: FullRow): ProductFull {
       usage_areas: tr.usage_areas,
       meta_title: tr.meta_title,
       meta_description: tr.meta_description,
+      highlights: parseHighlights(tr.highlights),
+      featureCards: parseFeatureCards(tr.feature_cards),
     };
   }
 

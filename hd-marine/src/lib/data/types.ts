@@ -34,7 +34,13 @@ export type ProductTranslation = {
   usage_areas: string | null;
   meta_title: string | null;
   meta_description: string | null;
+  /** Başlık altı ikonlu kısa özellikler (admin doldurur; boşsa gizlenir) */
+  highlights: string[];
+  /** Özellik şeridi kartları (admin doldurur; boşsa şerit gizlenir) */
+  featureCards: ProductFeatureCard[];
 };
+
+export type ProductFeatureCard = { title: string; description: string };
 
 export type ProductImage = {
   id: string;
