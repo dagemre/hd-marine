@@ -69,9 +69,12 @@ export async function FeatureStrip() {
   return (
     <div className="relative z-10 -mt-20 lg:-mt-24">
       <Container>
-        <div className="grid grid-cols-1 rounded-2xl bg-white shadow-card-hover sm:grid-cols-2 lg:grid-cols-4 lg:divide-x lg:divide-brand-50">
+        <div className="grid grid-cols-1 rounded-2xl bg-white py-3 shadow-card-hover sm:grid-cols-2 sm:py-0 lg:grid-cols-4 lg:divide-x lg:divide-brand-50">
           {labels.map((label, i) => (
-            <div key={label} className="flex items-center gap-4 px-6 py-6 lg:py-8">
+            <div
+              key={label}
+              className="flex items-center gap-4 px-5 py-2.5 sm:px-6 sm:py-6 lg:py-8"
+            >
               <span className="shrink-0 text-primary">{icons[i]}</span>
               <p className="text-sm font-bold leading-snug text-navy">{label}</p>
             </div>

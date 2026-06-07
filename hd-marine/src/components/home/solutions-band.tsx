@@ -91,10 +91,10 @@ export async function SolutionsBand() {
           </div>
 
           {/* 4 sütun */}
-          <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
+          <div className="grid grid-cols-2 gap-x-6 gap-y-10 lg:grid-cols-4 lg:gap-8">
             {items.map((item) => (
-              <div key={item.title} className="text-center sm:text-left lg:text-center">
-                <span className="mx-0 inline-flex h-14 w-14 items-center justify-center rounded-full bg-white text-black shadow-lg sm:mx-0 lg:mx-auto">
+              <div key={item.title} className="text-center">
+                <span className="inline-flex h-14 w-14 items-center justify-center rounded-full bg-white text-black shadow-lg">
                   {item.icon}
                 </span>
                 <h3 className="mt-5 font-bold">{item.title}</h3>
