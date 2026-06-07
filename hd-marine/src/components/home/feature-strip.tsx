@@ -3,7 +3,7 @@ import { Container } from "@/components/ui/container";
 
 const icons = [
   // Mühendislik (dişli/teknik)
-  <svg key="1" viewBox="0 0 24 24" fill="none" className="h-7 w-7">
+  <svg key="1" viewBox="0 0 24 24" fill="none" className="h-9 w-9">
     <path
       d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
       stroke="currentColor"
@@ -17,7 +17,7 @@ const icons = [
     />
   </svg>,
   // Verimlilik (yükselen grafik)
-  <svg key="2" viewBox="0 0 24 24" fill="none" className="h-7 w-7">
+  <svg key="2" viewBox="0 0 24 24" fill="none" className="h-9 w-9">
     <path
       d="M3 21h18M7 17v-5m5 5V8m5 9V5m-3 0h3v3"
       stroke="currentColor"
@@ -27,7 +27,7 @@ const icons = [
     />
   </svg>,
   // Kalite ve güven (kalkan + onay)
-  <svg key="3" viewBox="0 0 24 24" fill="none" className="h-7 w-7">
+  <svg key="3" viewBox="0 0 24 24" fill="none" className="h-9 w-9">
     <path
       d="M12 3 5 6v5c0 4.4 3 8.4 7 10 4-1.6 7-5.6 7-10V6l-7-3Z"
       stroke="currentColor"
@@ -43,7 +43,7 @@ const icons = [
     />
   </svg>,
   // Teknik destek (kulaklık)
-  <svg key="4" viewBox="0 0 24 24" fill="none" className="h-7 w-7">
+  <svg key="4" viewBox="0 0 24 24" fill="none" className="h-9 w-9">
     <path
       d="M4 13a8 8 0 1 1 16 0"
       stroke="currentColor"
@@ -72,9 +72,7 @@ export async function FeatureStrip() {
         <div className="grid grid-cols-1 rounded-2xl bg-white shadow-card-hover sm:grid-cols-2 lg:grid-cols-4 lg:divide-x lg:divide-brand-50">
           {labels.map((label, i) => (
             <div key={label} className="flex items-center gap-4 px-6 py-6 lg:py-8">
-              <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-brand-50 text-primary">
-                {icons[i]}
-              </span>
+              <span className="shrink-0 text-primary">{icons[i]}</span>
               <p className="text-sm font-bold leading-snug text-navy">{label}</p>
             </div>
           ))}
