@@ -163,7 +163,9 @@ export type Database = {
           locale: string
           message: string
           phone: string | null
+          product_interest: string | null
           subject: string | null
+          wants_product_info: boolean | null
         }
         Insert: {
           created_at?: string
@@ -173,7 +175,9 @@ export type Database = {
           locale?: string
           message: string
           phone?: string | null
+          product_interest?: string | null
           subject?: string | null
+          wants_product_info?: boolean | null
         }
         Update: {
           created_at?: string
@@ -183,7 +187,9 @@ export type Database = {
           locale?: string
           message?: string
           phone?: string | null
+          product_interest?: string | null
           subject?: string | null
+          wants_product_info?: boolean | null
         }
         Relationships: []
       }
