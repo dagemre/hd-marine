@@ -27,11 +27,20 @@ fi
 
 echo "✅ Node.js $(node -v)"
 
-# İlk çalıştırmada bağımlılıkları kur
-if [ ! -d node_modules ]; then
+# Bağımlılık kontrolü — platform değişimini de algılar.
+# (Claude'un sandbox'ı Linux; orada kurulan native binary'ler Mac'te çalışmaz.
+#  Marker uyuşmazsa node_modules + .next silinip bu platform için yeniden kurulur.)
+PLATFORM="$(node -p 'process.platform + "-" + process.arch')"
+MARKER="node_modules/.platform"
+if [ ! -d node_modules ] || [ "$(cat "$MARKER" 2>/dev/null)" != "$PLATFORM" ]; then
   echo ""
-  echo "📦 İlk kurulum: bağımlılıklar indiriliyor (birkaç dakika sürebilir)..."
+  echo "📦 Bağımlılıklar bu bilgisayar ($PLATFORM) için kuruluyor (birkaç dakika sürebilir)..."
+  rm -rf node_modules .next
   npm install || { echo "❌ npm install başarısız"; read -r; exit 1; }
+  echo "$PLATFORM" > "$MARKER"
+else
+  # package.json güncellenmişse eksik paketleri sessizce tamamla
+  npm install --no-audit --no-fund >/dev/null 2>&1 || true
 fi
 
 # Tarayıcıyı server ayağa kalkınca aç
