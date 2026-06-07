@@ -10,7 +10,8 @@ export default function SiteLayout({
     <div className="flex min-h-screen flex-col">
       <JsonLd data={organizationJsonLd()} />
       <Header />
-      <main className="flex-1">{children}</main>
+      {/* -mt-18: içerik şeffaf header'ın arkasına uzanır (h-18 header) */}
+      <main className="-mt-18 flex-1">{children}</main>
       <Footer />
       <ScrollToTop />
     </div>

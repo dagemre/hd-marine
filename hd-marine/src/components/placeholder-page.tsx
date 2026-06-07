@@ -10,7 +10,8 @@ export async function PlaceholderPage({ title }: { title: string }) {
 
   return (
     <>
-      <Section tone="gradient" className="py-20 lg:py-28">
+      {/* pt: h-18 header payı (içerik şeffaf header'ın arkasına uzanıyor) */}
+      <Section tone="gradient" className="pt-38 pb-20 lg:pt-46 lg:pb-28">
         <h1 className="text-display-sm font-bold lg:text-display-lg">{title}</h1>
       </Section>
       <Section tone="surface">

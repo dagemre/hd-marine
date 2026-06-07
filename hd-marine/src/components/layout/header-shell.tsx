@@ -1,17 +1,16 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { usePathname } from "@/i18n/navigation";
 import { cn } from "@/lib/cn";
 
 /**
- * Header'ın görsel kabuğu. Anasayfada menü hero görselinin ÜSTÜNDE şeffaf
- * durur; sayfa kaydırılınca koyu lacivert şerit belirir. Diğer sayfalarda
- * (açık zeminler) şerit her zaman görünür.
+ * Header'ın görsel kabuğu. TÜM sayfalarda menü, sayfanın tepe bölümünün
+ * ÜSTÜNDE şeffaf durur (içerik (site) layout'taki -mt-18 ile arkasına
+ * uzanır); sayfa kaydırılınca koyu lacivert şerit belirir. Beyaz başlayan
+ * sayfalar (kategori/ürün detay) header'ın arkasını kendi navy spacer'ıyla
+ * doldurur.
  */
 export function HeaderShell({ children }: { children: React.ReactNode }) {
-  const pathname = usePathname();
-  const isHome = pathname === "/";
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -21,7 +20,7 @@ export function HeaderShell({ children }: { children: React.ReactNode }) {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const solid = !isHome || scrolled;
+  const solid = scrolled;
 
   return (
     <header

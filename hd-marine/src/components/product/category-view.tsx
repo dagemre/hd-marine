@@ -33,6 +33,9 @@ export async function CategoryView({
 
   return (
     <>
+      {/* Şeffaf header'ın arkasını dolduran lacivert blok (h-18 header payı);
+          bu sayfanın tasarımı ayrı chat'te ele alınacak */}
+      <div className="h-18 bg-deep-navy" aria-hidden />
       <div className="border-b border-black/5 bg-white">
         <Container className="py-4">
           <CatalogBreadcrumb entries={crumbs} />

@@ -24,7 +24,8 @@ export async function AboutHero() {
         className="absolute inset-0 -z-10 object-cover object-right opacity-45 mix-blend-luminosity [mask-image:linear-gradient(100deg,transparent_30%,black_72%)]"
       />
 
-      <Container className="pt-12 pb-32 lg:pt-16 lg:pb-36">
+      {/* pt: h-18 header + tasarımdaki boşluk (içerik header'ın arkasına uzanıyor) */}
+      <Container className="pt-30 pb-32 lg:pt-34 lg:pb-36">
         {/* Breadcrumb — koyu zemine özel renkler */}
         <nav aria-label="Breadcrumb" className="text-sm">
           <ol className="flex flex-wrap items-center gap-1.5">

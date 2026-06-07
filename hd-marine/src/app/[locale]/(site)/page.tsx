@@ -33,9 +33,9 @@ export default async function HomePage({
 
   return (
     <>
-      {/* İlk ekran: -mt-18 ile şeffaf header'ın arkasına uzanır;
+      {/* İlk ekran: (site) layout'taki -mt-18 ile şeffaf header'ın arkasına uzanır;
           hero (flex-1) + beyaz şerit birlikte tam viewport yüksekliği kaplar */}
-      <div className="-mt-18 flex min-h-svh flex-col">
+      <div className="flex min-h-svh flex-col">
         <Hero />
         <div className="bg-surface pb-3 sm:pb-5">
           <FeatureStrip />
