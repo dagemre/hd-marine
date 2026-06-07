@@ -100,7 +100,7 @@ export async function Header() {
           <LocaleSwitcher />
           <Link
             href="/teklif-alin"
-            className="inline-flex h-10 items-center rounded-lg bg-primary px-5 text-sm font-semibold text-white transition-colors hover:bg-primary-hover"
+            className="inline-flex h-10 items-center rounded-full bg-primary px-6 text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-primary-hover"
           >
             {t("getQuote")}
           </Link>
