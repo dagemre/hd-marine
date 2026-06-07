@@ -72,6 +72,20 @@ export type ProductFull = {
   faqs: Partial<Record<Locale, ProductFaq[]>>;
 };
 
+/* ---------- Sektör ---------- */
+
+export type SectorTranslation = {
+  name: string;
+  slug: string;
+};
+
+export type Sector = {
+  id: string;
+  sortOrder: number;
+  imagePath: string | null;
+  i18n: Partial<Record<Locale, SectorTranslation>>;
+};
+
 /* ---------- Slug çözümleme ---------- */
 
 export type ResolvedPath =
