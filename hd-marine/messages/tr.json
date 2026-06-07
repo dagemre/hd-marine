@@ -30,9 +30,14 @@
     "copyright": "© {year} HD MARINE ENDÜSTRİYEL. Tüm hakları saklıdır."
   },
   "home": {
-    "heroTitle": "Endüstriyel Tesislerde Çözüm Ortağınız",
-    "heroSubtitle": "HD MARINE; kimya, enerji, kağıt, gıda-içecek, ilaç, tekstil ve diğer endüstrilere mühendislik çözümleri sunan öncü bir kuruluştur.",
+    "heroEyebrow": "Endüstriyel Çözümlerde Güvenilir Ortağınız",
+    "heroTitle": "Endüstriyel Tesislerde Üstün Performans",
+    "heroSubtitle": "Kimya, enerji, kağıt, gıda-içecek, ilaç, tekstil ve diğer endüstrilere mühendislik çözümleri sunuyoruz.",
     "heroCta": "Teklif Alın",
+    "heroCtaProducts": "Ürünleri İncele",
+    "heroMini1": "Yüksek Kalite Standartları",
+    "heroMini2": "Uzman Mühendislik Desteği",
+    "heroMini3": "Hızlı & Güvenilir Çözümler",
     "feature1": "Mühendislik Odaklı Çözümler",
     "feature2": "Verimlilik Esaslı Yaklaşım",
     "feature3": "Kalite ve Güven Standartları",

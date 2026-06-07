@@ -30,9 +30,14 @@
     "copyright": "© {year} HD MARINE INDUSTRIAL. All rights reserved."
   },
   "home": {
-    "heroTitle": "Your Solution Partner for Industrial Facilities",
-    "heroSubtitle": "HD MARINE is a leading company delivering engineering solutions to the chemical, energy, paper, food & beverage, pharmaceutical, textile and other industries.",
+    "heroEyebrow": "Your Trusted Partner in Industrial Solutions",
+    "heroTitle": "Superior Performance for Industrial Facilities",
+    "heroSubtitle": "We deliver engineering solutions to the chemical, energy, paper, food & beverage, pharmaceutical, textile and other industries.",
     "heroCta": "Get a Quote",
+    "heroCtaProducts": "Explore Products",
+    "heroMini1": "High Quality Standards",
+    "heroMini2": "Expert Engineering Support",
+    "heroMini3": "Fast & Reliable Solutions",
     "feature1": "Engineering-Driven Solutions",
     "feature2": "Efficiency-Based Approach",
     "feature3": "Quality & Trust Standards",
