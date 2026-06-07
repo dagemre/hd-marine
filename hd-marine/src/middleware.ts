@@ -1,6 +1,7 @@
 import createMiddleware from "next-intl/middleware";
 import { NextRequest, NextResponse } from "next/server";
 import { routing } from "./i18n/routing";
+import { updateSession } from "./lib/supabase/middleware";
 
 const handleI18n = createMiddleware(routing);
 
@@ -52,6 +53,24 @@ async function getRedirectMap() {
 
 export default async function middleware(request: NextRequest) {
   const pathname = normalizePath(request.nextUrl.pathname);
+
+  /* ---- /admin: i18n ve 301 kontrolü YOK; oturum yenileme + koruma ---- */
+  if (pathname === "/admin" || pathname.startsWith("/admin/")) {
+    const { response, user } = await updateSession(request);
+    const isLoginPage = pathname === "/admin/giris";
+
+    if (!user && !isLoginPage) {
+      const target = NextResponse.redirect(new URL("/admin/giris", request.url));
+      response.cookies.getAll().forEach((c) => target.cookies.set(c));
+      return target;
+    }
+    if (user && isLoginPage) {
+      const target = NextResponse.redirect(new URL("/admin", request.url));
+      response.cookies.getAll().forEach((c) => target.cookies.set(c));
+      return target;
+    }
+    return response;
+  }
 
   const redirects = await getRedirectMap();
   const hit = redirects?.get(pathname);

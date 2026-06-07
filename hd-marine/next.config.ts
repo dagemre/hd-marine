@@ -4,6 +4,12 @@ import createNextIntlPlugin from "next-intl/plugin";
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 const nextConfig: NextConfig = {
+  experimental: {
+    serverActions: {
+      // Admin panel görsel yüklemeleri (varsayılan 1 MB yetmez)
+      bodySizeLimit: "8mb",
+    },
+  },
   images: {
     remotePatterns: [
       {
