@@ -555,7 +555,9 @@ export type Database = {
         Row: {
           company: string | null
           created_at: string
+          delivery_location: string | null
           email: string
+          estimated_need: string | null
           full_name: string
           id: string
           locale: string
@@ -563,12 +565,15 @@ export type Database = {
           phone: string | null
           product_group: string | null
           product_id: string | null
+          sector_slug: string | null
           status: string
         }
         Insert: {
           company?: string | null
           created_at?: string
+          delivery_location?: string | null
           email: string
+          estimated_need?: string | null
           full_name: string
           id?: string
           locale?: string
@@ -576,12 +581,15 @@ export type Database = {
           phone?: string | null
           product_group?: string | null
           product_id?: string | null
+          sector_slug?: string | null
           status?: string
         }
         Update: {
           company?: string | null
           created_at?: string
+          delivery_location?: string | null
           email?: string
+          estimated_need?: string | null
           full_name?: string
           id?: string
           locale?: string
@@ -589,6 +597,7 @@ export type Database = {
           phone?: string | null
           product_group?: string | null
           product_id?: string | null
+          sector_slug?: string | null
           status?: string
         }
         Relationships: [
