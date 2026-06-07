@@ -112,6 +112,121 @@
   border-radius: 0.75rem;
 }
 
+/* ============================================================
+   "Made with ❤ Mre Creative" — footer imzası
+   Hover'da (veya mobilde .is-beating ile) kalp atışı + mini kalp
+   uçuşu + isim altında soldan çizilen kırmızı çizgi.
+   ============================================================ */
+.madewith {
+  position: relative;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.35em;
+  color: var(--color-footer-text);
+  transition:
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+.madewith .heart {
+  position: relative;
+  display: inline-block;
+  color: #d6212a;
+  transform-origin: center;
+}
+.madewith__name {
+  position: relative;
+  font-weight: 600;
+}
+.madewith__name::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 1.5px;
+  background: #d6212a;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.35s ease;
+}
+.madewith:hover,
+.madewith.is-beating {
+  color: #fff;
+  transform: translateY(-2px);
+}
+.madewith:hover .madewith__name::after,
+.madewith.is-beating .madewith__name::after {
+  transform: scaleX(1);
+}
+.madewith:hover .heart,
+.madewith.is-beating .heart {
+  animation: mw-heartbeat 1.1s infinite;
+}
+/* Yukarı uçan 2 mini kalp (8px) */
+.madewith .heart::before,
+.madewith .heart::after {
+  content: "❤";
+  position: absolute;
+  left: 50%;
+  top: -2px;
+  font-size: 8px;
+  line-height: 1;
+  opacity: 0;
+  pointer-events: none;
+}
+.madewith:hover .heart::before,
+.madewith.is-beating .heart::before {
+  animation: mw-fly 1.1s ease-out infinite;
+}
+.madewith:hover .heart::after,
+.madewith.is-beating .heart::after {
+  animation: mw-fly-2 1.1s ease-out 0.55s infinite;
+}
+@keyframes mw-heartbeat {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.4);
+  }
+  35% {
+    transform: scale(1);
+  }
+  55% {
+    transform: scale(1.3);
+  }
+  70% {
+    transform: scale(1);
+  }
+}
+@keyframes mw-fly {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, 0) rotate(0deg);
+  }
+  30% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -24px) rotate(14deg);
+  }
+}
+@keyframes mw-fly-2 {
+  0% {
+    opacity: 0;
+    transform: translate(-80%, 0) rotate(0deg);
+  }
+  30% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-80%, -24px) rotate(-12deg);
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }

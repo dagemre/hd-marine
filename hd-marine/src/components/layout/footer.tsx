@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
+import { MadeWith } from "./made-with";
 
 function FooterTitle({ children }: { children: React.ReactNode }) {
   return (
@@ -72,6 +73,7 @@ export async function Footer() {
       <div className="border-t border-footer-border">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-4 py-5 text-xs sm:px-6 md:flex-row lg:px-8">
           <p>{t("copyright", { year })}</p>
+          <MadeWith />
           <nav className="flex flex-wrap items-center gap-x-5 gap-y-1">
             <Link href="/urunler" className="transition-colors hover:text-white">
               {tNav("products")}
