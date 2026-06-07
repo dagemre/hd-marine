@@ -103,12 +103,15 @@ export function HeroSlider({ images }: { images: string[] }) {
         </div>
       ))}
 
-      {/* Overlay Katman 1 — ana lacivert */}
-      <div aria-hidden className="absolute inset-0 -z-10 bg-[rgba(4,27,70,0.82)]" />
-      {/* Overlay Katman 2 — soldan sağa mavi geçiş */}
+      {/* Overlay Katman 1 — ana lacivert, sağa doğru şeffaflaşır */}
       <div
         aria-hidden
-        className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(4,27,70,0.92)_0%,rgba(6,43,107,0.78)_45%,rgba(13,94,255,0.20)_100%)]"
+        className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(4,27,70,0.80)_0%,rgba(4,27,70,0.42)_50%,rgba(4,27,70,0.06)_100%)]"
+      />
+      {/* Overlay Katman 2 — soldan sağa mavi geçiş, sağ uç neredeyse şeffaf */}
+      <div
+        aria-hidden
+        className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(4,27,70,0.85)_0%,rgba(6,43,107,0.45)_45%,rgba(13,94,255,0.05)_100%)]"
       />
 
       <Container className="w-full pt-28 pb-24 lg:pt-32 lg:pb-28">
