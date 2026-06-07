@@ -1,24 +1,115 @@
 @import "tailwindcss";
 
-/* HD Marine — kurumsal palet (Context tasarımlarından) */
+/* ============================================================
+   HD Marine — Tasarım Sistemi Token'ları
+   Kaynak: proje talimatları (kurumsal palet) + Context tasarımları
+   ============================================================ */
 @theme {
-  --color-brand-50: #eef6ff;
-  --color-brand-100: #d9eaff;
-  --color-brand-200: #bcdbff;
-  --color-brand-300: #8ec4ff;
-  --color-brand-400: #59a3ff;
-  --color-brand-500: #3380fc;
-  --color-brand-600: #1d60f1;
-  --color-brand-700: #154bde;
-  --color-brand-800: #173db4;
-  --color-brand-900: #19388d;
-  --color-brand-950: #142356; /* koyu lacivert hero zemini */
+  /* — Kurumsal palet — */
+  --color-primary: #0d5eff; /* Ana mavi (CTA normal) */
+  --color-primary-hover: #0052e0; /* CTA hover */
+  --color-navy: #062b6b; /* Lacivert */
+  --color-deep-navy: #041b46; /* Koyu lacivert (hero/footer zemin) */
+  --color-surface: #f5f7fa; /* Sayfa zemini (Background) */
 
-  --color-ink-900: #0f172a;
-  --color-ink-600: #475569;
-  --color-ink-400: #94a3b8;
+  /* — Primary tonal skala (rozet, hover zemini, kenarlık vb.) — */
+  --color-brand-50: #eef4ff;
+  --color-brand-100: #dce8ff;
+  --color-brand-200: #b8d1ff;
+  --color-brand-300: #85afff;
+  --color-brand-400: #4d87ff;
+  --color-brand-500: #0d5eff;
+  --color-brand-600: #0052e0;
+  --color-brand-700: #0443b3;
+  --color-brand-800: #062b6b;
+  --color-brand-900: #041b46;
 
-  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  /* — Footer — */
+  --color-footer-bg: #041b46;
+  --color-footer-title: #ffffff;
+  --color-footer-text: #c5d3ea;
+  --color-footer-border: #143a7d;
+
+  /* — Metin renkleri — */
+  --color-ink-900: #0f1c33; /* Ana metin (laciverte çalan koyu) */
+  --color-ink-600: #4a5874; /* İkincil metin */
+  --color-ink-400: #8b97ad; /* Soluk metin / placeholder */
+
+  /* — Tipografi (Inter Variable — @fontsource ile self-hosted, layout'ta import) — */
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", sans-serif;
+
+  /* — Büyük tipografi ölçeği (display başlıklar) — */
+  --text-display-lg: 3.5rem;
+  --text-display-lg--line-height: 1.08;
+  --text-display-lg--letter-spacing: -0.02em;
+  --text-display: 2.75rem;
+  --text-display--line-height: 1.12;
+  --text-display--letter-spacing: -0.02em;
+  --text-display-sm: 2rem;
+  --text-display-sm--line-height: 1.2;
+  --text-display-sm--letter-spacing: -0.01em;
+
+  /* — Gölge (premium kart görünümü) — */
+  --shadow-card: 0 1px 2px rgb(4 27 70 / 0.06), 0 4px 12px rgb(4 27 70 / 0.06);
+  --shadow-card-hover: 0 2px 4px rgb(4 27 70 / 0.08),
+    0 12px 28px rgb(4 27 70 / 0.12);
+}
+
+/* Kurumsal hero gradient'i */
+@utility bg-hero-gradient {
+  background: linear-gradient(135deg, #041b46 0%, #062b6b 45%, #0d5eff 100%);
+}
+
+/* WP'den taşınan zengin metin içerikleri (açıklama, kullanım alanları) */
+.rich-text {
+  line-height: 1.7;
+}
+.rich-text p {
+  margin-bottom: 1em;
+}
+.rich-text ul,
+.rich-text ol {
+  margin: 1em 0;
+  padding-left: 1.5em;
+}
+.rich-text ul {
+  list-style: disc;
+}
+.rich-text ol {
+  list-style: decimal;
+}
+.rich-text li {
+  margin-bottom: 0.35em;
+}
+.rich-text h2,
+.rich-text h3,
+.rich-text h4 {
+  margin: 1.4em 0 0.6em;
+  font-weight: 700;
+  color: var(--color-ink-900);
+}
+.rich-text a {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+.rich-text table {
+  width: 100%;
+  margin: 1em 0;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+.rich-text th,
+.rich-text td {
+  border: 1px solid rgb(4 27 70 / 0.08);
+  padding: 0.6em 0.9em;
+  text-align: left;
+}
+.rich-text img {
+  margin: 1em 0;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
 }
 
 html {
@@ -26,5 +117,5 @@ html {
 }
 
 body {
-  @apply bg-white text-ink-900 antialiased;
+  @apply bg-surface text-ink-900 antialiased;
 }

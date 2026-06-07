@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "products": "Ürünler",
+    "sectors": "Sektörler",
+    "catalogs": "Kataloglar",
+    "contact": "İletişim",
+    "getQuote": "Teklif Alın"
+  },
+  "common": {
+    "viewDetails": "Detayları İncele",
+    "viewAll": "Tümünü Gör",
+    "breadcrumbHome": "Anasayfa",
+    "loadError": "Veriler şu anda yüklenemedi. Lütfen daha sonra tekrar deneyin.",
+    "noResults": "Bu kategoride henüz ürün bulunmuyor.",
+    "productCount": "{count, plural, =1 {1 ürün} other {# ürün}}",
+    "languageName": "Türkçe"
+  },
+  "footer": {
+    "tagline": "Kimya, enerji, kağıt, gıda-içecek, ilaç, tekstil ve diğer endüstrilerin mühendislik çözümlerini sunan çözüm ortağınız.",
+    "contactTitle": "İletişim",
+    "trOfficeTitle": "Türkiye Ofis",
+    "nlOfficeTitle": "Hollanda Ofis",
+    "phone": "+90 533 308 51 46",
+    "email": "info@hdmarine.com.tr",
+    "workingHours": "Pazartesi - Cuma 09:00 - 17:30",
+    "trAddress": "Yayla Mahallesi Emsal Sokak B Blok Apt. No:10/A, 34944 Tuzla / İstanbul",
+    "nlAddress": "Westzijde 127, 1506 GB, Zaandam, The Netherlands",
+    "copyright": "© {year} HD MARINE ENDÜSTRİYEL. Tüm hakları saklıdır."
+  },
+  "home": {
+    "heroTitle": "Endüstriyel Tesislerde Çözüm Ortağınız",
+    "heroSubtitle": "HD MARINE; sınai, enerji, kağıt, gıda-içecek, ilaç, tekstil ve diğer endüstrilerin mühendislik çözümleri sunan kurumsal tedarikçinizdir.",
+    "heroCta": "Teklif Alın",
+    "categoriesTitle": "HD MARINE Endüstriyel Ürünleri",
+    "categoriesSubtitle": "Geniş ürün yelpazemizle endüstriyel tesislerinizde verimliliği, güvenilirliği ve sürekliliği birlikte sağlıyoruz."
+  },
+  "products": {
+    "title": "Ürünlerimiz",
+    "subtitle": "Endüstriyel pompalardan yağlama cihazlarına, tesisinizin ihtiyaç duyduğu tüm ekipmanlar.",
+    "allCategories": "Tüm Kategoriler",
+    "subcategories": "Alt Kategoriler"
+  },
+  "product": {
+    "description": "Açıklama",
+    "specs": "Teknik Özellikler",
+    "usageAreas": "Kullanım Alanları",
+    "faq": "Sıkça Sorulan Sorular",
+    "requestQuote": "Fiyat Teklifi Alın",
+    "brand": "Marka",
+    "sku": "Ürün Kodu",
+    "relatedProducts": "Benzer Ürünler"
+  },
+  "placeholder": {
+    "title": "Bu sayfa hazırlanıyor",
+    "body": "Bu sayfanın tasarımı ayrı bir çalışmada tamamlanacak."
+  },
+  "notFound": {
+    "title": "Sayfa bulunamadı",
+    "body": "Aradığınız sayfa taşınmış veya kaldırılmış olabilir.",
+    "backHome": "Anasayfaya Dön"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "sectors": "Industries",
+    "catalogs": "Catalogues",
+    "contact": "Contact",
+    "getQuote": "Get a Quote"
+  },
+  "common": {
+    "viewDetails": "View Details",
+    "viewAll": "View All",
+    "breadcrumbHome": "Home",
+    "loadError": "Data could not be loaded right now. Please try again later.",
+    "noResults": "No products in this category yet.",
+    "productCount": "{count, plural, =1 {1 product} other {# products}}",
+    "languageName": "English"
+  },
+  "footer": {
+    "tagline": "Your solution partner delivering engineering solutions for the chemical, energy, paper, food & beverage, pharmaceutical, textile and other industries.",
+    "contactTitle": "Contact",
+    "trOfficeTitle": "Türkiye Office",
+    "nlOfficeTitle": "Netherlands Office",
+    "phone": "+90 533 308 51 46",
+    "email": "info@hdmarine.com.tr",
+    "workingHours": "Monday - Friday 09:00 - 17:30",
+    "trAddress": "Yayla Mahallesi Emsal Sokak B Blok Apt. No:10/A, 34944 Tuzla / Istanbul",
+    "nlAddress": "Westzijde 127, 1506 GB, Zaandam, The Netherlands",
+    "copyright": "© {year} HD MARINE INDUSTRIAL. All rights reserved."
+  },
+  "home": {
+    "heroTitle": "Your Solution Partner for Industrial Facilities",
+    "heroSubtitle": "HD MARINE is your corporate supplier delivering engineering solutions for the chemical, energy, paper, food & beverage, pharmaceutical, textile and other industries.",
+    "heroCta": "Get a Quote",
+    "categoriesTitle": "HD MARINE Industrial Products",
+    "categoriesSubtitle": "With our wide product range, we deliver efficiency, reliability and continuity for your industrial facilities."
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "From industrial pumps to lubrication equipment — everything your facility needs.",
+    "allCategories": "All Categories",
+    "subcategories": "Subcategories"
+  },
+  "product": {
+    "description": "Description",
+    "specs": "Technical Specifications",
+    "usageAreas": "Areas of Use",
+    "faq": "Frequently Asked Questions",
+    "requestQuote": "Request a Quote",
+    "brand": "Brand",
+    "sku": "Product Code",
+    "relatedProducts": "Related Products"
+  },
+  "placeholder": {
+    "title": "This page is in progress",
+    "body": "The design of this page will be completed in a separate work stream."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you are looking for may have been moved or removed.",
+    "backHome": "Back to Home"
+  }
+}
