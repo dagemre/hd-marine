@@ -1,0 +1,212 @@
+{
+ "ayni_slug_farkli_id": [
+  {
+   "slug": "graco-uyumlu-yedek-parca",
+   "pages": [
+    {
+     "id": 2741,
+     "type": "product",
+     "path": "urunler/diyaframli-pompa-yedek-parcalari/graco-uyumlu-yedek-parca",
+     "link": "https://hdmarine.com.tr/urunler/diyaframli-pompa-yedek-parcalari/graco-uyumlu-yedek-parca/"
+    },
+    {
+     "id": 4476,
+     "type": "product",
+     "path": "urunler/yaglama-cihazlari/elektrikli-yag-pompalari/graco-uyumlu-yedek-parca",
+     "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/elektrikli-yag-pompalari/graco-uyumlu-yedek-parca/"
+    }
+   ],
+   "oneri": "Tek ürün kaydı + product_categories ile her iki kategoriye bağla; canonical URL primary category zincirinden"
+  },
+  {
+   "slug": "elektrikli-yag-cekme-pompalari",
+   "pages": [
+    {
+     "id": 4266,
+     "type": "category",
+     "path": "urunler/yaglama-cihazlari/yag-cekme-pompalari/elektrikli-yag-cekme-pompalari",
+     "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-cekme-pompalari/elektrikli-yag-cekme-pompalari/"
+    },
+    {
+     "id": 5185,
+     "type": "product",
+     "path": "urunler/yaglama-cihazlari/yag-cekme-pompalari/elektrikli-yag-cekme-pompalari/elektrikli-yag-cekme-pompalari",
+     "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-cekme-pompalari/elektrikli-yag-cekme-pompalari/elektrikli-yag-cekme-pompalari/"
+    }
+   ],
+   "oneri": "Tek ürün kaydı + product_categories ile her iki kategoriye bağla; canonical URL primary category zincirinden"
+  },
+  {
+   "slug": "gres-yaglama-kiti-44950",
+   "pages": [
+    {
+     "id": 4397,
+     "type": "product",
+     "path": "urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/gres-yaglama-kiti-44950",
+     "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/gres-yaglama-kiti-44950/"
+    },
+    {
+     "id": 4740,
+     "type": "product",
+     "path": "urunler/yaglama-cihazlari/aksesuarlar/gres-yaglama-kiti-44950",
+     "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/gres-yaglama-kiti-44950/"
+    }
+   ],
+   "oneri": "Tek ürün kaydı + product_categories ile her iki kategoriye bağla; canonical URL primary category zincirinden"
+  }
+ ],
+ "sonekli_kopya": [],
+ "ayni_baslik_farkli_slug": [
+  {
+   "title": "Tecomec 0543 Tetiksiz Basınçlı Yıkama Tabancası",
+   "pages": [
+    {
+     "id": 4776,
+     "slug": "tecomec-0543-tetiksiz-basincli-yikama-tabancasi-3",
+     "path": "urunler/yaglama-cihazlari/aksesuarlar/tecomec-0543-tetiksiz-basincli-yikama-tabancasi-3"
+    },
+    {
+     "id": 4777,
+     "slug": "tecomec-0543-tetiksiz-basincli-yikama-tabancasi-2",
+     "path": "urunler/yaglama-cihazlari/aksesuarlar/tecomec-0543-tetiksiz-basincli-yikama-tabancasi-2"
+    }
+   ]
+  }
+ ],
+ "parent_ile_ayni_slug": [
+  {
+   "id": 5185,
+   "slug": "elektrikli-yag-cekme-pompalari",
+   "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-cekme-pompalari/elektrikli-yag-cekme-pompalari/elektrikli-yag-cekme-pompalari/",
+   "parent_id": 4266,
+   "sorun": "URL'de çift segment oluşuyor (ör. /a/a/); muhtemelen yanlış iç içe sayfa"
+  }
+ ],
+ "ozel_anomaliler": [
+  {
+   "id": 3889,
+   "slug": "sayfa2",
+   "path": "urunler/yaglama-cihazlari/aksesuarlar/sayfa2",
+   "sorun": "Elle açılmış pagination sayfası — yeni sitede gerçek pagination ile çözülür, import edilmemeli"
+  },
+  {
+   "id": 3889,
+   "slug": "sayfa2",
+   "path": "urunler/yaglama-cihazlari/aksesuarlar/sayfa2",
+   "sorun": "Yaprak sayfa ama ürün listeleme içeriyor — kategori sayfası olabilir, elle kontrol"
+  },
+  {
+   "id": 5185,
+   "slug": "elektrikli-yag-cekme-pompalari",
+   "path": "urunler/yaglama-cihazlari/yag-cekme-pompalari/elektrikli-yag-cekme-pompalari/elektrikli-yag-cekme-pompalari",
+   "sorun": "Yaprak sayfa ama ürün listeleme içeriyor — kategori sayfası olabilir, elle kontrol"
+  }
+ ],
+ "sonekli_ama_base_yok": [
+  {
+   "id": 4774,
+   "slug": "yikama-makinasi-tabanca-memesi-2",
+   "title": "Yıkama Makinası Tabanca Memesi",
+   "path": "urunler/yaglama-cihazlari/aksesuarlar/yikama-makinasi-tabanca-memesi-2",
+   "not": "WP -N soneki; orijinal slug yayında değil. URL birebir korunacak, sadece bilgi."
+  },
+  {
+   "id": 4776,
+   "slug": "tecomec-0543-tetiksiz-basincli-yikama-tabancasi-3",
+   "title": "Tecomec 0543 Tetiksiz Basınçlı Yıkama Tabancası",
+   "path": "urunler/yaglama-cihazlari/aksesuarlar/tecomec-0543-tetiksiz-basincli-yikama-tabancasi-3",
+   "not": "WP -N soneki; orijinal slug yayında değil. URL birebir korunacak, sadece bilgi."
+  },
+  {
+   "id": 4777,
+   "slug": "tecomec-0543-tetiksiz-basincli-yikama-tabancasi-2",
+   "title": "Tecomec 0543 Tetiksiz Basınçlı Yıkama Tabancası",
+   "path": "urunler/yaglama-cihazlari/aksesuarlar/tecomec-0543-tetiksiz-basincli-yikama-tabancasi-2",
+   "not": "WP -N soneki; orijinal slug yayında değil. URL birebir korunacak, sadece bilgi."
+  },
+  {
+   "id": 4779,
+   "slug": "tarus-7441-sivi-puskurtme-tabancasi-2",
+   "title": "Tarus 7441 Sıvı Püskürtme Tabancası",
+   "path": "urunler/yaglama-cihazlari/aksesuarlar/tarus-7441-sivi-puskurtme-tabancasi-2",
+   "not": "WP -N soneki; orijinal slug yayında değil. URL birebir korunacak, sadece bilgi."
+  },
+  {
+   "id": 6569,
+   "slug": "asturo-k30-airless-pompa-2",
+   "title": "Asturo K30 Airless Pompa",
+   "path": "urunler/otomatik-boya-ekipmanlari/airless-boya-makinalari/asturo-k30-airless-pompa-2",
+   "not": "WP -N soneki; orijinal slug yayında değil. URL birebir korunacak, sadece bilgi."
+  },
+  {
+   "id": 6961,
+   "slug": "sagola-4100-xtreme-2",
+   "title": "Sagola 4100 XTREME",
+   "path": "urunler/otomatik-boya-ekipmanlari/boya-tabancalari/sagola-4100-xtreme-2",
+   "not": "WP -N soneki; orijinal slug yayında değil. URL birebir korunacak, sadece bilgi."
+  },
+  {
+   "id": 6962,
+   "slug": "sagola-3300-gto-alttan-2",
+   "title": "Sagola 3300 GTO Alttan",
+   "path": "urunler/otomatik-boya-ekipmanlari/boya-tabancalari/sagola-3300-gto-alttan-2",
+   "not": "WP -N soneki; orijinal slug yayında değil. URL birebir korunacak, sadece bilgi."
+  },
+  {
+   "id": 6963,
+   "slug": "sagola-3300-gto-2",
+   "title": "Sagola 3300 GTO",
+   "path": "urunler/otomatik-boya-ekipmanlari/boya-tabancalari/sagola-3300-gto-2",
+   "not": "WP -N soneki; orijinal slug yayında değil. URL birebir korunacak, sadece bilgi."
+  },
+  {
+   "id": 6967,
+   "slug": "j-90-airlessswivel-2",
+   "title": "J-90 AirlessSwivel",
+   "path": "urunler/otomatik-boya-ekipmanlari/boya-tabancalari/j-90-airlessswivel-2",
+   "not": "WP -N soneki; orijinal slug yayında değil. URL birebir korunacak, sadece bilgi."
+  },
+  {
+   "id": 6972,
+   "slug": "de-wilbiss-advance-hd-konvansiyonel-2",
+   "title": "De Wilbıss Advance HD Konvansiyonel",
+   "path": "urunler/otomatik-boya-ekipmanlari/boya-tabancalari/de-wilbiss-advance-hd-konvansiyonel-2",
+   "not": "WP -N soneki; orijinal slug yayında değil. URL birebir korunacak, sadece bilgi."
+  },
+  {
+   "id": 6973,
+   "slug": "carox-506a-2",
+   "title": "Carox 506A",
+   "path": "urunler/otomatik-boya-ekipmanlari/boya-tabancalari/carox-506a-2",
+   "not": "WP -N soneki; orijinal slug yayında değil. URL birebir korunacak, sadece bilgi."
+  },
+  {
+   "id": 6974,
+   "slug": "airmix-tabanca-2",
+   "title": "Airmix Tabanca",
+   "path": "urunler/otomatik-boya-ekipmanlari/boya-tabancalari/airmix-tabanca-2",
+   "not": "WP -N soneki; orijinal slug yayında değil. URL birebir korunacak, sadece bilgi."
+  },
+  {
+   "id": 7247,
+   "slug": "varil-karistirma-mikseri-2",
+   "title": "Varil Karıştırma Mikseri",
+   "path": "urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/varil-karistirma-mikseri-2",
+   "not": "WP -N soneki; orijinal slug yayında değil. URL birebir korunacak, sadece bilgi."
+  },
+  {
+   "id": 7267,
+   "slug": "hava-motoru-2",
+   "title": "Hava Motoru",
+   "path": "urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/hava-motoru-2",
+   "not": "WP -N soneki; orijinal slug yayında değil. URL birebir korunacak, sadece bilgi."
+  },
+  {
+   "id": 7281,
+   "slug": "gast-hava-motoru-3",
+   "title": "GAST HAVA MOTORU",
+   "path": "urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-3",
+   "not": "WP -N soneki; orijinal slug yayında değil. URL birebir korunacak, sadece bilgi."
+  }
+ ]
+}

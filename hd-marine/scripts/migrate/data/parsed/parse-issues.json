@@ -1,0 +1,2011 @@
+[
+ {
+  "id": 1072,
+  "slug": "gemi-kimyasallari",
+  "path": "urunler/endustriyel-urunler/gemi-kimyasallari",
+  "issues": [
+   "teknik_tablo_yok"
+  ]
+ },
+ {
+  "id": 2068,
+  "slug": "sanayi-kimyasallari",
+  "path": "urunler/endustriyel-urunler/sanayi-kimyasallari",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 2736,
+  "slug": "wilden-uyumlu-yedek-parca",
+  "path": "urunler/diyaframli-pompa-yedek-parcalari/wilden-uyumlu-yedek-parca",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 2740,
+  "slug": "aro-uyumlu-yedek-parca",
+  "path": "urunler/diyaframli-pompa-yedek-parcalari/aro-uyumlu-yedek-parca",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 2741,
+  "slug": "graco-uyumlu-yedek-parca",
+  "path": "urunler/diyaframli-pompa-yedek-parcalari/graco-uyumlu-yedek-parca",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 2742,
+  "slug": "sandpiper-uyumlu-yedek-parca",
+  "path": "urunler/diyaframli-pompa-yedek-parcalari/sandpiper-uyumlu-yedek-parca",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 2743,
+  "slug": "blagdon-uyumlu-yedek-parca",
+  "path": "urunler/diyaframli-pompa-yedek-parcalari/blagdon-uyumlu-yedek-parca",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 2744,
+  "slug": "versa-matic-uyumlu-yedek-parca",
+  "path": "urunler/diyaframli-pompa-yedek-parcalari/versa-matic-uyumlu-yedek-parca",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 2747,
+  "slug": "yamada-uyumlu-yedek-parca",
+  "path": "urunler/diyaframli-pompa-yedek-parcalari/yamada-uyumlu-yedek-parca",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 3889,
+  "slug": "sayfa2",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/sayfa2",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4137,
+  "slug": "havali-gres-pompasi-10-kg-2110",
+  "path": "urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-10-kg-2110",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok",
+   "aciklama_yok"
+  ]
+ },
+ {
+  "id": 4140,
+  "slug": "havali-gres-pompasi-20-kg-2220",
+  "path": "urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-20-kg-2220",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4141,
+  "slug": "havali-gres-pompasi-10-kg-2210",
+  "path": "urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-10-kg-2210",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4142,
+  "slug": "havali-gres-pompasi-50-kg-2150",
+  "path": "urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-50-kg-2150",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4143,
+  "slug": "havali-gres-pompasi-30-kg-2130",
+  "path": "urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-30-kg-2130",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4144,
+  "slug": "havali-gres-pompasi-16-kg-2126",
+  "path": "urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-16-kg-2126",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4145,
+  "slug": "havali-gres-pompasi-20-kg-2120",
+  "path": "urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-20-kg-2120",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4146,
+  "slug": "havali-gres-pompasi-teneke-tipi-16-kg",
+  "path": "urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-teneke-tipi-16-kg",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4154,
+  "slug": "havali-gres-pompasi-varil-tipi-451-2450",
+  "path": "urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-varil-tipi-451-2450",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4155,
+  "slug": "havali-gres-pompasi-30-kg-2430",
+  "path": "urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-30-kg-2430",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4156,
+  "slug": "havali-gres-pompasi-varil-tipi-701-2400",
+  "path": "urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-varil-tipi-701-2400",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4157,
+  "slug": "havali-gres-pompasi-30-kg-2330",
+  "path": "urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-30-kg-2330",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4158,
+  "slug": "havali-gres-pompasi-teneke-tipi-16-kg-2300",
+  "path": "urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-teneke-tipi-16-kg-2300",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4159,
+  "slug": "havali-gres-pompasi-50-kg-2250",
+  "path": "urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-50-kg-2250",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4160,
+  "slug": "havali-gres-pompasi-30-kg-2230",
+  "path": "urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-30-kg-2230",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4161,
+  "slug": "havali-gres-pompasi-16-kg-2226",
+  "path": "urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-16-kg-2226",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4231,
+  "slug": "mekanik-gres-pompasi-20-kg-2025",
+  "path": "urunler/yaglama-cihazlari/mekanik-gres-pompalari/mekanik-gres-pompasi-20-kg-2025",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4233,
+  "slug": "mekanik-gres-pompasi-pedalli-10-kg",
+  "path": "urunler/yaglama-cihazlari/mekanik-gres-pompalari/mekanik-gres-pompasi-pedalli-10-kg",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4235,
+  "slug": "mekanik-gres-pompasi-10-kg-2010",
+  "path": "urunler/yaglama-cihazlari/mekanik-gres-pompalari/mekanik-gres-pompasi-10-kg-2010",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4237,
+  "slug": "mekanik-gres-pompasi-teneke-tipi-16-kg-2016",
+  "path": "urunler/yaglama-cihazlari/mekanik-gres-pompalari/mekanik-gres-pompasi-teneke-tipi-16-kg-2016",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4253,
+  "slug": "mekanik-yag-pompasi-80-lt-4004",
+  "path": "urunler/yaglama-cihazlari/mekanik-yag-pompalari/mekanik-yag-pompasi-80-lt-4004",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4255,
+  "slug": "mekanik-yag-pompasi-25-lt-4025",
+  "path": "urunler/yaglama-cihazlari/mekanik-yag-pompalari/mekanik-yag-pompasi-25-lt-4025",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4256,
+  "slug": "mekanik-yag-pompasi-turlu-valvolin-18-lt-4018",
+  "path": "urunler/yaglama-cihazlari/mekanik-yag-pompalari/mekanik-yag-pompasi-turlu-valvolin-18-lt-4018",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4270,
+  "slug": "havali-yag-cekme-pompalari",
+  "path": "urunler/yaglama-cihazlari/yag-cekme-pompalari/havali-yag-cekme-pompalari",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4276,
+  "slug": "varil-muslugu-44387",
+  "path": "urunler/yaglama-cihazlari/atik-yag-tava-ve-kuvetleri/varil-muslugu-44387",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4281,
+  "slug": "yag-toplama-kuveti-125-lt-ytk2",
+  "path": "urunler/yaglama-cihazlari/atik-yag-tava-ve-kuvetleri/yag-toplama-kuveti-125-lt-ytk2",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4282,
+  "slug": "yag-toplama-kuveti-425-lt-ytk1",
+  "path": "urunler/yaglama-cihazlari/atik-yag-tava-ve-kuvetleri/yag-toplama-kuveti-425-lt-ytk1",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4283,
+  "slug": "atik-yag-tavasi-kanal-tipi-65-lt-ayt3",
+  "path": "urunler/yaglama-cihazlari/atik-yag-tava-ve-kuvetleri/atik-yag-tavasi-kanal-tipi-65-lt-ayt3",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4284,
+  "slug": "atik-yag-tavasi-50-lt-ayt2",
+  "path": "urunler/yaglama-cihazlari/atik-yag-tava-ve-kuvetleri/atik-yag-tavasi-50-lt-ayt2",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4285,
+  "slug": "atik-yag-tavasi-100-lt-ayt1",
+  "path": "urunler/yaglama-cihazlari/atik-yag-tava-ve-kuvetleri/atik-yag-tavasi-100-lt-ayt1",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4286,
+  "slug": "yag-bosaltma-tavasi-16-lt-41960",
+  "path": "urunler/yaglama-cihazlari/atik-yag-tava-ve-kuvetleri/yag-bosaltma-tavasi-16-lt-41960",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4287,
+  "slug": "yag-bosaltma-tavasi-1425-lt-41966",
+  "path": "urunler/yaglama-cihazlari/atik-yag-tava-ve-kuvetleri/yag-bosaltma-tavasi-1425-lt-41966",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4288,
+  "slug": "varil-muslugu-gostergeli-44420",
+  "path": "urunler/yaglama-cihazlari/atik-yag-tava-ve-kuvetleri/varil-muslugu-gostergeli-44420",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4318,
+  "slug": "havali-yag-dagiticisi-80-lt-4600",
+  "path": "urunler/yaglama-cihazlari/havali-yag-dagiticilari/havali-yag-dagiticisi-80-lt-4600",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4320,
+  "slug": "havali-yag-dagiticisi-24-lt-4620",
+  "path": "urunler/yaglama-cihazlari/havali-yag-dagiticilari/havali-yag-dagiticisi-24-lt-4620",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4322,
+  "slug": "parca-yikama-makinesi-80-lt-9200",
+  "path": "urunler/yaglama-cihazlari/parca-yikama-makinesi/parca-yikama-makinesi-80-lt-9200",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4330,
+  "slug": "seyyar-gres-varil-sistemi-svs2400",
+  "path": "urunler/yaglama-cihazlari/seyyar-yag-varil-sistemleri/seyyar-gres-varil-sistemi-svs2400",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok",
+   "harici_gorsel"
+  ]
+ },
+ {
+  "id": 4332,
+  "slug": "seyyar-yag-varil-sistemi-makarali-svs4500",
+  "path": "urunler/yaglama-cihazlari/seyyar-yag-varil-sistemleri/seyyar-yag-varil-sistemi-makarali-svs4500",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok",
+   "harici_gorsel"
+  ]
+ },
+ {
+  "id": 4333,
+  "slug": "seyyar-yag-varil-sistemi-svs4400",
+  "path": "urunler/yaglama-cihazlari/seyyar-yag-varil-sistemleri/seyyar-yag-varil-sistemi-svs4400",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok",
+   "harici_gorsel"
+  ]
+ },
+ {
+  "id": 4334,
+  "slug": "seyyar-gres-varil-sistemi-makarali-svs2500",
+  "path": "urunler/yaglama-cihazlari/seyyar-yag-varil-sistemleri/seyyar-gres-varil-sistemi-makarali-svs2500",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok",
+   "harici_gorsel"
+  ]
+ },
+ {
+  "id": 4350,
+  "slug": "mekanik-sayacli-yag-tabancasi-4109",
+  "path": "urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/mekanik-sayacli-yag-tabancasi-4109",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4352,
+  "slug": "sayacli-yag-tabancasi-agir-hizmet-4108",
+  "path": "urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/sayacli-yag-tabancasi-agir-hizmet-4108",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4353,
+  "slug": "presetli-sayacli-yag-tabancasi-4107",
+  "path": "urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/presetli-sayacli-yag-tabancasi-4107",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4354,
+  "slug": "sayacli-yag-tabancasi-4106s",
+  "path": "urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/sayacli-yag-tabancasi-4106s",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4355,
+  "slug": "sayacli-yag-tabancasi-4106p",
+  "path": "urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/sayacli-yag-tabancasi-4106p",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4356,
+  "slug": "sayacli-antifiriz-tabancasi-4106a",
+  "path": "urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/sayacli-antifiriz-tabancasi-4106a",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4357,
+  "slug": "mekanik-yag-tabancasi-4105",
+  "path": "urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/mekanik-yag-tabancasi-4105",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4360,
+  "slug": "mekanik-yag-tabancasi-4101",
+  "path": "urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/mekanik-yag-tabancasi-4101",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4361,
+  "slug": "sayacli-gres-tabancasi-2306s",
+  "path": "urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/sayacli-gres-tabancasi-2306s",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4362,
+  "slug": "sayacli-gres-tabancasi-2306p",
+  "path": "urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/sayacli-gres-tabancasi-2306p",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4363,
+  "slug": "gres-tabancasi-230565",
+  "path": "urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/gres-tabancasi-230565",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4364,
+  "slug": "gres-tabancasi-23050565",
+  "path": "urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/gres-tabancasi-23050565",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4365,
+  "slug": "gres-tabancasi-230505",
+  "path": "urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/gres-tabancasi-230505",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4366,
+  "slug": "gres-tabancasi-2305",
+  "path": "urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/gres-tabancasi-2305",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4393,
+  "slug": "gresorluk-seti-113-parca-gs3113",
+  "path": "urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/gresorluk-seti-113-parca-gs3113",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok",
+   "harici_gorsel"
+  ]
+ },
+ {
+  "id": 4395,
+  "slug": "gresorluk-seti-103-parca-gs2103",
+  "path": "urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/gresorluk-seti-103-parca-gs2103",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok",
+   "harici_gorsel"
+  ]
+ },
+ {
+  "id": 4396,
+  "slug": "gresorluk-seti-83-parca-gs183",
+  "path": "urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/gresorluk-seti-83-parca-gs183",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok",
+   "harici_gorsel"
+  ]
+ },
+ {
+  "id": 4397,
+  "slug": "gres-yaglama-kiti-44950",
+  "path": "urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/gres-yaglama-kiti-44950",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4398,
+  "slug": "tekalamit-buton-baslik-43575",
+  "path": "urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/tekalamit-buton-baslik-43575",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok",
+   "harici_gorsel"
+  ]
+ },
+ {
+  "id": 4399,
+  "slug": "buton-baslik-43566",
+  "path": "urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/buton-baslik-43566",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok",
+   "harici_gorsel"
+  ]
+ },
+ {
+  "id": 4400,
+  "slug": "buton-baslik-43565",
+  "path": "urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/buton-baslik-43565",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok",
+   "harici_gorsel"
+  ]
+ },
+ {
+  "id": 4401,
+  "slug": "tekalamit-buton-baslik-43563",
+  "path": "urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/tekalamit-buton-baslik-43563",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok",
+   "harici_gorsel"
+  ]
+ },
+ {
+  "id": 4402,
+  "slug": "mafsalli-gres-ucu-43561",
+  "path": "urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/mafsalli-gres-ucu-43561",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4403,
+  "slug": "hizli-gres-ucu-43545",
+  "path": "urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/hizli-gres-ucu-43545",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4404,
+  "slug": "gres-sivri-ucu-2075",
+  "path": "urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/gres-sivri-ucu-2075",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4405,
+  "slug": "gres-ucu-2045",
+  "path": "urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/gres-ucu-2045",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4421,
+  "slug": "havali-gres-transfer-pompasi-2460",
+  "path": "urunler/yaglama-cihazlari/havali-transfer-pompalari/havali-gres-transfer-pompasi-2460",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4423,
+  "slug": "havali-yag-transfer-pompasi-1035",
+  "path": "urunler/yaglama-cihazlari/havali-transfer-pompalari/havali-yag-transfer-pompasi-1035",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4424,
+  "slug": "havali-yag-transfer-pompasi-1005",
+  "path": "urunler/yaglama-cihazlari/havali-transfer-pompalari/havali-yag-transfer-pompasi-1005",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4431,
+  "slug": "ibc-yag-sistemi-makarali-ibc4500",
+  "path": "urunler/yaglama-cihazlari/ibc-yag-sistemleri/ibc-yag-sistemi-makarali-ibc4500",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok",
+   "harici_gorsel"
+  ]
+ },
+ {
+  "id": 4436,
+  "slug": "ibc-yag-sistemi-makarasiz-ibc3045",
+  "path": "urunler/yaglama-cihazlari/ibc-yag-sistemleri/ibc-yag-sistemi-makarasiz-ibc3045",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok",
+   "harici_gorsel"
+  ]
+ },
+ {
+  "id": 4439,
+  "slug": "plastik-huniler-ph",
+  "path": "urunler/yaglama-cihazlari/litre-kaplari-ve-huniler/plastik-huniler-ph",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok",
+   "harici_gorsel"
+  ]
+ },
+ {
+  "id": 4444,
+  "slug": "havali-yag-bosaltma-deposu-tanki-agir-hizmet-80-lt-4295",
+  "path": "urunler/yaglama-cihazlari/yag-bosaltma-kovalari/havali-yag-bosaltma-deposu-tanki-agir-hizmet-80-lt-4295",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4445,
+  "slug": "havali-yag-bosaltma-deposu-gostergeli-80-lt-42909",
+  "path": "urunler/yaglama-cihazlari/yag-bosaltma-kovalari/havali-yag-bosaltma-deposu-gostergeli-80-lt-42909",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4446,
+  "slug": "havali-yag-bosaltma-deposu-tanki-60-lt-4260",
+  "path": "urunler/yaglama-cihazlari/yag-bosaltma-kovalari/havali-yag-bosaltma-deposu-tanki-60-lt-4260",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4447,
+  "slug": "havali-yag-bosaltma-deposu-tanki-80-lt-4290",
+  "path": "urunler/yaglama-cihazlari/yag-bosaltma-kovalari/havali-yag-bosaltma-deposu-tanki-80-lt-4290",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4448,
+  "slug": "yag-bosaltma-kovasi-50-lt-4250",
+  "path": "urunler/yaglama-cihazlari/yag-bosaltma-kovalari/yag-bosaltma-kovasi-50-lt-4250",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4461,
+  "slug": "metal-litre-kaplari-ltk",
+  "path": "urunler/yaglama-cihazlari/litre-kaplari-ve-huniler/metal-litre-kaplari-ltk",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4462,
+  "slug": "plastik-litre-kaplari-lkp",
+  "path": "urunler/yaglama-cihazlari/litre-kaplari-ve-huniler/plastik-litre-kaplari-lkp",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok",
+   "harici_gorsel"
+  ]
+ },
+ {
+  "id": 4463,
+  "slug": "plastik-litre-kaplari-kapakli-lkpk",
+  "path": "urunler/yaglama-cihazlari/litre-kaplari-ve-huniler/plastik-litre-kaplari-kapakli-lkpk",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4464,
+  "slug": "metal-huniler-hn",
+  "path": "urunler/yaglama-cihazlari/litre-kaplari-ve-huniler/metal-huniler-hn",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok",
+   "harici_gorsel"
+  ]
+ },
+ {
+  "id": 4476,
+  "slug": "graco-uyumlu-yedek-parca",
+  "path": "urunler/yaglama-cihazlari/elektrikli-yag-pompalari/graco-uyumlu-yedek-parca",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4477,
+  "slug": "havali-sabit-yag-varil-sistemi-dvs4500",
+  "path": "urunler/yaglama-cihazlari/sabit-varil-sistemleri/havali-sabit-yag-varil-sistemi-dvs4500",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok",
+   "harici_gorsel"
+  ]
+ },
+ {
+  "id": 4478,
+  "slug": "havali-sabit-gres-varil-sistemi-dvs2500",
+  "path": "urunler/yaglama-cihazlari/sabit-varil-sistemleri/havali-sabit-gres-varil-sistemi-dvs2500",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok",
+   "harici_gorsel"
+  ]
+ },
+ {
+  "id": 4489,
+  "slug": "paletli-yag-pompalari",
+  "path": "urunler/yaglama-cihazlari/elektrikli-yag-pompalari/paletli-yag-pompalari",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok",
+   "aciklama_yok",
+   "harici_gorsel"
+  ]
+ },
+ {
+  "id": 4490,
+  "slug": "disli-yag-pompalari",
+  "path": "urunler/yaglama-cihazlari/elektrikli-yag-pompalari/disli-yag-pompalari",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok",
+   "aciklama_yok"
+  ]
+ },
+ {
+  "id": 4497,
+  "slug": "havali-yag-pompasi-varil-tipi-31-22-lt-4455",
+  "path": "urunler/yaglama-cihazlari/havali-yag-pompalari/havali-yag-pompasi-varil-tipi-31-22-lt-4455",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok",
+   "harici_gorsel"
+  ]
+ },
+ {
+  "id": 4499,
+  "slug": "havali-yag-pompasi-varil-tipi-51-18-lt-4450",
+  "path": "urunler/yaglama-cihazlari/havali-yag-pompalari/havali-yag-pompasi-varil-tipi-51-18-lt-4450",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok",
+   "harici_gorsel"
+  ]
+ },
+ {
+  "id": 4500,
+  "slug": "havali-yag-pompasi-varil-tipi-31-15-lt-4405",
+  "path": "urunler/yaglama-cihazlari/havali-yag-pompalari/havali-yag-pompasi-varil-tipi-31-15-lt-4405",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok",
+   "harici_gorsel"
+  ]
+ },
+ {
+  "id": 4501,
+  "slug": "havali-yag-pompasi-varil-tipi-51-12-lt-4400",
+  "path": "urunler/yaglama-cihazlari/havali-yag-pompalari/havali-yag-pompasi-varil-tipi-51-12-lt-4400",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4502,
+  "slug": "havali-yag-pompasi-80-lt-4200",
+  "path": "urunler/yaglama-cihazlari/havali-yag-pompalari/havali-yag-pompasi-80-lt-4200",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4503,
+  "slug": "havali-yag-pompasi-80-lt-4190",
+  "path": "urunler/yaglama-cihazlari/havali-yag-pompalari/havali-yag-pompasi-80-lt-4190",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4504,
+  "slug": "havali-yag-pompasi-duvar-tipi-31-22-lt-3046",
+  "path": "urunler/yaglama-cihazlari/havali-yag-pompalari/havali-yag-pompasi-duvar-tipi-31-22-lt-3046",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4505,
+  "slug": "havali-yag-pompasi-duvar-tipi-31-15-lt-3045",
+  "path": "urunler/yaglama-cihazlari/havali-yag-pompalari/havali-yag-pompasi-duvar-tipi-31-15-lt-3045",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4506,
+  "slug": "havali-yag-pompasi-duvar-tipi-51-12-lt-3044",
+  "path": "urunler/yaglama-cihazlari/havali-yag-pompalari/havali-yag-pompasi-duvar-tipi-51-12-lt-3044",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4507,
+  "slug": "havali-yag-pompasi-duvar-tipi-51-18-lt-3043",
+  "path": "urunler/yaglama-cihazlari/havali-yag-pompalari/havali-yag-pompasi-duvar-tipi-51-18-lt-3043",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4541,
+  "slug": "mekanik-sivi-transfer-pompasi-4003",
+  "path": "urunler/yaglama-cihazlari/mekanik-transfer-pompalari/mekanik-sivi-transfer-pompasi-4003",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok",
+   "harici_gorsel"
+  ]
+ },
+ {
+  "id": 4543,
+  "slug": "mekanik-sivi-transfer-pompasi-4013",
+  "path": "urunler/yaglama-cihazlari/mekanik-transfer-pompalari/mekanik-sivi-transfer-pompasi-4013",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4544,
+  "slug": "mekanik-sivi-transfer-pompasi-4012",
+  "path": "urunler/yaglama-cihazlari/mekanik-transfer-pompalari/mekanik-sivi-transfer-pompasi-4012",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4545,
+  "slug": "mekanik-sivi-transfer-pompasi-4011",
+  "path": "urunler/yaglama-cihazlari/mekanik-transfer-pompalari/mekanik-sivi-transfer-pompasi-4011",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4546,
+  "slug": "mekanik-sivi-transfer-pompasi-44100",
+  "path": "urunler/yaglama-cihazlari/mekanik-transfer-pompalari/mekanik-sivi-transfer-pompasi-44100",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4557,
+  "slug": "govdeden-itmeli-yag-pompasi-iyp",
+  "path": "urunler/yaglama-cihazlari/el-gres-pompalari-ve-yagdanliklari/govdeden-itmeli-yag-pompasi-iyp",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4559,
+  "slug": "govdeden-itmeli-gres-pompasi-igp",
+  "path": "urunler/yaglama-cihazlari/el-gres-pompalari-ve-yagdanliklari/govdeden-itmeli-gres-pompasi-igp",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4560,
+  "slug": "havali-el-gres-pompasi-hegp500",
+  "path": "urunler/yaglama-cihazlari/el-gres-pompalari-ve-yagdanliklari/havali-el-gres-pompasi-hegp500",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4561,
+  "slug": "sarjli-el-gres-pompasi-gfp-18v-10",
+  "path": "urunler/yaglama-cihazlari/el-gres-pompalari-ve-yagdanliklari/sarjli-el-gres-pompasi-gfp-18v-10",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4562,
+  "slug": "metal-yagdanlik-gf216",
+  "path": "urunler/yaglama-cihazlari/el-gres-pompalari-ve-yagdanliklari/metal-yagdanlik-gf216",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4563,
+  "slug": "metal-yagdanlik-gf214",
+  "path": "urunler/yaglama-cihazlari/el-gres-pompalari-ve-yagdanliklari/metal-yagdanlik-gf214",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4564,
+  "slug": "el-gres-pompasi-egp500",
+  "path": "urunler/yaglama-cihazlari/el-gres-pompalari-ve-yagdanliklari/el-gres-pompasi-egp500",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4565,
+  "slug": "el-gres-pompasi-500-cc-g5",
+  "path": "urunler/yaglama-cihazlari/el-gres-pompalari-ve-yagdanliklari/el-gres-pompasi-500-cc-g5",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4566,
+  "slug": "el-gres-pompasi-egp1000",
+  "path": "urunler/yaglama-cihazlari/el-gres-pompalari-ve-yagdanliklari/el-gres-pompasi-egp1000",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4588,
+  "slug": "mekanik-yag-pompasi-25-lt-4025n",
+  "path": "urunler/yaglama-cihazlari/yag-ve-gres-pompalari/mekanik-yag-pompasi-25-lt-4025n",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4589,
+  "slug": "tankli-yag-sistemi-tys4400",
+  "path": "urunler/yaglama-cihazlari/tankli-yag-sistemi/tankli-yag-sistemi-tys4400",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok",
+   "harici_gorsel"
+  ]
+ },
+ {
+  "id": 4595,
+  "slug": "mekanik-yag-pompasi-18-lt-4018n",
+  "path": "urunler/yaglama-cihazlari/yag-ve-gres-pompalari/mekanik-yag-pompasi-18-lt-4018n",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4596,
+  "slug": "havali-gres-pompasi-701-2330n",
+  "path": "urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-701-2330n",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4597,
+  "slug": "havali-gres-pompasi-701-2300n",
+  "path": "urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-701-2300n",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4598,
+  "slug": "havali-gres-pompasi-701-2250n",
+  "path": "urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-701-2250n",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4599,
+  "slug": "havali-gres-pompasi-701-2230n",
+  "path": "urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-701-2230n",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4600,
+  "slug": "havali-gres-pompasi-701-2226n",
+  "path": "urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-701-2226n",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4601,
+  "slug": "havali-gres-pompasi-701-2220n",
+  "path": "urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-701-2220n",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4602,
+  "slug": "havali-gres-pompasi-701-2210n",
+  "path": "urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-701-2210n",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4603,
+  "slug": "havali-gres-pompasi-451-2150n",
+  "path": "urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-451-2150n",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4604,
+  "slug": "havali-gres-pompasi-451-2130n",
+  "path": "urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-451-2130n",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4605,
+  "slug": "havali-gres-pompasi-451-2126n",
+  "path": "urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-451-2126n",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4606,
+  "slug": "havali-gres-pompasi-451-2120n",
+  "path": "urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-451-2120n",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4607,
+  "slug": "mekanik-gres-pompasi-16-kg-2016n",
+  "path": "urunler/yaglama-cihazlari/yag-ve-gres-pompalari/mekanik-gres-pompasi-16-kg-2016n",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4608,
+  "slug": "mekanik-gres-pompasi-20-kg-2025n",
+  "path": "urunler/yaglama-cihazlari/yag-ve-gres-pompalari/mekanik-gres-pompasi-20-kg-2025n",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4609,
+  "slug": "havali-gres-pompasi-451-2110n",
+  "path": "urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-451-2110n",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4613,
+  "slug": "mekanik-gres-pompasi-10-kg-2010n",
+  "path": "urunler/yaglama-cihazlari/yag-ve-gres-pompalari/mekanik-gres-pompasi-10-kg-2010n",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4631,
+  "slug": "havali-yag-pompasi-51-4190n",
+  "path": "urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-yag-pompasi-51-4190n",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4720,
+  "slug": "manuel-mazot-tabancasi-s3000",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/manuel-mazot-tabancasi-s3000",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4722,
+  "slug": "manuel-mazot-tabancasi-s2000",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/manuel-mazot-tabancasi-s2000",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4724,
+  "slug": "otomatik-rekor-1-or0352",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/otomatik-rekor-1-or0352",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4725,
+  "slug": "otomatik-rekor-3-4-or0347",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/otomatik-rekor-3-4-or0347",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4726,
+  "slug": "hortumlar",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/hortumlar",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok",
+   "aciklama_yok",
+   "harici_gorsel"
+  ]
+ },
+ {
+  "id": 4727,
+  "slug": "yag-bosaltma-hunisi-7903",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/yag-bosaltma-hunisi-7903",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4728,
+  "slug": "yag-bosaltma-hunisi-7902",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/yag-bosaltma-hunisi-7902",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4729,
+  "slug": "kopuk-puskurtme-tabancasi-7442",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/kopuk-puskurtme-tabancasi-7442",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4730,
+  "slug": "sivi-puskurtme-tabancasi-7441",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/sivi-puskurtme-tabancasi-7441",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4731,
+  "slug": "hava-sartlandirici-1-2-7132",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/hava-sartlandirici-1-2-7132",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4732,
+  "slug": "hava-regulatoru-7131",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/hava-regulatoru-7131",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4733,
+  "slug": "varil-baglanti-takozu-7130",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/varil-baglanti-takozu-7130",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4734,
+  "slug": "duvar-aski-aparati-7120",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/duvar-aski-aparati-7120",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4735,
+  "slug": "yag-tabanca-askiligi-7110",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/yag-tabanca-askiligi-7110",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4736,
+  "slug": "yag-emme-soketi-652",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/yag-emme-soketi-652",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4737,
+  "slug": "yag-emme-soketi-651",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/yag-emme-soketi-651",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4738,
+  "slug": "yag-emme-cubugu-takim-6096",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/yag-emme-cubugu-takim-6096",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4739,
+  "slug": "yag-emme-cubugu-takim-6095",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/yag-emme-cubugu-takim-6095",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4740,
+  "slug": "gres-yaglama-kiti-44950",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/gres-yaglama-kiti-44950",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4741,
+  "slug": "otomatik-akaryakit-tabancasi-3-4-4312",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/otomatik-akaryakit-tabancasi-3-4-4312",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4742,
+  "slug": "otomatik-akaryakit-tabancasi-1-4218",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/otomatik-akaryakit-tabancasi-1-4218",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4743,
+  "slug": "dijital-yag-sayaci-4104",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/dijital-yag-sayaci-4104",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4744,
+  "slug": "gres-yag-baski-yayi-2726",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/gres-yag-baski-yayi-2726",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4745,
+  "slug": "gres-yag-baski-yayi-2725",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/gres-yag-baski-yayi-2725",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4746,
+  "slug": "gres-yag-baski-yayi-2724",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/gres-yag-baski-yayi-2724",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4747,
+  "slug": "gres-yag-baski-yayi-2723",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/gres-yag-baski-yayi-2723",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4748,
+  "slug": "gres-yag-baski-tablasi-2660",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/gres-yag-baski-tablasi-2660",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4749,
+  "slug": "gres-yag-baski-tablasi-2625",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/gres-yag-baski-tablasi-2625",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4750,
+  "slug": "gres-yag-baski-tablasi-2624",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/gres-yag-baski-tablasi-2624",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4751,
+  "slug": "gres-yag-baski-tablasi-2623",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/gres-yag-baski-tablasi-2623",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4752,
+  "slug": "gres-yag-baski-tablasi-2621",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/gres-yag-baski-tablasi-2621",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4753,
+  "slug": "gres-yag-baski-agirligi-2620",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/gres-yag-baski-agirligi-2620",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4754,
+  "slug": "varil-tasima-arabasi-2420",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/varil-tasima-arabasi-2420",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4755,
+  "slug": "gres-teneke-arabasi-2416",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/gres-teneke-arabasi-2416",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4756,
+  "slug": "varil-tasima-arabasi-2410",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/varil-tasima-arabasi-2410",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4757,
+  "slug": "gres-l-mafsali-2407",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/gres-l-mafsali-2407",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4758,
+  "slug": "gres-i-mafsali-2406",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/gres-i-mafsali-2406",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4759,
+  "slug": "gres-z-mafsali-2405",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/gres-z-mafsali-2405",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4760,
+  "slug": "hava-kaplini-2095",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/hava-kaplini-2095",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4761,
+  "slug": "gres-varil-kapagi-2085",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/gres-varil-kapagi-2085",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4762,
+  "slug": "gres-spiral-hortumu-2065k",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/gres-spiral-hortumu-2065k",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4763,
+  "slug": "gres-spiral-hortumu-2065i",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/gres-spiral-hortumu-2065i",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4764,
+  "slug": "otomatik-adblue-tabancasi-13660",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/otomatik-adblue-tabancasi-13660",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4765,
+  "slug": "mekanik-adblue-tabancasi-1366",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/mekanik-adblue-tabancasi-1366",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4766,
+  "slug": "yag-emis-hortumu-0776",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/yag-emis-hortumu-0776",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4767,
+  "slug": "tetikli-yikama-tabancasi-0549",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/tetikli-yikama-tabancasi-0549",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4768,
+  "slug": "uzun-hava-tabancasi-0243",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/uzun-hava-tabancasi-0243",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4769,
+  "slug": "kisa-hava-tabancasi-0242",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/kisa-hava-tabancasi-0242",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4770,
+  "slug": "lastik-sisirme-tabancasi-0232",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/lastik-sisirme-tabancasi-0232",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4771,
+  "slug": "mazot-puskurtme-tabancasi-0228",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/mazot-puskurtme-tabancasi-0228",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4772,
+  "slug": "hava-sartlandirici-1-4-0225",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/hava-sartlandirici-1-4-0225",
+  "issues": [
+   "tablo_basligi_standart_disi",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4773,
+  "slug": "varil-takozu-0106",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/varil-takozu-0106",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4774,
+  "slug": "yikama-makinasi-tabanca-memesi-2",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/yikama-makinasi-tabanca-memesi-2",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4775,
+  "slug": "tecomec-7443-teleskobik-kopuk-puskurtme-tabancasi",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/tecomec-7443-teleskobik-kopuk-puskurtme-tabancasi",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4776,
+  "slug": "tecomec-0543-tetiksiz-basincli-yikama-tabancasi-3",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/tecomec-0543-tetiksiz-basincli-yikama-tabancasi-3",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4777,
+  "slug": "tecomec-0543-tetiksiz-basincli-yikama-tabancasi-2",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/tecomec-0543-tetiksiz-basincli-yikama-tabancasi-2",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4778,
+  "slug": "tarus-7442-kopuk-puskurtme-tabancasi",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/tarus-7442-kopuk-puskurtme-tabancasi",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 4779,
+  "slug": "tarus-7441-sivi-puskurtme-tabancasi-2",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar/tarus-7441-sivi-puskurtme-tabancasi-2",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 5176,
+  "slug": "elektrikli-karterden-yag-cekme-emme-pompasi-9-lt-6910",
+  "path": "urunler/yaglama-cihazlari/yag-cekme-pompalari/elektrikli-yag-cekme-pompalari/elektrikli-karterden-yag-cekme-emme-pompasi-9-lt-6910",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 5178,
+  "slug": "elektrikli-karterden-yag-cekme-emme-pompasi-80-lt-6980",
+  "path": "urunler/yaglama-cihazlari/yag-cekme-pompalari/elektrikli-yag-cekme-pompalari/elektrikli-karterden-yag-cekme-emme-pompasi-80-lt-6980",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 5180,
+  "slug": "elektrikli-karterden-yag-cekme-emme-pompasi-80-lt-6970",
+  "path": "urunler/yaglama-cihazlari/yag-cekme-pompalari/elektrikli-yag-cekme-pompalari/elektrikli-karterden-yag-cekme-emme-pompasi-80-lt-6970",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 5185,
+  "slug": "elektrikli-yag-cekme-pompalari",
+  "path": "urunler/yaglama-cihazlari/yag-cekme-pompalari/elektrikli-yag-cekme-pompalari/elektrikli-yag-cekme-pompalari",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok",
+   "aciklama_yok"
+  ]
+ },
+ {
+  "id": 5846,
+  "slug": "havali-gres-pompasi-451-2116n",
+  "path": "urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-451-2116n",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok"
+  ]
+ },
+ {
+  "id": 6772,
+  "slug": "paslanmaz-basincli-boya-kazani-10-litre",
+  "path": "urunler/otomatik-boya-ekipmanlari/basincli-boya-kazanlari/paslanmaz-basincli-boya-kazani-10-litre",
+  "issues": [
+   "h1_yok"
+  ]
+ },
+ {
+  "id": 7247,
+  "slug": "varil-karistirma-mikseri-2",
+  "path": "urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/varil-karistirma-mikseri-2",
+  "issues": [
+   "tablo_basligi_standart_disi"
+  ]
+ },
+ {
+  "id": 7265,
+  "slug": "varil-tipi-pnomatik-mikser",
+  "path": "urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/varil-tipi-pnomatik-mikser",
+  "issues": [
+   "tablo_basligi_standart_disi"
+  ]
+ },
+ {
+  "id": 7266,
+  "slug": "sehpali-havali-karistirici",
+  "path": "urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/sehpali-havali-karistirici",
+  "issues": [
+   "tablo_basligi_standart_disi"
+  ]
+ },
+ {
+  "id": 7267,
+  "slug": "hava-motoru-2",
+  "path": "urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/hava-motoru-2",
+  "issues": [
+   "tablo_basligi_standart_disi"
+  ]
+ },
+ {
+  "id": 7268,
+  "slug": "gast-hava-motoru-8am-nrv-28a",
+  "path": "urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-8am-nrv-28a",
+  "issues": [
+   "tablo_basligi_standart_disi"
+  ]
+ },
+ {
+  "id": 7269,
+  "slug": "gast-hava-motoru-6am-nrv-7a",
+  "path": "urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-6am-nrv-7a",
+  "issues": [
+   "tablo_basligi_standart_disi"
+  ]
+ },
+ {
+  "id": 7270,
+  "slug": "gast-hava-motoru-6am-arv-54",
+  "path": "urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-6am-arv-54",
+  "issues": [
+   "tablo_basligi_standart_disi"
+  ]
+ },
+ {
+  "id": 7271,
+  "slug": "gast-hava-motoru-4am-nrv-54",
+  "path": "urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-4am-nrv-54",
+  "issues": [
+   "tablo_basligi_standart_disi"
+  ]
+ },
+ {
+  "id": 7272,
+  "slug": "gast-hava-motoru-4am-nrv-50c",
+  "path": "urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-4am-nrv-50c",
+  "issues": [
+   "tablo_basligi_standart_disi"
+  ]
+ },
+ {
+  "id": 7273,
+  "slug": "gast-hava-motoru-4am-nrv-22b",
+  "path": "urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-4am-nrv-22b",
+  "issues": [
+   "tablo_basligi_standart_disi"
+  ]
+ },
+ {
+  "id": 7274,
+  "slug": "gast-hava-motoru-4am-arv-119",
+  "path": "urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-4am-arv-119",
+  "issues": [
+   "tablo_basligi_standart_disi"
+  ]
+ },
+ {
+  "id": 7275,
+  "slug": "gast-hava-motoru-4-am-frv-63a",
+  "path": "urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-4-am-frv-63a",
+  "issues": [
+   "tablo_basligi_standart_disi"
+  ]
+ },
+ {
+  "id": 7276,
+  "slug": "gast-hava-motoru-2am-ncw-7a",
+  "path": "urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-2am-ncw-7a",
+  "issues": [
+   "tablo_basligi_standart_disi"
+  ]
+ },
+ {
+  "id": 7277,
+  "slug": "gast-hava-motoru-2am-ncc-16",
+  "path": "urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-2am-ncc-16",
+  "issues": [
+   "tablo_basligi_standart_disi"
+  ]
+ },
+ {
+  "id": 7278,
+  "slug": "gast-hava-motoru-2am-arv-92",
+  "path": "urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-2am-arv-92",
+  "issues": [
+   "tablo_basligi_standart_disi"
+  ]
+ },
+ {
+  "id": 7279,
+  "slug": "gast-hava-motoru-1up-nrv-3a",
+  "path": "urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-1up-nrv-3a",
+  "issues": [
+   "tablo_basligi_standart_disi"
+  ]
+ },
+ {
+  "id": 7280,
+  "slug": "gast-hava-motoru-1am-nrv-39a",
+  "path": "urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-1am-nrv-39a",
+  "issues": [
+   "h1_yok",
+   "tablo_basligi_standart_disi"
+  ]
+ },
+ {
+  "id": 7281,
+  "slug": "gast-hava-motoru-3",
+  "path": "urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-3",
+  "issues": [
+   "tablo_basligi_standart_disi"
+  ]
+ },
+ {
+  "id": 7607,
+  "slug": "mono-pompa-yedek-parca",
+  "path": "urunler/endustriyel-pompalar/mono-pompa-yedek-parca",
+  "issues": [
+   "teknik_tablo_yok",
+   "sss_yok"
+  ]
+ }
+]

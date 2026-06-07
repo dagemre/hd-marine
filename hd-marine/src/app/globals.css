@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* HD Marine — kurumsal palet (Context tasarımlarından) */
+@theme {
+  --color-brand-50: #eef6ff;
+  --color-brand-100: #d9eaff;
+  --color-brand-200: #bcdbff;
+  --color-brand-300: #8ec4ff;
+  --color-brand-400: #59a3ff;
+  --color-brand-500: #3380fc;
+  --color-brand-600: #1d60f1;
+  --color-brand-700: #154bde;
+  --color-brand-800: #173db4;
+  --color-brand-900: #19388d;
+  --color-brand-950: #142356; /* koyu lacivert hero zemini */
+
+  --color-ink-900: #0f172a;
+  --color-ink-600: #475569;
+  --color-ink-400: #94a3b8;
+
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-ink-900 antialiased;
+}

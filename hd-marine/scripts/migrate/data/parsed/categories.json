@@ -1,0 +1,3326 @@
+[
+ {
+  "id": 128,
+  "slug": "urunler",
+  "title": "Ürünler",
+  "path": "urunler",
+  "parent_id": 0,
+  "link": "https://hdmarine.com.tr/urunler/",
+  "children": [
+   {
+    "id": 279,
+    "slug": "endustriyel-pompalar",
+    "title": "Endustriyel Pompalar",
+    "type": "category"
+   },
+   {
+    "id": 437,
+    "slug": "sizdirmazlik-elemanlari",
+    "title": "Sızdırmazlık Elemanları",
+    "type": "category"
+   },
+   {
+    "id": 440,
+    "slug": "boru-tamir-ekipmanlari",
+    "title": "Boru Tamir Ekipmanları",
+    "type": "category"
+   },
+   {
+    "id": 443,
+    "slug": "endustriyel-urunler",
+    "title": "Endüstriyel Ürünler",
+    "type": "category"
+   },
+   {
+    "id": 2733,
+    "slug": "diyaframli-pompa-yedek-parcalari",
+    "title": "Diyaframlı Pompa Yedek Parçaları",
+    "type": "category"
+   },
+   {
+    "id": 2909,
+    "slug": "otomatik-boya-ekipmanlari",
+    "title": "Otomatik Boya Ekipmanları",
+    "type": "category"
+   },
+   {
+    "id": 3136,
+    "slug": "yaglama-cihazlari",
+    "title": "Yağlama cihazları",
+    "type": "category"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/1omyagpalar-product1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2024/10/1ompalar-product1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/06/ga12111-1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2024/09/product211.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2024/10/1-hover-9.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/495.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2024/09/product2-boru-tamir-kelepce.jpg",
+    "alt": ""
+   }
+  ]
+ },
+ {
+  "id": 279,
+  "slug": "endustriyel-pompalar",
+  "title": "Endustriyel Pompalar",
+  "path": "urunler/endustriyel-pompalar",
+  "parent_id": 128,
+  "link": "https://hdmarine.com.tr/urunler/endustriyel-pompalar/",
+  "children": [
+   {
+    "id": 628,
+    "slug": "diyaframli-pompa",
+    "title": "Diyaframlı Pompa",
+    "type": "product"
+   },
+   {
+    "id": 693,
+    "slug": "disli-pompa",
+    "title": "Dişli Pompa",
+    "type": "product"
+   },
+   {
+    "id": 698,
+    "slug": "blower",
+    "title": "Blower",
+    "type": "product"
+   },
+   {
+    "id": 736,
+    "slug": "manyetik-asit-pompalari",
+    "title": "Manyetik Asit Pompaları",
+    "type": "product"
+   },
+   {
+    "id": 747,
+    "slug": "varil-pompasi",
+    "title": "Varil Pompası",
+    "type": "product"
+   },
+   {
+    "id": 752,
+    "slug": "vakum-pompasi",
+    "title": "Vakum Pompası",
+    "type": "product"
+   },
+   {
+    "id": 757,
+    "slug": "dozaj-pompasi",
+    "title": "Dozaj Pompası",
+    "type": "product"
+   },
+   {
+    "id": 766,
+    "slug": "monopompa",
+    "title": "Monopompa",
+    "type": "product"
+   },
+   {
+    "id": 2493,
+    "slug": "sine-lob-pompa",
+    "title": "Sine Lob Pompa",
+    "type": "product"
+   },
+   {
+    "id": 7607,
+    "slug": "mono-pompa-yedek-parca",
+    "title": "Mono Pompa Yedek Parça",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/01/hd-mar1212.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2024/09/hd-mar13.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2024/09/hd-mar14.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/06/SHM_PB.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/06/v1aril123.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2024/09/HD-33.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2024/09/hd-mar19.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2024/09/hd-mar20.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2024/10/1ompalar-product1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/03/monopompa_rotor_stator.png",
+    "alt": ""
+   }
+  ]
+ },
+ {
+  "id": 437,
+  "slug": "sizdirmazlik-elemanlari",
+  "title": "Sızdırmazlık Elemanları",
+  "path": "urunler/sizdirmazlik-elemanlari",
+  "parent_id": 128,
+  "link": "https://hdmarine.com.tr/urunler/sizdirmazlik-elemanlari/",
+  "children": [
+   {
+    "id": 769,
+    "slug": "spiral-sarimli-celik-conta",
+    "title": "Spiral Sarımlı Çelik Conta",
+    "type": "product"
+   },
+   {
+    "id": 774,
+    "slug": "grafitli-ve-klingrit-contalar",
+    "title": "Grafitli ve Klingrit Contalar",
+    "type": "product"
+   },
+   {
+    "id": 779,
+    "slug": "teflon-ve-yapiskanli-teflon-conta",
+    "title": "Teflon ve Yapışkanlı Teflon Conta",
+    "type": "product"
+   },
+   {
+    "id": 784,
+    "slug": "yumusak-salmastralar",
+    "title": "Yumuşak Salmastralar",
+    "type": "product"
+   },
+   {
+    "id": 789,
+    "slug": "ambar-kapak-bantlari",
+    "title": "Ambar Kapak Bantları",
+    "type": "product"
+   },
+   {
+    "id": 2559,
+    "slug": "anti-splashing-tape",
+    "title": "Anti Splashing Tape",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/04/Anti-Splashing-Tape.jpeg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/06/ga12111-1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2024/10/img-gasket-sheets1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/06/P.T.F12.E-SERITL12ER-C12ONTALON.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/06/SAF-P.T.F.E-SALMASTRA.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2024/09/hd-ambar.jpg",
+    "alt": ""
+   }
+  ]
+ },
+ {
+  "id": 440,
+  "slug": "boru-tamir-ekipmanlari",
+  "title": "Boru Tamir Ekipmanları",
+  "path": "urunler/boru-tamir-ekipmanlari",
+  "parent_id": 128,
+  "link": "https://hdmarine.com.tr/urunler/boru-tamir-ekipmanlari/",
+  "children": [
+   {
+    "id": 1057,
+    "slug": "boru-tamir-kelepceleri",
+    "title": "Boru Tamir Kelepçeleri",
+    "type": "product"
+   },
+   {
+    "id": 1062,
+    "slug": "boru-tamir-bandaji",
+    "title": "Boru Tamir Bandajı",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2024/09/product2-boru-tamir-kelepce.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/06/u1d1_6205158.jpg",
+    "alt": ""
+   }
+  ]
+ },
+ {
+  "id": 443,
+  "slug": "endustriyel-urunler",
+  "title": "Endüstriyel Ürünler",
+  "path": "urunler/endustriyel-urunler",
+  "parent_id": 128,
+  "link": "https://hdmarine.com.tr/urunler/endustriyel-urunler/",
+  "children": [
+   {
+    "id": 1072,
+    "slug": "gemi-kimyasallari",
+    "title": "Gemi Kimyasalları",
+    "type": "product"
+   },
+   {
+    "id": 1077,
+    "slug": "termal-etiket",
+    "title": "Termal Etiket",
+    "type": "product"
+   },
+   {
+    "id": 2068,
+    "slug": "sanayi-kimyasallari",
+    "title": "Sanayi Kimyasalları",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2024/10/1674365288industrial-chemicals.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2024/10/Bad-Chemicals.webp",
+    "alt": ""
+   }
+  ]
+ },
+ {
+  "id": 2733,
+  "slug": "diyaframli-pompa-yedek-parcalari",
+  "title": "Diyaframlı Pompa Yedek Parçaları",
+  "path": "urunler/diyaframli-pompa-yedek-parcalari",
+  "parent_id": 128,
+  "link": "https://hdmarine.com.tr/urunler/diyaframli-pompa-yedek-parcalari/",
+  "children": [
+   {
+    "id": 2736,
+    "slug": "wilden-uyumlu-yedek-parca",
+    "title": "Wilden® Uyumlu Yedek Parça",
+    "type": "product"
+   },
+   {
+    "id": 2740,
+    "slug": "aro-uyumlu-yedek-parca",
+    "title": "Aro® Uyumlu Yedek Parça",
+    "type": "product"
+   },
+   {
+    "id": 2741,
+    "slug": "graco-uyumlu-yedek-parca",
+    "title": "Graco® Uyumlu Yedek Parça",
+    "type": "product"
+   },
+   {
+    "id": 2742,
+    "slug": "sandpiper-uyumlu-yedek-parca",
+    "title": "Sandpiper® Uyumlu Yedek Parça",
+    "type": "product"
+   },
+   {
+    "id": 2743,
+    "slug": "blagdon-uyumlu-yedek-parca",
+    "title": "Blagdon® Uyumlu Yedek Parça",
+    "type": "product"
+   },
+   {
+    "id": 2744,
+    "slug": "versa-matic-uyumlu-yedek-parca",
+    "title": "Versa-Matic® Uyumlu Yedek Parça",
+    "type": "product"
+   },
+   {
+    "id": 2747,
+    "slug": "yamada-uyumlu-yedek-parca",
+    "title": "Yamada® Uyumlu Yedek Parça",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/Aro-r9hhowi14uad82red54k7wb2sxikhvok9no303pua0.png",
+    "alt": "Aro"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/Blagdon-r9hhi7vcj94ynwgxe942hl12qaglrd5a0kns59mmiw.webp",
+    "alt": "Blagdon"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/graco-r9hhtcaleod41sbag274zrzfsfmyufaxjmkml54ww8.webp",
+    "alt": "graco"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/sandpiper-r9hhvptwolm7eav1kl66soeduhxdavqi7dxt9bm360.webp",
+    "alt": "sandpiper"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/versamatic-r9hhvwes0fv7nklhi60ks4qm070xsrgmkai7m9cbyg.webp",
+    "alt": "versamatic"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/depa-r9hhvdm07r5h7dcsjxw1e9he4hllitdztpgi0q47ew.webp",
+    "alt": "depa"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/yamada-r9hhw21t5g2xl8dal8gc73bdki952y30l2f4hx3yx4.webp",
+    "alt": "yamada"
+   }
+  ]
+ },
+ {
+  "id": 2909,
+  "slug": "otomatik-boya-ekipmanlari",
+  "title": "Otomatik Boya Ekipmanları",
+  "path": "urunler/otomatik-boya-ekipmanlari",
+  "parent_id": 128,
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/",
+  "children": [
+   {
+    "id": 2910,
+    "slug": "airless-boya-makinalari",
+    "title": "Airless Boya Makinaları",
+    "type": "category"
+   },
+   {
+    "id": 2995,
+    "slug": "basincli-boya-kazanlari",
+    "title": "Basınçlı Boya Kazanları",
+    "type": "category"
+   },
+   {
+    "id": 2996,
+    "slug": "boya-tabancalari",
+    "title": "Boya Tabancaları",
+    "type": "category"
+   },
+   {
+    "id": 2997,
+    "slug": "karistirici-motorlar-ve-ekipmanlari",
+    "title": "Karıştırıcı Motorlar ve Ekipmanları",
+    "type": "category"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/3951.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/10-LITRE.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/4001-Alttan-Depolu-Tabanca.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/GAST-HAVA-MOTORU.png",
+    "alt": ""
+   }
+  ]
+ },
+ {
+  "id": 2910,
+  "slug": "airless-boya-makinalari",
+  "title": "Airless Boya Makinaları",
+  "path": "urunler/otomatik-boya-ekipmanlari/airless-boya-makinalari",
+  "parent_id": 2909,
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/airless-boya-makinalari/",
+  "children": [
+   {
+    "id": 6569,
+    "slug": "asturo-k30-airless-pompa-2",
+    "title": "Asturo K30 Airless Pompa",
+    "type": "product"
+   },
+   {
+    "id": 6589,
+    "slug": "wagner-wildcat-18-40",
+    "title": "WAGNER Wildcat 18-40",
+    "type": "product"
+   },
+   {
+    "id": 6590,
+    "slug": "kst-airless-681",
+    "title": "KST AIRLESS 68:1",
+    "type": "product"
+   },
+   {
+    "id": 6591,
+    "slug": "kst-airless-301",
+    "title": "KST AIRLESS 30:1",
+    "type": "product"
+   },
+   {
+    "id": 6592,
+    "slug": "hasco-681",
+    "title": "HASCO 68:1",
+    "type": "product"
+   },
+   {
+    "id": 6593,
+    "slug": "hasco-281",
+    "title": "HASCO 28:1",
+    "type": "product"
+   },
+   {
+    "id": 6594,
+    "slug": "handok-681",
+    "title": "HANDOK 68:1",
+    "type": "product"
+   },
+   {
+    "id": 6595,
+    "slug": "elektrikli-boya-makinasi-970",
+    "title": "Elektrikli boya makinası 970",
+    "type": "product"
+   },
+   {
+    "id": 6596,
+    "slug": "elektrikli-boya-makinasi-795",
+    "title": "Elektrikli Boya Makinası 795",
+    "type": "product"
+   },
+   {
+    "id": 6597,
+    "slug": "elektrikli-boya-makinasi-495",
+    "title": "Elektrikli Boya Makinası 495",
+    "type": "product"
+   },
+   {
+    "id": 6598,
+    "slug": "elektrikli-boya-makinasi-450",
+    "title": "Elektrikli boya makinası 450",
+    "type": "product"
+   },
+   {
+    "id": 6599,
+    "slug": "elektirikli-boya-makinasi-395",
+    "title": "Elektirikli Boya Makinası 395",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/ASTURO-K-30.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/3951.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/Elektrikli-boya-makinasi-450.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/495.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/795.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/Elektrikli-boya-makinasi-970.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/HANDOK-681.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/HASCO-281.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/HASCO-681.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/KST-AIRLESS-301.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/KST-AIRLESS-681.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/WAGNER-Wildcat-18-40.png",
+    "alt": ""
+   }
+  ]
+ },
+ {
+  "id": 2995,
+  "slug": "basincli-boya-kazanlari",
+  "title": "Basınçlı Boya Kazanları",
+  "path": "urunler/otomatik-boya-ekipmanlari/basincli-boya-kazanlari",
+  "parent_id": 2909,
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/basincli-boya-kazanlari/",
+  "children": [
+   {
+    "id": 6744,
+    "slug": "basincli-boya-kazani-10-litre",
+    "title": "Basınçlı Boya Kazanı 10 Litre",
+    "type": "product"
+   },
+   {
+    "id": 6771,
+    "slug": "paslanmaz-basincli-boya-kazani-40-litre",
+    "title": "Paslanmaz Basınçlı Boya Kazanı 40 Litre",
+    "type": "product"
+   },
+   {
+    "id": 6772,
+    "slug": "paslanmaz-basincli-boya-kazani-10-litre",
+    "title": "Paslanmaz Basınçlı Boya Kazanı 10 Litre",
+    "type": "product"
+   },
+   {
+    "id": 6773,
+    "slug": "basincli-boya-kazani-80-litre",
+    "title": "Basınçlı Boya Kazanı 80 Litre",
+    "type": "product"
+   },
+   {
+    "id": 6774,
+    "slug": "basincli-boya-kazani-60-litre",
+    "title": "Basınçlı Boya Kazanı 60 Litre",
+    "type": "product"
+   },
+   {
+    "id": 6775,
+    "slug": "basincli-boya-kazani-40-litre",
+    "title": "Basınçlı Boya Kazanı 40 Litre",
+    "type": "product"
+   },
+   {
+    "id": 6776,
+    "slug": "basincli-boya-kazani-20-litre",
+    "title": "Basınçlı Boya Kazanı 20 Litre",
+    "type": "product"
+   },
+   {
+    "id": 6777,
+    "slug": "basincli-boya-kazani-2-litre",
+    "title": "Basınçlı Boya Kazanı 2 Litre",
+    "type": "product"
+   },
+   {
+    "id": 6778,
+    "slug": "basincli-boya-kazani-10-litre-eco",
+    "title": "Basınçlı Boya Kazanı 10 Litre Eco",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/10-LITRE-1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/10-litre-ekonomik-1.webp",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/a1469879-56f4-42e2-bbbe-70418c03.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/20-LITRE.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/40-LITRE.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/60-LITRE.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/80-LITRE.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/Paslanmaz-Basincli-Tank-10-lt.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/Paslanmaz-Basincli-Tank-40-lt.png",
+    "alt": ""
+   }
+  ]
+ },
+ {
+  "id": 2996,
+  "slug": "boya-tabancalari",
+  "title": "Boya Tabancaları",
+  "path": "urunler/otomatik-boya-ekipmanlari/boya-tabancalari",
+  "parent_id": 2909,
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/boya-tabancalari/",
+  "children": [
+   {
+    "id": 6897,
+    "slug": "4001-boya-tabancasi",
+    "title": "4001 Boya Tabancası",
+    "type": "product"
+   },
+   {
+    "id": 6956,
+    "slug": "wagner-4700-ac",
+    "title": "Wagner 4700 AC",
+    "type": "product"
+   },
+   {
+    "id": 6957,
+    "slug": "wa-101-otomatik-puskurtme-tabancasi",
+    "title": "WA 101 Otomatik Püskürtme Tabancası",
+    "type": "product"
+   },
+   {
+    "id": 6958,
+    "slug": "w-71-boya-tabancasi",
+    "title": "W-71 Boya Tabancası",
+    "type": "product"
+   },
+   {
+    "id": 6959,
+    "slug": "ustten-depolu-boya-tabancasi",
+    "title": "Üstten Depolu Boya Tabancası",
+    "type": "product"
+   },
+   {
+    "id": 6960,
+    "slug": "st-5-otomatik-puskurtme-tabancasi",
+    "title": "ST-5 Otomatik Püskürtme Tabancası",
+    "type": "product"
+   },
+   {
+    "id": 6961,
+    "slug": "sagola-4100-xtreme-2",
+    "title": "Sagola 4100 XTREME",
+    "type": "product"
+   },
+   {
+    "id": 6962,
+    "slug": "sagola-3300-gto-alttan-2",
+    "title": "Sagola 3300 GTO Alttan",
+    "type": "product"
+   },
+   {
+    "id": 6963,
+    "slug": "sagola-3300-gto-2",
+    "title": "Sagola 3300 GTO",
+    "type": "product"
+   },
+   {
+    "id": 6964,
+    "slug": "mk-90-2",
+    "title": "MK 90",
+    "type": "product"
+   },
+   {
+    "id": 6965,
+    "slug": "k-318-kalip-ayirici-tabanca",
+    "title": "K-318 Kalıp Ayırıcı Tabanca",
+    "type": "product"
+   },
+   {
+    "id": 6966,
+    "slug": "k-506-boya-tabancasi",
+    "title": "K 506 Boya Tabancası",
+    "type": "product"
+   },
+   {
+    "id": 6967,
+    "slug": "j-90-airlessswivel-2",
+    "title": "J-90 AirlessSwivel",
+    "type": "product"
+   },
+   {
+    "id": 6968,
+    "slug": "j-90-airless-boya-tabancasi",
+    "title": "J-90 Airless Boya Tabancası",
+    "type": "product"
+   },
+   {
+    "id": 6969,
+    "slug": "h-827-2",
+    "title": "H 827",
+    "type": "product"
+   },
+   {
+    "id": 6970,
+    "slug": "graco-g40-2",
+    "title": "Graco G40",
+    "type": "product"
+   },
+   {
+    "id": 6971,
+    "slug": "dewilbiss-cobra-1-2",
+    "title": "DEWILBISS Cobra 1",
+    "type": "product"
+   },
+   {
+    "id": 6972,
+    "slug": "de-wilbiss-advance-hd-konvansiyonel-2",
+    "title": "De Wilbıss Advance HD Konvansiyonel",
+    "type": "product"
+   },
+   {
+    "id": 6973,
+    "slug": "carox-506a-2",
+    "title": "Carox 506A",
+    "type": "product"
+   },
+   {
+    "id": 6974,
+    "slug": "airmix-tabanca-2",
+    "title": "Airmix Tabanca",
+    "type": "product"
+   },
+   {
+    "id": 6975,
+    "slug": "ab-17s",
+    "title": "AB 17S",
+    "type": "product"
+   },
+   {
+    "id": 6976,
+    "slug": "ab-17g",
+    "title": "AB 17G",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/4001-Alttan-Depolu-Tabanca-1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/ab17g.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/ab17s.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/Airmix-Tabanca.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/Carox-506A.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/De-Wilbiss-Advance-HD-Konvansiyonel.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/DEWILBISS-Cobra-1.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/Graco-G40.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/H-827.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/J-90-Airless-Tabanca.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/J-90-AirlessSwivel.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/Boya-Tabancasi.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/Yaglama-Tabancasi.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/MK-90.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/Sagola-3300-GTO.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/Sagola-3300-GTO-Alttan.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/Sagola-4100-XTREME.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/ST-5-Otomatik-Tabanca.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/Ustten-Depolu-Tabanca.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/W-71-Tabanca.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/WA-101-Otomatik-Tabanca.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/PIC_EQU_GM4700AC-250bar-redAC_31.jpg",
+    "alt": ""
+   }
+  ]
+ },
+ {
+  "id": 2997,
+  "slug": "karistirici-motorlar-ve-ekipmanlari",
+  "title": "Karıştırıcı Motorlar ve Ekipmanları",
+  "path": "urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari",
+  "parent_id": 2909,
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/",
+  "children": [
+   {
+    "id": 7247,
+    "slug": "varil-karistirma-mikseri-2",
+    "title": "Varil Karıştırma Mikseri",
+    "type": "product"
+   },
+   {
+    "id": 7265,
+    "slug": "varil-tipi-pnomatik-mikser",
+    "title": "Varil Tipi Pnömatik Mikser",
+    "type": "product"
+   },
+   {
+    "id": 7266,
+    "slug": "sehpali-havali-karistirici",
+    "title": "Sehpalı Havalı Karıştırıcı",
+    "type": "product"
+   },
+   {
+    "id": 7267,
+    "slug": "hava-motoru-2",
+    "title": "Hava Motoru",
+    "type": "product"
+   },
+   {
+    "id": 7268,
+    "slug": "gast-hava-motoru-8am-nrv-28a",
+    "title": "GAST HAVA MOTORU 8AM-NRV-28A",
+    "type": "product"
+   },
+   {
+    "id": 7269,
+    "slug": "gast-hava-motoru-6am-nrv-7a",
+    "title": "GAST HAVA MOTORU 6AM-NRV-7A",
+    "type": "product"
+   },
+   {
+    "id": 7270,
+    "slug": "gast-hava-motoru-6am-arv-54",
+    "title": "GAST HAVA MOTORU 6AM-ARV-54",
+    "type": "product"
+   },
+   {
+    "id": 7271,
+    "slug": "gast-hava-motoru-4am-nrv-54",
+    "title": "GAST HAVA MOTORU 4AM-NRV-54",
+    "type": "product"
+   },
+   {
+    "id": 7272,
+    "slug": "gast-hava-motoru-4am-nrv-50c",
+    "title": "GAST HAVA MOTORU 4AM-NRV-50C",
+    "type": "product"
+   },
+   {
+    "id": 7273,
+    "slug": "gast-hava-motoru-4am-nrv-22b",
+    "title": "GAST HAVA MOTORU 4AM-NRV-22B",
+    "type": "product"
+   },
+   {
+    "id": 7274,
+    "slug": "gast-hava-motoru-4am-arv-119",
+    "title": "GAST HAVA MOTORU 4AM-ARV-119",
+    "type": "product"
+   },
+   {
+    "id": 7275,
+    "slug": "gast-hava-motoru-4-am-frv-63a",
+    "title": "GAST HAVA MOTORU 4-AM-FRV-63A",
+    "type": "product"
+   },
+   {
+    "id": 7276,
+    "slug": "gast-hava-motoru-2am-ncw-7a",
+    "title": "GAST HAVA MOTORU 2AM-NCW-7A",
+    "type": "product"
+   },
+   {
+    "id": 7277,
+    "slug": "gast-hava-motoru-2am-ncc-16",
+    "title": "GAST HAVA MOTORU 2AM-NCC-16",
+    "type": "product"
+   },
+   {
+    "id": 7278,
+    "slug": "gast-hava-motoru-2am-arv-92",
+    "title": "GAST HAVA MOTORU 2AM-ARV-92",
+    "type": "product"
+   },
+   {
+    "id": 7279,
+    "slug": "gast-hava-motoru-1up-nrv-3a",
+    "title": "GAST HAVA MOTORU 1UP-NRV-3A",
+    "type": "product"
+   },
+   {
+    "id": 7280,
+    "slug": "gast-hava-motoru-1am-nrv-39a",
+    "title": "GAST HAVA MOTORU 1AM-NRV-39A",
+    "type": "product"
+   },
+   {
+    "id": 7281,
+    "slug": "gast-hava-motoru-3",
+    "title": "GAST HAVA MOTORU",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/GAST-HAVA-MOTORU-1.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/Hava-Motoru.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/Sehpali-Mikser.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/Varil-Karistirma-Mikseri.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/11/Varil-Mikseri.jpg",
+    "alt": ""
+   }
+  ]
+ },
+ {
+  "id": 3136,
+  "slug": "yaglama-cihazlari",
+  "title": "Yağlama cihazları",
+  "path": "urunler/yaglama-cihazlari",
+  "parent_id": 128,
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/",
+  "children": [
+   {
+    "id": 3251,
+    "slug": "havali-gres-pompalari",
+    "title": "Havalı Gres Pompaları",
+    "type": "category"
+   },
+   {
+    "id": 3259,
+    "slug": "mekanik-gres-pompalari",
+    "title": "Mekanik gres pompaları",
+    "type": "category"
+   },
+   {
+    "id": 3270,
+    "slug": "mekanik-yag-pompalari",
+    "title": "Mekanik Yağ Pompaları",
+    "type": "category"
+   },
+   {
+    "id": 3272,
+    "slug": "atik-yag-tava-ve-kuvetleri",
+    "title": "Atık Yağ Tava ve Küvetleri",
+    "type": "category"
+   },
+   {
+    "id": 3273,
+    "slug": "havali-yag-dagiticilari",
+    "title": "Havalı Yağ Dağıtıcıları",
+    "type": "category"
+   },
+   {
+    "id": 3274,
+    "slug": "parca-yikama-makinesi",
+    "title": "Parça Yıkama Makinesi",
+    "type": "category"
+   },
+   {
+    "id": 3275,
+    "slug": "yag-cekme-pompalari",
+    "title": "Yağ Çekme Pompaları",
+    "type": "category"
+   },
+   {
+    "id": 3295,
+    "slug": "seyyar-yag-varil-sistemleri",
+    "title": "Seyyar yağ varil sistemleri",
+    "type": "category"
+   },
+   {
+    "id": 3296,
+    "slug": "gres-ve-yag-tabancalari",
+    "title": "Gres ve Yağ Tabancaları",
+    "type": "category"
+   },
+   {
+    "id": 3297,
+    "slug": "gresaj-baglanti-parcalari",
+    "title": "Gresaj bağlantı parçaları",
+    "type": "category"
+   },
+   {
+    "id": 3303,
+    "slug": "havali-transfer-pompalari",
+    "title": "Havalı Transfer Pompaları",
+    "type": "category"
+   },
+   {
+    "id": 3304,
+    "slug": "ibc-yag-sistemleri",
+    "title": "IBC yağ sistemleri",
+    "type": "category"
+   },
+   {
+    "id": 3311,
+    "slug": "aksesuarlar",
+    "title": "Aksesuarlar",
+    "type": "category"
+   },
+   {
+    "id": 3312,
+    "slug": "yag-ve-gres-pompalari",
+    "title": "Yağ ve gres pompaları",
+    "type": "category"
+   },
+   {
+    "id": 3313,
+    "slug": "tankli-yag-sistemi",
+    "title": "Tanklı yağ sistemi",
+    "type": "category"
+   },
+   {
+    "id": 3314,
+    "slug": "mekanik-transfer-pompalari",
+    "title": "Mekanik transfer pompaları",
+    "type": "category"
+   },
+   {
+    "id": 3315,
+    "slug": "havali-yag-pompalari",
+    "title": "Havalı Yağ Pompaları",
+    "type": "category"
+   },
+   {
+    "id": 3316,
+    "slug": "elektrikli-yag-pompalari",
+    "title": "Elektrikli yağ pompaları",
+    "type": "category"
+   },
+   {
+    "id": 3317,
+    "slug": "sabit-varil-sistemleri",
+    "title": "Sabit varil sistemleri",
+    "type": "category"
+   },
+   {
+    "id": 3318,
+    "slug": "litre-kaplari-ve-huniler",
+    "title": "Litre kapları ve huniler",
+    "type": "category"
+   },
+   {
+    "id": 3319,
+    "slug": "yag-bosaltma-kovalari",
+    "title": "Yağ boşaltma kovaları",
+    "type": "category"
+   },
+   {
+    "id": 3332,
+    "slug": "el-gres-pompalari-ve-yagdanliklari",
+    "title": "El gres pompaları ve yağdanlıkları",
+    "type": "category"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/3333.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/2025.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/mekanikyagpompasi.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/yagemmepompa.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/tava.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/havaliyagdagit.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/parcayikama.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/seyyarvaril.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/grestabancasi-2.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/gresli-1-2.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/havali-transfer-pompalari-2.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/ibctank.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/yagbosaltma.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/litrekaplari.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/sabitvaril.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/elektrikliyag.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/havaliyagpompalari.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/mekaniktransfer.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/elgrespompasi-1.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/tankliyagsistem.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/pompalar.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/aksesuarr.png",
+    "alt": ""
+   }
+  ]
+ },
+ {
+  "id": 3251,
+  "slug": "havali-gres-pompalari",
+  "title": "Havalı Gres Pompaları",
+  "path": "urunler/yaglama-cihazlari/havali-gres-pompalari",
+  "parent_id": 3136,
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-gres-pompalari/",
+  "children": [
+   {
+    "id": 4137,
+    "slug": "havali-gres-pompasi-10-kg-2110",
+    "title": "Havalı Gres Pompası 10 Kg – 2110",
+    "type": "product"
+   },
+   {
+    "id": 4140,
+    "slug": "havali-gres-pompasi-20-kg-2220",
+    "title": "Havalı Gres Pompası 20 Kg – 2220",
+    "type": "product"
+   },
+   {
+    "id": 4141,
+    "slug": "havali-gres-pompasi-10-kg-2210",
+    "title": "Havalı Gres Pompası 10 Kg – 2210",
+    "type": "product"
+   },
+   {
+    "id": 4142,
+    "slug": "havali-gres-pompasi-50-kg-2150",
+    "title": "Havalı Gres Pompası 50 Kg – 2150",
+    "type": "product"
+   },
+   {
+    "id": 4143,
+    "slug": "havali-gres-pompasi-30-kg-2130",
+    "title": "Havalı Gres Pompası 30 Kg – 2130",
+    "type": "product"
+   },
+   {
+    "id": 4144,
+    "slug": "havali-gres-pompasi-16-kg-2126",
+    "title": "Havalı Gres Pompası 16 Kg – 2126",
+    "type": "product"
+   },
+   {
+    "id": 4145,
+    "slug": "havali-gres-pompasi-20-kg-2120",
+    "title": "Havalı Gres Pompası 20 Kg – 2120",
+    "type": "product"
+   },
+   {
+    "id": 4146,
+    "slug": "havali-gres-pompasi-teneke-tipi-16-kg",
+    "title": "Havalı Gres Pompası Teneke Tipi 16 Kg",
+    "type": "product"
+   },
+   {
+    "id": 4154,
+    "slug": "havali-gres-pompasi-varil-tipi-451-2450",
+    "title": "Havalı Gres Pompası Varil Tipi 45:1 – 2450",
+    "type": "product"
+   },
+   {
+    "id": 4155,
+    "slug": "havali-gres-pompasi-30-kg-2430",
+    "title": "Havalı Gres Pompası 30 Kg – 2430",
+    "type": "product"
+   },
+   {
+    "id": 4156,
+    "slug": "havali-gres-pompasi-varil-tipi-701-2400",
+    "title": "Havalı Gres Pompası Varil Tipi 70:1 – 2400",
+    "type": "product"
+   },
+   {
+    "id": 4157,
+    "slug": "havali-gres-pompasi-30-kg-2330",
+    "title": "Havalı Gres Pompası 30 Kg – 2330",
+    "type": "product"
+   },
+   {
+    "id": 4158,
+    "slug": "havali-gres-pompasi-teneke-tipi-16-kg-2300",
+    "title": "Havalı Gres Pompası Teneke Tipi 16 Kg – 2300",
+    "type": "product"
+   },
+   {
+    "id": 4159,
+    "slug": "havali-gres-pompasi-50-kg-2250",
+    "title": "Havalı Gres Pompası 50 Kg – 2250",
+    "type": "product"
+   },
+   {
+    "id": 4160,
+    "slug": "havali-gres-pompasi-30-kg-2230",
+    "title": "Havalı Gres Pompası 30 Kg – 2230",
+    "type": "product"
+   },
+   {
+    "id": 4161,
+    "slug": "havali-gres-pompasi-16-kg-2226",
+    "title": "Havalı Gres Pompası 16 Kg – 2226",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2210-havali-gres-pompasi-10kg-rja845snd6y19yo7tbwpwvzkvyl08pq9aphv1euoaw.jpg",
+    "alt": "2210-havali-gres-pompasi-10kg"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2116-havali-gres-pompasi-teneke-tipi-16kg-1-rja8d9ubmdf3tvfplrpil37g7fo3v2wkvt6bizc9zc.jpg",
+    "alt": "2116-havali-gres-pompasi-teneke-tipi-16kg-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2120-havali-gres-pompasi-20kg-rjac22hh5r7g2mjk6661uktth54xbo3eh35ucafyx4.jpg",
+    "alt": "2120-havali-gres-pompasi-20kg"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2126-havali-gres-pompasi-16kg-rjac3rkzhzj31a2t9eksunes36rs7ztydhkej9xdoo.jpg",
+    "alt": "2126-havali-gres-pompasi-16kg"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2130-havali-gres-pompasi-30-kg-rjaclu1avc9i7ftzr7qms39r5tps6jk7ix0emr4y2w.jpg",
+    "alt": "2130-havali-gres-pompasi-30-kg"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2150-havali-gres-pompasi-50-kg-1-rjaco7km59iljydqvqpokzop7w06mzzs6odlaxm4co.jpg",
+    "alt": "2150-havali-gres-pompasi-50-kg"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2210-havali-gres-pompasi-10kg-1-rjabx5rtgwhjfxo8u1s6ttf5spbx4klv4sik49pzew.jpg",
+    "alt": "2210-havali-gres-pompasi-10kg"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2220-havali-gres-pompasi-20-kg-rjad6ygqgb6h3z5feuftb9dnqjlq5of23gs7vltg94.jpg",
+    "alt": "2220-havali-gres-pompasi-20-kg"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2226-havali-gres-pompasi-16kg-rjad6zekn57rfl429cufvr54bxh3ddisflfpcvs22w.jpg",
+    "alt": "2226-havali-gres-pompasi-16kg"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2230-havali-gres-pompasi-30kg-rjad6qy0xmw6j3gcmr6srb9yzgmsg3l7efkc1e4lmw.jpg",
+    "alt": "2230-havali-gres-pompasi-30kg"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2300-havali-gres-pompasi-teneke-tipi-16kg-rjad6trji501hxc96aeogskcrm8w36weetish80f48.jpg",
+    "alt": "2300-havali-gres-pompasi-teneke-tipi-16kg"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/hvl-30kg.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/22312.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/2450havaligrespompasi-2.jpg",
+    "alt": ""
+   }
+  ]
+ },
+ {
+  "id": 3259,
+  "slug": "mekanik-gres-pompalari",
+  "title": "Mekanik gres pompaları",
+  "path": "urunler/yaglama-cihazlari/mekanik-gres-pompalari",
+  "parent_id": 3136,
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/mekanik-gres-pompalari/",
+  "children": [
+   {
+    "id": 4231,
+    "slug": "mekanik-gres-pompasi-20-kg-2025",
+    "title": "Mekanik Gres Pompası 20 Kg – 2025",
+    "type": "product"
+   },
+   {
+    "id": 4233,
+    "slug": "mekanik-gres-pompasi-pedalli-10-kg",
+    "title": "Mekanik Gres Pompası Pedallı 10 Kg",
+    "type": "product"
+   },
+   {
+    "id": 4235,
+    "slug": "mekanik-gres-pompasi-10-kg-2010",
+    "title": "Mekanik Gres Pompası 10 Kg – 2010",
+    "type": "product"
+   },
+   {
+    "id": 4237,
+    "slug": "mekanik-gres-pompasi-teneke-tipi-16-kg-2016",
+    "title": "Mekanik Gres Pompası Teneke Tipi 16 Kg – 2016",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2010-mekanik-gres-pompasi-10kg-rjan1os1ngs2m7vu16h7aqu2bf6h1iobj7yxwvus20.jpg",
+    "alt": "2010-mekanik-gres-pompasi-10kg"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2016-mekanik-gres-pompasi-teneke-tipi-16kg-rjan1qnq14un9ft3q7agfqczi6x7gwvs7h9wvfrzpk.jpg",
+    "alt": "2016-mekanik-gres-pompasi-teneke-tipi-16kg"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2025-mekanik-gres-pompasi-rjan1ppvuatcxtugvovtv8liwt1u97s1vcmfe5tdvs.jpg",
+    "alt": "2025-mekanik-gres-pompasi"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/PGP10A-Mekanik-Gres-Pompasi-Pedalli-10-Kg-rjan1rlk7yvxl1rqkpp3084g3kskolzijlxecpqljc.jpg",
+    "alt": "PGP10A-Mekanik-Gres-Pompasi-Pedalli-10-Kg"
+   }
+  ]
+ },
+ {
+  "id": 3270,
+  "slug": "mekanik-yag-pompalari",
+  "title": "Mekanik Yağ Pompaları",
+  "path": "urunler/yaglama-cihazlari/mekanik-yag-pompalari",
+  "parent_id": 3136,
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/mekanik-yag-pompalari/",
+  "children": [
+   {
+    "id": 4253,
+    "slug": "mekanik-yag-pompasi-80-lt-4004",
+    "title": "Mekanik Yağ Pompası 80 Lt – 4004",
+    "type": "product"
+   },
+   {
+    "id": 4255,
+    "slug": "mekanik-yag-pompasi-25-lt-4025",
+    "title": "Mekanik Yağ Pompası 25 Lt – 4025",
+    "type": "product"
+   },
+   {
+    "id": 4256,
+    "slug": "mekanik-yag-pompasi-turlu-valvolin-18-lt-4018",
+    "title": "Mekanik Yağ Pompası Turlu Valvolin 18 Lt – 4018",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/4004-mekanik_ince_yag_pompasi_80_lt-rjandna4ll5ebmii7ckc0q76dw8kyw5duerbpm4gw8.jpg",
+    "alt": "4004-mekanik_ince_yag_pompasi_80_lt"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/4018_mekanik_ince_yag_pompasi_18_lt-rjando7ysf6on8h51uyyl7ymza3y6l946jet6w32q0.jpg",
+    "alt": "4018_mekanik_ince_yag_pompasi_18_lt"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/4025_mekanik_ince_yag_pompasi_25_lt-rjandp5sz97yyufrwddl5pq3knzbeacuio2ao61ojs.jpg",
+    "alt": "4025_mekanik_ince_yag_pompasi_25_lt"
+   }
+  ]
+ },
+ {
+  "id": 3272,
+  "slug": "atik-yag-tava-ve-kuvetleri",
+  "title": "Atık Yağ Tava ve Küvetleri",
+  "path": "urunler/yaglama-cihazlari/atik-yag-tava-ve-kuvetleri",
+  "parent_id": 3136,
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/atik-yag-tava-ve-kuvetleri/",
+  "children": [
+   {
+    "id": 4276,
+    "slug": "varil-muslugu-44387",
+    "title": "Varil Musluğu – 44387",
+    "type": "product"
+   },
+   {
+    "id": 4281,
+    "slug": "yag-toplama-kuveti-125-lt-ytk2",
+    "title": "Yağ Toplama Küveti 125 Lt – YTK2",
+    "type": "product"
+   },
+   {
+    "id": 4282,
+    "slug": "yag-toplama-kuveti-425-lt-ytk1",
+    "title": "Yağ Toplama Küveti 425 Lt – YTK1",
+    "type": "product"
+   },
+   {
+    "id": 4283,
+    "slug": "atik-yag-tavasi-kanal-tipi-65-lt-ayt3",
+    "title": "Atık Yağ Tavası Kanal Tipi 65 Lt – AYT3",
+    "type": "product"
+   },
+   {
+    "id": 4284,
+    "slug": "atik-yag-tavasi-50-lt-ayt2",
+    "title": "Atık Yağ Tavası 50 Lt – AYT2",
+    "type": "product"
+   },
+   {
+    "id": 4285,
+    "slug": "atik-yag-tavasi-100-lt-ayt1",
+    "title": "Atık Yağ Tavası 100 Lt – AYT1",
+    "type": "product"
+   },
+   {
+    "id": 4286,
+    "slug": "yag-bosaltma-tavasi-16-lt-41960",
+    "title": "Yağ Boşaltma Tavası 16 Lt – 41960",
+    "type": "product"
+   },
+   {
+    "id": 4287,
+    "slug": "yag-bosaltma-tavasi-1425-lt-41966",
+    "title": "Yağ Boşaltma Tavası 14,25 Lt – 41966",
+    "type": "product"
+   },
+   {
+    "id": 4288,
+    "slug": "varil-muslugu-gostergeli-44420",
+    "title": "Varil Musluğu Göstergeli – 44420",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/42-rjat43jzolrmccmpo37f64ovfknulmqzw93lci0k94.jpg",
+    "alt": "42"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/44-rjat42m5hrqc0qo2tksslmxeu6shdxn9k4g3v81yfc.jpg",
+    "alt": "44"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/groz-odp15-yag-bosaltma-tavasi-14-25-lt-rjat41obaxp1p4pfz2e6155y8sx468jj7zsmdy3clk.jpg",
+    "alt": "groz-odp15-yag-bosaltma-tavasi-14-25-lt"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/Yag-Bosaltma-Tavasi-16-Lt-rjat3zsmx9mh1ws6a1kww5n1216dquc2jqhnfe64y0.jpg",
+    "alt": "Yag-Bosaltma-Tavasi-16-Lt"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/ay13.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/ay12.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2026/02/1234gtoplamakuveti.png",
+    "alt": ""
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/12345gtoplamakuveti-rjataisaduk5ofau5v5n7ic9kd05768ys1l1ekhpqg.png",
+    "alt": "12345gtoplamakuveti"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/123gtoplamakuveti-rjatafyrtcgaplexmbxri11vs7e1k2xrrnmkyqlw94.png",
+    "alt": "123gtoplamakuveti"
+   }
+  ]
+ },
+ {
+  "id": 3273,
+  "slug": "havali-yag-dagiticilari",
+  "title": "Havalı Yağ Dağıtıcıları",
+  "path": "urunler/yaglama-cihazlari/havali-yag-dagiticilari",
+  "parent_id": 3136,
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-yag-dagiticilari/",
+  "children": [
+   {
+    "id": 4318,
+    "slug": "havali-yag-dagiticisi-80-lt-4600",
+    "title": "Havalı Yağ Dağıtıcısı 80 Lt – 4600",
+    "type": "product"
+   },
+   {
+    "id": 4320,
+    "slug": "havali-yag-dagiticisi-24-lt-4620",
+    "title": "Havalı Yağ Dağıtıcısı 24 Lt – 4620",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/4600_havali_ince_yag_dagiticisi1233-rjaypo219lp81zu8n7v9v9jde75h8yysxxg28n59xk.png",
+    "alt": "4600_havali_ince_yag_dagiticisi1233"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/avali_ince_yag_dagiticisi12-rjayppxpn9rsp7ric8oj092akyw7od69m6r1772hl4.png",
+    "alt": "avali_ince_yag_dagiticisi12"
+   }
+  ]
+ },
+ {
+  "id": 3274,
+  "slug": "parca-yikama-makinesi",
+  "title": "Parça Yıkama Makinesi",
+  "path": "urunler/yaglama-cihazlari/parca-yikama-makinesi",
+  "parent_id": 3136,
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/parca-yikama-makinesi/",
+  "children": [
+   {
+    "id": 4322,
+    "slug": "parca-yikama-makinesi-80-lt-9200",
+    "title": "Parça Yıkama Makinesi 80 Lt – 9200",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/9200_parca_yikama_makinesi_1233-rjayue6tmm64fez41reqwklswxuwy6q7xbiy3q50nc.png",
+    "alt": "9200_parca_yikama_makinesi_1233"
+   }
+  ]
+ },
+ {
+  "id": 3275,
+  "slug": "yag-cekme-pompalari",
+  "title": "Yağ Çekme Pompaları",
+  "path": "urunler/yaglama-cihazlari/yag-cekme-pompalari",
+  "parent_id": 3136,
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-cekme-pompalari/",
+  "children": [
+   {
+    "id": 4266,
+    "slug": "elektrikli-yag-cekme-pompalari",
+    "title": "Elektrikli Yağ Çekme Pompaları",
+    "type": "category"
+   },
+   {
+    "id": 4270,
+    "slug": "havali-yag-cekme-pompalari",
+    "title": "Havalı Yağ Çekme Pompaları",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/6910-elektrikli-yag-cekme-pompasi-rjant9dm4iiv6fu113j8fsctmba2tw4vbovop2z1jc.jpg",
+    "alt": "6910-elektrikli-yag-cekme-pompasi"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/6000_havali_yag_emme_cekme_pompasi_80_lt-rjant8frxohkutve6l4lvald0xepm714zk877t0fpk.jpg",
+    "alt": "6000_havali_yag_emme_cekme_pompasi_80_lt"
+   }
+  ]
+ },
+ {
+  "id": 3295,
+  "slug": "seyyar-yag-varil-sistemleri",
+  "title": "Seyyar yağ varil sistemleri",
+  "path": "urunler/yaglama-cihazlari/seyyar-yag-varil-sistemleri",
+  "parent_id": 3136,
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/seyyar-yag-varil-sistemleri/",
+  "children": [
+   {
+    "id": 4330,
+    "slug": "seyyar-gres-varil-sistemi-svs2400",
+    "title": "Seyyar Gres Varil Sistemi – SVS2400",
+    "type": "product"
+   },
+   {
+    "id": 4332,
+    "slug": "seyyar-yag-varil-sistemi-makarali-svs4500",
+    "title": "Seyyar Yağ Varil Sistemi Makaralı – SVS4500",
+    "type": "product"
+   },
+   {
+    "id": 4333,
+    "slug": "seyyar-yag-varil-sistemi-svs4400",
+    "title": "Seyyar Yağ Varil Sistemi – SVS4400",
+    "type": "product"
+   },
+   {
+    "id": 4334,
+    "slug": "seyyar-gres-varil-sistemi-makarali-svs2500",
+    "title": "Seyyar Gres Varil Sistemi Makaralı – SVS2500",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2-svs-2400-rjayy7f9cfdzihfrseqa0lz3n72i5zv146ru64hjew.png",
+    "alt": "2-svs-2400"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/gulersan-svs-2500-rjayya8rwxhuhbbobxy5q39hfcolt3684kqalydcw8.png",
+    "alt": "gulersan-svs-2500"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/svs4400-rjayy9axq3gk5pd1hfjj5li0tyt8le2hsg2t4oer2g.jpg",
+    "alt": "svs4400"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/svs-4500-rjayy8d3j9f9u3eemx4wl3qk8kxvdoyrgbfbneg58o.png",
+    "alt": "svs-4500"
+   }
+  ]
+ },
+ {
+  "id": 3296,
+  "slug": "gres-ve-yag-tabancalari",
+  "title": "Gres ve Yağ Tabancaları",
+  "path": "urunler/yaglama-cihazlari/gres-ve-yag-tabancalari",
+  "parent_id": 3136,
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/",
+  "children": [
+   {
+    "id": 4350,
+    "slug": "mekanik-sayacli-yag-tabancasi-4109",
+    "title": "Mekanik Sayaçlı Yağ Tabancası – 4109",
+    "type": "product"
+   },
+   {
+    "id": 4352,
+    "slug": "sayacli-yag-tabancasi-agir-hizmet-4108",
+    "title": "Sayaçlı Yağ Tabancası Ağır Hizmet – 4108",
+    "type": "product"
+   },
+   {
+    "id": 4353,
+    "slug": "presetli-sayacli-yag-tabancasi-4107",
+    "title": "Presetli Sayaçlı Yağ Tabancası – 4107",
+    "type": "product"
+   },
+   {
+    "id": 4354,
+    "slug": "sayacli-yag-tabancasi-4106s",
+    "title": "Sayaçlı Yağ Tabancası – 4106S",
+    "type": "product"
+   },
+   {
+    "id": 4355,
+    "slug": "sayacli-yag-tabancasi-4106p",
+    "title": "Sayaçlı Yağ Tabancası – 4106P",
+    "type": "product"
+   },
+   {
+    "id": 4356,
+    "slug": "sayacli-antifiriz-tabancasi-4106a",
+    "title": "Sayaçlı Antifiriz Tabancası – 4106A",
+    "type": "product"
+   },
+   {
+    "id": 4357,
+    "slug": "mekanik-yag-tabancasi-4105",
+    "title": "Mekanik Yağ Tabancası – 4105",
+    "type": "product"
+   },
+   {
+    "id": 4360,
+    "slug": "mekanik-yag-tabancasi-4101",
+    "title": "Mekanik Yağ Tabancası – 4101",
+    "type": "product"
+   },
+   {
+    "id": 4361,
+    "slug": "sayacli-gres-tabancasi-2306s",
+    "title": "Sayaçlı Gres Tabancası – 2306S",
+    "type": "product"
+   },
+   {
+    "id": 4362,
+    "slug": "sayacli-gres-tabancasi-2306p",
+    "title": "Sayaçlı Gres Tabancası – 2306P",
+    "type": "product"
+   },
+   {
+    "id": 4363,
+    "slug": "gres-tabancasi-230565",
+    "title": "Gres Tabancası – 230565",
+    "type": "product"
+   },
+   {
+    "id": 4364,
+    "slug": "gres-tabancasi-23050565",
+    "title": "Gres Tabancası – 23050565",
+    "type": "product"
+   },
+   {
+    "id": 4365,
+    "slug": "gres-tabancasi-230505",
+    "title": "Gres Tabancası – 230505",
+    "type": "product"
+   },
+   {
+    "id": 4366,
+    "slug": "gres-tabancasi-2305",
+    "title": "Gres Tabancası – 2305",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2305-havali-gres-tabancasi-2-rjaz63aioe6kwpzfqtflxmcb1k7cql5yv7sh3osn7s.jpg",
+    "alt": "2305-havali-gres-tabancasi-2"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/230505grestabancasi-rjaz68xjteeaudr8tvvdckx2lvfk0rscvzpdzcka6g.jpg",
+    "alt": "230505grestabancasi"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/23050565grestabancasi-rjaz6at872gvhloiiwomhkfzsn6ag5ztk90cxwhhu0.jpg",
+    "alt": "23050565grestabancasi"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/230565grestabancasi-rjaz69ve08fl5zpvoe9zx2oj79ax8gw384cvgmiw08.jpg",
+    "alt": "230565grestabancasi"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/piusi-2306-sayacli-gres-tabancasi-greaster-rjaz6br2dwi5t7n5df39227ge11nnv3jwdnuf6g3ns.webp",
+    "alt": "piusi-2306-sayacli-gres-tabancasi-greaster"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/yeni_Sayacli_Gres_Tabancasi_2306-rjaz6k7m3etqppav00qw6i2lqhvyl514xjj7qo3k3s.jpg",
+    "alt": "yeni_Sayacli_Gres_Tabancasi_2306"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/yag-tabancasi-4101-1-rjaz6j9rwksge3c85ic9m0b5540ldfxelevq9e4ya0.jpg",
+    "alt": "yag-tabancasi-4101-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/4105-Mekanik-Yag-Tabancasi-rjaz648cv87v8by2lbu8i43rmy2pya9p7cfykyr91k.jpg",
+    "alt": "4105-Mekanik-Yag-Tabancasi"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/sayacli-yag-tabancasi-4106s-1-rjaz6fif58nb3nhorgprc19arkj4inih8w9scaaiyw.jpg",
+    "alt": "sayacli-yag-tabancasi-4106s-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/4106-1-rjaz65672295jxwpfu8v2lv88by35zdfjh3g28puvc.jpg",
+    "alt": "4106-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/4107-1-1-1-rjaz66418wafvjvcacnhn3motptgdoh5vlqxjiogp4.jpg",
+    "alt": "4107-1-1-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/4108-1-3-rjaz671vfqbq75tz4v247le5f3otldkw7qef0sn2iw.png",
+    "alt": "4108-1-3"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/4109-1-1-rjaz67zpmkd0irslzdgqs35m0hk6t2omjv1wi2loco.png",
+    "alt": "4109-1-1"
+   }
+  ]
+ },
+ {
+  "id": 3297,
+  "slug": "gresaj-baglanti-parcalari",
+  "title": "Gresaj bağlantı parçaları",
+  "path": "urunler/yaglama-cihazlari/gresaj-baglanti-parcalari",
+  "parent_id": 3136,
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/",
+  "children": [
+   {
+    "id": 4393,
+    "slug": "gresorluk-seti-113-parca-gs3113",
+    "title": "Gresörlük Seti 113 Parça – GS3113",
+    "type": "product"
+   },
+   {
+    "id": 4395,
+    "slug": "gresorluk-seti-103-parca-gs2103",
+    "title": "Gresörlük Seti 103 Parça – GS2103",
+    "type": "product"
+   },
+   {
+    "id": 4396,
+    "slug": "gresorluk-seti-83-parca-gs183",
+    "title": "Gresörlük Seti 83 Parça – GS183",
+    "type": "product"
+   },
+   {
+    "id": 4397,
+    "slug": "gres-yaglama-kiti-44950",
+    "title": "Gres Yağlama Kiti – 44950",
+    "type": "product"
+   },
+   {
+    "id": 4398,
+    "slug": "tekalamit-buton-baslik-43575",
+    "title": "Tekalamit Buton Başlık – 43575",
+    "type": "product"
+   },
+   {
+    "id": 4399,
+    "slug": "buton-baslik-43566",
+    "title": "Buton Başlık – 43566",
+    "type": "product"
+   },
+   {
+    "id": 4400,
+    "slug": "buton-baslik-43565",
+    "title": "Buton Başlık – 43565",
+    "type": "product"
+   },
+   {
+    "id": 4401,
+    "slug": "tekalamit-buton-baslik-43563",
+    "title": "Tekalamit Buton Başlık – 43563",
+    "type": "product"
+   },
+   {
+    "id": 4402,
+    "slug": "mafsalli-gres-ucu-43561",
+    "title": "Mafsallı Gres Ucu – 43561",
+    "type": "product"
+   },
+   {
+    "id": 4403,
+    "slug": "hizli-gres-ucu-43545",
+    "title": "Hızlı Gres Ucu – 43545",
+    "type": "product"
+   },
+   {
+    "id": 4404,
+    "slug": "gres-sivri-ucu-2075",
+    "title": "Gres Sivri Ucu – 2075",
+    "type": "product"
+   },
+   {
+    "id": 4405,
+    "slug": "gres-ucu-2045",
+    "title": "Gres Ucu – 2045",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2045gresucu-1-rjazow2bd3x13yodyxyzsvk6qzjmonspg9i2mwx6rs.jpg",
+    "alt": "2045gresucu-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2075_sivri_uc-rjazox05jxybfkn0tgdmddbncdezwcwfse5k46vslk.jpg",
+    "alt": "2075_sivri_uc"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/43544-rjazoxxzqrzlr6lnnys8xv33xrad42064it1lguefc.jpg",
+    "alt": "43544"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/groz-43561-mafsalli-gres-ucu-450x450w-1-rjazp0riba3gq0hk7i04ncdhpwwgr5bd4wri1aq7wo.jpg",
+    "alt": "groz-43561-mafsalli-gres-ucu-450x450w-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/groz-43563-tekalamit-buton-baslik-450x450h-1-rjazp1pci44r1mg720er7u4ybartyuf3h1ezikotqg.jpg",
+    "alt": "groz-43563-tekalamit-buton-baslik-450x450h-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/43565-rjazozto4g26eeixczli2um14j13jg7mss40k0rm2w.jpg",
+    "alt": "43565"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/groz-43575-tekalamit-buton-baslik-450x450h-1-rjazp2n6oy61d8etwitdsbwewon76jitt62gzunfk8.jpg",
+    "alt": "groz-43575-tekalamit-buton-baslik-450x450h-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/44950-yaglama-kiti-2-rjazp4iv2m8m0gc3ljmmxbfc3gdxlxqahfdfyekn7s.jpg",
+    "alt": "44950-yaglama-kiti-2"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/GS478-Gresorluk-Seti-78-Parca-rjazp3l0vs7boudgr180ctnvi2ike8mk5apyh4m1e0.jpg",
+    "alt": "GS478-Gresorluk-Seti-78-Parca"
+   }
+  ]
+ },
+ {
+  "id": 3303,
+  "slug": "havali-transfer-pompalari",
+  "title": "Havalı Transfer Pompaları",
+  "path": "urunler/yaglama-cihazlari/havali-transfer-pompalari",
+  "parent_id": 3136,
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-transfer-pompalari/",
+  "children": [
+   {
+    "id": 4421,
+    "slug": "havali-gres-transfer-pompasi-2460",
+    "title": "Havalı Gres Transfer Pompası – 2460",
+    "type": "product"
+   },
+   {
+    "id": 4423,
+    "slug": "havali-yag-transfer-pompasi-1035",
+    "title": "Havalı Yağ Transfer Pompası – 1035",
+    "type": "product"
+   },
+   {
+    "id": 4424,
+    "slug": "havali-yag-transfer-pompasi-1005",
+    "title": "Havalı Yağ Transfer Pompası – 1005",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/1005_havali_ince_yag_transfer_pompasi-rjdwt3h3si7k8fwnv6qykg1e8pocgvtyqcdq781img.jpg",
+    "alt": "1005_havali_ince_yag_transfer_pompasi"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/1035_havali_ince_yag_transfer_pompasi-rjdwt4exzc8uk1vapp5l4xsuu3jpokxp2h17oi04g8.jpg",
+    "alt": "1035_havali_ince_yag_transfer_pompasi"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2460_havali_ince_yag_transfer_pompasi-rjdwt5cs66a4vntxk7k7pfkbfhf2wa1felop5ryqa0.jpg",
+    "alt": "2460_havali_ince_yag_transfer_pompasi"
+   }
+  ]
+ },
+ {
+  "id": 3304,
+  "slug": "ibc-yag-sistemleri",
+  "title": "IBC yağ sistemleri",
+  "path": "urunler/yaglama-cihazlari/ibc-yag-sistemleri",
+  "parent_id": 3136,
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/ibc-yag-sistemleri/",
+  "children": [
+   {
+    "id": 4431,
+    "slug": "ibc-yag-sistemi-makarali-ibc4500",
+    "title": "IBC Yağ Sistemi Makaralı – IBC4500",
+    "type": "product"
+   },
+   {
+    "id": 4436,
+    "slug": "ibc-yag-sistemi-makarasiz-ibc3045",
+    "title": "IBC Yağ Sistemi Makarasız – IBC3045",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/IBC3045-3-rjdwzjn8ol1dw4jf7h3t6bg8yvw0a4fny9inqkh9xk.jpg",
+    "alt": "IBC3045-3"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/IBC4500-rjdwzkl2vf2o7qi21zifqt7pk9rdhtjeae657ufvrc.jpg",
+    "alt": "IBC4500"
+   }
+  ]
+ },
+ {
+  "id": 3311,
+  "slug": "aksesuarlar",
+  "title": "Aksesuarlar",
+  "path": "urunler/yaglama-cihazlari/aksesuarlar",
+  "parent_id": 3136,
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/",
+  "children": [
+   {
+    "id": 3889,
+    "slug": "sayfa2",
+    "title": "Aksesuarlar Sayfa 2",
+    "type": "product"
+   },
+   {
+    "id": 4720,
+    "slug": "manuel-mazot-tabancasi-s3000",
+    "title": "Manuel Mazot Tabancası S3000",
+    "type": "product"
+   },
+   {
+    "id": 4722,
+    "slug": "manuel-mazot-tabancasi-s2000",
+    "title": "Manuel Mazot Tabancası – S2000",
+    "type": "product"
+   },
+   {
+    "id": 4724,
+    "slug": "otomatik-rekor-1-or0352",
+    "title": "Otomatik Rekor 1 – OR0352",
+    "type": "product"
+   },
+   {
+    "id": 4725,
+    "slug": "otomatik-rekor-3-4-or0347",
+    "title": "Otomatik Rekor 3/4 – OR0347",
+    "type": "product"
+   },
+   {
+    "id": 4726,
+    "slug": "hortumlar",
+    "title": "Hortumlar",
+    "type": "product"
+   },
+   {
+    "id": 4727,
+    "slug": "yag-bosaltma-hunisi-7903",
+    "title": "Yağ Boşaltma Hunisi – 7903",
+    "type": "product"
+   },
+   {
+    "id": 4728,
+    "slug": "yag-bosaltma-hunisi-7902",
+    "title": "Yağ Boşaltma Hunisi – 7902",
+    "type": "product"
+   },
+   {
+    "id": 4729,
+    "slug": "kopuk-puskurtme-tabancasi-7442",
+    "title": "Köpük Püskürtme Tabancası – 7442",
+    "type": "product"
+   },
+   {
+    "id": 4730,
+    "slug": "sivi-puskurtme-tabancasi-7441",
+    "title": "Sıvı Püskürtme Tabancası – 7441",
+    "type": "product"
+   },
+   {
+    "id": 4731,
+    "slug": "hava-sartlandirici-1-2-7132",
+    "title": "Hava Şartlandırıcı 1/2 – 7132",
+    "type": "product"
+   },
+   {
+    "id": 4732,
+    "slug": "hava-regulatoru-7131",
+    "title": "Hava Regülatörü – 7131",
+    "type": "product"
+   },
+   {
+    "id": 4733,
+    "slug": "varil-baglanti-takozu-7130",
+    "title": "Varil Bağlantı Takozu – 7130",
+    "type": "product"
+   },
+   {
+    "id": 4734,
+    "slug": "duvar-aski-aparati-7120",
+    "title": "Duvar Askı Aparatı – 7120",
+    "type": "product"
+   },
+   {
+    "id": 4735,
+    "slug": "yag-tabanca-askiligi-7110",
+    "title": "Yağ Tabanca Askılığı – 7110",
+    "type": "product"
+   },
+   {
+    "id": 4736,
+    "slug": "yag-emme-soketi-652",
+    "title": "Yağ Emme Soketi – 652",
+    "type": "product"
+   },
+   {
+    "id": 4737,
+    "slug": "yag-emme-soketi-651",
+    "title": "Yağ Emme Soketi – 651",
+    "type": "product"
+   },
+   {
+    "id": 4738,
+    "slug": "yag-emme-cubugu-takim-6096",
+    "title": "Yağ Emme Çubuğu Takım – 6096",
+    "type": "product"
+   },
+   {
+    "id": 4739,
+    "slug": "yag-emme-cubugu-takim-6095",
+    "title": "Yağ Emme Çubuğu Takım – 6095",
+    "type": "product"
+   },
+   {
+    "id": 4740,
+    "slug": "gres-yaglama-kiti-44950",
+    "title": "Gres Yağlama Kiti – 44950",
+    "type": "product"
+   },
+   {
+    "id": 4741,
+    "slug": "otomatik-akaryakit-tabancasi-3-4-4312",
+    "title": "Otomatik Akaryakıt Tabancası 3/4– 4312",
+    "type": "product"
+   },
+   {
+    "id": 4742,
+    "slug": "otomatik-akaryakit-tabancasi-1-4218",
+    "title": "Otomatik Akaryakıt Tabancası 1–4218",
+    "type": "product"
+   },
+   {
+    "id": 4743,
+    "slug": "dijital-yag-sayaci-4104",
+    "title": "Dijital Yağ Sayacı – 4104",
+    "type": "product"
+   },
+   {
+    "id": 4744,
+    "slug": "gres-yag-baski-yayi-2726",
+    "title": "Gres Yağ Baskı Yayı – 2726",
+    "type": "product"
+   },
+   {
+    "id": 4745,
+    "slug": "gres-yag-baski-yayi-2725",
+    "title": "Gres Yağ Baskı Yayı – 2725",
+    "type": "product"
+   },
+   {
+    "id": 4746,
+    "slug": "gres-yag-baski-yayi-2724",
+    "title": "Gres Yağ Baskı Yayı – 2724",
+    "type": "product"
+   },
+   {
+    "id": 4747,
+    "slug": "gres-yag-baski-yayi-2723",
+    "title": "Gres Yağ Baskı Yayı – 2723",
+    "type": "product"
+   },
+   {
+    "id": 4748,
+    "slug": "gres-yag-baski-tablasi-2660",
+    "title": "Gres Yağ Baskı Tablası – 2660",
+    "type": "product"
+   },
+   {
+    "id": 4749,
+    "slug": "gres-yag-baski-tablasi-2625",
+    "title": "Gres Yağ Baskı Tablası – 2625",
+    "type": "product"
+   },
+   {
+    "id": 4750,
+    "slug": "gres-yag-baski-tablasi-2624",
+    "title": "Gres Yağ Baskı Tablası – 2624",
+    "type": "product"
+   },
+   {
+    "id": 4751,
+    "slug": "gres-yag-baski-tablasi-2623",
+    "title": "Gres Yağ Baskı Tablası – 2623",
+    "type": "product"
+   },
+   {
+    "id": 4752,
+    "slug": "gres-yag-baski-tablasi-2621",
+    "title": "Gres Yağ Baskı Tablası – 2621",
+    "type": "product"
+   },
+   {
+    "id": 4753,
+    "slug": "gres-yag-baski-agirligi-2620",
+    "title": "Gres Yağ Baskı Ağırlığı – 2620",
+    "type": "product"
+   },
+   {
+    "id": 4754,
+    "slug": "varil-tasima-arabasi-2420",
+    "title": "Varil Taşıma Arabası – 2420",
+    "type": "product"
+   },
+   {
+    "id": 4755,
+    "slug": "gres-teneke-arabasi-2416",
+    "title": "Gres Teneke Arabası – 2416",
+    "type": "product"
+   },
+   {
+    "id": 4756,
+    "slug": "varil-tasima-arabasi-2410",
+    "title": "Varil Taşıma Arabası – 2410",
+    "type": "product"
+   },
+   {
+    "id": 4757,
+    "slug": "gres-l-mafsali-2407",
+    "title": "Gres L Mafsalı – 2407",
+    "type": "product"
+   },
+   {
+    "id": 4758,
+    "slug": "gres-i-mafsali-2406",
+    "title": "Gres I Mafsalı – 2406",
+    "type": "product"
+   },
+   {
+    "id": 4759,
+    "slug": "gres-z-mafsali-2405",
+    "title": "Gres Z Mafsalı – 2405",
+    "type": "product"
+   },
+   {
+    "id": 4760,
+    "slug": "hava-kaplini-2095",
+    "title": "Hava Kaplini – 2095",
+    "type": "product"
+   },
+   {
+    "id": 4761,
+    "slug": "gres-varil-kapagi-2085",
+    "title": "Gres Varil Kapağı – 2085",
+    "type": "product"
+   },
+   {
+    "id": 4762,
+    "slug": "gres-spiral-hortumu-2065k",
+    "title": "Gres Spiral Hortumu – 2065K",
+    "type": "product"
+   },
+   {
+    "id": 4763,
+    "slug": "gres-spiral-hortumu-2065i",
+    "title": "Gres Spiral Hortumu – 2065I",
+    "type": "product"
+   },
+   {
+    "id": 4764,
+    "slug": "otomatik-adblue-tabancasi-13660",
+    "title": "Otomatik AdBlue Tabancası – 13660",
+    "type": "product"
+   },
+   {
+    "id": 4765,
+    "slug": "mekanik-adblue-tabancasi-1366",
+    "title": "Mekanik AdBlue Tabancası – 1366",
+    "type": "product"
+   },
+   {
+    "id": 4766,
+    "slug": "yag-emis-hortumu-0776",
+    "title": "Yağ Emiş Hortumu – 0776",
+    "type": "product"
+   },
+   {
+    "id": 4767,
+    "slug": "tetikli-yikama-tabancasi-0549",
+    "title": "Tetikli Yıkama Tabancası – 0549",
+    "type": "product"
+   },
+   {
+    "id": 4768,
+    "slug": "uzun-hava-tabancasi-0243",
+    "title": "Uzun Hava Tabancası – 0243",
+    "type": "product"
+   },
+   {
+    "id": 4769,
+    "slug": "kisa-hava-tabancasi-0242",
+    "title": "Kısa Hava Tabancası – 0242",
+    "type": "product"
+   },
+   {
+    "id": 4770,
+    "slug": "lastik-sisirme-tabancasi-0232",
+    "title": "Lastik Şişirme Tabancası – 0232",
+    "type": "product"
+   },
+   {
+    "id": 4771,
+    "slug": "mazot-puskurtme-tabancasi-0228",
+    "title": "Mazot Püskürtme Tabancası – 0228",
+    "type": "product"
+   },
+   {
+    "id": 4772,
+    "slug": "hava-sartlandirici-1-4-0225",
+    "title": "Hava Şartlandırıcı 1/4 – 0225",
+    "type": "product"
+   },
+   {
+    "id": 4773,
+    "slug": "varil-takozu-0106",
+    "title": "Varil Takozu – 0106",
+    "type": "product"
+   },
+   {
+    "id": 4774,
+    "slug": "yikama-makinasi-tabanca-memesi-2",
+    "title": "Yıkama Makinası Tabanca Memesi",
+    "type": "product"
+   },
+   {
+    "id": 4775,
+    "slug": "tecomec-7443-teleskobik-kopuk-puskurtme-tabancasi",
+    "title": "Tecomec 7443 Teleskobik Köpük Püskürtme Tabancası",
+    "type": "product"
+   },
+   {
+    "id": 4776,
+    "slug": "tecomec-0543-tetiksiz-basincli-yikama-tabancasi-3",
+    "title": "Tecomec 0543 Tetiksiz Basınçlı Yıkama Tabancası",
+    "type": "product"
+   },
+   {
+    "id": 4777,
+    "slug": "tecomec-0543-tetiksiz-basincli-yikama-tabancasi-2",
+    "title": "Tecomec 0543 Tetiksiz Basınçlı Yıkama Tabancası",
+    "type": "product"
+   },
+   {
+    "id": 4778,
+    "slug": "tarus-7442-kopuk-puskurtme-tabancasi",
+    "title": "Tarus 7442 Köpük Püskürtme Tabancası",
+    "type": "product"
+   },
+   {
+    "id": 4779,
+    "slug": "tarus-7441-sivi-puskurtme-tabancasi-2",
+    "title": "Tarus 7441 Sıvı Püskürtme Tabancası",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/tarus-7441-sivi-puskurtme-tabancasi-rje9kmsl0na49gekhtotkhe1a8ofls5sku7gl6oknc.png",
+    "alt": "tarus-7441-sivi-puskurtme-tabancasi"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/tecomec-0543-tet-rjjlgtr5io2rqhv9hxgcr82zgn2mnp7jp7z2r3u2rs.jpg",
+    "alt": "tecomec-0543-tet"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/tecomec-son-rjjlj88azfd5emdngyu14m9e438ebuqup3zqwk9uvc.jpg",
+    "alt": "tecomec-son"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/tecomec-7443-puskutme-11tabancasi-rjjmyasmbda07w7191kalqb01ricjthtpw1hlsjsso.jpg",
+    "alt": "tecomec-7443-puskutme-11tabancasi"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/yikama-makinasi-tabanca-memesi-rje9jrrwr43nmbnmiya4s77toixbjrqngkofr1ykco.jpg",
+    "alt": "yikama-makinasi-tabanca-memesi"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/0106-Varil-Takozu-1-rje9jl71f9und1x6ldfqsqvlittr1w0j3o41e48bk8.jpg",
+    "alt": "0106-Varil-Takozu-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/yeni_Hava_sartlandirici_1_2_7132-rje9jjbd1ls2ptzwwcmhnrcoc230mht2fet2fkb3wo.jpg",
+    "alt": "yeni_Hava_sartlandirici_1_2_7132"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/mazot-puskurtme-tabancasi-1-rje9l2ru8tvzqtrcwilh8vcvdsho8mx8b1apqw0vpk.jpg",
+    "alt": "mazot-puskurtme-tabancasi-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/yeni_Lastik_sisirme_Tabancasi_0232-rje9l2ru8tvzqtrcwilh8vcvdsho8mx8b1apqw0vpk.jpg",
+    "alt": "yeni_Lastik_sisirme_Tabancasi_0232"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/0242-Kisa-Hava-Tabancasi-rje9kh5jvn2ebsmrer925it9pxg8bljek2ajpiwxoo.jpg",
+    "alt": "0242-Kisa-Hava-Tabancasi"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/0243-Uzun-Hava-Tabancasi-rje9k7r5zapj3p0exn6sgl6ns2qk6mi36rrowravew.jpg",
+    "alt": "0243-Uzun-Hava-Tabancasi"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/0549-Tetikli-Yikama-Tabancasi-rje9kzybobs4rzvgczdlje2hlmvkljm1anc9b25288.jpg",
+    "alt": "0549-Tetikli-Yikama-Tabancasi"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/oil-suction-hose-rje9l0w5v5tf3lu37hs83vty70qxt8prmrzqsc3o20.jpg",
+    "alt": "oil-suction-hose"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/1366-adblue-mekanik-tabanca-rje9kj189b4yz0k13s2baic6wp6yqzqv8blio2u5c8.jpg",
+    "alt": "1366-adblue-mekanik-tabanca"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/1366o-otomatik-adblue-tabancasi-rje9k8p064qtfaz1s5lf12y4dglxebltiwf6e19h8o.jpg",
+    "alt": "1366o-otomatik-adblue-tabancasi"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2065_gres_spiral_hortum-rje9jxexw4bdjzffm0pw75sl8u5ityd1hclcmpq7bc.jpg",
+    "alt": "2065_gres_spiral_hortum"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2065k_gres_spiral_hortum-rje9jqu2ka2dapozofvi7pgd351yc2mx4g0y9rzyiw.jpg",
+    "alt": "2065k_gres_spiral_hortum"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2085_varil_kapagi_12345-rje9jo0jzryibvt34wnmi85zazfuozbq422hty451k.jpg",
+    "alt": "2085_varil_kapagi_12345"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2095_hava_kaplini-1-rje9joye6lzsnhrpzf292pxfwdb7wofgg6pzb82qvc.jpg",
+    "alt": "2095_hava_kaplini-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2405_grez_z_mafsali_yeni-1-rje9ky2nanpk4ry6nykceejkev4u65ekme1aci7uko.jpg",
+    "alt": "2405_grez_z_mafsali_yeni-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2406_mafsal_l-rje9kz0hhhqugdwtigyyywb10907duiayiorts6geg.jpg",
+    "alt": "2406_mafsal_l"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2407_gres_l_mafsali-1-rje9kkwwmz7jm8hassvkfhv43gxp6dybwkwhmmrczs.jpg",
+    "alt": "2407_gres_l_mafsali-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/varil-tasima-arabasi-2410-1-rje9kcgcxgvypqtl677xb1zyr03e940qvf14b53wjs.jpg",
+    "alt": "varil-tasima-arabasi-2410-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2416_teneke_tasima_arabasi-rje9jycs2ycnvle2gj4irnk1u80w1ngrth8u3zot54.jpg",
+    "alt": "2416_teneke_tasima_arabasi"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/varil-tasima-arabasi-makara-sehpali-2420-rje9jvj9ig8swri5wzwn269o22esek5kt3ado5szns.jpg",
+    "alt": "varil-tasima-arabasi-makara-sehpali-2420"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/gulersan-2620-yag-baski-agirlik2-rje9jtnl4s689jkw7z3dx6qqvao1z5y44tzeplvs08.jpg",
+    "alt": "gulersan-2620-yag-baski-agirlik2"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2621-yag-baski-tablasi-rje9jspqxy4xxxm9dgorcoza9wsorgudspbx8bx66g.jpg",
+    "alt": "2621-yag-baski-tablasi"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2623-yag-baski-tablasi-rje9kubajbkeuc3n9wxu4fhq1bndbczn9vfcfedf9k.jpg",
+    "alt": "2623-yag-baski-tablasi"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2624-yag-baski-tablasi-2-rje9kw6ywzmzhk0wyxr39f0n83e3qr73y4qbdyamx4.jpg",
+    "alt": "2624-yag-baski-tablasi-2"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2660-yag-baski-tablasi-rje9k9mucys3qwxomo01lkpkyuham0pjv12nvb832g.jpg",
+    "alt": "2660-yag-baski-tablasi"
+   }
+  ]
+ },
+ {
+  "id": 3312,
+  "slug": "yag-ve-gres-pompalari",
+  "title": "Yağ ve gres pompaları",
+  "path": "urunler/yaglama-cihazlari/yag-ve-gres-pompalari",
+  "parent_id": 3136,
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-ve-gres-pompalari/",
+  "children": [
+   {
+    "id": 4588,
+    "slug": "mekanik-yag-pompasi-25-lt-4025n",
+    "title": "Mekanik Yağ Pompası 25 Lt – 4025N",
+    "type": "product"
+   },
+   {
+    "id": 4595,
+    "slug": "mekanik-yag-pompasi-18-lt-4018n",
+    "title": "Mekanik Yağ Pompası 18 Lt – 4018N",
+    "type": "product"
+   },
+   {
+    "id": 4596,
+    "slug": "havali-gres-pompasi-701-2330n",
+    "title": "Havalı Gres Pompası 70:1 – 2330N",
+    "type": "product"
+   },
+   {
+    "id": 4597,
+    "slug": "havali-gres-pompasi-701-2300n",
+    "title": "Havalı Gres Pompası 70:1 – 2300N",
+    "type": "product"
+   },
+   {
+    "id": 4598,
+    "slug": "havali-gres-pompasi-701-2250n",
+    "title": "Havalı Gres Pompası 70:1 – 2250N",
+    "type": "product"
+   },
+   {
+    "id": 4599,
+    "slug": "havali-gres-pompasi-701-2230n",
+    "title": "Havalı Gres Pompası 70:1 – 2230N",
+    "type": "product"
+   },
+   {
+    "id": 4600,
+    "slug": "havali-gres-pompasi-701-2226n",
+    "title": "Havalı Gres Pompası 70:1 – 2226N",
+    "type": "product"
+   },
+   {
+    "id": 4601,
+    "slug": "havali-gres-pompasi-701-2220n",
+    "title": "Havalı Gres Pompası 70:1 – 2220N",
+    "type": "product"
+   },
+   {
+    "id": 4602,
+    "slug": "havali-gres-pompasi-701-2210n",
+    "title": "Havalı Gres Pompası 70:1 – 2210N",
+    "type": "product"
+   },
+   {
+    "id": 4603,
+    "slug": "havali-gres-pompasi-451-2150n",
+    "title": "Havalı Gres Pompası 45:1 – 2150N",
+    "type": "product"
+   },
+   {
+    "id": 4604,
+    "slug": "havali-gres-pompasi-451-2130n",
+    "title": "Havalı Gres Pompası 45:1 – 2130N",
+    "type": "product"
+   },
+   {
+    "id": 4605,
+    "slug": "havali-gres-pompasi-451-2126n",
+    "title": "Havalı Gres Pompası 45:1 – 2126N",
+    "type": "product"
+   },
+   {
+    "id": 4606,
+    "slug": "havali-gres-pompasi-451-2120n",
+    "title": "Havalı Gres Pompası 45:1 – 2120N",
+    "type": "product"
+   },
+   {
+    "id": 4607,
+    "slug": "mekanik-gres-pompasi-16-kg-2016n",
+    "title": "Mekanik Gres Pompası 16 Kg – 2016N",
+    "type": "product"
+   },
+   {
+    "id": 4608,
+    "slug": "mekanik-gres-pompasi-20-kg-2025n",
+    "title": "Mekanik Gres Pompası 20 Kg – 2025N",
+    "type": "product"
+   },
+   {
+    "id": 4609,
+    "slug": "havali-gres-pompasi-451-2110n",
+    "title": "Havalı Gres Pompası 45:1 – 2110N",
+    "type": "product"
+   },
+   {
+    "id": 4613,
+    "slug": "mekanik-gres-pompasi-10-kg-2010n",
+    "title": "Mekanik Gres Pompası 10 Kg – 2010N",
+    "type": "product"
+   },
+   {
+    "id": 4631,
+    "slug": "havali-yag-pompasi-51-4190n",
+    "title": "Havalı Yağ Pompası 5:1 – 4190N",
+    "type": "product"
+   },
+   {
+    "id": 5846,
+    "slug": "havali-gres-pompasi-451-2116n",
+    "title": "Havalı Gres Pompası 45:1 – 2116N",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2010n_2016n_mekanik_gres_pompasi_yeni_10kg-2-rje8m6zgm64wvsfglfrwpo91r0fal0fu6dq0l7qumg.jpg",
+    "alt": "2010n_2016n_mekanik_gres_pompasi_yeni_10kg-2"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2025n_mekanik_gres_pompasi20kg_-rje8m7xat0677ee3fy6ja60iceanspjkiidi2hpgg8.jpg",
+    "alt": "2025n_mekanik_gres_pompasi20kg_"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2110n_havali_gres_pompasi-rje8m9sz6o8rumbd4yzsf5jfj61e83r16roh11mo3s.jpg",
+    "alt": "2110n_havali_gres_pompasi"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2130n_havali_gres_pompasi_yeni-rje8mbonkcbchu8mtzt1k52cpxs4nhyhv0zfzljvrc.jpg",
+    "alt": "2130n_havali_gres_pompasi_yeni"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2210n_havali_gres_pompasi-rje8mfg0boghsa3681fju4473h9liadf7jldwpeb2g.jpg",
+    "alt": "2210n_havali_gres_pompasi"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2150n_havali_gres_pompasi1-rje8mdkby0dx525wj0map4l9wpiv2w5yjaaey5h3ew.jpg",
+    "alt": "2150n_havali_gres_pompasi1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2230n_havali_gres_pompasi-rje8mhbopcj2fi0fx28sz3n4a90bxokvvswcv9biq0.jpg",
+    "alt": "2230n_havali_gres_pompasi"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2250n_havali_gres_pompasi-rje8mi9iw6kcr3z2rknfjlekvmvp5dom7xjucja4js.jpg",
+    "alt": "2250n_havali_gres_pompasi"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/2330n_havali_gres_pompasi-rje8mj7d30ln2pxpm3224361h0r2d2sck27btt8qdk.jpg",
+    "alt": "2330n_havali_gres_pompasi"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/4018n_mekanik_ince_yag_pompasi_18_lt-rje8mk579umxebwcglgookxi2emfkrw2w6utb37c7c.jpg",
+    "alt": "4018n_mekanik_ince_yag_pompasi_18_lt"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/4025n_mekanik_ince_yag_pompasi_25_lt-rje8ml31goo7pxuzb3vb92oynshssgzt8biasd5y14.jpg",
+    "alt": "4025n_mekanik_ince_yag_pompasi_25_lt"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/4190n_havali_ince_yag_pompasi-rje8mmypucqsd5s904oke27vuk8j7v79wkt9qx35oo.jpg",
+    "alt": "4190n_havali_ince_yag_pompasi"
+   }
+  ]
+ },
+ {
+  "id": 3313,
+  "slug": "tankli-yag-sistemi",
+  "title": "Tanklı yağ sistemi",
+  "path": "urunler/yaglama-cihazlari/tankli-yag-sistemi",
+  "parent_id": 3136,
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/tankli-yag-sistemi/",
+  "children": [
+   {
+    "id": 4589,
+    "slug": "tankli-yag-sistemi-tys4400",
+    "title": "Tanklı Yağ Sistemi – TYS4400",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/TYS4400-Tankli-Yag-Sistemi-rje8ac8qfdwqgtnbtbba9nxs22unifdp7pjkplbl3c.jpg",
+    "alt": "TYS4400-Tankli-Yag-Sistemi"
+   }
+  ]
+ },
+ {
+  "id": 3314,
+  "slug": "mekanik-transfer-pompalari",
+  "title": "Mekanik transfer pompaları",
+  "path": "urunler/yaglama-cihazlari/mekanik-transfer-pompalari",
+  "parent_id": 3136,
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/mekanik-transfer-pompalari/",
+  "children": [
+   {
+    "id": 4541,
+    "slug": "mekanik-sivi-transfer-pompasi-4003",
+    "title": "Mekanik Sıvı Transfer Pompası – 4003",
+    "type": "product"
+   },
+   {
+    "id": 4543,
+    "slug": "mekanik-sivi-transfer-pompasi-4013",
+    "title": "Mekanik Sıvı Transfer Pompası – 4013",
+    "type": "product"
+   },
+   {
+    "id": 4544,
+    "slug": "mekanik-sivi-transfer-pompasi-4012",
+    "title": "Mekanik Sıvı Transfer Pompası – 4012",
+    "type": "product"
+   },
+   {
+    "id": 4545,
+    "slug": "mekanik-sivi-transfer-pompasi-4011",
+    "title": "Mekanik Sıvı Transfer Pompası – 4011",
+    "type": "product"
+   },
+   {
+    "id": 4546,
+    "slug": "mekanik-sivi-transfer-pompasi-44100",
+    "title": "Mekanik Sıvı Transfer Pompası – 44100",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/4003-Mekanik-Sivi-Transfer-Pompasi-3-rje7bwfm0wrj35o7wxedeussiulihnnqt924pmdv2g.jpg",
+    "alt": "4003-Mekanik-Sivi-Transfer-Pompasi-3"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/4006-Mekanik-Sivi-Transfer-Pompasi-2-rje7bxdg7qstermurfszzck948gvpcrh5dpm6wcgw8.jpg",
+    "alt": "4006-Mekanik-Sivi-Transfer-Pompasi-2"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/4011-mekanik-sivi-transfer-pompasi-rje7bz94leve1zk4ggm94c36b07m4qyxtn0l5g9ojs.jpg",
+    "alt": "4011-mekanik-sivi-transfer-pompasi"
+   }
+  ]
+ },
+ {
+  "id": 3315,
+  "slug": "havali-yag-pompalari",
+  "title": "Havalı Yağ Pompaları",
+  "path": "urunler/yaglama-cihazlari/havali-yag-pompalari",
+  "parent_id": 3136,
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-yag-pompalari/",
+  "children": [
+   {
+    "id": 4497,
+    "slug": "havali-yag-pompasi-varil-tipi-31-22-lt-4455",
+    "title": "Havalı Yağ Pompası Varil Tipi 3:1 22 Lt – 4455",
+    "type": "product"
+   },
+   {
+    "id": 4499,
+    "slug": "havali-yag-pompasi-varil-tipi-51-18-lt-4450",
+    "title": "Havalı Yağ Pompası Varil Tipi 5:1 18 Lt – 4450",
+    "type": "product"
+   },
+   {
+    "id": 4500,
+    "slug": "havali-yag-pompasi-varil-tipi-31-15-lt-4405",
+    "title": "Havalı Yağ Pompası Varil Tipi 3:1 15 Lt – 4405",
+    "type": "product"
+   },
+   {
+    "id": 4501,
+    "slug": "havali-yag-pompasi-varil-tipi-51-12-lt-4400",
+    "title": "Havalı Yağ Pompası Varil Tipi 5:1 12 Lt – 4400",
+    "type": "product"
+   },
+   {
+    "id": 4502,
+    "slug": "havali-yag-pompasi-80-lt-4200",
+    "title": "Havalı Yağ Pompası 80 Lt – 4200",
+    "type": "product"
+   },
+   {
+    "id": 4503,
+    "slug": "havali-yag-pompasi-80-lt-4190",
+    "title": "Havalı Yağ Pompası 80 Lt – 4190",
+    "type": "product"
+   },
+   {
+    "id": 4504,
+    "slug": "havali-yag-pompasi-duvar-tipi-31-22-lt-3046",
+    "title": "Havalı Yağ Pompası Duvar Tipi 3:1 22 Lt – 3046",
+    "type": "product"
+   },
+   {
+    "id": 4505,
+    "slug": "havali-yag-pompasi-duvar-tipi-31-15-lt-3045",
+    "title": "Havalı Yağ Pompası Duvar Tipi 3:1 15 Lt – 3045",
+    "type": "product"
+   },
+   {
+    "id": 4506,
+    "slug": "havali-yag-pompasi-duvar-tipi-51-12-lt-3044",
+    "title": "Havalı Yağ Pompası Duvar Tipi 5:1 12 Lt – 3044",
+    "type": "product"
+   },
+   {
+    "id": 4507,
+    "slug": "havali-yag-pompasi-duvar-tipi-51-18-lt-3043",
+    "title": "Havalı Yağ Pompası Duvar Tipi 5:1 18 Lt – 3043",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/3043_havali_ince_yag_pompasi_duvar_tipi_18_lt-1-rje6zmngsryrifhxkmfpuya5br2zzwxwgifx5kkwaw.jpg",
+    "alt": "3043_havali_ince_yag_pompasi_duvar_tipi_18_lt-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/3044_havali_ince_yag_pompasi_duvar_tipi1_12_lt-1-rje6zoj56g1c5nf79n8yzxt2iitqfb5d4rqw44i3yg.jpg",
+    "alt": "3044_havali_ince_yag_pompasi_duvar_tipi1_12_lt-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/3045_havali_ince_yag_pompasi_duvar_tipi15lt-1-rje6zpgzda2mh9du45nlkfkj3wp3n093gwedlegps8.jpg",
+    "alt": "3045_havali_ince_yag_pompasi_duvar_tipi15lt-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/3046_havali_ince_yag_pompasi_22_lt-1-rje6zqetk43wsvcgyo284xbzpakgupctt11v2ofbm0.jpg",
+    "alt": "3046_havali_ince_yag_pompasi_22_lt-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/4200-havali-yag-pompasi2-2-rje6zt8c4m7rrp8di7a3uemdhg6khso0tf0biib53c.jpg",
+    "alt": "4200-havali-yag-pompasi2-2"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/4190_havali_ince_yag_pompasi_80lt_yeni-1-rje6zrcnqy574hb3t6gupf3gaofu2egk55pcjydxfs.jpg",
+    "alt": "4190_havali_ince_yag_pompasi_80lt_yeni-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/4400_havali_ince_yag_pompasi_varil_tipi12lt-1-rje6zv40iaacex5n783cze5ao7xax6vhhobah28cqw.jpg",
+    "alt": "4400_havali_ince_yag_pompasi_varil_tipi12lt-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/4405_havali_ince_yag_pompasi_varil_tipi_15lt-1-rje6zwzovycx252ww8wm4do7uzo1cl2y5xm9fm5keg.jpg",
+    "alt": "4405_havali_ince_yag_pompasi_varil_tipi_15lt-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/4450_havali_ince_yag_pompasi_18_lt-1-rje6zxxj2se7dr1jqrb8ovfogdjeka6oi29qww4688.jpg",
+    "alt": "4450_havali_ince_yag_pompasi_18_lt-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/4455_havali_ince_yag_pompasi_22_lt-1-rje6zyvd9mfhpd06l9pv9d751rerrzaeu6x8e62s20.jpg",
+    "alt": "4455_havali_ince_yag_pompasi_22_lt-1"
+   }
+  ]
+ },
+ {
+  "id": 3316,
+  "slug": "elektrikli-yag-pompalari",
+  "title": "Elektrikli yağ pompaları",
+  "path": "urunler/yaglama-cihazlari/elektrikli-yag-pompalari",
+  "parent_id": 3136,
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/elektrikli-yag-pompalari/",
+  "children": [
+   {
+    "id": 4476,
+    "slug": "graco-uyumlu-yedek-parca",
+    "title": "Graco Uyumlu Yedek Parça",
+    "type": "product"
+   },
+   {
+    "id": 4489,
+    "slug": "paletli-yag-pompalari",
+    "title": "Paletli Yağ Pompaları",
+    "type": "product"
+   },
+   {
+    "id": 4490,
+    "slug": "disli-yag-pompalari",
+    "title": "Dişli Yağ Pompaları",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/beg-20-elektrikli-yag-pompasi-230-1-rje6rm30imzqi553dnp93h3myglbcu4b0u5utmgrd4.jpg",
+    "alt": "beg-20-elektrikli-yag-pompasi-230-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/Rover_40_Elektrikli_Yag_Pompasi_85_Lt-2-rje6rnyowb2b5d2d2oii8gmk58c1s8brp3gts6dz0o.jpg",
+    "alt": "Rover_40_Elektrikli_Yag_Pompasi_85_Lt-2"
+   }
+  ]
+ },
+ {
+  "id": 3317,
+  "slug": "sabit-varil-sistemleri",
+  "title": "Sabit varil sistemleri",
+  "path": "urunler/yaglama-cihazlari/sabit-varil-sistemleri",
+  "parent_id": 3136,
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/sabit-varil-sistemleri/",
+  "children": [
+   {
+    "id": 4477,
+    "slug": "havali-sabit-yag-varil-sistemi-dvs4500",
+    "title": "Havalı Sabit Yağ Varil Sistemi – DVS4500",
+    "type": "product"
+   },
+   {
+    "id": 4478,
+    "slug": "havali-sabit-gres-varil-sistemi-dvs2500",
+    "title": "Havalı Sabit Gres Varil Sistemi – DVS2500",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/DVS2500-rje6oj6246rwg5m7dbr9x938uzs04jvz9l6k6z17rc.jpg",
+    "alt": "DVS2500"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/DVS4500-rje6ok3wb0t6rrku7u5whqupgdndc8zplpu1o8ztl4.jpg",
+    "alt": "DVS4500"
+   }
+  ]
+ },
+ {
+  "id": 3318,
+  "slug": "litre-kaplari-ve-huniler",
+  "title": "Litre kapları ve huniler",
+  "path": "urunler/yaglama-cihazlari/litre-kaplari-ve-huniler",
+  "parent_id": 3136,
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/litre-kaplari-ve-huniler/",
+  "children": [
+   {
+    "id": 4439,
+    "slug": "plastik-huniler-ph",
+    "title": "Plastik Huniler – PH",
+    "type": "product"
+   },
+   {
+    "id": 4461,
+    "slug": "metal-litre-kaplari-ltk",
+    "title": "Metal Litre Kapları – LTK",
+    "type": "product"
+   },
+   {
+    "id": 4462,
+    "slug": "plastik-litre-kaplari-lkp",
+    "title": "Plastik Litre Kapları – LKP",
+    "type": "product"
+   },
+   {
+    "id": 4463,
+    "slug": "plastik-litre-kaplari-kapakli-lkpk",
+    "title": "Plastik Litre Kapları Kapaklı – LKPK",
+    "type": "product"
+   },
+   {
+    "id": 4464,
+    "slug": "metal-huniler-hn",
+    "title": "Metal Huniler – HN",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/LKPK-Plastik-Litre-Kaplari-Kapakli-rjdznmpbawkkp4yy50aw22kj0uar49vvtu9hsu0hvs.jpg",
+    "alt": "LKPK-Plastik-Litre-Kaplari-Kapakli"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/dirseklihunihn1-1-rjdznjvsqegpqb31lh30cla58oonh6kotgb1d04oeg.jpg",
+    "alt": "dirseklihunihn1-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/lkp-litre-kaplari-rjdznktmx8i01x1ofzhmx31lu2k0ovof5kyiua3a88.jpg",
+    "alt": "lkp-litre-kaplari"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/ltk-filtre-kaplari-1-rjdznnn5hqlv0qxkzipimkbzm864byzm5ywza3z3pk.jpg",
+    "alt": "ltk-filtre-kaplari-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/phhuni-rjdznokzokn5ccw7u145723g7m1hjo3ci3kgrdxpjc.jpg",
+    "alt": "phhuni"
+   }
+  ]
+ },
+ {
+  "id": 3319,
+  "slug": "yag-bosaltma-kovalari",
+  "title": "Yağ boşaltma kovaları",
+  "path": "urunler/yaglama-cihazlari/yag-bosaltma-kovalari",
+  "parent_id": 3136,
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-bosaltma-kovalari/",
+  "children": [
+   {
+    "id": 4444,
+    "slug": "havali-yag-bosaltma-deposu-tanki-agir-hizmet-80-lt-4295",
+    "title": "Havalı Yağ Boşaltma Deposu Tankı Ağır Hizmet 80 Lt – 4295",
+    "type": "product"
+   },
+   {
+    "id": 4445,
+    "slug": "havali-yag-bosaltma-deposu-gostergeli-80-lt-42909",
+    "title": "Havalı Yağ Boşaltma Deposu Göstergeli 80 Lt – 42909",
+    "type": "product"
+   },
+   {
+    "id": 4446,
+    "slug": "havali-yag-bosaltma-deposu-tanki-60-lt-4260",
+    "title": "Havalı Yağ Boşaltma Deposu Tankı 60 Lt – 4260",
+    "type": "product"
+   },
+   {
+    "id": 4447,
+    "slug": "havali-yag-bosaltma-deposu-tanki-80-lt-4290",
+    "title": "Havalı Yağ Boşaltma Deposu Tankı 80 Lt – 4290",
+    "type": "product"
+   },
+   {
+    "id": 4448,
+    "slug": "yag-bosaltma-kovasi-50-lt-4250",
+    "title": "Yağ Boşaltma Kovası 50 Lt – 4250",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/4250-yag-bosaltma-kovasi-50-lt-1-rjdxr805wyxbqsc5lfsclc0unbh2xab5391cfvfyq0.jpg",
+    "alt": "4250-yag-bosaltma-kovasi-50-lt-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/4290-yag-bosaltma-deposu-80-lt-rjdxr8y03sym2easfy6z5tsb8pcg4zevfdotx5ekjs.jpg",
+    "alt": "4290-yag-bosaltma-deposu-80-lt"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/42909-yag-bosaltma-kovasi-gostergeli-700x700h-rjdxratohh16pm824z08atb8fh36kdmc3mzsvpbs7c.jpg",
+    "alt": "42909-yag-bosaltma-kovasi-gostergeli-700x700h"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/429520429540-teleskobik-havali-yag-bosaltma-deposu-80lt-rjdxrbriob2h186ozheuvb2p0uyjs2q2frnaczae14.jpg",
+    "alt": "429520429540-teleskobik-havali-yag-bosaltma-deposu-80lt"
+   }
+  ]
+ },
+ {
+  "id": 3332,
+  "slug": "el-gres-pompalari-ve-yagdanliklari",
+  "title": "El gres pompaları ve yağdanlıkları",
+  "path": "urunler/yaglama-cihazlari/el-gres-pompalari-ve-yagdanliklari",
+  "parent_id": 3136,
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/el-gres-pompalari-ve-yagdanliklari/",
+  "children": [
+   {
+    "id": 4557,
+    "slug": "govdeden-itmeli-yag-pompasi-iyp",
+    "title": "Gövdeden İtmeli Yağ Pompası – İYP",
+    "type": "product"
+   },
+   {
+    "id": 4559,
+    "slug": "govdeden-itmeli-gres-pompasi-igp",
+    "title": "Gövdeden İtmeli Gres Pompası – İGP",
+    "type": "product"
+   },
+   {
+    "id": 4560,
+    "slug": "havali-el-gres-pompasi-hegp500",
+    "title": "Havalı El Gres Pompası – HEGP500",
+    "type": "product"
+   },
+   {
+    "id": 4561,
+    "slug": "sarjli-el-gres-pompasi-gfp-18v-10",
+    "title": "Şarjlı El Gres Pompası – GFP 18V-10",
+    "type": "product"
+   },
+   {
+    "id": 4562,
+    "slug": "metal-yagdanlik-gf216",
+    "title": "Metal Yağdanlık – GF216",
+    "type": "product"
+   },
+   {
+    "id": 4563,
+    "slug": "metal-yagdanlik-gf214",
+    "title": "Metal Yağdanlık – GF214",
+    "type": "product"
+   },
+   {
+    "id": 4564,
+    "slug": "el-gres-pompasi-egp500",
+    "title": "El Gres Pompası – EGP500",
+    "type": "product"
+   },
+   {
+    "id": 4565,
+    "slug": "el-gres-pompasi-500-cc-g5",
+    "title": "El Gres Pompası 500 Cc – G5",
+    "type": "product"
+   },
+   {
+    "id": 4566,
+    "slug": "el-gres-pompasi-egp1000",
+    "title": "El Gres Pompası – EGP1000",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/egp1000-1-1-rje7jcbm4oy900v3gn71nh75tnx4fe78u2zihhcnt4.jpg",
+    "alt": "egp1000-1-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/groz-g5-el-gres-pompasi-500-cc-1-rje7jbdrxuwyoewgm4sf2zfp8a1r7p3ihyc107e1zc.jpg",
+    "alt": "groz-g5-el-gres-pompasi-500-cc-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/egp500-11-2-rje7jafxr0vocsxtrmdsiho8mw6dzzzs5tojixfg5k.jpg",
+    "alt": "egp500-11-2"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/Gulersan-GF214-Madeni-Yagdanlik-350-Cc-rje7j8k9dct3pl0k2lkjdi5bg4fnklsbhkdkkdi8i0.jpg",
+    "alt": "Gulersan-GF214-Madeni-Yagdanlik-350-Cc"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/Gulersan-GF216-Madeni-Yagdanlik-500-Cc-rje7j7mf6irtdz1x835wt0duuqkacwol5fq333jmo8.jpg",
+    "alt": "Gulersan-GF216-Madeni-Yagdanlik-500-Cc"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/Bosch-GFP-18V-10-0-601-9N6-000-rje7j6okzoqj2d3adkra8ime9cox57kutb2lltl0ug.jpg",
+    "alt": "Bosch-GFP-18V-10-0-601-9N6-000"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/hgep500-1-rje7je7aid0tn8sd5o0asgq30fnuusepicahg19vgo.jpg",
+    "alt": "hgep500-1"
+   },
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/elementor/thumbs/f204-rje7jd9gbizjbmtqb5lo7yymf1shn3az67mzyrb9mw.jpg",
+    "alt": "f204"
+   }
+  ]
+ },
+ {
+  "id": 4266,
+  "slug": "elektrikli-yag-cekme-pompalari",
+  "title": "Elektrikli Yağ Çekme Pompaları",
+  "path": "urunler/yaglama-cihazlari/yag-cekme-pompalari/elektrikli-yag-cekme-pompalari",
+  "parent_id": 3275,
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-cekme-pompalari/elektrikli-yag-cekme-pompalari/",
+  "children": [
+   {
+    "id": 5176,
+    "slug": "elektrikli-karterden-yag-cekme-emme-pompasi-9-lt-6910",
+    "title": "Elektrikli Karterden Yağ Çekme Emme Pompası 9 Lt – 6910",
+    "type": "product"
+   },
+   {
+    "id": 5178,
+    "slug": "elektrikli-karterden-yag-cekme-emme-pompasi-80-lt-6980",
+    "title": "Elektrikli Karterden Yağ Çekme Emme Pompası 80 Lt – 6980",
+    "type": "product"
+   },
+   {
+    "id": 5180,
+    "slug": "elektrikli-karterden-yag-cekme-emme-pompasi-80-lt-6970",
+    "title": "Elektrikli Karterden Yağ Çekme Emme Pompası 80 Lt – 6970",
+    "type": "product"
+   },
+   {
+    "id": 5185,
+    "slug": "elektrikli-yag-cekme-pompalari",
+    "title": "Elektrikli Yağ Çekme Pompaları",
+    "type": "product"
+   }
+  ],
+  "images": [
+   {
+    "url": "https://hdmarine.com.tr/wp-content/uploads/2025/07/Aro.webp",
+    "alt": ""
+   }
+  ]
+ }
+]

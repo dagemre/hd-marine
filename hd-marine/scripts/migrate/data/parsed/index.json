@@ -1,0 +1,2594 @@
+[
+ {
+  "id": 8,
+  "slug": "anasayfa",
+  "title": "Anasayfa",
+  "link": "https://hdmarine.com.tr/",
+  "date": "2024-09-17T20:54:33",
+  "parent_id": 0
+ },
+ {
+  "id": 105,
+  "slug": "hakkimizda",
+  "title": "Hakkımızda",
+  "link": "https://hdmarine.com.tr/hakkimizda/",
+  "date": "2024-09-17T21:12:41",
+  "parent_id": 0
+ },
+ {
+  "id": 110,
+  "slug": "sektorler",
+  "title": "Sektörler",
+  "link": "https://hdmarine.com.tr/sektorler/",
+  "date": "2024-09-17T21:41:38",
+  "parent_id": 0
+ },
+ {
+  "id": 116,
+  "slug": "kataloglar",
+  "title": "Kataloglar",
+  "link": "https://hdmarine.com.tr/kataloglar/",
+  "date": "2024-09-17T21:45:40",
+  "parent_id": 0
+ },
+ {
+  "id": 128,
+  "slug": "urunler",
+  "title": "Ürünler",
+  "link": "https://hdmarine.com.tr/urunler/",
+  "date": "2024-09-17T21:55:07",
+  "parent_id": 0
+ },
+ {
+  "id": 279,
+  "slug": "endustriyel-pompalar",
+  "title": "Endustriyel Pompalar",
+  "link": "https://hdmarine.com.tr/urunler/endustriyel-pompalar/",
+  "date": "2026-05-21T20:45:09",
+  "parent_id": 128
+ },
+ {
+  "id": 333,
+  "slug": "iletisim",
+  "title": "İletişim",
+  "link": "https://hdmarine.com.tr/iletisim/",
+  "date": "2024-09-18T20:11:37",
+  "parent_id": 0
+ },
+ {
+  "id": 437,
+  "slug": "sizdirmazlik-elemanlari",
+  "title": "Sızdırmazlık Elemanları",
+  "link": "https://hdmarine.com.tr/urunler/sizdirmazlik-elemanlari/",
+  "date": "2026-05-21T20:42:06",
+  "parent_id": 128
+ },
+ {
+  "id": 440,
+  "slug": "boru-tamir-ekipmanlari",
+  "title": "Boru Tamir Ekipmanları",
+  "link": "https://hdmarine.com.tr/urunler/boru-tamir-ekipmanlari/",
+  "date": "2026-05-21T20:45:09",
+  "parent_id": 128
+ },
+ {
+  "id": 443,
+  "slug": "endustriyel-urunler",
+  "title": "Endüstriyel Ürünler",
+  "link": "https://hdmarine.com.tr/urunler/endustriyel-urunler/",
+  "date": "2026-05-21T20:44:02",
+  "parent_id": 128
+ },
+ {
+  "id": 628,
+  "slug": "diyaframli-pompa",
+  "title": "Diyaframlı Pompa",
+  "link": "https://hdmarine.com.tr/urunler/endustriyel-pompalar/diyaframli-pompa/",
+  "date": "2026-05-21T20:45:09",
+  "parent_id": 279
+ },
+ {
+  "id": 684,
+  "slug": "404-2",
+  "title": "404",
+  "link": "https://hdmarine.com.tr/404-2/",
+  "date": "2024-09-19T18:18:45",
+  "parent_id": 0
+ },
+ {
+  "id": 693,
+  "slug": "disli-pompa",
+  "title": "Dişli Pompa",
+  "link": "https://hdmarine.com.tr/urunler/endustriyel-pompalar/disli-pompa/",
+  "date": "2026-05-21T20:45:09",
+  "parent_id": 279
+ },
+ {
+  "id": 698,
+  "slug": "blower",
+  "title": "Blower",
+  "link": "https://hdmarine.com.tr/urunler/endustriyel-pompalar/blower/",
+  "date": "2024-09-20T11:44:00",
+  "parent_id": 279
+ },
+ {
+  "id": 736,
+  "slug": "manyetik-asit-pompalari",
+  "title": "Manyetik Asit Pompaları",
+  "link": "https://hdmarine.com.tr/urunler/endustriyel-pompalar/manyetik-asit-pompalari/",
+  "date": "2026-05-21T20:45:09",
+  "parent_id": 279
+ },
+ {
+  "id": 747,
+  "slug": "varil-pompasi",
+  "title": "Varil Pompası",
+  "link": "https://hdmarine.com.tr/urunler/endustriyel-pompalar/varil-pompasi/",
+  "date": "2026-05-21T20:41:30",
+  "parent_id": 279
+ },
+ {
+  "id": 752,
+  "slug": "vakum-pompasi",
+  "title": "Vakum Pompası",
+  "link": "https://hdmarine.com.tr/urunler/endustriyel-pompalar/vakum-pompasi/",
+  "date": "2026-05-21T20:41:30",
+  "parent_id": 279
+ },
+ {
+  "id": 757,
+  "slug": "dozaj-pompasi",
+  "title": "Dozaj Pompası",
+  "link": "https://hdmarine.com.tr/urunler/endustriyel-pompalar/dozaj-pompasi/",
+  "date": "2026-05-21T20:45:09",
+  "parent_id": 279
+ },
+ {
+  "id": 766,
+  "slug": "monopompa",
+  "title": "Monopompa",
+  "link": "https://hdmarine.com.tr/urunler/endustriyel-pompalar/monopompa/",
+  "date": "2026-05-21T20:45:09",
+  "parent_id": 279
+ },
+ {
+  "id": 769,
+  "slug": "spiral-sarimli-celik-conta",
+  "title": "Spiral Sarımlı Çelik Conta",
+  "link": "https://hdmarine.com.tr/urunler/sizdirmazlik-elemanlari/spiral-sarimli-celik-conta/",
+  "date": "2026-05-21T20:44:24",
+  "parent_id": 437
+ },
+ {
+  "id": 774,
+  "slug": "grafitli-ve-klingrit-contalar",
+  "title": "Grafitli ve Klingrit Contalar",
+  "link": "https://hdmarine.com.tr/urunler/sizdirmazlik-elemanlari/grafitli-ve-klingrit-contalar/",
+  "date": "2026-05-21T20:44:24",
+  "parent_id": 437
+ },
+ {
+  "id": 779,
+  "slug": "teflon-ve-yapiskanli-teflon-conta",
+  "title": "Teflon ve Yapışkanlı Teflon Conta",
+  "link": "https://hdmarine.com.tr/urunler/sizdirmazlik-elemanlari/teflon-ve-yapiskanli-teflon-conta/",
+  "date": "2026-05-21T20:44:24",
+  "parent_id": 437
+ },
+ {
+  "id": 784,
+  "slug": "yumusak-salmastralar",
+  "title": "Yumuşak Salmastralar",
+  "link": "https://hdmarine.com.tr/urunler/sizdirmazlik-elemanlari/yumusak-salmastralar/",
+  "date": "2026-05-21T20:44:11",
+  "parent_id": 437
+ },
+ {
+  "id": 789,
+  "slug": "ambar-kapak-bantlari",
+  "title": "Ambar Kapak Bantları",
+  "link": "https://hdmarine.com.tr/urunler/sizdirmazlik-elemanlari/ambar-kapak-bantlari/",
+  "date": "2026-05-21T20:44:11",
+  "parent_id": 437
+ },
+ {
+  "id": 1057,
+  "slug": "boru-tamir-kelepceleri",
+  "title": "Boru Tamir Kelepçeleri",
+  "link": "https://hdmarine.com.tr/urunler/boru-tamir-ekipmanlari/boru-tamir-kelepceleri/",
+  "date": "2026-05-21T20:45:09",
+  "parent_id": 440
+ },
+ {
+  "id": 1062,
+  "slug": "boru-tamir-bandaji",
+  "title": "Boru Tamir Bandajı",
+  "link": "https://hdmarine.com.tr/urunler/boru-tamir-ekipmanlari/boru-tamir-bandaji/",
+  "date": "2026-05-21T20:45:09",
+  "parent_id": 440
+ },
+ {
+  "id": 1072,
+  "slug": "gemi-kimyasallari",
+  "title": "Gemi Kimyasalları",
+  "link": "https://hdmarine.com.tr/urunler/endustriyel-urunler/gemi-kimyasallari/",
+  "date": "2026-05-21T20:43:33",
+  "parent_id": 443
+ },
+ {
+  "id": 1077,
+  "slug": "termal-etiket",
+  "title": "Termal Etiket",
+  "link": "https://hdmarine.com.tr/urunler/endustriyel-urunler/termal-etiket/",
+  "date": "2026-05-21T20:41:30",
+  "parent_id": 443
+ },
+ {
+  "id": 1810,
+  "slug": "teklif-alin",
+  "title": "Teklif Alın",
+  "link": "https://hdmarine.com.tr/teklif-alin/",
+  "date": "2024-10-07T19:06:22",
+  "parent_id": 0
+ },
+ {
+  "id": 2068,
+  "slug": "sanayi-kimyasallari",
+  "title": "Sanayi Kimyasalları",
+  "link": "https://hdmarine.com.tr/urunler/endustriyel-urunler/sanayi-kimyasallari/",
+  "date": "2026-05-21T20:43:33",
+  "parent_id": 443
+ },
+ {
+  "id": 2493,
+  "slug": "sine-lob-pompa",
+  "title": "Sine Lob Pompa",
+  "link": "https://hdmarine.com.tr/urunler/endustriyel-pompalar/sine-lob-pompa/",
+  "date": "2026-05-21T20:45:09",
+  "parent_id": 279
+ },
+ {
+  "id": 2559,
+  "slug": "anti-splashing-tape",
+  "title": "Anti Splashing Tape",
+  "link": "https://hdmarine.com.tr/urunler/sizdirmazlik-elemanlari/anti-splashing-tape/",
+  "date": "2026-05-21T20:44:25",
+  "parent_id": 437
+ },
+ {
+  "id": 2733,
+  "slug": "diyaframli-pompa-yedek-parcalari",
+  "title": "Diyaframlı Pompa Yedek Parçaları",
+  "link": "https://hdmarine.com.tr/urunler/diyaframli-pompa-yedek-parcalari/",
+  "date": "2026-05-21T20:45:09",
+  "parent_id": 128
+ },
+ {
+  "id": 2736,
+  "slug": "wilden-uyumlu-yedek-parca",
+  "title": "Wilden® Uyumlu Yedek Parça",
+  "link": "https://hdmarine.com.tr/urunler/diyaframli-pompa-yedek-parcalari/wilden-uyumlu-yedek-parca/",
+  "date": "2026-05-21T20:45:09",
+  "parent_id": 2733
+ },
+ {
+  "id": 2740,
+  "slug": "aro-uyumlu-yedek-parca",
+  "title": "Aro® Uyumlu Yedek Parça",
+  "link": "https://hdmarine.com.tr/urunler/diyaframli-pompa-yedek-parcalari/aro-uyumlu-yedek-parca/",
+  "date": "2026-05-21T20:44:58",
+  "parent_id": 2733
+ },
+ {
+  "id": 2741,
+  "slug": "graco-uyumlu-yedek-parca",
+  "title": "Graco® Uyumlu Yedek Parça",
+  "link": "https://hdmarine.com.tr/urunler/diyaframli-pompa-yedek-parcalari/graco-uyumlu-yedek-parca/",
+  "date": "2026-05-21T20:44:58",
+  "parent_id": 2733
+ },
+ {
+  "id": 2742,
+  "slug": "sandpiper-uyumlu-yedek-parca",
+  "title": "Sandpiper® Uyumlu Yedek Parça",
+  "link": "https://hdmarine.com.tr/urunler/diyaframli-pompa-yedek-parcalari/sandpiper-uyumlu-yedek-parca/",
+  "date": "2026-05-21T20:44:58",
+  "parent_id": 2733
+ },
+ {
+  "id": 2743,
+  "slug": "blagdon-uyumlu-yedek-parca",
+  "title": "Blagdon® Uyumlu Yedek Parça",
+  "link": "https://hdmarine.com.tr/urunler/diyaframli-pompa-yedek-parcalari/blagdon-uyumlu-yedek-parca/",
+  "date": "2026-05-21T20:45:09",
+  "parent_id": 2733
+ },
+ {
+  "id": 2744,
+  "slug": "versa-matic-uyumlu-yedek-parca",
+  "title": "Versa-Matic® Uyumlu Yedek Parça",
+  "link": "https://hdmarine.com.tr/urunler/diyaframli-pompa-yedek-parcalari/versa-matic-uyumlu-yedek-parca/",
+  "date": "2026-05-21T20:45:09",
+  "parent_id": 2733
+ },
+ {
+  "id": 2747,
+  "slug": "yamada-uyumlu-yedek-parca",
+  "title": "Yamada® Uyumlu Yedek Parça",
+  "link": "https://hdmarine.com.tr/urunler/diyaframli-pompa-yedek-parcalari/yamada-uyumlu-yedek-parca/",
+  "date": "2026-05-21T20:45:09",
+  "parent_id": 2733
+ },
+ {
+  "id": 2909,
+  "slug": "otomatik-boya-ekipmanlari",
+  "title": "Otomatik Boya Ekipmanları",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/",
+  "date": "2026-05-21T20:44:02",
+  "parent_id": 128
+ },
+ {
+  "id": 2910,
+  "slug": "airless-boya-makinalari",
+  "title": "Airless Boya Makinaları",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/airless-boya-makinalari/",
+  "date": "2026-05-21T20:44:47",
+  "parent_id": 2909
+ },
+ {
+  "id": 2995,
+  "slug": "basincli-boya-kazanlari",
+  "title": "Basınçlı Boya Kazanları",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/basincli-boya-kazanlari/",
+  "date": "2026-05-21T20:44:47",
+  "parent_id": 2909
+ },
+ {
+  "id": 2996,
+  "slug": "boya-tabancalari",
+  "title": "Boya Tabancaları",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/boya-tabancalari/",
+  "date": "2026-05-21T20:44:47",
+  "parent_id": 2909
+ },
+ {
+  "id": 2997,
+  "slug": "karistirici-motorlar-ve-ekipmanlari",
+  "title": "Karıştırıcı Motorlar ve Ekipmanları",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/",
+  "date": "2026-05-21T20:44:47",
+  "parent_id": 2909
+ },
+ {
+  "id": 3136,
+  "slug": "yaglama-cihazlari",
+  "title": "Yağlama cihazları",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/",
+  "date": "2026-05-21T20:41:30",
+  "parent_id": 128
+ },
+ {
+  "id": 3251,
+  "slug": "havali-gres-pompalari",
+  "title": "Havalı Gres Pompaları",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-gres-pompalari/",
+  "date": "2026-05-21T20:44:47",
+  "parent_id": 3136
+ },
+ {
+  "id": 3259,
+  "slug": "mekanik-gres-pompalari",
+  "title": "Mekanik gres pompaları",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/mekanik-gres-pompalari/",
+  "date": "2026-05-21T20:44:47",
+  "parent_id": 3136
+ },
+ {
+  "id": 3270,
+  "slug": "mekanik-yag-pompalari",
+  "title": "Mekanik Yağ Pompaları",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/mekanik-yag-pompalari/",
+  "date": "2026-05-21T20:44:34",
+  "parent_id": 3136
+ },
+ {
+  "id": 3272,
+  "slug": "atik-yag-tava-ve-kuvetleri",
+  "title": "Atık Yağ Tava ve Küvetleri",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/atik-yag-tava-ve-kuvetleri/",
+  "date": "2026-05-21T20:44:47",
+  "parent_id": 3136
+ },
+ {
+  "id": 3273,
+  "slug": "havali-yag-dagiticilari",
+  "title": "Havalı Yağ Dağıtıcıları",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-yag-dagiticilari/",
+  "date": "2026-05-21T20:44:47",
+  "parent_id": 3136
+ },
+ {
+  "id": 3274,
+  "slug": "parca-yikama-makinesi",
+  "title": "Parça Yıkama Makinesi",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/parca-yikama-makinesi/",
+  "date": "2026-05-21T20:44:34",
+  "parent_id": 3136
+ },
+ {
+  "id": 3275,
+  "slug": "yag-cekme-pompalari",
+  "title": "Yağ Çekme Pompaları",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-cekme-pompalari/",
+  "date": "2026-05-21T20:41:30",
+  "parent_id": 3136
+ },
+ {
+  "id": 3295,
+  "slug": "seyyar-yag-varil-sistemleri",
+  "title": "Seyyar yağ varil sistemleri",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/seyyar-yag-varil-sistemleri/",
+  "date": "2026-05-21T20:42:22",
+  "parent_id": 3136
+ },
+ {
+  "id": 3296,
+  "slug": "gres-ve-yag-tabancalari",
+  "title": "Gres ve Yağ Tabancaları",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/",
+  "date": "2026-05-21T20:44:47",
+  "parent_id": 3136
+ },
+ {
+  "id": 3297,
+  "slug": "gresaj-baglanti-parcalari",
+  "title": "Gresaj bağlantı parçaları",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/",
+  "date": "2026-05-21T20:44:47",
+  "parent_id": 3136
+ },
+ {
+  "id": 3303,
+  "slug": "havali-transfer-pompalari",
+  "title": "Havalı Transfer Pompaları",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-transfer-pompalari/",
+  "date": "2026-05-21T20:44:47",
+  "parent_id": 3136
+ },
+ {
+  "id": 3304,
+  "slug": "ibc-yag-sistemleri",
+  "title": "IBC yağ sistemleri",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/ibc-yag-sistemleri/",
+  "date": "2026-05-21T20:44:47",
+  "parent_id": 3136
+ },
+ {
+  "id": 3311,
+  "slug": "aksesuarlar",
+  "title": "Aksesuarlar",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/",
+  "date": "2026-05-21T20:44:47",
+  "parent_id": 3136
+ },
+ {
+  "id": 3312,
+  "slug": "yag-ve-gres-pompalari",
+  "title": "Yağ ve gres pompaları",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-ve-gres-pompalari/",
+  "date": "2026-05-21T20:41:30",
+  "parent_id": 3136
+ },
+ {
+  "id": 3313,
+  "slug": "tankli-yag-sistemi",
+  "title": "Tanklı yağ sistemi",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/tankli-yag-sistemi/",
+  "date": "2026-05-21T20:42:22",
+  "parent_id": 3136
+ },
+ {
+  "id": 3314,
+  "slug": "mekanik-transfer-pompalari",
+  "title": "Mekanik transfer pompaları",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/mekanik-transfer-pompalari/",
+  "date": "2026-05-21T20:44:34",
+  "parent_id": 3136
+ },
+ {
+  "id": 3315,
+  "slug": "havali-yag-pompalari",
+  "title": "Havalı Yağ Pompaları",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-yag-pompalari/",
+  "date": "2026-05-21T20:44:34",
+  "parent_id": 3136
+ },
+ {
+  "id": 3316,
+  "slug": "elektrikli-yag-pompalari",
+  "title": "Elektrikli yağ pompaları",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/elektrikli-yag-pompalari/",
+  "date": "2026-05-21T20:44:47",
+  "parent_id": 3136
+ },
+ {
+  "id": 3317,
+  "slug": "sabit-varil-sistemleri",
+  "title": "Sabit varil sistemleri",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/sabit-varil-sistemleri/",
+  "date": "2026-05-21T20:42:22",
+  "parent_id": 3136
+ },
+ {
+  "id": 3318,
+  "slug": "litre-kaplari-ve-huniler",
+  "title": "Litre kapları ve huniler",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/litre-kaplari-ve-huniler/",
+  "date": "2026-05-21T20:44:47",
+  "parent_id": 3136
+ },
+ {
+  "id": 3319,
+  "slug": "yag-bosaltma-kovalari",
+  "title": "Yağ boşaltma kovaları",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-bosaltma-kovalari/",
+  "date": "2026-05-21T20:41:30",
+  "parent_id": 3136
+ },
+ {
+  "id": 3332,
+  "slug": "el-gres-pompalari-ve-yagdanliklari",
+  "title": "El gres pompaları ve yağdanlıkları",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/el-gres-pompalari-ve-yagdanliklari/",
+  "date": "2026-05-21T20:44:47",
+  "parent_id": 3136
+ },
+ {
+  "id": 3889,
+  "slug": "sayfa2",
+  "title": "Aksesuarlar Sayfa 2",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/sayfa2/",
+  "date": "2026-05-21T20:44:34",
+  "parent_id": 3311
+ },
+ {
+  "id": 4137,
+  "slug": "havali-gres-pompasi-10-kg-2110",
+  "title": "Havalı Gres Pompası 10 Kg – 2110",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-10-kg-2110/",
+  "date": "2026-05-21T20:43:03",
+  "parent_id": 3251
+ },
+ {
+  "id": 4140,
+  "slug": "havali-gres-pompasi-20-kg-2220",
+  "title": "Havalı Gres Pompası 20 Kg – 2220",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-20-kg-2220/",
+  "date": "2026-05-21T20:42:52",
+  "parent_id": 3251
+ },
+ {
+  "id": 4141,
+  "slug": "havali-gres-pompasi-10-kg-2210",
+  "title": "Havalı Gres Pompası 10 Kg – 2210",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-10-kg-2210/",
+  "date": "2026-05-21T20:43:03",
+  "parent_id": 3251
+ },
+ {
+  "id": 4142,
+  "slug": "havali-gres-pompasi-50-kg-2150",
+  "title": "Havalı Gres Pompası 50 Kg – 2150",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-50-kg-2150/",
+  "date": "2026-05-21T20:42:52",
+  "parent_id": 3251
+ },
+ {
+  "id": 4143,
+  "slug": "havali-gres-pompasi-30-kg-2130",
+  "title": "Havalı Gres Pompası 30 Kg – 2130",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-30-kg-2130/",
+  "date": "2026-05-21T20:42:52",
+  "parent_id": 3251
+ },
+ {
+  "id": 4144,
+  "slug": "havali-gres-pompasi-16-kg-2126",
+  "title": "Havalı Gres Pompası 16 Kg – 2126",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-16-kg-2126/",
+  "date": "2026-05-21T20:43:03",
+  "parent_id": 3251
+ },
+ {
+  "id": 4145,
+  "slug": "havali-gres-pompasi-20-kg-2120",
+  "title": "Havalı Gres Pompası 20 Kg – 2120",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-20-kg-2120/",
+  "date": "2026-05-21T20:43:03",
+  "parent_id": 3251
+ },
+ {
+  "id": 4146,
+  "slug": "havali-gres-pompasi-teneke-tipi-16-kg",
+  "title": "Havalı Gres Pompası Teneke Tipi 16 Kg",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-teneke-tipi-16-kg/",
+  "date": "2026-05-21T20:43:03",
+  "parent_id": 3251
+ },
+ {
+  "id": 4154,
+  "slug": "havali-gres-pompasi-varil-tipi-451-2450",
+  "title": "Havalı Gres Pompası Varil Tipi 45:1 – 2450",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-varil-tipi-451-2450/",
+  "date": "2026-05-21T20:43:03",
+  "parent_id": 3251
+ },
+ {
+  "id": 4155,
+  "slug": "havali-gres-pompasi-30-kg-2430",
+  "title": "Havalı Gres Pompası 30 Kg – 2430",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-30-kg-2430/",
+  "date": "2026-05-21T20:43:03",
+  "parent_id": 3251
+ },
+ {
+  "id": 4156,
+  "slug": "havali-gres-pompasi-varil-tipi-701-2400",
+  "title": "Havalı Gres Pompası Varil Tipi 70:1 – 2400",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-varil-tipi-701-2400/",
+  "date": "2026-05-21T20:43:03",
+  "parent_id": 3251
+ },
+ {
+  "id": 4157,
+  "slug": "havali-gres-pompasi-30-kg-2330",
+  "title": "Havalı Gres Pompası 30 Kg – 2330",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-30-kg-2330/",
+  "date": "2026-05-21T20:43:03",
+  "parent_id": 3251
+ },
+ {
+  "id": 4158,
+  "slug": "havali-gres-pompasi-teneke-tipi-16-kg-2300",
+  "title": "Havalı Gres Pompası Teneke Tipi 16 Kg – 2300",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-teneke-tipi-16-kg-2300/",
+  "date": "2026-05-21T20:43:03",
+  "parent_id": 3251
+ },
+ {
+  "id": 4159,
+  "slug": "havali-gres-pompasi-50-kg-2250",
+  "title": "Havalı Gres Pompası 50 Kg – 2250",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-50-kg-2250/",
+  "date": "2026-05-21T20:43:03",
+  "parent_id": 3251
+ },
+ {
+  "id": 4160,
+  "slug": "havali-gres-pompasi-30-kg-2230",
+  "title": "Havalı Gres Pompası 30 Kg – 2230",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-30-kg-2230/",
+  "date": "2026-05-21T20:43:03",
+  "parent_id": 3251
+ },
+ {
+  "id": 4161,
+  "slug": "havali-gres-pompasi-16-kg-2226",
+  "title": "Havalı Gres Pompası 16 Kg – 2226",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-gres-pompalari/havali-gres-pompasi-16-kg-2226/",
+  "date": "2026-05-21T20:42:52",
+  "parent_id": 3251
+ },
+ {
+  "id": 4231,
+  "slug": "mekanik-gres-pompasi-20-kg-2025",
+  "title": "Mekanik Gres Pompası 20 Kg – 2025",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/mekanik-gres-pompalari/mekanik-gres-pompasi-20-kg-2025/",
+  "date": "2026-05-21T20:42:22",
+  "parent_id": 3259
+ },
+ {
+  "id": 4233,
+  "slug": "mekanik-gres-pompasi-pedalli-10-kg",
+  "title": "Mekanik Gres Pompası Pedallı 10 Kg",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/mekanik-gres-pompalari/mekanik-gres-pompasi-pedalli-10-kg/",
+  "date": "2026-05-21T20:42:22",
+  "parent_id": 3259
+ },
+ {
+  "id": 4235,
+  "slug": "mekanik-gres-pompasi-10-kg-2010",
+  "title": "Mekanik Gres Pompası 10 Kg – 2010",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/mekanik-gres-pompalari/mekanik-gres-pompasi-10-kg-2010/",
+  "date": "2026-05-21T20:42:35",
+  "parent_id": 3259
+ },
+ {
+  "id": 4237,
+  "slug": "mekanik-gres-pompasi-teneke-tipi-16-kg-2016",
+  "title": "Mekanik Gres Pompası Teneke Tipi 16 Kg – 2016",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/mekanik-gres-pompalari/mekanik-gres-pompasi-teneke-tipi-16-kg-2016/",
+  "date": "2026-05-21T20:42:22",
+  "parent_id": 3259
+ },
+ {
+  "id": 4253,
+  "slug": "mekanik-yag-pompasi-80-lt-4004",
+  "title": "Mekanik Yağ Pompası 80 Lt – 4004",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/mekanik-yag-pompalari/mekanik-yag-pompasi-80-lt-4004/",
+  "date": "2026-05-21T20:42:22",
+  "parent_id": 3270
+ },
+ {
+  "id": 4255,
+  "slug": "mekanik-yag-pompasi-25-lt-4025",
+  "title": "Mekanik Yağ Pompası 25 Lt – 4025",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/mekanik-yag-pompalari/mekanik-yag-pompasi-25-lt-4025/",
+  "date": "2026-05-21T20:42:22",
+  "parent_id": 3270
+ },
+ {
+  "id": 4256,
+  "slug": "mekanik-yag-pompasi-turlu-valvolin-18-lt-4018",
+  "title": "Mekanik Yağ Pompası Turlu Valvolin 18 Lt – 4018",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/mekanik-yag-pompalari/mekanik-yag-pompasi-turlu-valvolin-18-lt-4018/",
+  "date": "2026-05-21T20:42:22",
+  "parent_id": 3270
+ },
+ {
+  "id": 4266,
+  "slug": "elektrikli-yag-cekme-pompalari",
+  "title": "Elektrikli Yağ Çekme Pompaları",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-cekme-pompalari/elektrikli-yag-cekme-pompalari/",
+  "date": "2026-05-21T20:44:02",
+  "parent_id": 3275
+ },
+ {
+  "id": 4270,
+  "slug": "havali-yag-cekme-pompalari",
+  "title": "Havalı Yağ Çekme Pompaları",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-cekme-pompalari/havali-yag-cekme-pompalari/",
+  "date": "2026-05-21T20:44:02",
+  "parent_id": 3275
+ },
+ {
+  "id": 4276,
+  "slug": "varil-muslugu-44387",
+  "title": "Varil Musluğu – 44387",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/atik-yag-tava-ve-kuvetleri/varil-muslugu-44387/",
+  "date": "2026-05-21T20:44:11",
+  "parent_id": 3272
+ },
+ {
+  "id": 4281,
+  "slug": "yag-toplama-kuveti-125-lt-ytk2",
+  "title": "Yağ Toplama Küveti 125 Lt – YTK2",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/atik-yag-tava-ve-kuvetleri/yag-toplama-kuveti-125-lt-ytk2/",
+  "date": "2026-05-21T20:44:11",
+  "parent_id": 3272
+ },
+ {
+  "id": 4282,
+  "slug": "yag-toplama-kuveti-425-lt-ytk1",
+  "title": "Yağ Toplama Küveti 425 Lt – YTK1",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/atik-yag-tava-ve-kuvetleri/yag-toplama-kuveti-425-lt-ytk1/",
+  "date": "2026-05-21T20:44:11",
+  "parent_id": 3272
+ },
+ {
+  "id": 4283,
+  "slug": "atik-yag-tavasi-kanal-tipi-65-lt-ayt3",
+  "title": "Atık Yağ Tavası Kanal Tipi 65 Lt – AYT3",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/atik-yag-tava-ve-kuvetleri/atik-yag-tavasi-kanal-tipi-65-lt-ayt3/",
+  "date": "2026-05-21T20:44:11",
+  "parent_id": 3272
+ },
+ {
+  "id": 4284,
+  "slug": "atik-yag-tavasi-50-lt-ayt2",
+  "title": "Atık Yağ Tavası 50 Lt – AYT2",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/atik-yag-tava-ve-kuvetleri/atik-yag-tavasi-50-lt-ayt2/",
+  "date": "2026-05-21T20:44:24",
+  "parent_id": 3272
+ },
+ {
+  "id": 4285,
+  "slug": "atik-yag-tavasi-100-lt-ayt1",
+  "title": "Atık Yağ Tavası 100 Lt – AYT1",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/atik-yag-tava-ve-kuvetleri/atik-yag-tavasi-100-lt-ayt1/",
+  "date": "2026-05-21T20:44:24",
+  "parent_id": 3272
+ },
+ {
+  "id": 4286,
+  "slug": "yag-bosaltma-tavasi-16-lt-41960",
+  "title": "Yağ Boşaltma Tavası 16 Lt – 41960",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/atik-yag-tava-ve-kuvetleri/yag-bosaltma-tavasi-16-lt-41960/",
+  "date": "2026-05-21T20:44:11",
+  "parent_id": 3272
+ },
+ {
+  "id": 4287,
+  "slug": "yag-bosaltma-tavasi-1425-lt-41966",
+  "title": "Yağ Boşaltma Tavası 14,25 Lt – 41966",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/atik-yag-tava-ve-kuvetleri/yag-bosaltma-tavasi-1425-lt-41966/",
+  "date": "2026-05-21T20:44:11",
+  "parent_id": 3272
+ },
+ {
+  "id": 4288,
+  "slug": "varil-muslugu-gostergeli-44420",
+  "title": "Varil Musluğu Göstergeli – 44420",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/atik-yag-tava-ve-kuvetleri/varil-muslugu-gostergeli-44420/",
+  "date": "2026-05-21T20:44:11",
+  "parent_id": 3272
+ },
+ {
+  "id": 4318,
+  "slug": "havali-yag-dagiticisi-80-lt-4600",
+  "title": "Havalı Yağ Dağıtıcısı 80 Lt – 4600",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-yag-dagiticilari/havali-yag-dagiticisi-80-lt-4600/",
+  "date": "2026-05-21T20:42:35",
+  "parent_id": 3273
+ },
+ {
+  "id": 4320,
+  "slug": "havali-yag-dagiticisi-24-lt-4620",
+  "title": "Havalı Yağ Dağıtıcısı 24 Lt – 4620",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-yag-dagiticilari/havali-yag-dagiticisi-24-lt-4620/",
+  "date": "2026-05-21T20:42:35",
+  "parent_id": 3273
+ },
+ {
+  "id": 4322,
+  "slug": "parca-yikama-makinesi-80-lt-9200",
+  "title": "Parça Yıkama Makinesi 80 Lt – 9200",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/parca-yikama-makinesi/parca-yikama-makinesi-80-lt-9200/",
+  "date": "2026-05-21T20:42:06",
+  "parent_id": 3274
+ },
+ {
+  "id": 4330,
+  "slug": "seyyar-gres-varil-sistemi-svs2400",
+  "title": "Seyyar Gres Varil Sistemi – SVS2400",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/seyyar-yag-varil-sistemleri/seyyar-gres-varil-sistemi-svs2400/",
+  "date": "2026-05-21T20:41:30",
+  "parent_id": 3295
+ },
+ {
+  "id": 4332,
+  "slug": "seyyar-yag-varil-sistemi-makarali-svs4500",
+  "title": "Seyyar Yağ Varil Sistemi Makaralı – SVS4500",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/seyyar-yag-varil-sistemleri/seyyar-yag-varil-sistemi-makarali-svs4500/",
+  "date": "2026-05-21T20:41:30",
+  "parent_id": 3295
+ },
+ {
+  "id": 4333,
+  "slug": "seyyar-yag-varil-sistemi-svs4400",
+  "title": "Seyyar Yağ Varil Sistemi – SVS4400",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/seyyar-yag-varil-sistemleri/seyyar-yag-varil-sistemi-svs4400/",
+  "date": "2026-05-21T20:42:06",
+  "parent_id": 3295
+ },
+ {
+  "id": 4334,
+  "slug": "seyyar-gres-varil-sistemi-makarali-svs2500",
+  "title": "Seyyar Gres Varil Sistemi Makaralı – SVS2500",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/seyyar-yag-varil-sistemleri/seyyar-gres-varil-sistemi-makarali-svs2500/",
+  "date": "2026-05-21T20:42:06",
+  "parent_id": 3295
+ },
+ {
+  "id": 4350,
+  "slug": "mekanik-sayacli-yag-tabancasi-4109",
+  "title": "Mekanik Sayaçlı Yağ Tabancası – 4109",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/mekanik-sayacli-yag-tabancasi-4109/",
+  "date": "2026-05-21T20:43:33",
+  "parent_id": 3296
+ },
+ {
+  "id": 4352,
+  "slug": "sayacli-yag-tabancasi-agir-hizmet-4108",
+  "title": "Sayaçlı Yağ Tabancası Ağır Hizmet – 4108",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/sayacli-yag-tabancasi-agir-hizmet-4108/",
+  "date": "2026-05-21T20:43:33",
+  "parent_id": 3296
+ },
+ {
+  "id": 4353,
+  "slug": "presetli-sayacli-yag-tabancasi-4107",
+  "title": "Presetli Sayaçlı Yağ Tabancası – 4107",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/presetli-sayacli-yag-tabancasi-4107/",
+  "date": "2026-05-21T20:43:19",
+  "parent_id": 3296
+ },
+ {
+  "id": 4354,
+  "slug": "sayacli-yag-tabancasi-4106s",
+  "title": "Sayaçlı Yağ Tabancası – 4106S",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/sayacli-yag-tabancasi-4106s/",
+  "date": "2026-05-21T20:43:33",
+  "parent_id": 3296
+ },
+ {
+  "id": 4355,
+  "slug": "sayacli-yag-tabancasi-4106p",
+  "title": "Sayaçlı Yağ Tabancası – 4106P",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/sayacli-yag-tabancasi-4106p/",
+  "date": "2026-05-21T20:43:33",
+  "parent_id": 3296
+ },
+ {
+  "id": 4356,
+  "slug": "sayacli-antifiriz-tabancasi-4106a",
+  "title": "Sayaçlı Antifiriz Tabancası – 4106A",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/sayacli-antifiriz-tabancasi-4106a/",
+  "date": "2026-05-21T20:43:33",
+  "parent_id": 3296
+ },
+ {
+  "id": 4357,
+  "slug": "mekanik-yag-tabancasi-4105",
+  "title": "Mekanik Yağ Tabancası – 4105",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/mekanik-yag-tabancasi-4105/",
+  "date": "2026-05-21T20:43:33",
+  "parent_id": 3296
+ },
+ {
+  "id": 4360,
+  "slug": "mekanik-yag-tabancasi-4101",
+  "title": "Mekanik Yağ Tabancası – 4101",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/mekanik-yag-tabancasi-4101/",
+  "date": "2026-05-21T20:43:33",
+  "parent_id": 3296
+ },
+ {
+  "id": 4361,
+  "slug": "sayacli-gres-tabancasi-2306s",
+  "title": "Sayaçlı Gres Tabancası – 2306S",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/sayacli-gres-tabancasi-2306s/",
+  "date": "2026-05-21T20:43:19",
+  "parent_id": 3296
+ },
+ {
+  "id": 4362,
+  "slug": "sayacli-gres-tabancasi-2306p",
+  "title": "Sayaçlı Gres Tabancası – 2306P",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/sayacli-gres-tabancasi-2306p/",
+  "date": "2026-05-21T20:43:33",
+  "parent_id": 3296
+ },
+ {
+  "id": 4363,
+  "slug": "gres-tabancasi-230565",
+  "title": "Gres Tabancası – 230565",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/gres-tabancasi-230565/",
+  "date": "2026-05-21T20:43:33",
+  "parent_id": 3296
+ },
+ {
+  "id": 4364,
+  "slug": "gres-tabancasi-23050565",
+  "title": "Gres Tabancası – 23050565",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/gres-tabancasi-23050565/",
+  "date": "2026-05-21T20:43:33",
+  "parent_id": 3296
+ },
+ {
+  "id": 4365,
+  "slug": "gres-tabancasi-230505",
+  "title": "Gres Tabancası – 230505",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/gres-tabancasi-230505/",
+  "date": "2026-05-21T20:43:33",
+  "parent_id": 3296
+ },
+ {
+  "id": 4366,
+  "slug": "gres-tabancasi-2305",
+  "title": "Gres Tabancası – 2305",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gres-ve-yag-tabancalari/gres-tabancasi-2305/",
+  "date": "2026-05-21T20:43:33",
+  "parent_id": 3296
+ },
+ {
+  "id": 4393,
+  "slug": "gresorluk-seti-113-parca-gs3113",
+  "title": "Gresörlük Seti 113 Parça – GS3113",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/gresorluk-seti-113-parca-gs3113/",
+  "date": "2026-05-21T20:43:33",
+  "parent_id": 3297
+ },
+ {
+  "id": 4395,
+  "slug": "gresorluk-seti-103-parca-gs2103",
+  "title": "Gresörlük Seti 103 Parça – GS2103",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/gresorluk-seti-103-parca-gs2103/",
+  "date": "2026-05-21T20:43:33",
+  "parent_id": 3297
+ },
+ {
+  "id": 4396,
+  "slug": "gresorluk-seti-83-parca-gs183",
+  "title": "Gresörlük Seti 83 Parça – GS183",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/gresorluk-seti-83-parca-gs183/",
+  "date": "2026-05-21T20:43:33",
+  "parent_id": 3297
+ },
+ {
+  "id": 4397,
+  "slug": "gres-yaglama-kiti-44950",
+  "title": "Gres Yağlama Kiti – 44950",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/gres-yaglama-kiti-44950/",
+  "date": "2026-05-21T20:43:33",
+  "parent_id": 3297
+ },
+ {
+  "id": 4398,
+  "slug": "tekalamit-buton-baslik-43575",
+  "title": "Tekalamit Buton Başlık – 43575",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/tekalamit-buton-baslik-43575/",
+  "date": "2026-05-21T20:41:30",
+  "parent_id": 3297
+ },
+ {
+  "id": 4399,
+  "slug": "buton-baslik-43566",
+  "title": "Buton Başlık – 43566",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/buton-baslik-43566/",
+  "date": "2026-05-21T20:44:02",
+  "parent_id": 3297
+ },
+ {
+  "id": 4400,
+  "slug": "buton-baslik-43565",
+  "title": "Buton Başlık – 43565",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/buton-baslik-43565/",
+  "date": "2026-05-21T20:44:02",
+  "parent_id": 3297
+ },
+ {
+  "id": 4401,
+  "slug": "tekalamit-buton-baslik-43563",
+  "title": "Tekalamit Buton Başlık – 43563",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/tekalamit-buton-baslik-43563/",
+  "date": "2026-05-21T20:41:30",
+  "parent_id": 3297
+ },
+ {
+  "id": 4402,
+  "slug": "mafsalli-gres-ucu-43561",
+  "title": "Mafsallı Gres Ucu – 43561",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/mafsalli-gres-ucu-43561/",
+  "date": "2026-05-21T20:43:19",
+  "parent_id": 3297
+ },
+ {
+  "id": 4403,
+  "slug": "hizli-gres-ucu-43545",
+  "title": "Hızlı Gres Ucu – 43545",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/hizli-gres-ucu-43545/",
+  "date": "2026-05-21T20:43:19",
+  "parent_id": 3297
+ },
+ {
+  "id": 4404,
+  "slug": "gres-sivri-ucu-2075",
+  "title": "Gres Sivri Ucu – 2075",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/gres-sivri-ucu-2075/",
+  "date": "2026-05-21T20:44:02",
+  "parent_id": 3297
+ },
+ {
+  "id": 4405,
+  "slug": "gres-ucu-2045",
+  "title": "Gres Ucu – 2045",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/gresaj-baglanti-parcalari/gres-ucu-2045/",
+  "date": "2026-05-21T20:44:02",
+  "parent_id": 3297
+ },
+ {
+  "id": 4421,
+  "slug": "havali-gres-transfer-pompasi-2460",
+  "title": "Havalı Gres Transfer Pompası – 2460",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-transfer-pompalari/havali-gres-transfer-pompasi-2460/",
+  "date": "2026-05-21T20:42:35",
+  "parent_id": 3303
+ },
+ {
+  "id": 4423,
+  "slug": "havali-yag-transfer-pompasi-1035",
+  "title": "Havalı Yağ Transfer Pompası – 1035",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-transfer-pompalari/havali-yag-transfer-pompasi-1035/",
+  "date": "2026-05-21T20:42:35",
+  "parent_id": 3303
+ },
+ {
+  "id": 4424,
+  "slug": "havali-yag-transfer-pompasi-1005",
+  "title": "Havalı Yağ Transfer Pompası – 1005",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-transfer-pompalari/havali-yag-transfer-pompasi-1005/",
+  "date": "2026-05-21T20:42:52",
+  "parent_id": 3303
+ },
+ {
+  "id": 4431,
+  "slug": "ibc-yag-sistemi-makarali-ibc4500",
+  "title": "IBC Yağ Sistemi Makaralı – IBC4500",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/ibc-yag-sistemleri/ibc-yag-sistemi-makarali-ibc4500/",
+  "date": "2026-05-21T20:42:35",
+  "parent_id": 3304
+ },
+ {
+  "id": 4436,
+  "slug": "ibc-yag-sistemi-makarasiz-ibc3045",
+  "title": "IBC Yağ Sistemi Makarasız – IBC3045",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/ibc-yag-sistemleri/ibc-yag-sistemi-makarasiz-ibc3045/",
+  "date": "2026-05-21T20:42:22",
+  "parent_id": 3304
+ },
+ {
+  "id": 4439,
+  "slug": "plastik-huniler-ph",
+  "title": "Plastik Huniler – PH",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/litre-kaplari-ve-huniler/plastik-huniler-ph/",
+  "date": "2026-05-21T20:42:06",
+  "parent_id": 3318
+ },
+ {
+  "id": 4444,
+  "slug": "havali-yag-bosaltma-deposu-tanki-agir-hizmet-80-lt-4295",
+  "title": "Havalı Yağ Boşaltma Deposu Tankı Ağır Hizmet 80 Lt – 4295",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-bosaltma-kovalari/havali-yag-bosaltma-deposu-tanki-agir-hizmet-80-lt-4295/",
+  "date": "2026-05-21T20:42:22",
+  "parent_id": 3319
+ },
+ {
+  "id": 4445,
+  "slug": "havali-yag-bosaltma-deposu-gostergeli-80-lt-42909",
+  "title": "Havalı Yağ Boşaltma Deposu Göstergeli 80 Lt – 42909",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-bosaltma-kovalari/havali-yag-bosaltma-deposu-gostergeli-80-lt-42909/",
+  "date": "2026-05-21T20:42:22",
+  "parent_id": 3319
+ },
+ {
+  "id": 4446,
+  "slug": "havali-yag-bosaltma-deposu-tanki-60-lt-4260",
+  "title": "Havalı Yağ Boşaltma Deposu Tankı 60 Lt – 4260",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-bosaltma-kovalari/havali-yag-bosaltma-deposu-tanki-60-lt-4260/",
+  "date": "2026-05-21T20:42:22",
+  "parent_id": 3319
+ },
+ {
+  "id": 4447,
+  "slug": "havali-yag-bosaltma-deposu-tanki-80-lt-4290",
+  "title": "Havalı Yağ Boşaltma Deposu Tankı 80 Lt – 4290",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-bosaltma-kovalari/havali-yag-bosaltma-deposu-tanki-80-lt-4290/",
+  "date": "2026-05-21T20:42:35",
+  "parent_id": 3319
+ },
+ {
+  "id": 4448,
+  "slug": "yag-bosaltma-kovasi-50-lt-4250",
+  "title": "Yağ Boşaltma Kovası 50 Lt – 4250",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-bosaltma-kovalari/yag-bosaltma-kovasi-50-lt-4250/",
+  "date": "2026-05-21T20:42:35",
+  "parent_id": 3319
+ },
+ {
+  "id": 4461,
+  "slug": "metal-litre-kaplari-ltk",
+  "title": "Metal Litre Kapları – LTK",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/litre-kaplari-ve-huniler/metal-litre-kaplari-ltk/",
+  "date": "2026-05-21T20:42:06",
+  "parent_id": 3318
+ },
+ {
+  "id": 4462,
+  "slug": "plastik-litre-kaplari-lkp",
+  "title": "Plastik Litre Kapları – LKP",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/litre-kaplari-ve-huniler/plastik-litre-kaplari-lkp/",
+  "date": "2026-05-21T20:42:22",
+  "parent_id": 3318
+ },
+ {
+  "id": 4463,
+  "slug": "plastik-litre-kaplari-kapakli-lkpk",
+  "title": "Plastik Litre Kapları Kapaklı – LKPK",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/litre-kaplari-ve-huniler/plastik-litre-kaplari-kapakli-lkpk/",
+  "date": "2026-05-21T20:42:22",
+  "parent_id": 3318
+ },
+ {
+  "id": 4464,
+  "slug": "metal-huniler-hn",
+  "title": "Metal Huniler – HN",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/litre-kaplari-ve-huniler/metal-huniler-hn/",
+  "date": "2026-05-21T20:42:22",
+  "parent_id": 3318
+ },
+ {
+  "id": 4476,
+  "slug": "graco-uyumlu-yedek-parca",
+  "title": "Graco Uyumlu Yedek Parça",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/elektrikli-yag-pompalari/graco-uyumlu-yedek-parca/",
+  "date": "2026-05-21T20:43:50",
+  "parent_id": 3316
+ },
+ {
+  "id": 4477,
+  "slug": "havali-sabit-yag-varil-sistemi-dvs4500",
+  "title": "Havalı Sabit Yağ Varil Sistemi – DVS4500",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/sabit-varil-sistemleri/havali-sabit-yag-varil-sistemi-dvs4500/",
+  "date": "2026-05-21T20:42:35",
+  "parent_id": 3317
+ },
+ {
+  "id": 4478,
+  "slug": "havali-sabit-gres-varil-sistemi-dvs2500",
+  "title": "Havalı Sabit Gres Varil Sistemi – DVS2500",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/sabit-varil-sistemleri/havali-sabit-gres-varil-sistemi-dvs2500/",
+  "date": "2026-05-21T20:42:35",
+  "parent_id": 3317
+ },
+ {
+  "id": 4489,
+  "slug": "paletli-yag-pompalari",
+  "title": "Paletli Yağ Pompaları",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/elektrikli-yag-pompalari/paletli-yag-pompalari/",
+  "date": "2026-05-21T20:43:50",
+  "parent_id": 3316
+ },
+ {
+  "id": 4490,
+  "slug": "disli-yag-pompalari",
+  "title": "Dişli Yağ Pompaları",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/elektrikli-yag-pompalari/disli-yag-pompalari/",
+  "date": "2026-05-21T20:44:02",
+  "parent_id": 3316
+ },
+ {
+  "id": 4497,
+  "slug": "havali-yag-pompasi-varil-tipi-31-22-lt-4455",
+  "title": "Havalı Yağ Pompası Varil Tipi 3:1 22 Lt – 4455",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-yag-pompalari/havali-yag-pompasi-varil-tipi-31-22-lt-4455/",
+  "date": "2026-05-21T20:42:35",
+  "parent_id": 3315
+ },
+ {
+  "id": 4499,
+  "slug": "havali-yag-pompasi-varil-tipi-51-18-lt-4450",
+  "title": "Havalı Yağ Pompası Varil Tipi 5:1 18 Lt – 4450",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-yag-pompalari/havali-yag-pompasi-varil-tipi-51-18-lt-4450/",
+  "date": "2026-05-21T20:42:35",
+  "parent_id": 3315
+ },
+ {
+  "id": 4500,
+  "slug": "havali-yag-pompasi-varil-tipi-31-15-lt-4405",
+  "title": "Havalı Yağ Pompası Varil Tipi 3:1 15 Lt – 4405",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-yag-pompalari/havali-yag-pompasi-varil-tipi-31-15-lt-4405/",
+  "date": "2026-05-21T20:42:35",
+  "parent_id": 3315
+ },
+ {
+  "id": 4501,
+  "slug": "havali-yag-pompasi-varil-tipi-51-12-lt-4400",
+  "title": "Havalı Yağ Pompası Varil Tipi 5:1 12 Lt – 4400",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-yag-pompalari/havali-yag-pompasi-varil-tipi-51-12-lt-4400/",
+  "date": "2026-05-21T20:42:35",
+  "parent_id": 3315
+ },
+ {
+  "id": 4502,
+  "slug": "havali-yag-pompasi-80-lt-4200",
+  "title": "Havalı Yağ Pompası 80 Lt – 4200",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-yag-pompalari/havali-yag-pompasi-80-lt-4200/",
+  "date": "2026-05-21T20:42:35",
+  "parent_id": 3315
+ },
+ {
+  "id": 4503,
+  "slug": "havali-yag-pompasi-80-lt-4190",
+  "title": "Havalı Yağ Pompası 80 Lt – 4190",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-yag-pompalari/havali-yag-pompasi-80-lt-4190/",
+  "date": "2026-05-21T20:42:35",
+  "parent_id": 3315
+ },
+ {
+  "id": 4504,
+  "slug": "havali-yag-pompasi-duvar-tipi-31-22-lt-3046",
+  "title": "Havalı Yağ Pompası Duvar Tipi 3:1 22 Lt – 3046",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-yag-pompalari/havali-yag-pompasi-duvar-tipi-31-22-lt-3046/",
+  "date": "2026-05-21T20:42:35",
+  "parent_id": 3315
+ },
+ {
+  "id": 4505,
+  "slug": "havali-yag-pompasi-duvar-tipi-31-15-lt-3045",
+  "title": "Havalı Yağ Pompası Duvar Tipi 3:1 15 Lt – 3045",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-yag-pompalari/havali-yag-pompasi-duvar-tipi-31-15-lt-3045/",
+  "date": "2026-05-21T20:42:35",
+  "parent_id": 3315
+ },
+ {
+  "id": 4506,
+  "slug": "havali-yag-pompasi-duvar-tipi-51-12-lt-3044",
+  "title": "Havalı Yağ Pompası Duvar Tipi 5:1 12 Lt – 3044",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-yag-pompalari/havali-yag-pompasi-duvar-tipi-51-12-lt-3044/",
+  "date": "2026-05-21T20:42:35",
+  "parent_id": 3315
+ },
+ {
+  "id": 4507,
+  "slug": "havali-yag-pompasi-duvar-tipi-51-18-lt-3043",
+  "title": "Havalı Yağ Pompası Duvar Tipi 5:1 18 Lt – 3043",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/havali-yag-pompalari/havali-yag-pompasi-duvar-tipi-51-18-lt-3043/",
+  "date": "2026-05-21T20:42:35",
+  "parent_id": 3315
+ },
+ {
+  "id": 4541,
+  "slug": "mekanik-sivi-transfer-pompasi-4003",
+  "title": "Mekanik Sıvı Transfer Pompası – 4003",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/mekanik-transfer-pompalari/mekanik-sivi-transfer-pompasi-4003/",
+  "date": "2026-05-21T20:42:22",
+  "parent_id": 3314
+ },
+ {
+  "id": 4543,
+  "slug": "mekanik-sivi-transfer-pompasi-4013",
+  "title": "Mekanik Sıvı Transfer Pompası – 4013",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/mekanik-transfer-pompalari/mekanik-sivi-transfer-pompasi-4013/",
+  "date": "2026-05-21T20:42:22",
+  "parent_id": 3314
+ },
+ {
+  "id": 4544,
+  "slug": "mekanik-sivi-transfer-pompasi-4012",
+  "title": "Mekanik Sıvı Transfer Pompası – 4012",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/mekanik-transfer-pompalari/mekanik-sivi-transfer-pompasi-4012/",
+  "date": "2026-05-21T20:42:22",
+  "parent_id": 3314
+ },
+ {
+  "id": 4545,
+  "slug": "mekanik-sivi-transfer-pompasi-4011",
+  "title": "Mekanik Sıvı Transfer Pompası – 4011",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/mekanik-transfer-pompalari/mekanik-sivi-transfer-pompasi-4011/",
+  "date": "2026-05-21T20:42:22",
+  "parent_id": 3314
+ },
+ {
+  "id": 4546,
+  "slug": "mekanik-sivi-transfer-pompasi-44100",
+  "title": "Mekanik Sıvı Transfer Pompası – 44100",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/mekanik-transfer-pompalari/mekanik-sivi-transfer-pompasi-44100/",
+  "date": "2026-05-21T20:42:06",
+  "parent_id": 3314
+ },
+ {
+  "id": 4557,
+  "slug": "govdeden-itmeli-yag-pompasi-iyp",
+  "title": "Gövdeden İtmeli Yağ Pompası – İYP",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/el-gres-pompalari-ve-yagdanliklari/govdeden-itmeli-yag-pompasi-iyp/",
+  "date": "2026-05-21T20:44:02",
+  "parent_id": 3332
+ },
+ {
+  "id": 4559,
+  "slug": "govdeden-itmeli-gres-pompasi-igp",
+  "title": "Gövdeden İtmeli Gres Pompası – İGP",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/el-gres-pompalari-ve-yagdanliklari/govdeden-itmeli-gres-pompasi-igp/",
+  "date": "2026-05-21T20:43:51",
+  "parent_id": 3332
+ },
+ {
+  "id": 4560,
+  "slug": "havali-el-gres-pompasi-hegp500",
+  "title": "Havalı El Gres Pompası – HEGP500",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/el-gres-pompalari-ve-yagdanliklari/havali-el-gres-pompasi-hegp500/",
+  "date": "2026-05-21T20:44:02",
+  "parent_id": 3332
+ },
+ {
+  "id": 4561,
+  "slug": "sarjli-el-gres-pompasi-gfp-18v-10",
+  "title": "Şarjlı El Gres Pompası – GFP 18V-10",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/el-gres-pompalari-ve-yagdanliklari/sarjli-el-gres-pompasi-gfp-18v-10/",
+  "date": "2026-05-21T20:44:02",
+  "parent_id": 3332
+ },
+ {
+  "id": 4562,
+  "slug": "metal-yagdanlik-gf216",
+  "title": "Metal Yağdanlık – GF216",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/el-gres-pompalari-ve-yagdanliklari/metal-yagdanlik-gf216/",
+  "date": "2026-05-21T20:44:02",
+  "parent_id": 3332
+ },
+ {
+  "id": 4563,
+  "slug": "metal-yagdanlik-gf214",
+  "title": "Metal Yağdanlık – GF214",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/el-gres-pompalari-ve-yagdanliklari/metal-yagdanlik-gf214/",
+  "date": "2026-05-21T20:44:02",
+  "parent_id": 3332
+ },
+ {
+  "id": 4564,
+  "slug": "el-gres-pompasi-egp500",
+  "title": "El Gres Pompası – EGP500",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/el-gres-pompalari-ve-yagdanliklari/el-gres-pompasi-egp500/",
+  "date": "2026-05-21T20:44:02",
+  "parent_id": 3332
+ },
+ {
+  "id": 4565,
+  "slug": "el-gres-pompasi-500-cc-g5",
+  "title": "El Gres Pompası 500 Cc – G5",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/el-gres-pompalari-ve-yagdanliklari/el-gres-pompasi-500-cc-g5/",
+  "date": "2026-05-21T20:44:02",
+  "parent_id": 3332
+ },
+ {
+  "id": 4566,
+  "slug": "el-gres-pompasi-egp1000",
+  "title": "El Gres Pompası – EGP1000",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/el-gres-pompalari-ve-yagdanliklari/el-gres-pompasi-egp1000/",
+  "date": "2026-05-21T20:43:51",
+  "parent_id": 3332
+ },
+ {
+  "id": 4588,
+  "slug": "mekanik-yag-pompasi-25-lt-4025n",
+  "title": "Mekanik Yağ Pompası 25 Lt – 4025N",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-ve-gres-pompalari/mekanik-yag-pompasi-25-lt-4025n/",
+  "date": "2026-05-21T20:42:52",
+  "parent_id": 3312
+ },
+ {
+  "id": 4589,
+  "slug": "tankli-yag-sistemi-tys4400",
+  "title": "Tanklı Yağ Sistemi – TYS4400",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/tankli-yag-sistemi/tankli-yag-sistemi-tys4400/",
+  "date": "2026-05-21T20:42:06",
+  "parent_id": 3313
+ },
+ {
+  "id": 4595,
+  "slug": "mekanik-yag-pompasi-18-lt-4018n",
+  "title": "Mekanik Yağ Pompası 18 Lt – 4018N",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-ve-gres-pompalari/mekanik-yag-pompasi-18-lt-4018n/",
+  "date": "2026-05-21T20:42:52",
+  "parent_id": 3312
+ },
+ {
+  "id": 4596,
+  "slug": "havali-gres-pompasi-701-2330n",
+  "title": "Havalı Gres Pompası 70:1 – 2330N",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-701-2330n/",
+  "date": "2026-05-21T20:42:52",
+  "parent_id": 3312
+ },
+ {
+  "id": 4597,
+  "slug": "havali-gres-pompasi-701-2300n",
+  "title": "Havalı Gres Pompası 70:1 – 2300N",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-701-2300n/",
+  "date": "2026-05-21T20:42:52",
+  "parent_id": 3312
+ },
+ {
+  "id": 4598,
+  "slug": "havali-gres-pompasi-701-2250n",
+  "title": "Havalı Gres Pompası 70:1 – 2250N",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-701-2250n/",
+  "date": "2026-05-21T20:42:52",
+  "parent_id": 3312
+ },
+ {
+  "id": 4599,
+  "slug": "havali-gres-pompasi-701-2230n",
+  "title": "Havalı Gres Pompası 70:1 – 2230N",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-701-2230n/",
+  "date": "2026-05-21T20:42:52",
+  "parent_id": 3312
+ },
+ {
+  "id": 4600,
+  "slug": "havali-gres-pompasi-701-2226n",
+  "title": "Havalı Gres Pompası 70:1 – 2226N",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-701-2226n/",
+  "date": "2026-05-21T20:42:52",
+  "parent_id": 3312
+ },
+ {
+  "id": 4601,
+  "slug": "havali-gres-pompasi-701-2220n",
+  "title": "Havalı Gres Pompası 70:1 – 2220N",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-701-2220n/",
+  "date": "2026-05-21T20:42:52",
+  "parent_id": 3312
+ },
+ {
+  "id": 4602,
+  "slug": "havali-gres-pompasi-701-2210n",
+  "title": "Havalı Gres Pompası 70:1 – 2210N",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-701-2210n/",
+  "date": "2026-05-21T20:42:52",
+  "parent_id": 3312
+ },
+ {
+  "id": 4603,
+  "slug": "havali-gres-pompasi-451-2150n",
+  "title": "Havalı Gres Pompası 45:1 – 2150N",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-451-2150n/",
+  "date": "2026-05-21T20:42:52",
+  "parent_id": 3312
+ },
+ {
+  "id": 4604,
+  "slug": "havali-gres-pompasi-451-2130n",
+  "title": "Havalı Gres Pompası 45:1 – 2130N",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-451-2130n/",
+  "date": "2026-05-21T20:42:52",
+  "parent_id": 3312
+ },
+ {
+  "id": 4605,
+  "slug": "havali-gres-pompasi-451-2126n",
+  "title": "Havalı Gres Pompası 45:1 – 2126N",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-451-2126n/",
+  "date": "2026-05-21T20:43:03",
+  "parent_id": 3312
+ },
+ {
+  "id": 4606,
+  "slug": "havali-gres-pompasi-451-2120n",
+  "title": "Havalı Gres Pompası 45:1 – 2120N",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-451-2120n/",
+  "date": "2026-05-21T20:43:03",
+  "parent_id": 3312
+ },
+ {
+  "id": 4607,
+  "slug": "mekanik-gres-pompasi-16-kg-2016n",
+  "title": "Mekanik Gres Pompası 16 Kg – 2016N",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-ve-gres-pompalari/mekanik-gres-pompasi-16-kg-2016n/",
+  "date": "2026-05-21T20:42:52",
+  "parent_id": 3312
+ },
+ {
+  "id": 4608,
+  "slug": "mekanik-gres-pompasi-20-kg-2025n",
+  "title": "Mekanik Gres Pompası 20 Kg – 2025N",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-ve-gres-pompalari/mekanik-gres-pompasi-20-kg-2025n/",
+  "date": "2026-05-21T20:42:52",
+  "parent_id": 3312
+ },
+ {
+  "id": 4609,
+  "slug": "havali-gres-pompasi-451-2110n",
+  "title": "Havalı Gres Pompası 45:1 – 2110N",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-451-2110n/",
+  "date": "2026-05-21T20:43:03",
+  "parent_id": 3312
+ },
+ {
+  "id": 4613,
+  "slug": "mekanik-gres-pompasi-10-kg-2010n",
+  "title": "Mekanik Gres Pompası 10 Kg – 2010N",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-ve-gres-pompalari/mekanik-gres-pompasi-10-kg-2010n/",
+  "date": "2026-05-21T20:42:52",
+  "parent_id": 3312
+ },
+ {
+  "id": 4631,
+  "slug": "havali-yag-pompasi-51-4190n",
+  "title": "Havalı Yağ Pompası 5:1 – 4190N",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-yag-pompasi-51-4190n/",
+  "date": "2026-05-21T20:42:52",
+  "parent_id": 3312
+ },
+ {
+  "id": 4720,
+  "slug": "manuel-mazot-tabancasi-s3000",
+  "title": "Manuel Mazot Tabancası S3000",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/manuel-mazot-tabancasi-s3000/",
+  "date": "2026-05-21T20:43:19",
+  "parent_id": 3311
+ },
+ {
+  "id": 4722,
+  "slug": "manuel-mazot-tabancasi-s2000",
+  "title": "Manuel Mazot Tabancası – S2000",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/manuel-mazot-tabancasi-s2000/",
+  "date": "2026-05-21T20:43:19",
+  "parent_id": 3311
+ },
+ {
+  "id": 4724,
+  "slug": "otomatik-rekor-1-or0352",
+  "title": "Otomatik Rekor 1 – OR0352",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/otomatik-rekor-1-or0352/",
+  "date": "2026-05-21T20:43:19",
+  "parent_id": 3311
+ },
+ {
+  "id": 4725,
+  "slug": "otomatik-rekor-3-4-or0347",
+  "title": "Otomatik Rekor 3/4 – OR0347",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/otomatik-rekor-3-4-or0347/",
+  "date": "2026-05-21T20:43:19",
+  "parent_id": 3311
+ },
+ {
+  "id": 4726,
+  "slug": "hortumlar",
+  "title": "Hortumlar",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/hortumlar/",
+  "date": "2026-05-21T20:43:19",
+  "parent_id": 3311
+ },
+ {
+  "id": 4727,
+  "slug": "yag-bosaltma-hunisi-7903",
+  "title": "Yağ Boşaltma Hunisi – 7903",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/yag-bosaltma-hunisi-7903/",
+  "date": "2026-05-21T20:42:06",
+  "parent_id": 3311
+ },
+ {
+  "id": 4728,
+  "slug": "yag-bosaltma-hunisi-7902",
+  "title": "Yağ Boşaltma Hunisi – 7902",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/yag-bosaltma-hunisi-7902/",
+  "date": "2026-05-21T20:42:06",
+  "parent_id": 3311
+ },
+ {
+  "id": 4729,
+  "slug": "kopuk-puskurtme-tabancasi-7442",
+  "title": "Köpük Püskürtme Tabancası – 7442",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/kopuk-puskurtme-tabancasi-7442/",
+  "date": "2026-05-21T20:43:19",
+  "parent_id": 3311
+ },
+ {
+  "id": 4730,
+  "slug": "sivi-puskurtme-tabancasi-7441",
+  "title": "Sıvı Püskürtme Tabancası – 7441",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/sivi-puskurtme-tabancasi-7441/",
+  "date": "2026-05-21T20:43:19",
+  "parent_id": 3311
+ },
+ {
+  "id": 4731,
+  "slug": "hava-sartlandirici-1-2-7132",
+  "title": "Hava Şartlandırıcı 1/2 – 7132",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/hava-sartlandirici-1-2-7132/",
+  "date": "2026-05-21T20:43:19",
+  "parent_id": 3311
+ },
+ {
+  "id": 4732,
+  "slug": "hava-regulatoru-7131",
+  "title": "Hava Regülatörü – 7131",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/hava-regulatoru-7131/",
+  "date": "2026-05-21T20:43:19",
+  "parent_id": 3311
+ },
+ {
+  "id": 4733,
+  "slug": "varil-baglanti-takozu-7130",
+  "title": "Varil Bağlantı Takozu – 7130",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/varil-baglanti-takozu-7130/",
+  "date": "2026-05-21T20:42:06",
+  "parent_id": 3311
+ },
+ {
+  "id": 4734,
+  "slug": "duvar-aski-aparati-7120",
+  "title": "Duvar Askı Aparatı – 7120",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/duvar-aski-aparati-7120/",
+  "date": "2026-05-21T20:44:34",
+  "parent_id": 3311
+ },
+ {
+  "id": 4735,
+  "slug": "yag-tabanca-askiligi-7110",
+  "title": "Yağ Tabanca Askılığı – 7110",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/yag-tabanca-askiligi-7110/",
+  "date": "2026-05-21T20:41:30",
+  "parent_id": 3311
+ },
+ {
+  "id": 4736,
+  "slug": "yag-emme-soketi-652",
+  "title": "Yağ Emme Soketi – 652",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/yag-emme-soketi-652/",
+  "date": "2026-05-21T20:41:30",
+  "parent_id": 3311
+ },
+ {
+  "id": 4737,
+  "slug": "yag-emme-soketi-651",
+  "title": "Yağ Emme Soketi – 651",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/yag-emme-soketi-651/",
+  "date": "2026-05-21T20:41:30",
+  "parent_id": 3311
+ },
+ {
+  "id": 4738,
+  "slug": "yag-emme-cubugu-takim-6096",
+  "title": "Yağ Emme Çubuğu Takım – 6096",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/yag-emme-cubugu-takim-6096/",
+  "date": "2026-05-21T20:41:30",
+  "parent_id": 3311
+ },
+ {
+  "id": 4739,
+  "slug": "yag-emme-cubugu-takim-6095",
+  "title": "Yağ Emme Çubuğu Takım – 6095",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/yag-emme-cubugu-takim-6095/",
+  "date": "2026-05-21T20:41:30",
+  "parent_id": 3311
+ },
+ {
+  "id": 4740,
+  "slug": "gres-yaglama-kiti-44950",
+  "title": "Gres Yağlama Kiti – 44950",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/gres-yaglama-kiti-44950/",
+  "date": "2026-05-21T20:44:34",
+  "parent_id": 3311
+ },
+ {
+  "id": 4741,
+  "slug": "otomatik-akaryakit-tabancasi-3-4-4312",
+  "title": "Otomatik Akaryakıt Tabancası 3/4– 4312",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/otomatik-akaryakit-tabancasi-3-4-4312/",
+  "date": "2026-05-21T20:43:19",
+  "parent_id": 3311
+ },
+ {
+  "id": 4742,
+  "slug": "otomatik-akaryakit-tabancasi-1-4218",
+  "title": "Otomatik Akaryakıt Tabancası 1–4218",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/otomatik-akaryakit-tabancasi-1-4218/",
+  "date": "2026-05-21T20:43:19",
+  "parent_id": 3311
+ },
+ {
+  "id": 4743,
+  "slug": "dijital-yag-sayaci-4104",
+  "title": "Dijital Yağ Sayacı – 4104",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/dijital-yag-sayaci-4104/",
+  "date": "2026-05-21T20:44:34",
+  "parent_id": 3311
+ },
+ {
+  "id": 4744,
+  "slug": "gres-yag-baski-yayi-2726",
+  "title": "Gres Yağ Baskı Yayı – 2726",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/gres-yag-baski-yayi-2726/",
+  "date": "2026-05-21T20:44:34",
+  "parent_id": 3311
+ },
+ {
+  "id": 4745,
+  "slug": "gres-yag-baski-yayi-2725",
+  "title": "Gres Yağ Baskı Yayı – 2725",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/gres-yag-baski-yayi-2725/",
+  "date": "2026-05-21T20:44:34",
+  "parent_id": 3311
+ },
+ {
+  "id": 4746,
+  "slug": "gres-yag-baski-yayi-2724",
+  "title": "Gres Yağ Baskı Yayı – 2724",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/gres-yag-baski-yayi-2724/",
+  "date": "2026-05-21T20:44:34",
+  "parent_id": 3311
+ },
+ {
+  "id": 4747,
+  "slug": "gres-yag-baski-yayi-2723",
+  "title": "Gres Yağ Baskı Yayı – 2723",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/gres-yag-baski-yayi-2723/",
+  "date": "2026-05-21T20:44:34",
+  "parent_id": 3311
+ },
+ {
+  "id": 4748,
+  "slug": "gres-yag-baski-tablasi-2660",
+  "title": "Gres Yağ Baskı Tablası – 2660",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/gres-yag-baski-tablasi-2660/",
+  "date": "2026-05-21T20:44:34",
+  "parent_id": 3311
+ },
+ {
+  "id": 4749,
+  "slug": "gres-yag-baski-tablasi-2625",
+  "title": "Gres Yağ Baskı Tablası – 2625",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/gres-yag-baski-tablasi-2625/",
+  "date": "2026-05-21T20:44:34",
+  "parent_id": 3311
+ },
+ {
+  "id": 4750,
+  "slug": "gres-yag-baski-tablasi-2624",
+  "title": "Gres Yağ Baskı Tablası – 2624",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/gres-yag-baski-tablasi-2624/",
+  "date": "2026-05-21T20:44:34",
+  "parent_id": 3311
+ },
+ {
+  "id": 4751,
+  "slug": "gres-yag-baski-tablasi-2623",
+  "title": "Gres Yağ Baskı Tablası – 2623",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/gres-yag-baski-tablasi-2623/",
+  "date": "2026-05-21T20:44:25",
+  "parent_id": 3311
+ },
+ {
+  "id": 4752,
+  "slug": "gres-yag-baski-tablasi-2621",
+  "title": "Gres Yağ Baskı Tablası – 2621",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/gres-yag-baski-tablasi-2621/",
+  "date": "2026-05-21T20:44:25",
+  "parent_id": 3311
+ },
+ {
+  "id": 4753,
+  "slug": "gres-yag-baski-agirligi-2620",
+  "title": "Gres Yağ Baskı Ağırlığı – 2620",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/gres-yag-baski-agirligi-2620/",
+  "date": "2026-05-21T20:44:34",
+  "parent_id": 3311
+ },
+ {
+  "id": 4754,
+  "slug": "varil-tasima-arabasi-2420",
+  "title": "Varil Taşıma Arabası – 2420",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/varil-tasima-arabasi-2420/",
+  "date": "2026-05-21T20:42:06",
+  "parent_id": 3311
+ },
+ {
+  "id": 4755,
+  "slug": "gres-teneke-arabasi-2416",
+  "title": "Gres Teneke Arabası – 2416",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/gres-teneke-arabasi-2416/",
+  "date": "2026-05-21T20:44:25",
+  "parent_id": 3311
+ },
+ {
+  "id": 4756,
+  "slug": "varil-tasima-arabasi-2410",
+  "title": "Varil Taşıma Arabası – 2410",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/varil-tasima-arabasi-2410/",
+  "date": "2026-05-21T20:42:06",
+  "parent_id": 3311
+ },
+ {
+  "id": 4757,
+  "slug": "gres-l-mafsali-2407",
+  "title": "Gres L Mafsalı – 2407",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/gres-l-mafsali-2407/",
+  "date": "2026-05-21T20:44:25",
+  "parent_id": 3311
+ },
+ {
+  "id": 4758,
+  "slug": "gres-i-mafsali-2406",
+  "title": "Gres I Mafsalı – 2406",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/gres-i-mafsali-2406/",
+  "date": "2026-05-21T20:44:34",
+  "parent_id": 3311
+ },
+ {
+  "id": 4759,
+  "slug": "gres-z-mafsali-2405",
+  "title": "Gres Z Mafsalı – 2405",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/gres-z-mafsali-2405/",
+  "date": "2026-05-21T20:43:19",
+  "parent_id": 3311
+ },
+ {
+  "id": 4760,
+  "slug": "hava-kaplini-2095",
+  "title": "Hava Kaplini – 2095",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/hava-kaplini-2095/",
+  "date": "2026-05-21T20:43:19",
+  "parent_id": 3311
+ },
+ {
+  "id": 4761,
+  "slug": "gres-varil-kapagi-2085",
+  "title": "Gres Varil Kapağı – 2085",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/gres-varil-kapagi-2085/",
+  "date": "2026-05-21T20:44:34",
+  "parent_id": 3311
+ },
+ {
+  "id": 4762,
+  "slug": "gres-spiral-hortumu-2065k",
+  "title": "Gres Spiral Hortumu – 2065K",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/gres-spiral-hortumu-2065k/",
+  "date": "2026-05-21T20:44:34",
+  "parent_id": 3311
+ },
+ {
+  "id": 4763,
+  "slug": "gres-spiral-hortumu-2065i",
+  "title": "Gres Spiral Hortumu – 2065I",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/gres-spiral-hortumu-2065i/",
+  "date": "2026-05-21T20:44:34",
+  "parent_id": 3311
+ },
+ {
+  "id": 4764,
+  "slug": "otomatik-adblue-tabancasi-13660",
+  "title": "Otomatik AdBlue Tabancası – 13660",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/otomatik-adblue-tabancasi-13660/",
+  "date": "2026-05-21T20:43:19",
+  "parent_id": 3311
+ },
+ {
+  "id": 4765,
+  "slug": "mekanik-adblue-tabancasi-1366",
+  "title": "Mekanik AdBlue Tabancası – 1366",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/mekanik-adblue-tabancasi-1366/",
+  "date": "2026-05-21T20:43:19",
+  "parent_id": 3311
+ },
+ {
+  "id": 4766,
+  "slug": "yag-emis-hortumu-0776",
+  "title": "Yağ Emiş Hortumu – 0776",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/yag-emis-hortumu-0776/",
+  "date": "2026-05-21T20:42:06",
+  "parent_id": 3311
+ },
+ {
+  "id": 4767,
+  "slug": "tetikli-yikama-tabancasi-0549",
+  "title": "Tetikli Yıkama Tabancası – 0549",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/tetikli-yikama-tabancasi-0549/",
+  "date": "2026-05-21T20:42:06",
+  "parent_id": 3311
+ },
+ {
+  "id": 4768,
+  "slug": "uzun-hava-tabancasi-0243",
+  "title": "Uzun Hava Tabancası – 0243",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/uzun-hava-tabancasi-0243/",
+  "date": "2026-05-21T20:42:06",
+  "parent_id": 3311
+ },
+ {
+  "id": 4769,
+  "slug": "kisa-hava-tabancasi-0242",
+  "title": "Kısa Hava Tabancası – 0242",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/kisa-hava-tabancasi-0242/",
+  "date": "2026-05-21T20:43:19",
+  "parent_id": 3311
+ },
+ {
+  "id": 4770,
+  "slug": "lastik-sisirme-tabancasi-0232",
+  "title": "Lastik Şişirme Tabancası – 0232",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/lastik-sisirme-tabancasi-0232/",
+  "date": "2026-05-21T20:43:03",
+  "parent_id": 3311
+ },
+ {
+  "id": 4771,
+  "slug": "mazot-puskurtme-tabancasi-0228",
+  "title": "Mazot Püskürtme Tabancası – 0228",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/mazot-puskurtme-tabancasi-0228/",
+  "date": "2026-05-21T20:43:03",
+  "parent_id": 3311
+ },
+ {
+  "id": 4772,
+  "slug": "hava-sartlandirici-1-4-0225",
+  "title": "Hava Şartlandırıcı 1/4 – 0225",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/hava-sartlandirici-1-4-0225/",
+  "date": "2026-05-21T20:43:03",
+  "parent_id": 3311
+ },
+ {
+  "id": 4773,
+  "slug": "varil-takozu-0106",
+  "title": "Varil Takozu – 0106",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/varil-takozu-0106/",
+  "date": "2026-05-21T20:42:06",
+  "parent_id": 3311
+ },
+ {
+  "id": 4774,
+  "slug": "yikama-makinasi-tabanca-memesi-2",
+  "title": "Yıkama Makinası Tabanca Memesi",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/yikama-makinasi-tabanca-memesi-2/",
+  "date": "2026-05-21T20:41:30",
+  "parent_id": 3311
+ },
+ {
+  "id": 4775,
+  "slug": "tecomec-7443-teleskobik-kopuk-puskurtme-tabancasi",
+  "title": "Tecomec 7443 Teleskobik Köpük Püskürtme Tabancası",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/tecomec-7443-teleskobik-kopuk-puskurtme-tabancasi/",
+  "date": "2026-05-21T20:41:30",
+  "parent_id": 3311
+ },
+ {
+  "id": 4776,
+  "slug": "tecomec-0543-tetiksiz-basincli-yikama-tabancasi-3",
+  "title": "Tecomec 0543 Tetiksiz Basınçlı Yıkama Tabancası",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/tecomec-0543-tetiksiz-basincli-yikama-tabancasi-3/",
+  "date": "2026-05-21T20:42:06",
+  "parent_id": 3311
+ },
+ {
+  "id": 4777,
+  "slug": "tecomec-0543-tetiksiz-basincli-yikama-tabancasi-2",
+  "title": "Tecomec 0543 Tetiksiz Basınçlı Yıkama Tabancası",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/tecomec-0543-tetiksiz-basincli-yikama-tabancasi-2/",
+  "date": "2026-05-21T20:42:06",
+  "parent_id": 3311
+ },
+ {
+  "id": 4778,
+  "slug": "tarus-7442-kopuk-puskurtme-tabancasi",
+  "title": "Tarus 7442 Köpük Püskürtme Tabancası",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/tarus-7442-kopuk-puskurtme-tabancasi/",
+  "date": "2026-05-21T20:42:06",
+  "parent_id": 3311
+ },
+ {
+  "id": 4779,
+  "slug": "tarus-7441-sivi-puskurtme-tabancasi-2",
+  "title": "Tarus 7441 Sıvı Püskürtme Tabancası",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/aksesuarlar/tarus-7441-sivi-puskurtme-tabancasi-2/",
+  "date": "2026-05-21T20:43:03",
+  "parent_id": 3311
+ },
+ {
+  "id": 5176,
+  "slug": "elektrikli-karterden-yag-cekme-emme-pompasi-9-lt-6910",
+  "title": "Elektrikli Karterden Yağ Çekme Emme Pompası 9 Lt – 6910",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-cekme-pompalari/elektrikli-yag-cekme-pompalari/elektrikli-karterden-yag-cekme-emme-pompasi-9-lt-6910/",
+  "date": "2026-05-21T20:44:02",
+  "parent_id": 4266
+ },
+ {
+  "id": 5178,
+  "slug": "elektrikli-karterden-yag-cekme-emme-pompasi-80-lt-6980",
+  "title": "Elektrikli Karterden Yağ Çekme Emme Pompası 80 Lt – 6980",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-cekme-pompalari/elektrikli-yag-cekme-pompalari/elektrikli-karterden-yag-cekme-emme-pompasi-80-lt-6980/",
+  "date": "2026-05-21T20:44:02",
+  "parent_id": 4266
+ },
+ {
+  "id": 5180,
+  "slug": "elektrikli-karterden-yag-cekme-emme-pompasi-80-lt-6970",
+  "title": "Elektrikli Karterden Yağ Çekme Emme Pompası 80 Lt – 6970",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-cekme-pompalari/elektrikli-yag-cekme-pompalari/elektrikli-karterden-yag-cekme-emme-pompasi-80-lt-6970/",
+  "date": "2026-05-21T20:44:02",
+  "parent_id": 4266
+ },
+ {
+  "id": 5185,
+  "slug": "elektrikli-yag-cekme-pompalari",
+  "title": "Elektrikli Yağ Çekme Pompaları",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-cekme-pompalari/elektrikli-yag-cekme-pompalari/elektrikli-yag-cekme-pompalari/",
+  "date": "2026-05-21T20:44:02",
+  "parent_id": 4266
+ },
+ {
+  "id": 5846,
+  "slug": "havali-gres-pompasi-451-2116n",
+  "title": "Havalı Gres Pompası 45:1 – 2116N",
+  "link": "https://hdmarine.com.tr/urunler/yaglama-cihazlari/yag-ve-gres-pompalari/havali-gres-pompasi-451-2116n/",
+  "date": "2026-05-21T20:43:03",
+  "parent_id": 3312
+ },
+ {
+  "id": 6569,
+  "slug": "asturo-k30-airless-pompa-2",
+  "title": "Asturo K30 Airless Pompa",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/airless-boya-makinalari/asturo-k30-airless-pompa-2/",
+  "date": "2026-05-21T20:44:24",
+  "parent_id": 2910
+ },
+ {
+  "id": 6589,
+  "slug": "wagner-wildcat-18-40",
+  "title": "WAGNER Wildcat 18-40",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/airless-boya-makinalari/wagner-wildcat-18-40/",
+  "date": "2026-05-21T20:44:24",
+  "parent_id": 2910
+ },
+ {
+  "id": 6590,
+  "slug": "kst-airless-681",
+  "title": "KST AIRLESS 68:1",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/airless-boya-makinalari/kst-airless-681/",
+  "date": "2026-05-21T20:44:24",
+  "parent_id": 2910
+ },
+ {
+  "id": 6591,
+  "slug": "kst-airless-301",
+  "title": "KST AIRLESS 30:1",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/airless-boya-makinalari/kst-airless-301/",
+  "date": "2026-05-21T20:44:24",
+  "parent_id": 2910
+ },
+ {
+  "id": 6592,
+  "slug": "hasco-681",
+  "title": "HASCO 68:1",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/airless-boya-makinalari/hasco-681/",
+  "date": "2026-05-21T20:44:24",
+  "parent_id": 2910
+ },
+ {
+  "id": 6593,
+  "slug": "hasco-281",
+  "title": "HASCO 28:1",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/airless-boya-makinalari/hasco-281/",
+  "date": "2026-05-21T20:44:24",
+  "parent_id": 2910
+ },
+ {
+  "id": 6594,
+  "slug": "handok-681",
+  "title": "HANDOK 68:1",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/airless-boya-makinalari/handok-681/",
+  "date": "2026-05-21T20:44:24",
+  "parent_id": 2910
+ },
+ {
+  "id": 6595,
+  "slug": "elektrikli-boya-makinasi-970",
+  "title": "Elektrikli boya makinası 970",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/airless-boya-makinalari/elektrikli-boya-makinasi-970/",
+  "date": "2026-05-21T20:44:25",
+  "parent_id": 2910
+ },
+ {
+  "id": 6596,
+  "slug": "elektrikli-boya-makinasi-795",
+  "title": "Elektrikli Boya Makinası 795",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/airless-boya-makinalari/elektrikli-boya-makinasi-795/",
+  "date": "2026-05-21T20:44:11",
+  "parent_id": 2910
+ },
+ {
+  "id": 6597,
+  "slug": "elektrikli-boya-makinasi-495",
+  "title": "Elektrikli Boya Makinası 495",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/airless-boya-makinalari/elektrikli-boya-makinasi-495/",
+  "date": "2026-05-21T20:44:11",
+  "parent_id": 2910
+ },
+ {
+  "id": 6598,
+  "slug": "elektrikli-boya-makinasi-450",
+  "title": "Elektrikli boya makinası 450",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/airless-boya-makinalari/elektrikli-boya-makinasi-450/",
+  "date": "2026-05-21T20:44:25",
+  "parent_id": 2910
+ },
+ {
+  "id": 6599,
+  "slug": "elektirikli-boya-makinasi-395",
+  "title": "Elektirikli Boya Makinası 395",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/airless-boya-makinalari/elektirikli-boya-makinasi-395/",
+  "date": "2026-05-21T20:44:25",
+  "parent_id": 2910
+ },
+ {
+  "id": 6744,
+  "slug": "basincli-boya-kazani-10-litre",
+  "title": "Basınçlı Boya Kazanı 10 Litre",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/basincli-boya-kazanlari/basincli-boya-kazani-10-litre/",
+  "date": "2026-05-21T20:44:11",
+  "parent_id": 2995
+ },
+ {
+  "id": 6771,
+  "slug": "paslanmaz-basincli-boya-kazani-40-litre",
+  "title": "Paslanmaz Basınçlı Boya Kazanı 40 Litre",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/basincli-boya-kazanlari/paslanmaz-basincli-boya-kazani-40-litre/",
+  "date": "2026-05-21T20:44:11",
+  "parent_id": 2995
+ },
+ {
+  "id": 6772,
+  "slug": "paslanmaz-basincli-boya-kazani-10-litre",
+  "title": "Paslanmaz Basınçlı Boya Kazanı 10 Litre",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/basincli-boya-kazanlari/paslanmaz-basincli-boya-kazani-10-litre/",
+  "date": "2026-05-21T20:44:11",
+  "parent_id": 2995
+ },
+ {
+  "id": 6773,
+  "slug": "basincli-boya-kazani-80-litre",
+  "title": "Basınçlı Boya Kazanı 80 Litre",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/basincli-boya-kazanlari/basincli-boya-kazani-80-litre/",
+  "date": "2026-05-21T20:44:11",
+  "parent_id": 2995
+ },
+ {
+  "id": 6774,
+  "slug": "basincli-boya-kazani-60-litre",
+  "title": "Basınçlı Boya Kazanı 60 Litre",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/basincli-boya-kazanlari/basincli-boya-kazani-60-litre/",
+  "date": "2026-05-21T20:44:11",
+  "parent_id": 2995
+ },
+ {
+  "id": 6775,
+  "slug": "basincli-boya-kazani-40-litre",
+  "title": "Basınçlı Boya Kazanı 40 Litre",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/basincli-boya-kazanlari/basincli-boya-kazani-40-litre/",
+  "date": "2026-05-21T20:44:11",
+  "parent_id": 2995
+ },
+ {
+  "id": 6776,
+  "slug": "basincli-boya-kazani-20-litre",
+  "title": "Basınçlı Boya Kazanı 20 Litre",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/basincli-boya-kazanlari/basincli-boya-kazani-20-litre/",
+  "date": "2026-05-21T20:44:11",
+  "parent_id": 2995
+ },
+ {
+  "id": 6777,
+  "slug": "basincli-boya-kazani-2-litre",
+  "title": "Basınçlı Boya Kazanı 2 Litre",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/basincli-boya-kazanlari/basincli-boya-kazani-2-litre/",
+  "date": "2026-05-21T20:44:11",
+  "parent_id": 2995
+ },
+ {
+  "id": 6778,
+  "slug": "basincli-boya-kazani-10-litre-eco",
+  "title": "Basınçlı Boya Kazanı 10 Litre Eco",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/basincli-boya-kazanlari/basincli-boya-kazani-10-litre-eco/",
+  "date": "2026-05-21T20:44:11",
+  "parent_id": 2995
+ },
+ {
+  "id": 6897,
+  "slug": "4001-boya-tabancasi",
+  "title": "4001 Boya Tabancası",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/boya-tabancalari/4001-boya-tabancasi/",
+  "date": "2026-05-21T20:44:47",
+  "parent_id": 2996
+ },
+ {
+  "id": 6956,
+  "slug": "wagner-4700-ac",
+  "title": "Wagner 4700 AC",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/boya-tabancalari/wagner-4700-ac/",
+  "date": "2026-05-21T20:41:30",
+  "parent_id": 2996
+ },
+ {
+  "id": 6957,
+  "slug": "wa-101-otomatik-puskurtme-tabancasi",
+  "title": "WA 101 Otomatik Püskürtme Tabancası",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/boya-tabancalari/wa-101-otomatik-puskurtme-tabancasi/",
+  "date": "2026-05-21T20:41:30",
+  "parent_id": 2996
+ },
+ {
+  "id": 6958,
+  "slug": "w-71-boya-tabancasi",
+  "title": "W-71 Boya Tabancası",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/boya-tabancalari/w-71-boya-tabancasi/",
+  "date": "2026-05-21T20:44:58",
+  "parent_id": 2996
+ },
+ {
+  "id": 6959,
+  "slug": "ustten-depolu-boya-tabancasi",
+  "title": "Üstten Depolu Boya Tabancası",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/boya-tabancalari/ustten-depolu-boya-tabancasi/",
+  "date": "2026-05-21T20:44:58",
+  "parent_id": 2996
+ },
+ {
+  "id": 6960,
+  "slug": "st-5-otomatik-puskurtme-tabancasi",
+  "title": "ST-5 Otomatik Püskürtme Tabancası",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/boya-tabancalari/st-5-otomatik-puskurtme-tabancasi/",
+  "date": "2026-05-21T20:44:58",
+  "parent_id": 2996
+ },
+ {
+  "id": 6961,
+  "slug": "sagola-4100-xtreme-2",
+  "title": "Sagola 4100 XTREME",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/boya-tabancalari/sagola-4100-xtreme-2/",
+  "date": "2026-05-21T20:44:58",
+  "parent_id": 2996
+ },
+ {
+  "id": 6962,
+  "slug": "sagola-3300-gto-alttan-2",
+  "title": "Sagola 3300 GTO Alttan",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/boya-tabancalari/sagola-3300-gto-alttan-2/",
+  "date": "2026-05-21T20:44:58",
+  "parent_id": 2996
+ },
+ {
+  "id": 6963,
+  "slug": "sagola-3300-gto-2",
+  "title": "Sagola 3300 GTO",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/boya-tabancalari/sagola-3300-gto-2/",
+  "date": "2026-05-21T20:44:58",
+  "parent_id": 2996
+ },
+ {
+  "id": 6964,
+  "slug": "mk-90-2",
+  "title": "MK 90",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/boya-tabancalari/mk-90-2/",
+  "date": "2026-05-21T20:44:58",
+  "parent_id": 2996
+ },
+ {
+  "id": 6965,
+  "slug": "k-318-kalip-ayirici-tabanca",
+  "title": "K-318 Kalıp Ayırıcı Tabanca",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/boya-tabancalari/k-318-kalip-ayirici-tabanca/",
+  "date": "2026-05-21T20:44:58",
+  "parent_id": 2996
+ },
+ {
+  "id": 6966,
+  "slug": "k-506-boya-tabancasi",
+  "title": "K 506 Boya Tabancası",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/boya-tabancalari/k-506-boya-tabancasi/",
+  "date": "2026-05-21T20:44:58",
+  "parent_id": 2996
+ },
+ {
+  "id": 6967,
+  "slug": "j-90-airlessswivel-2",
+  "title": "J-90 AirlessSwivel",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/boya-tabancalari/j-90-airlessswivel-2/",
+  "date": "2026-05-21T20:44:58",
+  "parent_id": 2996
+ },
+ {
+  "id": 6968,
+  "slug": "j-90-airless-boya-tabancasi",
+  "title": "J-90 Airless Boya Tabancası",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/boya-tabancalari/j-90-airless-boya-tabancasi/",
+  "date": "2026-05-21T20:44:58",
+  "parent_id": 2996
+ },
+ {
+  "id": 6969,
+  "slug": "h-827-2",
+  "title": "H 827",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/boya-tabancalari/h-827-2/",
+  "date": "2026-05-21T20:44:58",
+  "parent_id": 2996
+ },
+ {
+  "id": 6970,
+  "slug": "graco-g40-2",
+  "title": "Graco G40",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/boya-tabancalari/graco-g40-2/",
+  "date": "2026-05-21T20:44:58",
+  "parent_id": 2996
+ },
+ {
+  "id": 6971,
+  "slug": "dewilbiss-cobra-1-2",
+  "title": "DEWILBISS Cobra 1",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/boya-tabancalari/dewilbiss-cobra-1-2/",
+  "date": "2026-05-21T20:44:58",
+  "parent_id": 2996
+ },
+ {
+  "id": 6972,
+  "slug": "de-wilbiss-advance-hd-konvansiyonel-2",
+  "title": "De Wilbıss Advance HD Konvansiyonel",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/boya-tabancalari/de-wilbiss-advance-hd-konvansiyonel-2/",
+  "date": "2026-05-21T20:44:58",
+  "parent_id": 2996
+ },
+ {
+  "id": 6973,
+  "slug": "carox-506a-2",
+  "title": "Carox 506A",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/boya-tabancalari/carox-506a-2/",
+  "date": "2026-05-21T20:44:58",
+  "parent_id": 2996
+ },
+ {
+  "id": 6974,
+  "slug": "airmix-tabanca-2",
+  "title": "Airmix Tabanca",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/boya-tabancalari/airmix-tabanca-2/",
+  "date": "2026-05-21T20:44:47",
+  "parent_id": 2996
+ },
+ {
+  "id": 6975,
+  "slug": "ab-17s",
+  "title": "AB 17S",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/boya-tabancalari/ab-17s/",
+  "date": "2026-05-21T20:44:47",
+  "parent_id": 2996
+ },
+ {
+  "id": 6976,
+  "slug": "ab-17g",
+  "title": "AB 17G",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/boya-tabancalari/ab-17g/",
+  "date": "2026-05-21T20:44:47",
+  "parent_id": 2996
+ },
+ {
+  "id": 7247,
+  "slug": "varil-karistirma-mikseri-2",
+  "title": "Varil Karıştırma Mikseri",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/varil-karistirma-mikseri-2/",
+  "date": "2026-05-21T20:43:33",
+  "parent_id": 2997
+ },
+ {
+  "id": 7265,
+  "slug": "varil-tipi-pnomatik-mikser",
+  "title": "Varil Tipi Pnömatik Mikser",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/varil-tipi-pnomatik-mikser/",
+  "date": "2026-05-21T20:43:50",
+  "parent_id": 2997
+ },
+ {
+  "id": 7266,
+  "slug": "sehpali-havali-karistirici",
+  "title": "Sehpalı Havalı Karıştırıcı",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/sehpali-havali-karistirici/",
+  "date": "2026-05-21T20:43:50",
+  "parent_id": 2997
+ },
+ {
+  "id": 7267,
+  "slug": "hava-motoru-2",
+  "title": "Hava Motoru",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/hava-motoru-2/",
+  "date": "2026-05-21T20:43:50",
+  "parent_id": 2997
+ },
+ {
+  "id": 7268,
+  "slug": "gast-hava-motoru-8am-nrv-28a",
+  "title": "GAST HAVA MOTORU 8AM-NRV-28A",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-8am-nrv-28a/",
+  "date": "2026-05-21T20:43:50",
+  "parent_id": 2997
+ },
+ {
+  "id": 7269,
+  "slug": "gast-hava-motoru-6am-nrv-7a",
+  "title": "GAST HAVA MOTORU 6AM-NRV-7A",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-6am-nrv-7a/",
+  "date": "2026-05-21T20:43:50",
+  "parent_id": 2997
+ },
+ {
+  "id": 7270,
+  "slug": "gast-hava-motoru-6am-arv-54",
+  "title": "GAST HAVA MOTORU 6AM-ARV-54",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-6am-arv-54/",
+  "date": "2026-05-21T20:43:50",
+  "parent_id": 2997
+ },
+ {
+  "id": 7271,
+  "slug": "gast-hava-motoru-4am-nrv-54",
+  "title": "GAST HAVA MOTORU 4AM-NRV-54",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-4am-nrv-54/",
+  "date": "2026-05-21T20:43:50",
+  "parent_id": 2997
+ },
+ {
+  "id": 7272,
+  "slug": "gast-hava-motoru-4am-nrv-50c",
+  "title": "GAST HAVA MOTORU 4AM-NRV-50C",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-4am-nrv-50c/",
+  "date": "2026-05-21T20:43:33",
+  "parent_id": 2997
+ },
+ {
+  "id": 7273,
+  "slug": "gast-hava-motoru-4am-nrv-22b",
+  "title": "GAST HAVA MOTORU 4AM-NRV-22B",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-4am-nrv-22b/",
+  "date": "2026-05-21T20:43:50",
+  "parent_id": 2997
+ },
+ {
+  "id": 7274,
+  "slug": "gast-hava-motoru-4am-arv-119",
+  "title": "GAST HAVA MOTORU 4AM-ARV-119",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-4am-arv-119/",
+  "date": "2026-05-21T20:43:50",
+  "parent_id": 2997
+ },
+ {
+  "id": 7275,
+  "slug": "gast-hava-motoru-4-am-frv-63a",
+  "title": "GAST HAVA MOTORU 4-AM-FRV-63A",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-4-am-frv-63a/",
+  "date": "2026-05-21T20:43:50",
+  "parent_id": 2997
+ },
+ {
+  "id": 7276,
+  "slug": "gast-hava-motoru-2am-ncw-7a",
+  "title": "GAST HAVA MOTORU 2AM-NCW-7A",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-2am-ncw-7a/",
+  "date": "2026-05-21T20:43:50",
+  "parent_id": 2997
+ },
+ {
+  "id": 7277,
+  "slug": "gast-hava-motoru-2am-ncc-16",
+  "title": "GAST HAVA MOTORU 2AM-NCC-16",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-2am-ncc-16/",
+  "date": "2026-05-21T20:43:50",
+  "parent_id": 2997
+ },
+ {
+  "id": 7278,
+  "slug": "gast-hava-motoru-2am-arv-92",
+  "title": "GAST HAVA MOTORU 2AM-ARV-92",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-2am-arv-92/",
+  "date": "2026-05-21T20:43:50",
+  "parent_id": 2997
+ },
+ {
+  "id": 7279,
+  "slug": "gast-hava-motoru-1up-nrv-3a",
+  "title": "GAST HAVA MOTORU 1UP-NRV-3A",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-1up-nrv-3a/",
+  "date": "2026-05-21T20:43:50",
+  "parent_id": 2997
+ },
+ {
+  "id": 7280,
+  "slug": "gast-hava-motoru-1am-nrv-39a",
+  "title": "GAST HAVA MOTORU 1AM-NRV-39A",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-1am-nrv-39a/",
+  "date": "2026-05-21T20:43:50",
+  "parent_id": 2997
+ },
+ {
+  "id": 7281,
+  "slug": "gast-hava-motoru-3",
+  "title": "GAST HAVA MOTORU",
+  "link": "https://hdmarine.com.tr/urunler/otomatik-boya-ekipmanlari/karistirici-motorlar-ve-ekipmanlari/gast-hava-motoru-3/",
+  "date": "2026-05-21T20:43:50",
+  "parent_id": 2997
+ },
+ {
+  "id": 7607,
+  "slug": "mono-pompa-yedek-parca",
+  "title": "Mono Pompa Yedek Parça",
+  "link": "https://hdmarine.com.tr/urunler/endustriyel-pompalar/mono-pompa-yedek-parca/",
+  "date": "2026-05-21T20:44:58",
+  "parent_id": 279
+ }
+]

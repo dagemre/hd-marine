@@ -1,0 +1,182 @@
+erDiagram
+    %% ========== KATALOG HİYERARŞİSİ ==========
+    categories {
+        uuid id PK
+        uuid parent_id FK "self-ref: alt kategori"
+        int sort_order
+        text image_path
+        bool is_active
+    }
+    category_translations {
+        uuid category_id FK
+        text locale "tr | en"
+        text name
+        text slug "UNIQUE(locale,slug)"
+        text description
+        text meta_title
+        text meta_description
+        text translation_status "auto | reviewed"
+    }
+
+    %% ========== ÜRÜNLER (gerçek product entity) ==========
+    products {
+        uuid id PK
+        uuid primary_category_id FK "breadcrumb-canonical"
+        text sku "nullable"
+        text brand "nullable"
+        int sort_order
+        bool is_active
+        bool is_featured
+        int legacy_wp_id "migrasyon izi"
+        text legacy_url "301 kaynak"
+    }
+    product_categories {
+        uuid product_id PK,FK
+        uuid category_id PK,FK
+    }
+    product_translations {
+        uuid product_id FK
+        text locale
+        text name
+        text slug "UNIQUE(locale,slug)"
+        text summary
+        text description "zengin metin"
+        text usage_areas
+        text meta_title
+        text meta_description
+        text translation_status "auto | reviewed"
+    }
+    product_images {
+        uuid id PK
+        uuid product_id FK
+        text storage_path "Storage: birebir dosya"
+        text alt_tr
+        text alt_en
+        int sort_order
+        bool is_primary
+    }
+    product_specs {
+        uuid id PK
+        uuid product_id FK
+        int sort_order
+    }
+    product_spec_translations {
+        uuid spec_id FK
+        text locale
+        text label "Ozellik adi"
+        text value "deger - cevrilmez"
+    }
+    product_faqs {
+        uuid id PK
+        uuid product_id FK
+        int sort_order
+    }
+    product_faq_translations {
+        uuid faq_id FK
+        text locale
+        text question
+        text answer
+    }
+
+    %% ========== İÇERİK ==========
+    sectors {
+        uuid id PK
+        int sort_order
+        text image_path
+        bool is_active
+    }
+    sector_translations {
+        uuid sector_id FK
+        text locale
+        text name
+        text slug
+        text description
+        text meta_title
+        text meta_description
+    }
+    pages {
+        uuid id PK
+        text key "home, about, contact..."
+    }
+    page_translations {
+        uuid page_id FK
+        text locale
+        text title
+        text slug
+        jsonb content "blok bazli icerik"
+        text meta_title
+        text meta_description
+    }
+    catalogs {
+        uuid id PK
+        text file_path "Storage: PDF"
+        text cover_image_path
+        int sort_order
+        bool is_active
+    }
+    catalog_translations {
+        uuid catalog_id FK
+        text locale
+        text title
+        text description
+    }
+
+    %% ========== FORMLAR ==========
+    quote_requests {
+        uuid id PK
+        text full_name
+        text email
+        text phone
+        text company
+        text product_group
+        uuid product_id FK "nullable: urun sayfasindan"
+        text message
+        text locale
+        text status "new | contacted | closed"
+        timestamptz created_at
+    }
+    contact_messages {
+        uuid id PK
+        text full_name
+        text email
+        text phone
+        text subject
+        text message
+        text locale
+        timestamptz created_at
+    }
+
+    %% ========== SEO & ADMIN ==========
+    redirects {
+        uuid id PK
+        text old_path "UNIQUE - eski WP URL"
+        text new_path
+        int status_code "301"
+    }
+    auth_users {
+        uuid id PK "Supabase Auth"
+        text email
+    }
+    profiles {
+        uuid id PK,FK "= auth.users.id"
+        text full_name
+        text role "admin (tek rol)"
+    }
+
+    %% ========== İLİŞKİLER ==========
+    categories ||--o{ categories : "parent_id"
+    categories ||--o{ category_translations : "dil basina 1 satir"
+    categories ||--o{ products : "primary_category_id"
+    products ||--o{ product_categories : ""
+    categories ||--o{ product_categories : ""
+    products ||--o{ product_translations : "dil basina 1 satir"
+    products ||--o{ product_images : "1-N gorsel"
+    products ||--o{ product_specs : "teknik tablo satirlari"
+    product_specs ||--o{ product_spec_translations : ""
+    products ||--o{ product_faqs : "SSS"
+    product_faqs ||--o{ product_faq_translations : ""
+    products |o--o{ quote_requests : "opsiyonel kaynak urun"
+    sectors ||--o{ sector_translations : ""
+    pages ||--o{ page_translations : ""
+    catalogs ||--o{ catalog_translations : ""
+    auth_users ||--|| profiles : "1-1"
