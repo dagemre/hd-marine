@@ -120,7 +120,7 @@ export function HeroSlider({ images }: { images: string[] }) {
         className="absolute inset-0 -z-10 hidden bg-[linear-gradient(90deg,rgba(4,27,70,0.85)_0%,rgba(6,43,107,0.45)_45%,rgba(13,94,255,0.05)_100%)] sm:block"
       />
 
-      <Container className="flex w-full flex-col pt-20 pb-24 sm:pt-24 sm:pb-24 lg:pt-24 lg:pb-28">
+      <Container className="flex w-full flex-col pt-20 pb-16 sm:pt-24 sm:pb-16 lg:pt-24 lg:pb-20">
         {/* Ana blok — masaüstünde dikeyde ortalanır (flex-1) */}
         <div className="flex flex-1 flex-col justify-start sm:justify-center">
         <div className="max-w-2xl">
