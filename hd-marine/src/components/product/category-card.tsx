@@ -27,7 +27,7 @@ export function CategoryCard({
               alt={name}
               width={320}
               height={240}
-              className="max-h-full w-auto object-contain transition-transform group-hover:scale-105"
+              className="h-full w-full object-contain transition-transform group-hover:scale-105"
             />
           ) : (
             <div

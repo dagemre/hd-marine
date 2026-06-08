@@ -54,7 +54,7 @@ function ExplorerCard({ item, view }: { item: ExplorerItem; view: "grid" | "list
       alt={item.imageAlt ?? item.name}
       width={360}
       height={270}
-      className="max-h-full w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+      className="h-full w-full object-contain transition-transform duration-300 group-hover:scale-105"
     />
   ) : (
     <PlaceholderArt />

@@ -36,7 +36,7 @@ export function ProductCard({
               alt={imageAlt ?? name}
               width={400}
               height={400}
-              className="max-h-full w-auto object-contain transition-transform group-hover:scale-105"
+              className="h-full w-full object-contain transition-transform group-hover:scale-105"
             />
           ) : (
             <div
