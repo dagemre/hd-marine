@@ -148,7 +148,7 @@ export function CatalogExplorer({
   );
 
   const selectCls =
-    "h-10 cursor-pointer appearance-none rounded-lg border border-black/10 bg-white pl-3.5 pr-9 text-sm font-medium text-ink-600 shadow-card outline-none transition-colors hover:border-primary/40 focus:border-primary";
+    "h-10 w-full min-w-0 cursor-pointer appearance-none truncate rounded-lg border border-black/10 bg-white pl-3.5 pr-9 text-sm font-medium text-ink-600 shadow-card outline-none transition-colors hover:border-primary/40 focus:border-primary sm:w-auto";
 
   const toggleCls = (active: boolean) =>
     cn(
@@ -159,12 +159,12 @@ export function CatalogExplorer({
     );
 
   return (
-    <div>
+    <div className="min-w-0">
       {/* Araç çubuğu */}
-      <div className="flex flex-wrap items-center justify-between gap-4">
+      <div className="flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between">
         <h2 className="text-2xl font-bold text-ink-900 lg:text-[1.75rem]">{heading}</h2>
-        <div className="flex flex-wrap items-center gap-2.5">
-          <div className="relative">
+        <div className="flex w-full min-w-0 items-center gap-2.5 sm:w-auto">
+          <div className="relative min-w-0 flex-1 sm:flex-none">
             <select
               aria-label={t("allCategories")}
               className={selectCls}
@@ -189,7 +189,7 @@ export function CatalogExplorer({
             <SelectChevron />
           </div>
 
-          <div className="relative">
+          <div className="relative min-w-0 flex-1 sm:flex-none">
             <select
               aria-label={t("sortLabel")}
               className={selectCls}
@@ -202,7 +202,7 @@ export function CatalogExplorer({
             <SelectChevron />
           </div>
 
-          <div className="flex items-center gap-1.5">
+          <div className="flex shrink-0 items-center gap-1.5">
             <button
               type="button"
               aria-label={t("gridView")}
