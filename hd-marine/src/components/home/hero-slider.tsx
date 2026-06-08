@@ -78,7 +78,7 @@ export function HeroSlider({ images }: { images: string[] }) {
   const minis = [t("heroMini1"), t("heroMini2"), t("heroMini3")];
 
   return (
-    <section className="relative isolate flex min-h-[700px] overflow-hidden bg-deep-navy text-white sm:min-h-[780px] lg:min-h-[840px]">
+    <section className="relative isolate flex min-h-[600px] overflow-hidden bg-deep-navy text-white sm:min-h-[780px] lg:min-h-[840px]">
       {/* Slaytlar */}
       {images.map((src, i) => (
         <div
@@ -124,8 +124,8 @@ export function HeroSlider({ images }: { images: string[] }) {
         {/* Ana blok — masaüstünde dikeyde ortalanır (flex-1) */}
         <div className="flex flex-1 flex-col justify-start sm:justify-center">
         <div className="max-w-2xl">
-          {/* Eyebrow — masaüstü tasarımında var, mobilde gizli */}
-          <p className="mb-4 hidden text-sm font-bold uppercase tracking-[0.18em] text-brand-300 sm:block">
+          {/* Eyebrow — masaüstündeki gibi mobilde de görünür */}
+          <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-brand-300 sm:mb-4 sm:text-sm">
             {t("heroEyebrow")}
           </p>
           <h1 className="text-display-sm font-extrabold sm:text-display lg:text-[4.25rem] lg:leading-[1.06] lg:tracking-[-0.02em]">
