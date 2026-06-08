@@ -10,8 +10,10 @@ export default function SiteLayout({
     <div className="flex min-h-screen flex-col">
       <JsonLd data={organizationJsonLd()} />
       <Header />
-      {/* -mt-18: içerik şeffaf header'ın arkasına uzanır (h-18 header) */}
-      <main className="-mt-18 flex-1">{children}</main>
+      {/* -mt-18: içerik şeffaf header'ın arkasına uzanır (h-18 header)
+          overflow-x-clip: mobilde olası birkaç piksellik yatay taşmayı keser
+          (sticky'yi bozmaması için hidden değil clip) */}
+      <main className="-mt-18 flex-1 overflow-x-clip">{children}</main>
       <Footer />
       <ScrollToTop />
     </div>

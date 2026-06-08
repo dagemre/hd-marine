@@ -282,4 +282,6 @@ html {
 
 body {
   @apply bg-surface text-ink-900 antialiased;
+  /* Mobilde olası yatay taşmayı kes (sticky'yi bozmamak için clip) */
+  overflow-x: clip;
 }
