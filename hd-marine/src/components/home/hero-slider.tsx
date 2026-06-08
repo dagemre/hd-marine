@@ -107,7 +107,7 @@ export function HeroSlider({ images }: { images: string[] }) {
           şeffaflaşır ve ürün fotoğrafı ekranın alt bölümünde net görünür */}
       <div
         aria-hidden
-        className="absolute inset-0 -z-10 bg-[linear-gradient(180deg,rgba(4,27,70,0.94)_0%,rgba(4,27,70,0.82)_42%,rgba(6,43,107,0.38)_68%,rgba(13,94,255,0.05)_100%)] sm:hidden"
+        className="absolute inset-0 -z-10 bg-[linear-gradient(180deg,rgba(4,27,70,0.86)_0%,rgba(4,27,70,0.80)_55%,rgba(6,43,107,0.40)_82%,rgba(13,94,255,0.08)_100%)] sm:hidden"
       />
       {/* sm+ Overlay Katman 1 — ana lacivert, sağa doğru şeffaflaşır */}
       <div
@@ -121,8 +121,8 @@ export function HeroSlider({ images }: { images: string[] }) {
       />
 
       <Container className="flex w-full flex-col pt-20 pb-20 sm:pt-24 sm:pb-20 lg:pt-24 lg:pb-24">
-        {/* Ana blok — masaüstünde dikeyde ortalanır (flex-1) */}
-        <div className="flex flex-1 flex-col justify-start sm:justify-center">
+        {/* Ana blok — her ekranda dikeyde ortalanır (flex-1) */}
+        <div className="flex flex-1 flex-col justify-center">
         <div className="max-w-2xl">
           {/* Eyebrow — masaüstündeki gibi mobilde de görünür */}
           <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-brand-300 sm:mb-4 sm:text-sm">
