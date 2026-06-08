@@ -1,6 +1,8 @@
+"use client";
+
 import type { AdminProductDetail } from "@/lib/admin/product-detail";
-import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/form";
+import { ActionForm, SubmitButton } from "@/components/admin/action-form";
 import { ConfirmButton } from "../../confirm-button";
 import { addSpec, deleteSpec, saveSpec } from "./actions";
 
@@ -60,11 +62,16 @@ function SpecRow({
         />
       </td>
       <td className={`${cell} whitespace-nowrap`}>
-        <form id={`spec-${spec.id}`} action={save} className="inline">
-          <Button type="submit" size="sm" variant="outline" className="h-8 px-3 text-xs">
+        <ActionForm
+          id={`spec-${spec.id}`}
+          action={save}
+          successMessage="Özellik kaydedildi"
+          className="inline"
+        >
+          <SubmitButton variant="outline" size="sm" className="h-8 px-3 text-xs">
             Kaydet
-          </Button>
-        </form>{" "}
+          </SubmitButton>
+        </ActionForm>{" "}
         <form action={remove} className="inline">
           <ConfirmButton
             message="Bu özellik silinsin mi?"
@@ -116,8 +123,9 @@ export function SpecsTab({
         </table>
       </div>
 
-      <form
+      <ActionForm
         action={add}
+        successMessage="Özellik eklendi"
         className="rounded-xl border border-dashed border-brand-200 p-4"
       >
         <p className="mb-3 text-sm font-bold text-navy">Yeni özellik ekle</p>
@@ -126,11 +134,9 @@ export function SpecsTab({
           <Input name="value_tr" placeholder="Değer (TR) *" required />
           <Input name="label_en" placeholder="Özellik (EN)" />
           <Input name="value_en" placeholder="Değer (EN)" />
-          <Button type="submit" variant="outline">
-            Ekle
-          </Button>
+          <SubmitButton variant="outline">Ekle</SubmitButton>
         </div>
-      </form>
+      </ActionForm>
     </div>
   );
 }

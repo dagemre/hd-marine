@@ -1,6 +1,9 @@
+"use client";
+
 import type { AdminProductDetail } from "@/lib/admin/product-detail";
-import { Button } from "@/components/ui/button";
-import { Input, Label, Textarea } from "@/components/ui/form";
+import { Input, Label } from "@/components/ui/form";
+import { RichTextEditor } from "@/components/ui/rich-text-editor";
+import { ActionForm, SubmitButton } from "@/components/admin/action-form";
 import { ConfirmButton } from "../../confirm-button";
 import { addFaq, deleteFaq, saveFaq } from "./actions";
 
@@ -19,7 +22,7 @@ function FaqCard({
   return (
     <div className="rounded-xl border border-brand-100 bg-white p-4">
       <form id={`faq-del-${faq.id}`} action={remove} />
-      <form action={save} className="space-y-3">
+      <ActionForm action={save} successMessage="Soru kaydedildi" className="space-y-3">
         <div className="flex items-center justify-between">
           <p className="text-sm font-bold text-navy">Soru {index + 1}</p>
           <div className="flex items-center gap-2">
@@ -37,20 +40,22 @@ function FaqCard({
             <Label>Soru (TR)</Label>
             <Input name="question_tr" defaultValue={faq.tr?.question ?? ""} />
             <Label className="mt-2">Cevap (TR)</Label>
-            <Textarea
+            <RichTextEditor
               name="answer_tr"
-              rows={3}
               defaultValue={faq.tr?.answer ?? ""}
+              placeholder="Cevabı buraya yazın…"
+              minHeight={110}
             />
           </div>
           <div>
             <Label>Soru (EN)</Label>
             <Input name="question_en" defaultValue={faq.en?.question ?? ""} />
             <Label className="mt-2">Cevap (EN)</Label>
-            <Textarea
+            <RichTextEditor
               name="answer_en"
-              rows={3}
               defaultValue={faq.en?.answer ?? ""}
+              placeholder="Answer…"
+              minHeight={110}
             />
           </div>
         </div>
@@ -62,11 +67,11 @@ function FaqCard({
           >
             Sil
           </ConfirmButton>
-          <Button type="submit" size="sm" variant="outline">
+          <SubmitButton variant="outline" size="sm">
             Kaydet
-          </Button>
+          </SubmitButton>
         </div>
-      </form>
+      </ActionForm>
     </div>
   );
 }
@@ -89,38 +94,38 @@ export function FaqsTab({
         <FaqCard key={f.id} productId={productId} faq={f} index={i} />
       ))}
 
-      <form
+      <ActionForm
         action={add}
+        successMessage="Yeni soru eklendi"
         className="space-y-3 rounded-xl border border-dashed border-brand-200 p-4"
       >
         <p className="text-sm font-bold text-navy">Yeni soru ekle</p>
         <div className="grid gap-3 md:grid-cols-2">
           <div>
-            <Input name="question_tr" placeholder="Soru (TR) *" required />
-            <Textarea
+            <Label>Soru (TR) *</Label>
+            <Input name="question_tr" placeholder="Soru (TR)" required />
+            <Label className="mt-2">Cevap (TR) *</Label>
+            <RichTextEditor
               name="answer_tr"
-              rows={3}
-              placeholder="Cevap (TR) *"
-              required
-              className="mt-2"
+              placeholder="Cevabı buraya yazın…"
+              minHeight={110}
             />
           </div>
           <div>
+            <Label>Soru (EN)</Label>
             <Input name="question_en" placeholder="Soru (EN)" />
-            <Textarea
+            <Label className="mt-2">Cevap (EN)</Label>
+            <RichTextEditor
               name="answer_en"
-              rows={3}
-              placeholder="Cevap (EN)"
-              className="mt-2"
+              placeholder="Answer…"
+              minHeight={110}
             />
           </div>
         </div>
         <div className="flex justify-end">
-          <Button type="submit" variant="outline">
-            Ekle
-          </Button>
+          <SubmitButton variant="outline">Ekle</SubmitButton>
         </div>
-      </form>
+      </ActionForm>
     </div>
   );
 }

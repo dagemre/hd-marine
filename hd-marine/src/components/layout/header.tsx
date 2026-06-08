@@ -26,7 +26,6 @@ export async function Header() {
     { label: t("about"), pathname: "/hakkimizda" },
     { label: t("products"), pathname: "/urunler" },
     { label: t("sectors"), pathname: "/sektorler" },
-    { label: t("catalogs"), pathname: "/kataloglar" },
     { label: t("contact"), pathname: "/iletisim" },
   ];
 

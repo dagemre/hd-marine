@@ -3,6 +3,9 @@
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { requireAdmin } from "@/lib/admin/auth";
+import { uniqueProductSlug } from "@/lib/admin/slug";
+import { sanitizeRichHtml } from "@/lib/admin/sanitize-html";
+import type { ActionState } from "@/components/admin/action-form";
 
 /** Mutasyon sonrası: admin sayfası + tüm public sayfalar tazelenir */
 function refresh(productId: string) {
@@ -10,9 +13,13 @@ function refresh(productId: string) {
   revalidatePath("/", "layout");
 }
 
+/** Void action'lar (silme/görsel) için: hata olursa sayfaya banner ile dön */
 function fail(productId: string, message: string): never {
   redirect(`/admin/urunler/${productId}?hata=${encodeURIComponent(message)}`);
 }
+
+const ok = (): ActionState => ({ ok: true });
+const err = (message: string): ActionState => ({ ok: false, message });
 
 const str = (fd: FormData, key: string) => String(fd.get(key) ?? "").trim();
 const strOrNull = (fd: FormData, key: string) => str(fd, key) || null;
@@ -52,20 +59,23 @@ function parseFeatureCards(
 export async function updateTranslation(
   productId: string,
   locale: "tr" | "en",
+  _prev: ActionState,
   formData: FormData
-): Promise<void> {
+): Promise<ActionState> {
   const { supabase } = await requireAdmin();
 
   const name = str(formData, "name");
-  const slug = str(formData, "slug");
-  if (!name || !slug) fail(productId, "Ad ve slug zorunludur.");
+  if (!name) return err("Ürün adı zorunludur.");
+
+  // Slug, ürün adından otomatik üretilir (kullanıcı slug görmüyor).
+  const slug = await uniqueProductSlug(supabase, locale, name, productId);
 
   const payload = {
     name,
     slug,
     summary: strOrNull(formData, "summary"),
-    description: strOrNull(formData, "description"),
-    usage_areas: strOrNull(formData, "usage_areas"),
+    description: sanitizeRichHtml(str(formData, "description")),
+    usage_areas: sanitizeRichHtml(str(formData, "usage_areas")),
     highlights: parseHighlights(formData),
     feature_cards: parseFeatureCards(formData),
     meta_title: strOrNull(formData, "meta_title"),
@@ -85,27 +95,28 @@ export async function updateTranslation(
     .eq("locale", locale);
 
   if (error) {
-    fail(
-      productId,
+    return err(
       error.code === "23505"
-        ? `Bu slug başka bir üründe kullanılıyor: ${slug}`
+        ? "Bu ada benzer bir adres başka üründe kullanılıyor. Lütfen adı biraz değiştirin."
         : `Kayıt başarısız: ${error.message}`
     );
   }
   refresh(productId);
+  return ok();
 }
 
 /* ---------------- Genel ayarlar ---------------- */
 
 export async function updateSettings(
   productId: string,
+  _prev: ActionState,
   formData: FormData
-): Promise<void> {
+): Promise<ActionState> {
   const { supabase } = await requireAdmin();
 
   const primaryCategoryId = str(formData, "primary_category_id");
   const categoryIds = formData.getAll("category_ids").map(String);
-  if (!primaryCategoryId) fail(productId, "Ana kategori zorunludur.");
+  if (!primaryCategoryId) return err("Ana kategori zorunludur.");
   if (!categoryIds.includes(primaryCategoryId)) {
     categoryIds.push(primaryCategoryId);
   }
@@ -120,7 +131,7 @@ export async function updateSettings(
       primary_category_id: primaryCategoryId,
     })
     .eq("id", productId);
-  if (error) fail(productId, `Kayıt başarısız: ${error.message}`);
+  if (error) return err(`Kayıt başarısız: ${error.message}`);
 
   // Kategori atamaları: farkı uygula (sil + ekle)
   const { data: current } = await supabase
@@ -139,16 +150,17 @@ export async function updateSettings(
       .delete()
       .eq("product_id", productId)
       .in("category_id", toDelete);
-    if (e) fail(productId, `Kategori güncellenemedi: ${e.message}`);
+    if (e) return err(`Kategori güncellenemedi: ${e.message}`);
   }
   if (toInsert.length > 0) {
     const { error: e } = await supabase
       .from("product_categories")
       .insert(toInsert.map((category_id) => ({ product_id: productId, category_id })));
-    if (e) fail(productId, `Kategori güncellenemedi: ${e.message}`);
+    if (e) return err(`Kategori güncellenemedi: ${e.message}`);
   }
 
   refresh(productId);
+  return ok();
 }
 
 /* ---------------- Özellikler (spec) ---------------- */
@@ -156,8 +168,9 @@ export async function updateSettings(
 export async function saveSpec(
   productId: string,
   specId: string,
+  _prev: ActionState,
   formData: FormData
-): Promise<void> {
+): Promise<ActionState> {
   const { supabase } = await requireAdmin();
 
   const sortOrder = parseInt(str(formData, "sort_order"), 10) || 0;
@@ -165,7 +178,7 @@ export async function saveSpec(
     .from("product_specs")
     .update({ sort_order: sortOrder })
     .eq("id", specId);
-  if (error) fail(productId, `Özellik kaydedilemedi: ${error.message}`);
+  if (error) return err(`Özellik kaydedilemedi: ${error.message}`);
 
   for (const locale of ["tr", "en"] as const) {
     const label = str(formData, `label_${locale}`);
@@ -177,20 +190,22 @@ export async function saveSpec(
         { spec_id: specId, locale, label, value },
         { onConflict: "spec_id,locale" }
       );
-    if (e) fail(productId, `Özellik çevirisi kaydedilemedi: ${e.message}`);
+    if (e) return err(`Özellik çevirisi kaydedilemedi: ${e.message}`);
   }
   refresh(productId);
+  return ok();
 }
 
 export async function addSpec(
   productId: string,
+  _prev: ActionState,
   formData: FormData
-): Promise<void> {
+): Promise<ActionState> {
   const { supabase } = await requireAdmin();
 
   const labelTr = str(formData, "label_tr");
   const valueTr = str(formData, "value_tr");
-  if (!labelTr || !valueTr) fail(productId, "Özellik adı ve değeri (TR) zorunludur.");
+  if (!labelTr || !valueTr) return err("Özellik adı ve değeri (TR) zorunludur.");
 
   const sortOrder = parseInt(str(formData, "sort_order"), 10) || 999;
   const { data: spec, error } = await supabase
@@ -198,7 +213,7 @@ export async function addSpec(
     .insert({ product_id: productId, sort_order: sortOrder })
     .select("id")
     .single();
-  if (error || !spec) fail(productId, `Özellik eklenemedi: ${error?.message}`);
+  if (error || !spec) return err(`Özellik eklenemedi: ${error?.message}`);
 
   const rows = [{ spec_id: spec.id, locale: "tr", label: labelTr, value: valueTr }];
   const labelEn = str(formData, "label_en");
@@ -209,9 +224,10 @@ export async function addSpec(
   const { error: e } = await supabase
     .from("product_spec_translations")
     .insert(rows);
-  if (e) fail(productId, `Özellik çevirisi eklenemedi: ${e.message}`);
+  if (e) return err(`Özellik çevirisi eklenemedi: ${e.message}`);
 
   refresh(productId);
+  return ok();
 }
 
 export async function deleteSpec(
@@ -232,8 +248,9 @@ export async function deleteSpec(
 export async function saveFaq(
   productId: string,
   faqId: string,
+  _prev: ActionState,
   formData: FormData
-): Promise<void> {
+): Promise<ActionState> {
   const { supabase } = await requireAdmin();
 
   const sortOrder = parseInt(str(formData, "sort_order"), 10) || 0;
@@ -241,11 +258,11 @@ export async function saveFaq(
     .from("product_faqs")
     .update({ sort_order: sortOrder })
     .eq("id", faqId);
-  if (error) fail(productId, `SSS kaydedilemedi: ${error.message}`);
+  if (error) return err(`SSS kaydedilemedi: ${error.message}`);
 
   for (const locale of ["tr", "en"] as const) {
     const question = str(formData, `question_${locale}`);
-    const answer = str(formData, `answer_${locale}`);
+    const answer = sanitizeRichHtml(str(formData, `answer_${locale}`)) ?? "";
     if (!question && !answer) continue;
     const { error: e } = await supabase
       .from("product_faq_translations")
@@ -253,20 +270,22 @@ export async function saveFaq(
         { faq_id: faqId, locale, question, answer },
         { onConflict: "faq_id,locale" }
       );
-    if (e) fail(productId, `SSS çevirisi kaydedilemedi: ${e.message}`);
+    if (e) return err(`SSS çevirisi kaydedilemedi: ${e.message}`);
   }
   refresh(productId);
+  return ok();
 }
 
 export async function addFaq(
   productId: string,
+  _prev: ActionState,
   formData: FormData
-): Promise<void> {
+): Promise<ActionState> {
   const { supabase } = await requireAdmin();
 
   const questionTr = str(formData, "question_tr");
-  const answerTr = str(formData, "answer_tr");
-  if (!questionTr || !answerTr) fail(productId, "Soru ve cevap (TR) zorunludur.");
+  const answerTr = sanitizeRichHtml(str(formData, "answer_tr")) ?? "";
+  if (!questionTr || !answerTr) return err("Soru ve cevap (TR) zorunludur.");
 
   const { data: faq, error } = await supabase
     .from("product_faqs")
@@ -276,22 +295,23 @@ export async function addFaq(
     })
     .select("id")
     .single();
-  if (error || !faq) fail(productId, `SSS eklenemedi: ${error?.message}`);
+  if (error || !faq) return err(`SSS eklenemedi: ${error?.message}`);
 
   const rows = [
     { faq_id: faq.id, locale: "tr", question: questionTr, answer: answerTr },
   ];
   const questionEn = str(formData, "question_en");
-  const answerEn = str(formData, "answer_en");
+  const answerEn = sanitizeRichHtml(str(formData, "answer_en")) ?? "";
   if (questionEn && answerEn) {
     rows.push({ faq_id: faq.id, locale: "en", question: questionEn, answer: answerEn });
   }
   const { error: e } = await supabase
     .from("product_faq_translations")
     .insert(rows);
-  if (e) fail(productId, `SSS çevirisi eklenemedi: ${e.message}`);
+  if (e) return err(`SSS çevirisi eklenemedi: ${e.message}`);
 
   refresh(productId);
+  return ok();
 }
 
 export async function deleteFaq(

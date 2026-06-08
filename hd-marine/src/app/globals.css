@@ -112,6 +112,19 @@
   border-radius: 0.75rem;
 }
 
+/* Görsel editör (admin) — boşken yer tutucu metin */
+.rte-area:empty::before {
+  content: attr(data-placeholder);
+  color: var(--color-ink-400);
+  pointer-events: none;
+}
+.rte-area p:first-child {
+  margin-top: 0;
+}
+.rte-area:focus {
+  outline: none;
+}
+
 /* ============================================================
    "Made with ❤ Mre Creative" — footer imzası
    Hover'da (veya mobilde .is-beating ile) kalp atışı + mini kalp

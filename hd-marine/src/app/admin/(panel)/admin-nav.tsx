@@ -7,10 +7,8 @@ import { cn } from "@/lib/cn";
 type NavItem = { href: string; label: string; exact?: boolean };
 
 const items: NavItem[] = [
-  { href: "/admin", label: "Panel", exact: true },
   { href: "/admin/urunler", label: "Ürünler" },
   { href: "/admin/kategoriler", label: "Kategoriler" },
-  { href: "/admin/ceviriler", label: "Çeviriler" },
 ];
 
 export function AdminNav({

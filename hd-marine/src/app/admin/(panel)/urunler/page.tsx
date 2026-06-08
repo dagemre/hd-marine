@@ -11,7 +11,9 @@ import {
 } from "@/lib/admin/categories";
 import { Badge } from "@/components/ui/badge";
 import { Input, Select } from "@/components/ui/form";
-import { Button } from "@/components/ui/button";
+import { Button, buttonStyles } from "@/components/ui/button";
+import { ConfirmButton } from "../confirm-button";
+import { deleteProduct } from "./actions";
 
 export const metadata: Metadata = { title: "Ürünler" };
 export const dynamic = "force-dynamic";
@@ -22,6 +24,8 @@ type SearchParams = Promise<{
   durum?: string;
   ceviri?: string;
   sayfa?: string;
+  hata?: string;
+  silindi?: string;
 }>;
 
 function buildQuery(
@@ -72,10 +76,26 @@ export default async function AdminProductsPage({
 
   return (
     <div className="mx-auto max-w-6xl">
-      <div className="mb-6 flex items-center justify-between">
-        <h1 className="text-2xl font-bold text-navy">Ürünler</h1>
-        <p className="text-sm text-ink-600">{result.total} kayıt</p>
+      <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
+        <div className="flex items-baseline gap-3">
+          <h1 className="text-2xl font-bold text-navy">Ürünler</h1>
+          <p className="text-sm text-ink-600">{result.total} kayıt</p>
+        </div>
+        <Link href="/admin/urunler/yeni" className={buttonStyles("primary", "sm")}>
+          + Yeni ürün
+        </Link>
       </div>
+
+      {sp.silindi && (
+        <p className="mb-4 rounded-lg bg-emerald-50 px-4 py-3 text-sm font-semibold text-emerald-700">
+          Ürün silindi.
+        </p>
+      )}
+      {sp.hata && (
+        <p className="mb-4 rounded-lg bg-red-50 px-4 py-3 text-sm font-semibold text-red-700">
+          {sp.hata}
+        </p>
+      )}
 
       {/* Filtreler */}
       <form
@@ -124,12 +144,13 @@ export default async function AdminProductsPage({
               <th className="px-4 py-3 text-center">Görsel</th>
               <th className="px-4 py-3">Çeviri</th>
               <th className="px-4 py-3">Durum</th>
+              <th className="px-4 py-3 text-right">İşlemler</th>
             </tr>
           </thead>
           <tbody>
             {result.items.length === 0 && (
               <tr>
-                <td colSpan={5} className="px-4 py-10 text-center text-ink-600">
+                <td colSpan={6} className="px-4 py-10 text-center text-ink-600">
                   Filtrelere uyan ürün bulunamadı.
                 </td>
               </tr>
@@ -167,6 +188,24 @@ export default async function AdminProductsPage({
                   ) : (
                     <Badge variant="danger">Pasif</Badge>
                   )}
+                </td>
+                <td className="px-4 py-3">
+                  <div className="flex items-center justify-end gap-1">
+                    <Link
+                      href={`/admin/urunler/${p.id}`}
+                      className="rounded-lg px-3 py-1.5 text-xs font-semibold text-primary hover:bg-brand-50"
+                    >
+                      Düzenle
+                    </Link>
+                    <form action={deleteProduct.bind(null, p.id)}>
+                      <ConfirmButton
+                        message={`"${p.name}" ürünü kalıcı olarak silinsin mi? Bu işlem geri alınamaz.`}
+                        className="rounded-lg px-3 py-1.5 text-xs font-semibold text-red-600 hover:bg-red-50"
+                      >
+                        Sil
+                      </ConfirmButton>
+                    </form>
+                  </div>
                 </td>
               </tr>
             ))}

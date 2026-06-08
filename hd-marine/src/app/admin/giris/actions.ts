@@ -26,7 +26,7 @@ export async function signIn(
     return { error: "E-posta veya şifre hatalı." };
   }
 
-  redirect("/admin");
+  redirect("/admin/urunler");
 }
 
 export async function signOut(): Promise<void> {

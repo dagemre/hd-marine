@@ -1,7 +1,10 @@
+"use client";
+
 import type { Database } from "@/lib/supabase/types";
-import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Input, Label, Textarea } from "@/components/ui/form";
+import { RichTextEditor } from "@/components/ui/rich-text-editor";
+import { ActionForm, SubmitButton } from "@/components/admin/action-form";
 import { updateTranslation } from "./actions";
 
 type ProductTr = Database["public"]["Tables"]["product_translations"]["Row"];
@@ -49,7 +52,7 @@ export function ContentForm({
   const action = updateTranslation.bind(null, productId, locale);
 
   return (
-    <form action={action} className="max-w-3xl space-y-4">
+    <ActionForm action={action} className="max-w-3xl space-y-4">
       {locale === "en" && (
         <div className="flex items-center gap-2">
           {data.translation_status === "reviewed" ? (
@@ -60,30 +63,19 @@ export function ContentForm({
         </div>
       )}
 
-      <div className="grid gap-4 md:grid-cols-2">
-        <div>
-          <Label htmlFor={`name-${locale}`}>Ürün adı *</Label>
-          <Input
-            id={`name-${locale}`}
-            name="name"
-            defaultValue={data.name}
-            required
-          />
-        </div>
-        <div>
-          <Label htmlFor={`slug-${locale}`}>Slug *</Label>
-          <Input
-            id={`slug-${locale}`}
-            name="slug"
-            defaultValue={data.slug}
-            required
-            pattern="[a-z0-9-]+"
-            title="Sadece küçük harf, rakam ve tire"
-          />
-          <p className="mt-1 text-xs text-amber-700">
-            Dikkat: slug değişirse eski URL kırılır (otomatik 301 oluşturulmaz).
-          </p>
-        </div>
+      <div>
+        <Label htmlFor={`name-${locale}`}>Ürün adı *</Label>
+        <Input
+          id={`name-${locale}`}
+          name="name"
+          defaultValue={data.name}
+          required
+        />
+        <p className="mt-1 text-xs text-ink-400">
+          Adres (otomatik):{" "}
+          <span className="font-mono text-ink-600">/{data.slug}</span> — ürün
+          adı değişince adres ve tüm bağlantılar kendiliğinden güncellenir.
+        </p>
       </div>
 
       <div>
@@ -97,24 +89,22 @@ export function ContentForm({
       </div>
 
       <div>
-        <Label htmlFor={`description-${locale}`}>Açıklama (HTML)</Label>
-        <Textarea
-          id={`description-${locale}`}
+        <Label>Açıklama</Label>
+        <RichTextEditor
           name="description"
-          rows={10}
           defaultValue={data.description ?? ""}
-          className="font-mono text-xs"
+          placeholder="Ürün açıklamasını buraya yazın…"
+          minHeight={220}
         />
       </div>
 
       <div>
-        <Label htmlFor={`usage-${locale}`}>Kullanım alanları (HTML)</Label>
-        <Textarea
-          id={`usage-${locale}`}
+        <Label>Kullanım alanları</Label>
+        <RichTextEditor
           name="usage_areas"
-          rows={4}
           defaultValue={data.usage_areas ?? ""}
-          className="font-mono text-xs"
+          placeholder="Bu ürünün nerelerde kullanıldığını yazın…"
+          minHeight={140}
         />
       </div>
 
@@ -184,8 +174,8 @@ export function ContentForm({
         ) : (
           <span />
         )}
-        <Button type="submit">Kaydet</Button>
+        <SubmitButton>Kaydet</SubmitButton>
       </div>
-    </form>
+    </ActionForm>
   );
 }

@@ -1,7 +1,9 @@
+"use client";
+
 import type { AdminProductDetail } from "@/lib/admin/product-detail";
 import type { FlatCategory } from "@/lib/admin/categories";
-import { Button } from "@/components/ui/button";
 import { Input, Label, Select } from "@/components/ui/form";
+import { ActionForm, SubmitButton } from "@/components/admin/action-form";
 import { updateSettings } from "./actions";
 
 export function SettingsForm({
@@ -15,8 +17,9 @@ export function SettingsForm({
   const assigned = new Set(product.categoryIds);
 
   return (
-    <form
+    <ActionForm
       action={action}
+      successMessage="Ayarlar kaydedildi"
       className="space-y-4 rounded-xl border border-brand-100 bg-white p-5"
     >
       <h2 className="text-sm font-bold text-navy">Genel ayarlar</h2>
@@ -61,7 +64,7 @@ export function SettingsForm({
           >
             {categories.map((c) => (
               <option key={c.id} value={c.id}>
-                {" ".repeat(c.depth * 3) + c.name}
+                {" ".repeat(c.depth * 3) + c.name}
               </option>
             ))}
           </Select>
@@ -97,8 +100,8 @@ export function SettingsForm({
       </div>
 
       <div className="flex justify-end border-t border-brand-100 pt-4">
-        <Button type="submit">Ayarları kaydet</Button>
+        <SubmitButton>Ayarları kaydet</SubmitButton>
       </div>
-    </form>
+    </ActionForm>
   );
 }

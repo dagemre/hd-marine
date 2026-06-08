@@ -230,7 +230,12 @@ export async function ProductView({
         <Accordion
           items={faqs.map((faq) => ({
             title: faq.question,
-            content: faq.answer,
+            content: (
+              <div
+                className="rich-text"
+                dangerouslySetInnerHTML={{ __html: faq.answer }}
+              />
+            ),
           }))}
         />
       ),
