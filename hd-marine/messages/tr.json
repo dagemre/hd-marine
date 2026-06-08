@@ -210,6 +210,16 @@
       "generic": "Mesajınız gönderilemedi. Lütfen daha sonra tekrar deneyin veya bizi telefonla arayın."
     }
   },
+  "industries": {
+    "kimya": "Kimya Endüstrisi",
+    "enerji": "Enerji Endüstrisi",
+    "gida": "Gıda & İçecek Endüstrisi",
+    "ilac": "İlaç Endüstrisi",
+    "denizcilik": "Denizcilik Endüstrisi",
+    "kagit": "Kağıt Endüstrisi",
+    "otomotiv": "Otomotiv Endüstrisi",
+    "tekstil": "Tekstil Endüstrisi"
+  },
   "products": {
     "title": "Ürünlerimiz",
     "subtitle": "Endüstriyel pompalardan yağlama cihazlarına, tesisinizin ihtiyaç duyduğu tüm ekipmanlar.",

@@ -210,6 +210,16 @@
       "generic": "Your message could not be sent. Please try again later or call us."
     }
   },
+  "industries": {
+    "kimya": "Chemical Industry",
+    "enerji": "Energy Industry",
+    "gida": "Food & Beverage Industry",
+    "ilac": "Pharmaceutical Industry",
+    "denizcilik": "Marine Industry",
+    "kagit": "Paper Industry",
+    "otomotiv": "Automotive Industry",
+    "tekstil": "Textile Industry"
+  },
   "products": {
     "title": "Our Products",
     "subtitle": "From industrial pumps to lubrication equipment — everything your facility needs.",
