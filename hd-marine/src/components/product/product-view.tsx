@@ -373,12 +373,14 @@ export async function ProductView({
               </div>
             </div>
 
-            {/* Sağ: teklif formu kartı */}
-            <QuoteCard
-              productId={product.id}
-              groups={groups}
-              defaultGroup={defaultGroup}
-            />
+            {/* Sağ sütun teklif formu — yalnız masaüstü (mobilde en altta) */}
+            <div className="hidden lg:block">
+              <QuoteCard
+                productId={product.id}
+                groups={groups}
+                defaultGroup={defaultGroup}
+              />
+            </div>
           </div>
 
           {/* Özellik şeridi (admin doldurur; boşsa gizli) */}
@@ -413,6 +415,16 @@ export async function ProductView({
               <Tabs items={tabs} />
             </div>
           )}
+
+          {/* Teklif formu — mobil/tablet sürümü, sayfanın en altında */}
+          <div className="mt-10 lg:hidden">
+            <QuoteCard
+              productId={product.id}
+              groups={groups}
+              defaultGroup={defaultGroup}
+              idPrefix="pqm"
+            />
+          </div>
         </Container>
 
         {/* Benzer ürünler */}

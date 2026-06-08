@@ -37,13 +37,17 @@ export function QuoteCard({
   productId,
   groups,
   defaultGroup,
+  /** Aynı sayfada birden çok örnek olduğunda id çakışmasını önler */
+  idPrefix = "pq",
 }: {
   productId: string;
   groups: QuoteGroupOption[];
   defaultGroup?: string;
+  idPrefix?: string;
 }) {
   const t = useTranslations("product");
   const locale = useLocale();
+  const fid = (name: string) => `${idPrefix}-${name}`;
   const [state, formAction, pending] = useActionState(
     submitProductQuote,
     initialState
@@ -96,12 +100,12 @@ export function QuoteCard({
           />
 
           <div>
-            <Label htmlFor="pq-name">
+            <Label htmlFor={fid("name")}>
               {t("formName")}
               <Star />
             </Label>
             <Input
-              id="pq-name"
+              id={fid("name")}
               name="fullName"
               autoComplete="name"
               placeholder={t("formNamePlaceholder")}
@@ -110,12 +114,12 @@ export function QuoteCard({
           </div>
 
           <div>
-            <Label htmlFor="pq-email">
+            <Label htmlFor={fid("email")}>
               {t("formEmail")}
               <Star />
             </Label>
             <Input
-              id="pq-email"
+              id={fid("email")}
               name="email"
               type="email"
               autoComplete="email"
@@ -125,12 +129,12 @@ export function QuoteCard({
           </div>
 
           <div>
-            <Label htmlFor="pq-phone">
+            <Label htmlFor={fid("phone")}>
               {t("formPhone")}
               <Star />
             </Label>
             <Input
-              id="pq-phone"
+              id={fid("phone")}
               name="phone"
               type="tel"
               autoComplete="tel"
@@ -140,13 +144,13 @@ export function QuoteCard({
           </div>
 
           <div>
-            <Label htmlFor="pq-group">
+            <Label htmlFor={fid("group")}>
               {t("formGroup")}
               <Star />
             </Label>
             <div className="relative">
               <Select
-                id="pq-group"
+                id={fid("group")}
                 name="productGroup"
                 defaultValue={defaultGroup ?? ""}
                 className="pr-10"
@@ -179,9 +183,9 @@ export function QuoteCard({
           </div>
 
           <div>
-            <Label htmlFor="pq-message">{t("formMessage")}</Label>
+            <Label htmlFor={fid("message")}>{t("formMessage")}</Label>
             <Textarea
-              id="pq-message"
+              id={fid("message")}
               name="message"
               rows={4}
               placeholder={t("formMessagePlaceholder")}
