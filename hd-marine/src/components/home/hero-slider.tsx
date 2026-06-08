@@ -120,8 +120,14 @@ export function HeroSlider({ images }: { images: string[] }) {
         className="absolute inset-0 -z-10 hidden bg-[linear-gradient(90deg,rgba(4,27,70,0.85)_0%,rgba(6,43,107,0.45)_45%,rgba(13,94,255,0.05)_100%)] sm:block"
       />
 
-      <Container className="w-full pt-20 pb-24 sm:pt-22 sm:pb-32 lg:pt-24 lg:pb-40">
+      <Container className="flex w-full flex-col pt-20 pb-20 sm:pt-24 sm:pb-12 lg:pt-24 lg:pb-14">
+        {/* Ana blok — masaüstünde dikeyde ortalanır (flex-1) */}
+        <div className="flex flex-1 flex-col justify-start sm:justify-center">
         <div className="max-w-2xl">
+          {/* Eyebrow — masaüstü tasarımında var, mobilde gizli */}
+          <p className="mb-4 hidden text-sm font-bold uppercase tracking-[0.18em] text-brand-300 sm:block">
+            {t("heroEyebrow")}
+          </p>
           <h1 className="text-display-sm font-extrabold sm:text-display lg:text-[4.25rem] lg:leading-[1.06] lg:tracking-[-0.02em]">
             {t("heroTitle")}
           </h1>
@@ -171,17 +177,24 @@ export function HeroSlider({ images }: { images: string[] }) {
               </svg>
             </Link>
           </div>
-
+        </div>
         </div>
 
-        {/* Mini özellikler — görsel üstünde, ikisi TEK satırda */}
-        <div className="mt-10 flex flex-nowrap items-center gap-x-6 sm:gap-x-8 lg:mt-14">
-          {minis.slice(0, 2).map((label, i) => (
-            <div key={label} className="flex items-center gap-2 sm:gap-2.5">
+        {/* Mini özellikler — hero'nun ALTINA sabit (tasarımdaki gibi);
+            masaüstü 3 öğe, mobilde sade 2 öğe */}
+        <div className="mt-12 flex flex-nowrap items-center gap-x-6 sm:gap-x-10 lg:mt-10">
+          {minis.map((label, i) => (
+            <div
+              key={label}
+              className={cn(
+                "flex items-center gap-2 sm:gap-3",
+                i === 2 && "hidden sm:flex"
+              )}
+            >
               <span className="shrink-0 text-brand-300 [&>svg]:h-4 [&>svg]:w-4 sm:[&>svg]:h-6 sm:[&>svg]:w-6">
                 {miniIcons[i]}
               </span>
-              <p className="whitespace-nowrap text-xs font-semibold text-brand-100 sm:text-sm">
+              <p className="text-xs font-semibold leading-snug whitespace-nowrap text-brand-100 sm:whitespace-normal sm:text-sm lg:max-w-[10rem]">
                 {label}
               </p>
             </div>
