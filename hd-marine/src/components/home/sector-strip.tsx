@@ -33,9 +33,9 @@ export async function SectorStrip() {
               <div
                 key={key}
                 className={
-                  // Mobilde 3'lü dizilim; 8. öğe (Tekstil) mobilde gizli
+                  // Mobilde 3'lü × 2 satır = 6 sektör; İlaç ve Tekstil mobilde gizli
                   "flex flex-col items-center px-1 text-center" +
-                  (key === "tekstil" ? " hidden sm:flex" : "")
+                  (key === "tekstil" || key === "ilac" ? " hidden sm:flex" : "")
                 }
               >
                 <span className="text-primary [&>svg]:h-8 [&>svg]:w-8 sm:[&>svg]:h-9 sm:[&>svg]:w-9">
