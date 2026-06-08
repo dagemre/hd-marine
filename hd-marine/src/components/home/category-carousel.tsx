@@ -80,10 +80,10 @@ export async function CategoryCarousel() {
   });
 
   return (
-    <section className="overflow-hidden bg-surface pt-8 pb-20 lg:pt-10 lg:pb-28">
-      <div className="lg:flex lg:items-stretch lg:gap-10">
+    <section className="bg-surface pt-8 pb-20 lg:pt-10 lg:pb-28">
+      <Container className="lg:flex lg:items-stretch lg:gap-10">
         {/* Sol başlık bloğu */}
-        <div className="shrink-0 px-4 sm:px-6 lg:w-[360px] lg:pl-8 lg:pr-0">
+        <div className="shrink-0 lg:w-[360px]">
           <p className="mb-3 text-sm font-bold uppercase tracking-widest text-primary">
             {t("categoriesEyebrow")}
           </p>
@@ -112,9 +112,9 @@ export async function CategoryCarousel() {
 
         {/* Sağda sürekli akan kart şeridi */}
         {cards.length === 0 ? (
-          <p className="mt-10 px-4 text-ink-400 sm:px-6">{tCommon("loadError")}</p>
+          <p className="mt-10 text-ink-400">{tCommon("loadError")}</p>
         ) : (
-          <div className="marquee-viewport mt-10 min-w-0 flex-1 overflow-hidden pl-4 sm:pl-6 lg:mt-0 lg:pl-0">
+          <div className="marquee-viewport mt-10 min-w-0 flex-1 overflow-hidden lg:mt-0">
             <div className="marquee-track flex w-max py-2">
               {[...cards, ...cards].map((c, i) => (
                 <GroupCard
@@ -127,7 +127,7 @@ export async function CategoryCarousel() {
             </div>
           </div>
         )}
-      </div>
+      </Container>
     </section>
   );
 }
