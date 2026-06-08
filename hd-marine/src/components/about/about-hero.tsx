@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { HeroBackground } from "@/components/ui/hero-background";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { Container } from "@/components/ui/container";
@@ -14,15 +14,8 @@ export async function AboutHero() {
   const tCommon = await getTranslations("common");
 
   return (
-    <section className="relative isolate overflow-hidden bg-hero-gradient text-white">
-      <Image
-        src="/hero1.jpg"
-        alt=""
-        fill
-        priority
-        sizes="100vw"
-        className="absolute inset-0 -z-10 object-cover object-right opacity-45 mix-blend-luminosity [mask-image:linear-gradient(100deg,transparent_30%,black_72%)]"
-      />
+    <section className="relative isolate overflow-hidden bg-deep-navy text-white">
+      <HeroBackground src="/hero1.jpg" />
 
       {/* pt: h-18 header + tasarımdaki boşluk (içerik header'ın arkasına uzanıyor) */}
       <Container className="pt-30 pb-32 lg:pt-34 lg:pb-36">
