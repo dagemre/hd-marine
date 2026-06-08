@@ -241,39 +241,6 @@ export function HeroSlider({ images }: { images: string[] }) {
             ))}
           </div>
 
-          {/* Önceki / sonraki */}
-          <div className="absolute bottom-8 right-6 hidden gap-3 sm:flex lg:right-10">
-            <button
-              onClick={() => goTo(active - 1)}
-              aria-label="Önceki görsel"
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-white/30 text-white transition-colors hover:bg-white/10"
-            >
-              <svg className="h-4 w-4" viewBox="0 0 16 16" fill="none" aria-hidden>
-                <path
-                  d="M10 4 6 8l4 4"
-                  stroke="currentColor"
-                  strokeWidth="1.8"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </button>
-            <button
-              onClick={() => goTo(active + 1)}
-              aria-label="Sonraki görsel"
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-white/30 text-white transition-colors hover:bg-white/10"
-            >
-              <svg className="h-4 w-4" viewBox="0 0 16 16" fill="none" aria-hidden>
-                <path
-                  d="m6 4 4 4-4 4"
-                  stroke="currentColor"
-                  strokeWidth="1.8"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </button>
-          </div>
         </>
       )}
     </section>

@@ -241,6 +241,28 @@
   will-change: transform;
 }
 
+/* Ürün grupları şeridi — soldan sağa sürekli akış; hover'da durur */
+@keyframes marquee-ltr {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.marquee-track {
+  width: max-content;
+  animation: marquee-ltr 50s linear infinite;
+}
+.marquee-viewport:hover .marquee-track {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }

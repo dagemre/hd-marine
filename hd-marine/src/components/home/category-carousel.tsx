@@ -1,13 +1,72 @@
+import Image from "next/image";
 import { getLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import { Container } from "@/components/ui/container";
-import { CategoryCard } from "@/components/product/category-card";
 import { getCategoryTree, catT } from "@/lib/data/categories";
+import { productImageUrl } from "@/lib/storage";
+
+/** Tek ürün-grubu kartı (tasarımdaki dikey kart). */
+function GroupCard({
+  name,
+  slug,
+  imagePath,
+}: {
+  name: string;
+  slug: string;
+  imagePath: string | null;
+}) {
+  return (
+    <Link
+      href={{ pathname: "/urunler/[...slug]", params: { slug: [slug] } }}
+      className="group mr-5 flex w-60 shrink-0 flex-col rounded-2xl border border-black/5 bg-white p-6 shadow-card transition-shadow hover:shadow-card-hover sm:w-64"
+    >
+      <div className="flex h-40 items-center justify-center">
+        {imagePath ? (
+          <Image
+            src={productImageUrl(imagePath)}
+            alt={name}
+            width={240}
+            height={180}
+            className="max-h-full w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+          />
+        ) : (
+          <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-brand-50 text-primary">
+            <svg className="h-8 w-8" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        )}
+      </div>
+      <h3 className="mt-5 min-h-[3em] text-lg font-bold leading-snug text-ink-900 transition-colors group-hover:text-primary">
+        {name}
+      </h3>
+      <span
+        aria-hidden
+        className="mt-4 flex h-8 w-8 items-center justify-center rounded-full text-primary transition-transform group-hover:translate-x-1"
+      >
+        <svg className="h-5 w-5" viewBox="0 0 16 16" fill="none">
+          <path
+            d="M2 8h11M9 4l4 4-4 4"
+            stroke="currentColor"
+            strokeWidth="1.6"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </span>
+    </Link>
+  );
+}
 
 /**
- * Tasarımdaki "ÜRÜNLERİMİZ" bölümü: solda başlık bloğu, sağda Tüm Ürünler
- * butonu; altında ana kategorilerin yatay kaydırmalı kart şeridi.
+ * "ÜRÜNLERİMİZ" bölümü (Emre'nin tasarımı): solda sabit başlık bloğu + buton,
+ * sağda ana ürün gruplarının soldan sağa SÜREKLİ akan şeridi (hover'da durur).
  */
 export async function CategoryCarousel() {
   const locale = (await getLocale()) as Locale;
@@ -15,24 +74,30 @@ export async function CategoryCarousel() {
   const tCommon = await getTranslations("common");
   const tree = await getCategoryTree();
 
+  const cards = tree.roots.map((node) => {
+    const tr = catT(node, locale);
+    return { id: node.id, name: tr.name, slug: tr.slug, imagePath: node.imagePath };
+  });
+
   return (
-    <section className="bg-surface pt-16 pb-20 lg:pt-20 lg:pb-28">
-      <Container>
-        <div className="mb-10 flex flex-wrap items-end justify-between gap-6 lg:mb-12">
-          <div className="max-w-2xl">
-            <p className="mb-3 text-sm font-bold uppercase tracking-widest text-primary">
-              {t("categoriesEyebrow")}
-            </p>
-            <h2 className="text-display-sm font-bold text-ink-900 lg:text-display">
-              {t("categoriesTitle")}
-            </h2>
-            <p className="mt-4 text-lg text-ink-600">{t("categoriesSubtitle")}</p>
-          </div>
+    <section className="overflow-hidden bg-surface pt-8 pb-20 lg:pt-10 lg:pb-28">
+      <div className="lg:flex lg:items-stretch lg:gap-10">
+        {/* Sol başlık bloğu */}
+        <div className="shrink-0 px-4 sm:px-6 lg:w-[360px] lg:pl-8 lg:pr-0">
+          <p className="mb-3 text-sm font-bold uppercase tracking-widest text-primary">
+            {t("categoriesEyebrow")}
+          </p>
+          <h2 className="text-display-sm font-bold text-ink-900 lg:text-display">
+            {t("categoriesTitle")}
+          </h2>
+          <p className="mt-4 max-w-md text-base text-ink-600 lg:text-lg">
+            {t("categoriesSubtitle")}
+          </p>
           <Link
             href="/urunler"
-            className="inline-flex h-11 shrink-0 items-center gap-2 rounded-full border border-brand-200 bg-white px-6 text-sm font-bold uppercase tracking-wide text-navy transition-colors hover:border-primary hover:text-primary"
+            className="mt-8 inline-flex h-12 items-center gap-2 rounded-full border border-brand-200 bg-white px-7 text-sm font-bold uppercase tracking-wide text-navy transition-colors hover:border-primary hover:text-primary"
           >
-            {t("allProducts")}
+            {t("allProductsCta")}
             <svg className="h-4 w-4" viewBox="0 0 16 16" fill="none" aria-hidden>
               <path
                 d="M2 8h11M9 4l4 4-4 4"
@@ -45,28 +110,24 @@ export async function CategoryCarousel() {
           </Link>
         </div>
 
-        {tree.roots.length === 0 ? (
-          <p className="text-center text-ink-400">{tCommon("loadError")}</p>
+        {/* Sağda sürekli akan kart şeridi */}
+        {cards.length === 0 ? (
+          <p className="mt-10 px-4 text-ink-400 sm:px-6">{tCommon("loadError")}</p>
         ) : (
-          <div className="-mx-4 flex snap-x snap-mandatory gap-5 overflow-x-auto px-4 pb-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8 [scrollbar-width:thin]">
-            {tree.roots.map((node) => {
-              const tr = catT(node, locale);
-              return (
-                <div
-                  key={node.id}
-                  className="w-64 shrink-0 snap-start sm:w-72"
-                >
-                  <CategoryCard
-                    name={tr.name}
-                    slugs={[tr.slug]}
-                    imagePath={node.imagePath}
-                  />
-                </div>
-              );
-            })}
+          <div className="marquee-viewport mt-10 min-w-0 flex-1 overflow-hidden pl-4 sm:pl-6 lg:mt-0 lg:pl-0">
+            <div className="marquee-track flex w-max py-2">
+              {[...cards, ...cards].map((c, i) => (
+                <GroupCard
+                  key={`${c.id}-${i}`}
+                  name={c.name}
+                  slug={c.slug}
+                  imagePath={c.imagePath}
+                />
+              ))}
+            </div>
           </div>
         )}
-      </Container>
+      </div>
     </section>
   );
 }
