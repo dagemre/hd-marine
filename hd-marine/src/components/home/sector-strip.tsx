@@ -82,9 +82,11 @@ export async function SectorStrip() {
   const t = await getTranslations("industries");
 
   return (
-    <div className="relative z-10 -mt-16 bg-surface lg:-mt-20">
+    // Arka plan (surface) hero sınırından BAŞLAR; kart negatif margin ile
+    // bu sınırın ÜZERİNE, hero görselinin üstüne taşar.
+    <div className="relative z-10 bg-surface pb-2">
       <Container>
-        <div className="grid grid-cols-2 gap-y-8 rounded-2xl bg-white px-4 py-8 shadow-card-hover sm:grid-cols-4 sm:px-6 lg:grid-cols-8 lg:gap-x-2 lg:px-8 lg:py-10">
+        <div className="-mt-20 grid grid-cols-2 gap-y-8 rounded-2xl bg-white px-4 py-8 shadow-card-hover sm:-mt-24 sm:grid-cols-4 sm:px-6 lg:-mt-28 lg:grid-cols-8 lg:gap-x-2 lg:px-8 lg:py-10">
           {KEYS.map((key) => (
             <div
               key={key}
