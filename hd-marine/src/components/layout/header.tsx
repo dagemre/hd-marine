@@ -109,7 +109,7 @@ export async function Header() {
 
         {/* Mobil: TR/EN değiştirici hamburger'in yanında */}
         <div className="flex items-center gap-2 lg:hidden">
-          <LocaleSwitcher className="h-10" />
+          <LocaleSwitcher className="h-8 [&_button]:px-2 [&_button]:text-[11px]" />
           <MobileMenu items={items} categories={categories} />
         </div>
       </div>
