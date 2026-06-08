@@ -29,7 +29,7 @@ export function ProductCard({
       className="group block h-full"
     >
       <Card className="flex h-full flex-col overflow-hidden">
-        <div className="relative flex aspect-square items-center justify-center bg-white p-6">
+        <div className="relative flex aspect-square items-center justify-center bg-white p-3">
           {imagePath ? (
             <Image
               src={productImageUrl(imagePath)}

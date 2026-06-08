@@ -20,7 +20,7 @@ export function CategoryCard({
       className="group block"
     >
       <Card className="h-full overflow-hidden">
-        <div className="flex aspect-[4/3] items-center justify-center bg-surface p-6">
+        <div className="flex aspect-[4/3] items-center justify-center bg-surface p-3">
           {imagePath ? (
             <Image
               src={productImageUrl(imagePath)}

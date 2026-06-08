@@ -76,7 +76,7 @@ export function SimilarProducts({ items }: { items: SimilarItem[] }) {
                 }}
                 className="group block w-[220px] shrink-0 snap-start rounded-xl border border-black/5 bg-white shadow-card transition-shadow hover:shadow-card-hover sm:w-[240px]"
               >
-                <div className="flex aspect-square items-center justify-center p-6">
+                <div className="flex aspect-square items-center justify-center p-3">
                   {item.imageUrl ? (
                     <Image
                       src={item.imageUrl}

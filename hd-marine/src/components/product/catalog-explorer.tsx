@@ -95,7 +95,7 @@ function ExplorerCard({ item, view }: { item: ExplorerItem; view: "grid" | "list
         className="group block"
       >
         <article className="flex gap-5 rounded-2xl border border-black/5 bg-white p-4 shadow-card transition-shadow hover:shadow-card-hover sm:gap-6 sm:p-5">
-          <div className="flex h-28 w-28 shrink-0 items-center justify-center rounded-xl bg-surface p-3 sm:h-36 sm:w-44">
+          <div className="flex h-28 w-28 shrink-0 items-center justify-center rounded-xl bg-surface p-2 sm:h-36 sm:w-44">
             {image}
           </div>
           <div className="flex min-w-0 flex-col py-1">{body}</div>
@@ -110,7 +110,7 @@ function ExplorerCard({ item, view }: { item: ExplorerItem; view: "grid" | "list
       className="group block h-full"
     >
       <article className="flex h-full flex-col overflow-hidden rounded-2xl border border-black/5 bg-white shadow-card transition-shadow hover:shadow-card-hover">
-        <div className="m-4 flex aspect-[4/3] items-center justify-center rounded-xl bg-surface p-5">
+        <div className="m-4 flex aspect-[4/3] items-center justify-center rounded-xl bg-surface p-2 sm:p-3">
           {image}
         </div>
         <div className="flex flex-1 flex-col px-6 pb-6 pt-1">{body}</div>
