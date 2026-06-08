@@ -13,10 +13,13 @@ export async function Header() {
   const t = await getTranslations("nav");
   const tree = await getCategoryTree();
 
-  const categories: NavCategory[] = tree.roots.map((node) => {
-    const tr = catT(node, locale);
-    return { name: tr.name, slug: tr.slug };
-  });
+  const categories: NavCategory[] = tree.roots
+    .map((node) => {
+      const tr = catT(node, locale);
+      return { name: tr.name, slug: tr.slug };
+    })
+    // Açılır menü ve mobil menüde kategoriler harf sırasına göre (TR/EN locale)
+    .sort((a, b) => a.name.localeCompare(b.name, locale));
 
   const items: NavItem[] = [
     { label: t("home"), pathname: "/" },
