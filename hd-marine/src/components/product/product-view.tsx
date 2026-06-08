@@ -17,7 +17,7 @@ import {
 import { productImageUrl } from "@/lib/storage";
 import { stripHtml } from "@/lib/text";
 import { JsonLd } from "@/lib/seo/jsonld";
-import type { CategoryTree, ProductFull } from "@/lib/data/types";
+import type { CategoryTree, ProductFull, ProductSpec } from "@/lib/data/types";
 import { iconFor, WrenchIcon } from "./detail/icons";
 import { ProductGallery } from "./detail/product-gallery";
 import { QuoteCard, type QuoteGroupOption } from "./detail/quote-card";
@@ -64,6 +64,22 @@ function introFrom(description: string | null): string | null {
   return m ? m[0] : null;
 }
 
+/** Galeri yanı ikonlu özellik satırı */
+function SpecItem({ spec }: { spec: ProductSpec }) {
+  const Icon = iconFor(spec.label);
+  return (
+    <li className="flex items-start gap-3">
+      <Icon className="mt-0.5 h-5 w-5 shrink-0 text-primary" />
+      <div className="min-w-0">
+        <p className="text-sm font-bold leading-snug text-ink-900">
+          {spec.label}
+        </p>
+        <p className="mt-0.5 break-words text-sm text-ink-600">{spec.value}</p>
+      </div>
+    </li>
+  );
+}
+
 /* ---------- görünüm ---------- */
 
 export async function ProductView({
@@ -81,6 +97,11 @@ export async function ProductView({
   const chain = primary ? categoryChain(tree, primary) : [];
   const specs = product.specs[locale] ?? product.specs.tr ?? [];
   const faqs = product.faqs[locale] ?? product.faqs.tr ?? [];
+  // Galeri yanı özet liste: ilk 8 özellik iki sütuna bölünür
+  const specsList = specs.slice(0, 8);
+  const specsHalf = Math.ceil(specsList.length / 2);
+  const specsLeft = specsList.slice(0, specsHalf);
+  const specsRight = specsList.slice(specsHalf);
   const { title, subtitle, badge } = titleParts(
     tr.name,
     tr.summary,
@@ -332,26 +353,21 @@ export async function ProductView({
                     )
                   )}
 
-                  {/* İkonlu özellik listesi (DB'deki teknik özelliklerden) */}
-                  {specs.length > 0 && (
-                    <ul className="mt-7 space-y-5">
-                      {specs.slice(0, 8).map((spec, i) => {
-                        const Icon = iconFor(spec.label);
-                        return (
-                          <li key={i} className="flex items-start gap-3.5">
-                            <Icon className="mt-0.5 h-5 w-5 shrink-0 text-primary" />
-                            <div>
-                              <p className="text-sm font-bold leading-snug text-ink-900">
-                                {spec.label}
-                              </p>
-                              <p className="mt-0.5 text-sm text-ink-600">
-                                {spec.value}
-                              </p>
-                            </div>
-                          </li>
-                        );
-                      })}
-                    </ul>
+                  {/* İkonlu özellik listesi (DB'deki teknik özelliklerden);
+                      iki sütun + ortada ince şeffaf ayraç */}
+                  {specsList.length > 0 && (
+                    <div className="mt-7 grid grid-cols-2 gap-x-5 sm:gap-x-7">
+                      <ul className="space-y-5">
+                        {specsLeft.map((spec, i) => (
+                          <SpecItem key={i} spec={spec} />
+                        ))}
+                      </ul>
+                      <ul className="space-y-5 border-l border-ink-900/10 pl-5 sm:pl-7">
+                        {specsRight.map((spec, i) => (
+                          <SpecItem key={i} spec={spec} />
+                        ))}
+                      </ul>
+                    </div>
                   )}
                 </div>
               </div>
