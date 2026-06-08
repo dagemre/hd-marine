@@ -58,7 +58,7 @@ export function ProductGallery({
               width={640}
               height={640}
               priority
-              className="h-full w-full object-contain"
+              className="max-h-full max-w-full w-auto object-contain"
             />
             <button
               type="button"
@@ -95,7 +95,7 @@ export function ProductGallery({
                 alt={img.alt}
                 width={120}
                 height={120}
-                className="h-full w-full object-contain"
+                className="max-h-full max-w-full w-auto object-contain"
               />
             </button>
           ))}

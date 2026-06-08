@@ -83,7 +83,7 @@ export function SimilarProducts({ items }: { items: SimilarItem[] }) {
                       alt={item.imageAlt}
                       width={300}
                       height={300}
-                      className="h-full w-full object-contain transition-transform group-hover:scale-105"
+                      className="max-h-full max-w-full w-auto object-contain transition-transform group-hover:scale-105"
                     />
                   ) : (
                     <span
