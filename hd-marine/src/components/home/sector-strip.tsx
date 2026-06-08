@@ -27,7 +27,7 @@ export async function SectorStrip() {
     // yarısı hero görselinin üstünde, yarısı alttaki açık zeminde durur.
     <div className="relative z-10">
       <Container>
-        <div className="-mt-12 flex items-center rounded-2xl bg-white px-4 py-5 shadow-card-hover sm:-mt-14 sm:px-6 lg:-mt-[60px] lg:h-[150px] lg:px-8 lg:py-0">
+        <div className="-mt-28 flex items-center rounded-2xl bg-white px-4 py-5 shadow-card-hover sm:-mt-14 sm:px-6 lg:-mt-[60px] lg:h-[150px] lg:px-8 lg:py-0">
           <div className="grid w-full grid-cols-3 gap-y-6 sm:grid-cols-4 sm:gap-y-8 lg:grid-cols-8 lg:gap-x-2">
             {KEYS.map((key) => (
               <div
