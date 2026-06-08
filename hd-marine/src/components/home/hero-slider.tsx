@@ -78,7 +78,7 @@ export function HeroSlider({ images }: { images: string[] }) {
   const minis = [t("heroMini1"), t("heroMini2"), t("heroMini3")];
 
   return (
-    <section className="relative isolate flex min-h-[560px] overflow-hidden bg-deep-navy text-white sm:min-h-[600px] lg:min-h-[640px]">
+    <section className="relative isolate flex min-h-[640px] overflow-hidden bg-deep-navy text-white sm:min-h-[700px] lg:min-h-[760px]">
       {/* Slaytlar */}
       {images.map((src, i) => (
         <div
@@ -120,7 +120,7 @@ export function HeroSlider({ images }: { images: string[] }) {
         className="absolute inset-0 -z-10 hidden bg-[linear-gradient(90deg,rgba(4,27,70,0.85)_0%,rgba(6,43,107,0.45)_45%,rgba(13,94,255,0.05)_100%)] sm:block"
       />
 
-      <Container className="flex w-full flex-col pt-20 pb-24 sm:pt-24 sm:pb-20 lg:pt-24 lg:pb-24">
+      <Container className="flex w-full flex-col pt-20 pb-16 sm:pt-24 sm:pb-16 lg:pt-24 lg:pb-16">
         {/* Ana blok — masaüstünde dikeyde ortalanır (flex-1) */}
         <div className="flex flex-1 flex-col justify-start sm:justify-center">
         <div className="max-w-2xl">
@@ -180,9 +180,9 @@ export function HeroSlider({ images }: { images: string[] }) {
         </div>
         </div>
 
-        {/* Mini özellikler — hero'nun ALTINA sabit (tasarımdaki gibi);
-            masaüstü 3 öğe, mobilde sade 2 öğe */}
-        <div className="mt-12 flex flex-nowrap items-center gap-x-6 sm:gap-x-10 lg:mt-10">
+        {/* Mini özellikler — sektör şeridi eklendiği için gizlendi (çift bant
+            olmasın diye); geri istenirse `hidden` kaldırılır. */}
+        <div className="mt-12 hidden flex-nowrap items-center gap-x-6 sm:gap-x-10 lg:mt-10">
           {minis.map((label, i) => (
             <div
               key={label}
