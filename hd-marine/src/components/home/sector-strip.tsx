@@ -82,24 +82,27 @@ export async function SectorStrip() {
   const t = await getTranslations("industries");
 
   return (
-    // Arka plan (surface) hero sınırından BAŞLAR; kart negatif margin ile
-    // bu sınırın ÜZERİNE, hero görselinin üstüne taşar.
-    <div className="relative z-10 bg-surface pb-2">
+    // Sayfa zemini zaten "surface" (body). Kart, masaüstünde SABİT yükseklikli
+    // (h-[200px]) ve negatif margin'i tam yarısı kadardır (-mt-[100px]) →
+    // yarısı hero görselinin üstünde, yarısı alttaki açık zeminde durur.
+    <div className="relative z-10">
       <Container>
-        <div className="-mt-20 grid grid-cols-2 gap-y-8 rounded-2xl bg-white px-4 py-8 shadow-card-hover sm:-mt-24 sm:grid-cols-4 sm:px-6 lg:-mt-28 lg:grid-cols-8 lg:gap-x-2 lg:px-8 lg:py-10">
-          {KEYS.map((key) => (
-            <div
-              key={key}
-              className="flex flex-col items-center px-1 text-center"
-            >
-              <span className="text-primary [&>svg]:h-9 [&>svg]:w-9">
-                {icons[key]}
-              </span>
-              <p className="mt-3 text-xs font-bold leading-snug text-navy sm:text-sm">
-                {t(key)}
-              </p>
-            </div>
-          ))}
+        <div className="-mt-16 flex items-center rounded-2xl bg-white px-4 py-8 shadow-card-hover sm:-mt-20 sm:px-6 lg:-mt-[100px] lg:h-[200px] lg:px-8 lg:py-0">
+          <div className="grid w-full grid-cols-2 gap-y-8 sm:grid-cols-4 lg:grid-cols-8 lg:gap-x-2">
+            {KEYS.map((key) => (
+              <div
+                key={key}
+                className="flex flex-col items-center px-1 text-center"
+              >
+                <span className="text-primary [&>svg]:h-9 [&>svg]:w-9">
+                  {icons[key]}
+                </span>
+                <p className="mt-3 text-xs font-bold leading-snug text-navy sm:text-sm">
+                  {t(key)}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </Container>
     </div>
