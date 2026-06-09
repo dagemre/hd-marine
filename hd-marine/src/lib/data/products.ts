@@ -121,6 +121,44 @@ export const getFeaturedProducts = cache(
   }
 );
 
+/** Navigasyon menüsü için hafif ürün listesi (id + primary kategori + slug) */
+export type NavProduct = {
+  id: string;
+  primaryCategoryId: string;
+  i18n: Partial<Record<Locale, { name: string; slug: string }>>;
+};
+
+type NavProductRow = {
+  id: string;
+  primary_category_id: string;
+  product_translations: { locale: string; name: string; slug: string }[];
+};
+
+export const getNavProducts = cache(async (): Promise<NavProduct[]> => {
+  try {
+    const supabase = await createClient();
+    const { data, error } = await supabase
+      .from("products")
+      .select("id, primary_category_id, sort_order, product_translations(locale, name, slug)")
+      .eq("is_active", true)
+      .order("sort_order");
+    if (error || !data) {
+      console.warn("[data/products] nav ürünleri sorgusu:", error?.message);
+      return [];
+    }
+    return (data as unknown as NavProductRow[]).map((row) => {
+      const i18n: NavProduct["i18n"] = {};
+      for (const tr of row.product_translations) {
+        i18n[tr.locale as Locale] = { name: tr.name, slug: tr.slug };
+      }
+      return { id: row.id, primaryCategoryId: row.primary_category_id, i18n };
+    });
+  } catch (e) {
+    console.warn("[data/products] nav ürünleri yüklenemedi:", e);
+    return [];
+  }
+});
+
 /* ---------- detay sorgusu ---------- */
 
 const FULL_SELECT = `id, sku, brand, is_featured, primary_category_id,

@@ -3,23 +3,58 @@ import { getLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import { getCategoryTree, catT } from "@/lib/data/categories";
+import { getNavProducts, prodT, type NavProduct } from "@/lib/data/products";
+import type { CategoryNode } from "@/lib/data/types";
 import { HeaderShell } from "./header-shell";
 import { LocaleSwitcher } from "./locale-switcher";
 import { MobileMenu } from "./mobile-menu";
+import { NavCategoryMenu } from "./nav-category-menu";
 import type { NavItem, NavCategory } from "./nav-types";
 
 export async function Header() {
   const locale = (await getLocale()) as Locale;
   const t = await getTranslations("nav");
-  const tree = await getCategoryTree();
+  const [tree, navProducts] = await Promise.all([
+    getCategoryTree(),
+    getNavProducts(),
+  ]);
 
+  // Ürünleri primary kategorilerine göre grupla (menüde kategori altında listelenir)
+  const productsByCat = new Map<string, NavProduct[]>();
+  for (const p of navProducts) {
+    const arr = productsByCat.get(p.primaryCategoryId);
+    if (arr) arr.push(p);
+    else productsByCat.set(p.primaryCategoryId, [p]);
+  }
+
+  // Kategori ağacını nav modeline özyinelemeli çevir. Her kategorinin altında
+  // önce alt kategorileri, ardından o kategoriye ait ürünleri gösterir.
+  // Her seviye harf sırasına göre (TR/EN locale) sıralanır.
+  const byName = (a: NavCategory, b: NavCategory) =>
+    a.name.localeCompare(b.name, locale);
+
+  const toNav = (node: CategoryNode, parentPath: string[]): NavCategory => {
+    const tr = catT(node, locale);
+    const path = [...parentPath, tr.slug];
+    const childCats = node.children
+      .map((child) => toNav(child, path))
+      .sort(byName);
+    const childProducts: NavCategory[] = (productsByCat.get(node.id) ?? [])
+      .map((p) => {
+        const pTr = prodT(p.i18n, locale);
+        return { name: pTr.name, slug: pTr.slug, path: [...path, pTr.slug], children: [] };
+      })
+      .sort(byName);
+    return {
+      name: tr.name,
+      slug: tr.slug,
+      path,
+      children: [...childCats, ...childProducts],
+    };
+  };
   const categories: NavCategory[] = tree.roots
-    .map((node) => {
-      const tr = catT(node, locale);
-      return { name: tr.name, slug: tr.slug };
-    })
-    // Açılır menü ve mobil menüde kategoriler harf sırasına göre (TR/EN locale)
-    .sort((a, b) => a.name.localeCompare(b.name, locale));
+    .map((node) => toNav(node, []))
+    .sort(byName);
 
   const items: NavItem[] = [
     { label: t("home"), pathname: "/" },
@@ -70,20 +105,7 @@ export async function Header() {
                 </Link>
                 {categories.length > 0 && (
                   <div className="invisible absolute left-0 top-full z-50 w-72 pt-2 opacity-0 transition-all group-hover:visible group-hover:opacity-100">
-                    <div className="overflow-hidden rounded-xl border border-black/5 bg-white py-2 shadow-card-hover">
-                      {categories.map((cat) => (
-                        <Link
-                          key={cat.slug}
-                          href={{
-                            pathname: "/urunler/[...slug]",
-                            params: { slug: [cat.slug] },
-                          }}
-                          className="block px-4 py-2.5 text-sm font-medium text-ink-900 transition-colors hover:bg-brand-50 hover:text-primary"
-                        >
-                          {cat.name}
-                        </Link>
-                      ))}
-                    </div>
+                    <NavCategoryMenu categories={categories} />
                   </div>
                 )}
               </div>

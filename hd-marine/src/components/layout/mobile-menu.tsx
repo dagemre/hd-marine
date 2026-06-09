@@ -50,30 +50,25 @@ export function MobileMenu({
         )}
       >
         <nav className="flex flex-col">
-          {items.map((item) => (
-            <Link
-              key={item.pathname}
-              href={item.pathname}
-              onClick={() => setOpen(false)}
-              className="border-b border-white/10 py-3 font-semibold text-white"
-            >
-              {item.label}
-            </Link>
-          ))}
-
-          <p className="pb-1 pt-4 text-xs font-bold uppercase tracking-widest text-brand-300">
-            {t("products")}
-          </p>
-          {categories.map((cat) => (
-            <Link
-              key={cat.slug}
-              href={{ pathname: "/urunler/[...slug]", params: { slug: [cat.slug] } }}
-              onClick={() => setOpen(false)}
-              className="py-2 text-sm text-brand-100"
-            >
-              {cat.name}
-            </Link>
-          ))}
+          {items.map((item) =>
+            item.pathname === "/urunler" ? (
+              <MobileProducts
+                key={item.pathname}
+                label={item.label}
+                categories={categories}
+                onNavigate={() => setOpen(false)}
+              />
+            ) : (
+              <Link
+                key={item.pathname}
+                href={item.pathname}
+                onClick={() => setOpen(false)}
+                className="border-b border-white/10 py-3 font-semibold text-white"
+              >
+                {item.label}
+              </Link>
+            )
+          )}
 
           <Link
             href="/teklif-alin"
@@ -84,6 +79,137 @@ export function MobileMenu({
           </Link>
         </nav>
       </div>
+    </div>
+  );
+}
+
+/** Mobil menüde "Ürünler" sekmesi — altında kategoriler açılır-kapanır */
+function MobileProducts({
+  label,
+  categories,
+  onNavigate,
+}: {
+  label: string;
+  categories: NavCategory[];
+  onNavigate: () => void;
+}) {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <div className="border-b border-white/10">
+      <div className="flex items-center justify-between gap-2">
+        <Link
+          href="/urunler"
+          onClick={onNavigate}
+          className="flex-1 py-3 font-semibold text-white"
+        >
+          {label}
+        </Link>
+        {categories.length > 0 && (
+          <button
+            type="button"
+            onClick={() => setOpen((v) => !v)}
+            aria-expanded={open}
+            aria-label={`${label} kategorileri`}
+            className="flex h-10 w-10 shrink-0 items-center justify-center text-brand-300"
+          >
+            <svg
+              className={cn("h-4 w-4 transition-transform", open && "rotate-180")}
+              viewBox="0 0 16 16"
+              fill="none"
+              aria-hidden
+            >
+              <path
+                d="M4 6l4 4 4-4"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </button>
+        )}
+      </div>
+      {open && categories.length > 0 && (
+        <div className="pb-2">
+          {categories.map((cat) => (
+            <MobileCategory
+              key={cat.slug}
+              cat={cat}
+              depth={0}
+              onNavigate={onNavigate}
+            />
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+/** Mobil menüde özyinelemeli, açılır-kapanır kategori öğesi */
+function MobileCategory({
+  cat,
+  depth,
+  onNavigate,
+}: {
+  cat: NavCategory;
+  depth: number;
+  onNavigate: () => void;
+}) {
+  const [open, setOpen] = useState(false);
+  const hasChildren = cat.children.length > 0;
+
+  return (
+    <div>
+      <div className="flex items-center justify-between gap-2">
+        <Link
+          href={{ pathname: "/urunler/[...slug]", params: { slug: cat.path } }}
+          onClick={onNavigate}
+          className="flex-1 py-2 text-sm text-brand-100"
+          style={{ paddingLeft: depth * 14 }}
+        >
+          {cat.name}
+        </Link>
+        {hasChildren && (
+          <button
+            type="button"
+            onClick={() => setOpen((v) => !v)}
+            aria-expanded={open}
+            aria-label={`${cat.name} alt kategorileri`}
+            className="flex h-9 w-9 shrink-0 items-center justify-center text-brand-300"
+          >
+            <svg
+              className={cn(
+                "h-4 w-4 transition-transform",
+                open && "rotate-180"
+              )}
+              viewBox="0 0 16 16"
+              fill="none"
+              aria-hidden
+            >
+              <path
+                d="M4 6l4 4 4-4"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </button>
+        )}
+      </div>
+      {hasChildren && open && (
+        <div className="border-l border-white/10">
+          {cat.children.map((child) => (
+            <MobileCategory
+              key={child.slug}
+              cat={child}
+              depth={depth + 1}
+              onNavigate={onNavigate}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 }
