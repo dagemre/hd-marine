@@ -123,19 +123,19 @@ export function HeroSlider({ images }: { images: string[] }) {
       <Container className="flex w-full flex-col pt-20 pb-20 sm:pt-24 sm:pb-20 lg:pt-24 lg:pb-24">
         {/* Ana blok — her ekranda dikeyde ortalanır (flex-1) */}
         <div className="flex flex-1 flex-col justify-center">
-        <div className="max-w-2xl">
+        <div className="mx-auto max-w-3xl text-center">
           {/* Eyebrow — masaüstündeki gibi mobilde de görünür */}
-          <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-brand-300 sm:mb-4 sm:text-sm">
+          <p className="mb-4 text-xs font-bold uppercase tracking-[0.18em] text-brand-300 sm:mb-5 sm:text-sm">
             {t("heroEyebrow")}
           </p>
-          <h1 className="text-display-sm font-extrabold sm:text-display lg:text-[4.25rem] lg:leading-[1.06] lg:tracking-[-0.02em]">
+          <h1 className="text-display-sm font-extrabold leading-[1.18] sm:text-display sm:leading-[1.14] lg:text-[4.25rem] lg:leading-[1.12] lg:tracking-[-0.02em]">
             {t("heroTitle")}
           </h1>
-          <p className="mt-5 max-w-xl text-base font-medium leading-relaxed text-brand-100 sm:text-lg lg:mt-6 lg:text-xl">
+          <p className="mx-auto mt-6 max-w-2xl text-base font-medium leading-relaxed text-brand-100 sm:text-lg lg:mt-7 lg:text-xl">
             {t("heroSubtitle")}
           </p>
 
-          <div className="mt-8 flex flex-nowrap gap-2.5 sm:gap-4 lg:mt-10">
+          <div className="mt-10 flex flex-nowrap justify-center gap-2.5 sm:gap-4 lg:mt-12">
             <Link
               href="/urunler"
               className="inline-flex h-11 flex-1 items-center justify-center gap-2 rounded-full bg-primary px-3 text-xs font-bold uppercase tracking-wide whitespace-nowrap text-white shadow-lg shadow-primary/30 transition-colors hover:bg-primary-hover sm:h-12 sm:flex-none sm:px-7 sm:text-sm"
