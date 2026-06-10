@@ -8,12 +8,12 @@ export async function SupportCta() {
   const phoneHref = `tel:${tFooter("phone").replace(/\s/g, "")}`;
 
   return (
-    <section className="bg-gradient-to-r from-brand-800 via-brand-600 to-brand-500 py-10 text-white lg:py-12">
+    <section className="bg-gradient-to-r from-brand-800 via-brand-600 to-brand-500 py-6 text-white lg:py-7">
       <Container>
-        <div className="flex flex-col items-start gap-6 sm:flex-row sm:items-center">
-          <span className="inline-flex h-13 w-13 shrink-0 items-center justify-center rounded-xl bg-white/12">
+        <div className="flex flex-col items-start gap-5 sm:flex-row sm:items-center">
+          <span className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white/12">
             {/* Kulaklık (destek) */}
-            <svg className="h-7 w-7" viewBox="0 0 24 24" fill="none" aria-hidden>
+            <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none" aria-hidden>
               <path
                 d="M4.5 13v-2a7.5 7.5 0 0 1 15 0v2"
                 stroke="currentColor"
@@ -32,8 +32,8 @@ export async function SupportCta() {
           </span>
 
           <div className="min-w-0 flex-1">
-            <h2 className="text-lg font-bold sm:text-xl">{t("ctaTitle")}</h2>
-            <p className="mt-1 text-sm leading-relaxed text-brand-100 sm:text-base">
+            <h2 className="text-base font-bold sm:text-lg">{t("ctaTitle")}</h2>
+            <p className="mt-0.5 text-sm leading-relaxed text-brand-100">
               {t("ctaText")}
             </p>
           </div>
@@ -41,7 +41,7 @@ export async function SupportCta() {
           <div className="flex shrink-0 flex-col gap-3 sm:flex-row sm:items-center">
             <a
               href={phoneHref}
-              className="inline-flex h-12 shrink-0 items-center gap-2.5 rounded-full bg-white px-7 text-sm font-bold uppercase tracking-wide text-primary shadow-lg transition-colors hover:bg-brand-50"
+              className="inline-flex h-10 shrink-0 items-center gap-2 rounded-full bg-white px-6 text-sm font-bold uppercase tracking-wide text-primary shadow-lg transition-colors hover:bg-brand-50"
             >
               {t("ctaButton")}
               <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" aria-hidden>
@@ -60,7 +60,7 @@ export async function SupportCta() {
               )}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex h-12 shrink-0 items-center gap-2.5 rounded-full bg-[#25D366] px-7 text-sm font-bold uppercase tracking-wide text-white shadow-lg transition-colors hover:bg-[#1EBE5B]"
+              className="inline-flex h-10 shrink-0 items-center gap-2 rounded-full bg-[#25D366] px-6 text-sm font-bold uppercase tracking-wide text-white shadow-lg transition-colors hover:bg-[#1EBE5B]"
             >
               WhatsApp
               <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
