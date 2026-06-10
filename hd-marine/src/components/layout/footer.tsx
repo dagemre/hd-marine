@@ -56,7 +56,9 @@ export async function Footer() {
             <li>{t("workingHours")}</li>
             <li>
               <a
-                href="https://wa.me/905333085146"
+                href={`https://wa.me/905333085146?text=${encodeURIComponent(
+                  "Merhaba, ürünleriniz hakkında bilgi almak istiyorum"
+                )}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="WhatsApp: +90 533 308 51 46"
