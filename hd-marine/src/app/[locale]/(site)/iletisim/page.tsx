@@ -11,7 +11,6 @@ import {
   ContactForm,
   type ProductOption,
 } from "@/components/contact/contact-form";
-import { SupportCta } from "@/components/contact/support-cta";
 
 type Params = Promise<{ locale: string }>;
 
@@ -66,8 +65,6 @@ export default async function ContactPage({ params }: { params: Params }) {
           <ContactForm products={products} />
         </Container>
       </section>
-
-      <SupportCta />
     </>
   );
 }

@@ -1,5 +1,6 @@
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
+import { SupportCta } from "@/components/contact/support-cta";
 import { ScrollToTop } from "@/components/layout/scroll-to-top";
 import { JsonLd, organizationJsonLd } from "@/lib/seo/jsonld";
 
@@ -14,6 +15,7 @@ export default function SiteLayout({
           overflow-x-clip: mobilde olası birkaç piksellik yatay taşmayı keser
           (sticky'yi bozmaması için hidden değil clip) */}
       <main className="-mt-18 flex-1 overflow-x-clip">{children}</main>
+      <SupportCta />
       <Footer />
       <ScrollToTop />
     </div>
