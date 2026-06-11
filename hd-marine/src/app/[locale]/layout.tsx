@@ -8,7 +8,7 @@ import "../globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://hdmarine.com.tr"
   ),
   title: {
     default: "HD Marine – Endüstriyel Ürünler",
@@ -16,6 +16,16 @@ export const metadata: Metadata = {
   },
   description:
     "Endüstriyel tesislerde çözüm ortağınız. Endüstriyel pompalar, sızdırmazlık elemanları, boru tamir ekipmanları ve daha fazlası.",
+  openGraph: {
+    type: "website",
+    siteName: "HD Marine",
+    locale: "tr_TR",
+    alternateLocale: "en_US",
+    images: [{ url: "/og-default.jpg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export function generateStaticParams() {

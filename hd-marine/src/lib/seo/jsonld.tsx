@@ -26,6 +26,28 @@ export function organizationJsonLd() {
   };
 }
 
+export function productJsonLd(opts: {
+  name: string;
+  description?: string | null;
+  image?: string | null;
+  sku?: string | null;
+  brand?: string | null;
+  url: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: opts.name,
+    ...(opts.description ? { description: opts.description } : {}),
+    ...(opts.image ? { image: opts.image } : {}),
+    ...(opts.sku ? { sku: opts.sku } : {}),
+    ...(opts.brand
+      ? { brand: { "@type": "Brand", name: opts.brand } }
+      : {}),
+    url: opts.url,
+  };
+}
+
 export function breadcrumbJsonLd(
   items: { name: string; url?: string }[]
 ) {

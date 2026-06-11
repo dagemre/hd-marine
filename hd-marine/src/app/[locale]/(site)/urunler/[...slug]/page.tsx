@@ -7,7 +7,9 @@ import { resolveSlugPath } from "@/lib/data/resolve";
 import { getCategoryTree, catT, categoryChain, categorySlugPath } from "@/lib/data/categories";
 import { prodT } from "@/lib/data/products";
 import { alternatesFor, metaTitle, urlFor } from "@/lib/seo/meta";
-import { JsonLd, breadcrumbJsonLd } from "@/lib/seo/jsonld";
+import { JsonLd, breadcrumbJsonLd, productJsonLd } from "@/lib/seo/jsonld";
+import { productImageUrl } from "@/lib/storage";
+import { imageAlt } from "@/lib/data/products";
 import { CategoryView } from "@/components/product/category-view";
 import { ProductView } from "@/components/product/product-view";
 
@@ -57,20 +59,38 @@ export async function generateMetadata({
 
   if (resolved.type === "category") {
     const tr = catT(resolved.category, locale);
+    const description = tr.meta_description ?? tr.description?.slice(0, 160);
     return {
       title: metaTitle(tr.meta_title, [tr.name]),
-      description: tr.meta_description ?? tr.description?.slice(0, 160),
+      description,
       alternates: alternatesFor(locale, hrefs),
+      openGraph: { title: tr.name, description: description ?? undefined },
     };
   }
 
   const tr = prodT(resolved.product.i18n, locale);
   const primary = tree.byId.get(resolved.product.primaryCategoryId);
   const categoryName = primary ? catT(primary, locale).name : "";
+  const description = tr.meta_description ?? tr.summary ?? undefined;
+  const primaryImage = resolved.product.images[0];
   return {
     title: metaTitle(tr.meta_title, [tr.name, categoryName]),
-    description: tr.meta_description ?? tr.summary ?? undefined,
+    description,
     alternates: alternatesFor(locale, hrefs),
+    openGraph: {
+      title: tr.name,
+      description,
+      ...(primaryImage
+        ? {
+            images: [
+              {
+                url: productImageUrl(primaryImage.storagePath),
+                alt: imageAlt(primaryImage, locale, tr.name),
+              },
+            ],
+          }
+        : {}),
+    },
   };
 }
 
@@ -123,9 +143,33 @@ export default async function CatalogPage({ params }: { params: Params }) {
       : []),
   ];
 
+  // Product JSON-LD (ürün sayfalarında)
+  const productLd =
+    resolved.type === "product"
+      ? (() => {
+          const tr = prodT(resolved.product.i18n, locale);
+          const img = resolved.product.images[0];
+          return productJsonLd({
+            name: tr.name,
+            description: tr.meta_description ?? tr.summary,
+            image: img ? productImageUrl(img.storagePath) : null,
+            sku: resolved.product.sku,
+            brand: resolved.product.brand,
+            url: urlFor(
+              {
+                pathname: "/urunler/[...slug]",
+                params: { slug: resolved.canonicalSlugs },
+              },
+              locale
+            ),
+          });
+        })()
+      : null;
+
   return (
     <>
       <JsonLd data={breadcrumbJsonLd(crumbsLd)} />
+      {productLd && <JsonLd data={productLd} />}
       {resolved.type === "category" ? (
         <CategoryView category={resolved.category} tree={tree} locale={locale} />
       ) : (

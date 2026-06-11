@@ -3,7 +3,7 @@ import { getPathname } from "@/i18n/navigation";
 import { routing, type Locale } from "@/i18n/routing";
 
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://hdmarine.com.tr";
 export const SITE_NAME = "HD Marine";
 
 type Href = Parameters<typeof getPathname>[0]["href"];
