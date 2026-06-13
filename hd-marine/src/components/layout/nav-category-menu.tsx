@@ -2,11 +2,32 @@ import { Link } from "@/i18n/navigation";
 import type { NavCategory } from "./nav-types";
 
 /**
- * Masaüstü "Ürünler" dropdown'ı için iç içe (özyinelemeli) kategori menüsü.
- * Alt kategorisi olan bir öğenin üzerine gelince yana doğru yeni bir
- * flyout açılır. Saf CSS hover ile çalışır (sunucu bileşeni).
+ * Her derinlik için AYRI (sabit) grup adı. Tüm seviyelerde aynı isim
+ * kullanılırsa Tailwind'in `group-hover/ad` seçicisi en yakın değil
+ * HERHANGİ bir üst atayı eşleştirdiğinden, üst kategoriye gelince torun
+ * flyout da açılır. Ayrı adlar bunu engeller. Sınıflar literal olmalı ki
+ * Tailwind JIT taraması yakalasın (dinamik şablon string'i çalışmaz).
  */
-export function NavCategoryMenu({ categories }: { categories: NavCategory[] }) {
+const LEVELS = [
+  { group: "group/lvl0", show: "group-hover/lvl0:visible group-hover/lvl0:opacity-100" },
+  { group: "group/lvl1", show: "group-hover/lvl1:visible group-hover/lvl1:opacity-100" },
+  { group: "group/lvl2", show: "group-hover/lvl2:visible group-hover/lvl2:opacity-100" },
+  { group: "group/lvl3", show: "group-hover/lvl3:visible group-hover/lvl3:opacity-100" },
+  { group: "group/lvl4", show: "group-hover/lvl4:visible group-hover/lvl4:opacity-100" },
+] as const;
+
+/**
+ * Masaüstü "Ürünler" dropdown'ı için iç içe (özyinelemeli) kategori menüsü.
+ * Yalnızca üzerine gelinen öğenin alt menüsü açılır; bir üst seviyeye gelmek
+ * torun seviyeyi AÇMAZ. Saf CSS hover ile çalışır (sunucu bileşeni).
+ */
+export function NavCategoryMenu({
+  categories,
+  depth = 0,
+}: {
+  categories: NavCategory[];
+  depth?: number;
+}) {
   // Tüm öğeler yaprak (alt menüsüz) ise uzun listede dikey kaydırma aç.
   // İç içe flyout'u olan menülerde kaydırma kapatılır ki yan açılan
   // alt menü yatayda kırpılmasın.
@@ -20,17 +41,18 @@ export function NavCategoryMenu({ categories }: { categories: NavCategory[] }) {
       }
     >
       {categories.map((cat) => (
-        <NavCategoryItem key={cat.slug} cat={cat} />
+        <NavCategoryItem key={cat.slug} cat={cat} depth={depth} />
       ))}
     </div>
   );
 }
 
-function NavCategoryItem({ cat }: { cat: NavCategory }) {
+function NavCategoryItem({ cat, depth }: { cat: NavCategory; depth: number }) {
   const hasChildren = cat.children.length > 0;
+  const level = LEVELS[Math.min(depth, LEVELS.length - 1)];
 
   return (
-    <div className="group/sub relative">
+    <div className={`relative ${level.group}`}>
       <Link
         href={{ pathname: "/urunler/[...slug]", params: { slug: cat.path } }}
         className="flex items-center justify-between gap-3 px-4 py-2.5 text-sm font-medium text-ink-900 transition-colors hover:bg-brand-50 hover:text-primary"
@@ -55,8 +77,10 @@ function NavCategoryItem({ cat }: { cat: NavCategory }) {
       </Link>
 
       {hasChildren && (
-        <div className="invisible absolute left-full top-0 z-50 w-72 pl-2 opacity-0 transition-all group-hover/sub:visible group-hover/sub:opacity-100">
-          <NavCategoryMenu categories={cat.children} />
+        <div
+          className={`invisible absolute left-full top-0 z-50 w-72 pl-2 opacity-0 transition-all ${level.show}`}
+        >
+          <NavCategoryMenu categories={cat.children} depth={depth + 1} />
         </div>
       )}
     </div>
