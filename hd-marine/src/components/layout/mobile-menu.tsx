@@ -45,7 +45,7 @@ export function MobileMenu({
 
       <div
         className={cn(
-          "absolute inset-x-0 top-full z-50 origin-top border-t border-white/10 bg-deep-navy px-4 pb-6 pt-2 shadow-card-hover transition-all",
+          "absolute inset-x-0 top-full z-50 max-h-[calc(100vh-5rem)] origin-top overflow-y-auto overscroll-contain border-t border-white/10 bg-deep-navy px-4 pb-6 pt-2 shadow-card-hover transition-all",
           open ? "visible opacity-100" : "invisible opacity-0"
         )}
       >
