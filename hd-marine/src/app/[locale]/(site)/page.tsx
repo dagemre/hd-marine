@@ -7,7 +7,7 @@ import { CategoryCarousel } from "@/components/home/category-carousel";
 import { SolutionsBand } from "@/components/home/solutions-band";
 import { alternatesFor } from "@/lib/seo/meta";
 
-export const revalidate = 300;
+export const revalidate = 86400;
 
 export async function generateMetadata({
   params,

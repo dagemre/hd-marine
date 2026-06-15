@@ -19,7 +19,7 @@ import {
 import { alternatesFor } from "@/lib/seo/meta";
 import { stripHtml } from "@/lib/text";
 
-export const revalidate = 300;
+export const revalidate = 86400;
 
 export async function generateMetadata({
   params,
