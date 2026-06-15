@@ -5,7 +5,7 @@ import { permanentRedirect } from "@/i18n/navigation";
 import { routing, type Locale } from "@/i18n/routing";
 import { resolveSlugPath } from "@/lib/data/resolve";
 import { getCategoryTree, catT, categoryChain, categorySlugPath } from "@/lib/data/categories";
-import { prodT, getNavProducts } from "@/lib/data/products";
+import { prodT } from "@/lib/data/products";
 import { alternatesFor, metaTitle, urlFor } from "@/lib/seo/meta";
 import { JsonLd, breadcrumbJsonLd, productJsonLd } from "@/lib/seo/jsonld";
 import { productImageUrl } from "@/lib/storage";
@@ -13,44 +13,11 @@ import { imageAlt } from "@/lib/data/products";
 import { CategoryView } from "@/components/product/category-view";
 import { ProductView } from "@/components/product/product-view";
 
+// On-demand (ISR) render: sayfa ilk istekte üretilir, ardından `revalidate`
+// süresince (1 gün) önbellekten servis edilir. Cookie tabanlı Supabase
+// istemcisi build/generateStaticParams kapsamında çağrılamadığı için statik
+// ön-üretim KULLANILMIYOR; uzun revalidate ile CPU yine büyük ölçüde düşer.
 export const revalidate = 86400;
-
-/**
- * Tüm kategori ve ürün yollarını (her iki dilde) build sırasında önceden
- * üretir → sayfalar CDN'den statik servis edilir, bot taramaları fonksiyon
- * tetiklemez. Listede olmayan yollar (ör. yeni eklenen ürün) yine on-demand
- * render edilir (dynamicParams varsayılan = true).
- *
- * DB build sırasında erişilemezse boş ağaç döner → liste boş kalır,
- * mevcut on-demand davranışına güvenli düşüş olur.
- */
-export async function generateStaticParams({
-  params,
-}: {
-  params: { locale: string; slug: string[] };
-}) {
-  const locale = params.locale as Locale;
-  const tree = await getCategoryTree();
-  const result: { slug: string[] }[] = [];
-
-  // Kategori sayfaları (bu locale için)
-  for (const node of tree.byId.values()) {
-    const slug = categorySlugPath(tree, node, locale);
-    if (slug.length) result.push({ slug });
-  }
-
-  // Ürün detay sayfaları (birincil kategori yolu + ürün slug'ı)
-  const products = await getNavProducts();
-  for (const p of products) {
-    const primary = tree.byId.get(p.primaryCategoryId);
-    const pSlug = (p.i18n[locale] ?? p.i18n.tr)?.slug;
-    if (!pSlug) continue;
-    const base = primary ? categorySlugPath(tree, primary, locale) : [];
-    result.push({ slug: [...base, pSlug] });
-  }
-
-  return result;
-}
 
 type Params = Promise<{ locale: string; slug: string[] }>;
 
