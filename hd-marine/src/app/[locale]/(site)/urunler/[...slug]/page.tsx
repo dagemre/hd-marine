@@ -27,9 +27,9 @@ export const revalidate = 86400;
 export async function generateStaticParams({
   params,
 }: {
-  params: { locale: Locale };
+  params: { locale: string; slug: string[] };
 }) {
-  const { locale } = params;
+  const locale = params.locale as Locale;
   const tree = await getCategoryTree();
   const result: { slug: string[] }[] = [];
 
