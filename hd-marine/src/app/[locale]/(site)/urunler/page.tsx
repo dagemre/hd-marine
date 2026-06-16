@@ -13,9 +13,11 @@ import { QuoteBanner } from "@/components/product/quote-banner";
 import {
   getCategoryTree,
   getCategoryProductCounts,
+  categorySubtreeIds,
   catT,
   categorySlugPath,
 } from "@/lib/data/categories";
+import { getRepresentativeImages } from "@/lib/data/products";
 import { alternatesFor } from "@/lib/seo/meta";
 import { stripHtml } from "@/lib/text";
 
@@ -46,13 +48,25 @@ export default async function ProductsPage({
   const t = await getTranslations("products");
   const tNav = await getTranslations("nav");
   const tCommon = await getTranslations("common");
-  const [tree, counts] = await Promise.all([
-    getCategoryTree(),
+  const tree = await getCategoryTree();
+  const [counts, repImages] = await Promise.all([
     getCategoryProductCounts(),
+    getRepresentativeImages(tree.roots.flatMap((n) => categorySubtreeIds(n))),
   ]);
 
   const items: ExplorerItem[] = tree.roots.map((node) => {
     const tr = catT(node, locale);
+    // Temsilci görsel: kategori alt ağacındaki ilk ürün görseli
+    let repPath: string | null = null;
+    let repAlt: string | undefined;
+    for (const id of categorySubtreeIds(node)) {
+      const img = repImages.get(id);
+      if (img) {
+        repPath = img.storagePath;
+        repAlt = (locale === "en" ? img.altEn : img.altTr) ?? tr.name;
+        break;
+      }
+    }
     return {
       id: node.id,
       eyebrow:
@@ -61,7 +75,8 @@ export default async function ProductsPage({
           : tCommon("productCount", { count: counts.get(node.id) ?? 0 }),
       name: tr.name,
       blurb: stripHtml(tr.description) || undefined,
-      imagePath: node.imagePath,
+      imagePath: repPath ?? node.imagePath,
+      imageAlt: repAlt,
       slugs: categorySlugPath(tree, node, locale),
     };
   });

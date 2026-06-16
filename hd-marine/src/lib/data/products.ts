@@ -159,6 +159,45 @@ export const getNavProducts = cache(async (): Promise<NavProduct[]> => {
   }
 });
 
+/**
+ * Kategori kartları için temsilci ürün görseli.
+ *
+ * Verilen kategori id'lerinden birini BİRİNCİL kategori olarak alan ilk aktif
+ * ürünün birincil görselini döndürür (Map<categoryId, ProductImage>).
+ * Kategorinin kendi `image_path`'i eksik/bozuk olduğunda kartta gerçek bir
+ * ürün görseli göstermek için kullanılır. Tek sorgu; istek başına React cache.
+ */
+export const getRepresentativeImages = cache(
+  async (categoryIds: string[]): Promise<Map<string, ProductImage>> => {
+    const out = new Map<string, ProductImage>();
+    if (categoryIds.length === 0) return out;
+    try {
+      const supabase = await createClient();
+      const { data, error } = await supabase
+        .from("products")
+        .select(
+          "primary_category_id, sort_order, product_images(id, storage_path, alt_tr, alt_en, sort_order, is_primary)"
+        )
+        .eq("is_active", true)
+        .in("primary_category_id", categoryIds)
+        .order("sort_order");
+      if (error || !data) return out;
+      for (const row of data as unknown as {
+        primary_category_id: string;
+        product_images: ImageRow[];
+      }[]) {
+        if (out.has(row.primary_category_id)) continue;
+        const imgs = sortImages((row.product_images ?? []).map(mapImage));
+        if (imgs[0]) out.set(row.primary_category_id, imgs[0]);
+      }
+      return out;
+    } catch (e) {
+      console.warn("[data/products] temsilci görseller yüklenemedi:", e);
+      return out;
+    }
+  }
+);
+
 /* ---------- detay sorgusu ---------- */
 
 const FULL_SELECT = `id, sku, brand, is_featured, primary_category_id,

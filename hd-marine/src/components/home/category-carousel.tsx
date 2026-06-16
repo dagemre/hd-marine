@@ -3,7 +3,12 @@ import { getLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import { Container } from "@/components/ui/container";
-import { getCategoryTree, catT } from "@/lib/data/categories";
+import {
+  getCategoryTree,
+  categorySubtreeIds,
+  catT,
+} from "@/lib/data/categories";
+import { getRepresentativeImages } from "@/lib/data/products";
 import { productImageUrl } from "@/lib/storage";
 
 /** Tek ürün-grubu kartı (tasarımdaki dikey kart). */
@@ -73,10 +78,27 @@ export async function CategoryCarousel() {
   const t = await getTranslations("home");
   const tCommon = await getTranslations("common");
   const tree = await getCategoryTree();
+  const repImages = await getRepresentativeImages(
+    tree.roots.flatMap((n) => categorySubtreeIds(n))
+  );
 
   const cards = tree.roots.map((node) => {
     const tr = catT(node, locale);
-    return { id: node.id, name: tr.name, slug: tr.slug, imagePath: node.imagePath };
+    // Temsilci görsel: kategori alt ağacındaki ilk ürün görseli; yoksa kendi image_path
+    let repPath: string | null = null;
+    for (const id of categorySubtreeIds(node)) {
+      const img = repImages.get(id);
+      if (img) {
+        repPath = img.storagePath;
+        break;
+      }
+    }
+    return {
+      id: node.id,
+      name: tr.name,
+      slug: tr.slug,
+      imagePath: repPath ?? node.imagePath,
+    };
   });
 
   return (

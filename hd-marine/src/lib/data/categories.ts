@@ -133,6 +133,13 @@ export function categorySlugPath(
   return slugs;
 }
 
+/** Bir kategori ve tüm alt kategorilerinin id'leri (kendisi dahil). */
+export function categorySubtreeIds(node: CategoryNode): string[] {
+  const ids = [node.id];
+  for (const child of node.children) ids.push(...categorySubtreeIds(child));
+  return ids;
+}
+
 /** Breadcrumb için kök → node kategori zinciri (taban kategori hariç) */
 export function categoryChain(
   tree: CategoryTree,

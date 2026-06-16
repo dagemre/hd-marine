@@ -13,11 +13,17 @@ import {
   catT,
   categoryChain,
   categorySlugPath,
+  categorySubtreeIds,
   getCategoryProductCounts,
 } from "@/lib/data/categories";
-import { getProductsByCategory, prodT, imageAlt } from "@/lib/data/products";
+import {
+  getProductsByCategory,
+  getRepresentativeImages,
+  prodT,
+  imageAlt,
+} from "@/lib/data/products";
 import { stripHtml } from "@/lib/text";
-import type { CategoryNode, CategoryTree } from "@/lib/data/types";
+import type { CategoryNode, CategoryTree, ProductImage } from "@/lib/data/types";
 
 /**
  * Kategori sayfası — ürünler sayfasıyla birebir aynı düzen
@@ -37,9 +43,12 @@ export async function CategoryView({
   const tNav = await getTranslations("nav");
   const tCommon = await getTranslations("common");
   const tr = catT(category, locale);
-  const [products, counts] = await Promise.all([
+  // Alt kategori kartları için temsilci ürün görselleri (alt ağaç dahil)
+  const childSubtreeIds = category.children.flatMap((c) => categorySubtreeIds(c));
+  const [products, counts, repImages] = await Promise.all([
     getProductsByCategory(category.id),
     getCategoryProductCounts(),
+    getRepresentativeImages(childSubtreeIds),
   ]);
 
   const chain = categoryChain(tree, category);
@@ -57,6 +66,17 @@ export async function CategoryView({
   // Kartlar: önce alt kategoriler, ardından doğrudan ürünler
   const categoryItems: ExplorerItem[] = category.children.map((child) => {
     const childTr = catT(child, locale);
+    // Temsilci görsel: kategorinin alt ağacındaki ilk ürün görseli;
+    // yoksa kategorinin kendi image_path'i (o da yüklenemezse kart
+    // catalog-explorer'da temiz yer tutucuya düşer).
+    let rep: ProductImage | undefined;
+    for (const id of categorySubtreeIds(child)) {
+      const img = repImages.get(id);
+      if (img) {
+        rep = img;
+        break;
+      }
+    }
     return {
       id: child.id,
       eyebrow:
@@ -65,7 +85,8 @@ export async function CategoryView({
           : tCommon("productCount", { count: counts.get(child.id) ?? 0 }),
       name: childTr.name,
       blurb: stripHtml(childTr.description) || undefined,
-      imagePath: child.imagePath,
+      imagePath: rep?.storagePath ?? child.imagePath,
+      imageAlt: rep ? imageAlt(rep, locale, childTr.name) : undefined,
       slugs: categorySlugPath(tree, child, locale),
     };
   });
