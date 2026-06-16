@@ -11,6 +11,11 @@ const nextConfig: NextConfig = {
     },
   },
   images: {
+    // Vercel görsel optimizasyonu KAPALI: Hobby planının optimizasyon kotası
+    // dolunca /_next/image 402 döndürüp görselleri kırıyordu. Görseller
+    // doğrudan Supabase Storage'dan servis edilir (kotasız, dosyalar zaten
+    // web boyutunda). CPU/önbreklemeyi etkilemez.
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
