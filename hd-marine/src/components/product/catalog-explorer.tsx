@@ -45,20 +45,33 @@ function PlaceholderArt() {
   );
 }
 
-function ExplorerCard({ item, view }: { item: ExplorerItem; view: "grid" | "list" }) {
-  const t = useTranslations("common");
+/**
+ * Kart görseli — görsel yoksa VEYA dosya yüklenemezse (ör. eksik/yanlış
+ * image_path → 404) kırık ikon yerine temiz yer tutucuya düşer.
+ */
+function CardImage({ item }: { item: ExplorerItem }) {
+  const [errored, setErrored] = useState(false);
 
-  const image = item.imagePath ? (
+  if (!item.imagePath || errored) {
+    return <PlaceholderArt />;
+  }
+
+  return (
     <Image
       src={productImageUrl(item.imagePath)}
       alt={item.imageAlt ?? item.name}
       width={360}
       height={270}
       className="max-h-full max-w-full w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+      onError={() => setErrored(true)}
     />
-  ) : (
-    <PlaceholderArt />
   );
+}
+
+function ExplorerCard({ item, view }: { item: ExplorerItem; view: "grid" | "list" }) {
+  const t = useTranslations("common");
+
+  const image = <CardImage item={item} />;
 
   const body = (
     <>
